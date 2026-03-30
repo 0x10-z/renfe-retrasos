@@ -1,8 +1,19 @@
 {
   "station_id": "65402",
   "name": "L'Aldea-Amposta",
-  "generated_at": "2026-03-30T20:00:08",
+  "generated_at": "2026-03-30T20:25:34+02:00",
   "arrivals": [
+    {
+      "trip_id": "1813412026-03-29",
+      "route_id": "6540079400VRE",
+      "train_name": "REG.EXP. 18134",
+      "headsign": "",
+      "origin": "Tortosa",
+      "scheduled_time": "19:49",
+      "estimated_time": "19:53",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
+    },
     {
       "trip_id": "1813312026-03-29",
       "route_id": "7940065400VRE",
@@ -10,8 +21,8 @@
       "headsign": "",
       "origin": "Barcelona-Estació De França",
       "scheduled_time": "20:20",
-      "estimated_time": "20:59",
-      "delay_min": 39.0,
+      "estimated_time": "21:03",
+      "delay_min": 43.0,
       "status": "retraso_alto"
     }
   ]

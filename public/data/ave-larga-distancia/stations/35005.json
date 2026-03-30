@@ -1,6 +1,29 @@
 {
   "station_id": "35005",
   "name": "Illescas",
-  "generated_at": "2026-03-30T20:00:08",
-  "arrivals": []
+  "generated_at": "2026-03-30T20:25:34+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1701812026-03-30",
+      "route_id": "1800035400VRE",
+      "train_name": "REG.EXP. 17018",
+      "headsign": "",
+      "origin": "Madrid - Atocha Cercanías",
+      "scheduled_time": "19:43",
+      "estimated_time": "19:44",
+      "delay_min": 1.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3800012026-03-30",
+      "route_id": "1800035005VRN",
+      "train_name": "PROXIMDAD 38000",
+      "headsign": "",
+      "origin": "Madrid - Atocha Cercanías",
+      "scheduled_time": "19:43",
+      "estimated_time": "19:43",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    }
+  ]
 }

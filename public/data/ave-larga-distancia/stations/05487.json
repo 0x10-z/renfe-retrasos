@@ -1,7 +1,7 @@
 {
   "station_id": "05487",
   "name": "Traslaviña",
-  "generated_at": "2026-03-30T20:00:08",
+  "generated_at": "2026-03-30T20:25:34+02:00",
   "arrivals": [
     {
       "trip_id": "7187412026-03-29",
@@ -10,9 +10,9 @@
       "headsign": "",
       "origin": "Bilbao la Concordia",
       "scheduled_time": "20:22",
-      "estimated_time": "20:25",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
+      "estimated_time": "20:28",
+      "delay_min": 6.0,
+      "status": "retraso_alto"
     }
   ]
 }

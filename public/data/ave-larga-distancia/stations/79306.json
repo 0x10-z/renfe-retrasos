@@ -1,6 +1,18 @@
 {
   "station_id": "79306",
   "name": "Sant Miquel De Fluvià",
-  "generated_at": "2026-03-30T20:00:08",
-  "arrivals": []
+  "generated_at": "2026-03-30T20:25:34+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1588212026-03-30",
+      "route_id": "7931571801VRR",
+      "train_name": "REGIONAL 15882",
+      "headsign": "",
+      "origin": "Portbou",
+      "scheduled_time": "19:37",
+      "estimated_time": "19:46",
+      "delay_min": 9.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

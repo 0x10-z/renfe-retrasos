@@ -1,6 +1,18 @@
 {
   "station_id": "43008",
   "name": "Carrion de Los Cespedes",
-  "generated_at": "2026-03-30T20:00:08",
-  "arrivals": []
+  "generated_at": "2026-03-30T20:25:34+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1304912026-03-29",
+      "route_id": "4301951003VRX",
+      "train_name": "MD 13049",
+      "headsign": "",
+      "origin": "Huelva",
+      "scheduled_time": "19:45",
+      "estimated_time": "19:54",
+      "delay_min": 9.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

@@ -1,6 +1,29 @@
 {
   "station_id": "79004",
   "name": "Barcelona-Sant Andreu",
-  "generated_at": "2026-03-30T20:00:08",
-  "arrivals": []
+  "generated_at": "2026-03-30T20:25:34+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1582012026-03-29",
+      "route_id": "7180179315VRR",
+      "train_name": "REGIONAL 15820",
+      "headsign": "",
+      "origin": "Barcelona-Sants",
+      "scheduled_time": "19:29",
+      "estimated_time": "19:58",
+      "delay_min": 29.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1587612026-03-30",
+      "route_id": "7931571801VRR",
+      "train_name": "REGIONAL 15876",
+      "headsign": "",
+      "origin": "Portbou",
+      "scheduled_time": "19:54",
+      "estimated_time": "20:07",
+      "delay_min": 13.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

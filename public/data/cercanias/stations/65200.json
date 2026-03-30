@@ -1,8 +1,30 @@
 {
   "station_id": "65200",
   "name": "Sagunt",
-  "generated_at": "2026-03-30T20:00:21",
+  "generated_at": "2026-03-30T20:25:43+02:00",
   "arrivals": [
+    {
+      "trip_id": "4085L24352C6",
+      "route_id": "40T0013C6",
+      "train_name": "C6",
+      "headsign": "",
+      "origin": "València-Estació Del Nord",
+      "scheduled_time": "19:31",
+      "estimated_time": "19:31",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "4085L36455C6",
+      "route_id": "40T0014C6",
+      "train_name": "C6",
+      "headsign": "",
+      "origin": "Castelló De La Plana",
+      "scheduled_time": "19:52",
+      "estimated_time": "19:52",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "4085L24354C6",
       "route_id": "40T0013C6",
@@ -10,9 +32,9 @@
       "headsign": "",
       "origin": "València-Estació Del Nord",
       "scheduled_time": "20:01",
-      "estimated_time": "20:03",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
+      "estimated_time": "20:01",
+      "delay_min": 0.0,
+      "status": "en_hora"
     },
     {
       "trip_id": "4085L24357C6",
@@ -33,61 +55,6 @@
       "origin": "Caudiel",
       "scheduled_time": "20:23",
       "estimated_time": "20:23",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4085L24356C6",
-      "route_id": "40T0013C6",
-      "train_name": "C6",
-      "headsign": "",
-      "origin": "València-Estació Del Nord",
-      "scheduled_time": "20:26",
-      "estimated_time": "20:26",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4085L33704C6",
-      "route_id": "40T0014C6",
-      "train_name": "C6",
-      "headsign": "",
-      "origin": "Vinaròs",
-      "scheduled_time": "20:41",
-      "estimated_time": "20:41",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4085L33716C6",
-      "route_id": "40T0013C6",
-      "train_name": "C6",
-      "headsign": "",
-      "origin": "València-Estació Del Nord",
-      "scheduled_time": "20:46",
-      "estimated_time": "20:46",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4085L36459C6",
-      "route_id": "40T0014C6",
-      "train_name": "C6",
-      "headsign": "",
-      "origin": "Castelló De La Plana",
-      "scheduled_time": "20:47",
-      "estimated_time": "20:47",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4085L84612C5",
-      "route_id": "40T0011C5",
-      "train_name": "C5",
-      "headsign": "",
-      "origin": "Puçol",
-      "scheduled_time": "20:49",
-      "estimated_time": "20:49",
       "delay_min": 0.0,
       "status": "en_hora"
     }

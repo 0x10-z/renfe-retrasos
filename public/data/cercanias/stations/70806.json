@@ -1,8 +1,52 @@
 {
   "station_id": "70806",
   "name": "Zaragoza-Portillo",
-  "generated_at": "2026-03-30T20:00:21",
+  "generated_at": "2026-03-30T20:25:43+02:00",
   "arrivals": [
+    {
+      "trip_id": "7085L31534C1",
+      "route_id": "70T0001C1",
+      "train_name": "C1",
+      "headsign": "",
+      "origin": "Casetas",
+      "scheduled_time": "19:28",
+      "estimated_time": "19:28",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "7085L18077C1",
+      "route_id": "70T0002C1",
+      "train_name": "C1",
+      "headsign": "",
+      "origin": "Zaragoza-Miraflores",
+      "scheduled_time": "19:39",
+      "estimated_time": "19:39",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "7085L15659C1",
+      "route_id": "70T0002C1",
+      "train_name": "C1",
+      "headsign": "",
+      "origin": "Zaragoza-Miraflores",
+      "scheduled_time": "19:43",
+      "estimated_time": "19:43",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "7085L31539C1",
+      "route_id": "70T0002C1",
+      "train_name": "C1",
+      "headsign": "",
+      "origin": "Zaragoza-Miraflores",
+      "scheduled_time": "19:48",
+      "estimated_time": "19:48",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "7085L15509C1",
       "route_id": "70T0002C1",
@@ -22,39 +66,6 @@
       "origin": "Zaragoza Delicias",
       "scheduled_time": "20:19",
       "estimated_time": "20:19",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "7085L31538C1",
-      "route_id": "70T0001C1",
-      "train_name": "C1",
-      "headsign": "",
-      "origin": "Casetas",
-      "scheduled_time": "20:29",
-      "estimated_time": "20:29",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "7085L31553C1",
-      "route_id": "70T0002C1",
-      "train_name": "C1",
-      "headsign": "",
-      "origin": "Zaragoza-Miraflores",
-      "scheduled_time": "20:30",
-      "estimated_time": "20:30",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "7085L17052C1",
-      "route_id": "70T0001C1",
-      "train_name": "C1",
-      "headsign": "",
-      "origin": "Zaragoza Delicias",
-      "scheduled_time": "20:43",
-      "estimated_time": "20:43",
       "delay_min": 0.0,
       "status": "en_hora"
     }

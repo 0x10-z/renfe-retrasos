@@ -1,6 +1,18 @@
 {
   "station_id": "40006",
   "name": "Los Santos De Maimona",
-  "generated_at": "2026-03-30T20:00:08",
-  "arrivals": []
+  "generated_at": "2026-03-30T20:25:34+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1877912026-03-29",
+      "route_id": "5100330002VRE",
+      "train_name": "REG.EXP. 18779",
+      "headsign": "",
+      "origin": "Sevilla-Santa Justa",
+      "scheduled_time": "19:44",
+      "estimated_time": "20:01",
+      "delay_min": 17.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

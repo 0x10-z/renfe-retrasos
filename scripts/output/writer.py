@@ -1,7 +1,10 @@
 """Write JSON output files to public/data/{service}/."""
 import json
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
+
+_TZ_MADRID = ZoneInfo("Europe/Madrid")
 from typing import Dict
 
 from scripts.config import ServiceConfig
@@ -19,7 +22,8 @@ def write_all(station_data: StationData, stats: dict, service: ServiceConfig) ->
     service.data_dir.mkdir(parents=True, exist_ok=True)
     service.stations_dir.mkdir(parents=True, exist_ok=True)
 
-    generated_at = datetime.now().isoformat(timespec="seconds")
+    now_madrid = datetime.now(_TZ_MADRID)
+    generated_at = now_madrid.isoformat(timespec="seconds")
     stations_list = []
 
     for stop_id, data in station_data.items():
@@ -76,8 +80,8 @@ def write_history(stats: dict, service: ServiceConfig) -> None:
     # Append new snapshot
     percs = stats.get("delay_percentiles", {})
     records.append({
-        "ts":      datetime.now().strftime("%Y-%m-%dT%H:%M"),
-        "date":    datetime.now().strftime("%Y-%m-%d"),
+        "ts":      datetime.now(_TZ_MADRID).strftime("%Y-%m-%dT%H:%M"),
+        "date":    datetime.now(_TZ_MADRID).strftime("%Y-%m-%d"),
         "total":   stats.get("total_trains", 0),
         "delayed": stats.get("delayed", 0),
         "avg_min": stats.get("avg_delay_min", 0.0),
@@ -99,7 +103,7 @@ def write_insights(insights: list, service: ServiceConfig) -> None:
     path = service.data_dir / "insights.json"
     path.write_text(
         json.dumps({
-            "generated_at": datetime.now().strftime("%Y-%m-%dT%H:%M"),
+            "generated_at": datetime.now(_TZ_MADRID).strftime("%Y-%m-%dT%H:%M"),
             "insights": insights,
         }, ensure_ascii=False, indent=2),
         encoding="utf-8",

@@ -1,6 +1,18 @@
 {
   "station_id": "76001",
   "name": "Salomó",
-  "generated_at": "2026-03-30T20:00:08",
-  "arrivals": []
+  "generated_at": "2026-03-30T20:25:34+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1504612026-03-29",
+      "route_id": "7840079400VRE",
+      "train_name": "REG.EXP. 15046",
+      "headsign": "",
+      "origin": "Lleida-Pirineus",
+      "scheduled_time": "19:35",
+      "estimated_time": "20:09",
+      "delay_min": 34.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

@@ -1,18 +1,6 @@
 {
   "station_id": "54400",
   "name": "Bobadilla",
-  "generated_at": "2026-03-30T20:00:08",
-  "arrivals": [
-    {
-      "trip_id": "1390812026-03-29",
-      "route_id": "5100354413VRX",
-      "train_name": "MD 13908",
-      "headsign": "",
-      "origin": "Sevilla-Santa Justa",
-      "scheduled_time": "20:47",
-      "estimated_time": "21:00",
-      "delay_min": 13.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-30T20:25:34+02:00",
+  "arrivals": []
 }

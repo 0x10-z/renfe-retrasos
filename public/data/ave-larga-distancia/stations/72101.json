@@ -1,8 +1,19 @@
 {
   "station_id": "72101",
   "name": "Roda De Mar",
-  "generated_at": "2026-03-30T20:00:08",
+  "generated_at": "2026-03-30T20:25:34+02:00",
   "arrivals": [
+    {
+      "trip_id": "1504612026-03-29",
+      "route_id": "7840079400VRE",
+      "train_name": "REG.EXP. 15046",
+      "headsign": "",
+      "origin": "Lleida-Pirineus",
+      "scheduled_time": "19:44",
+      "estimated_time": "20:18",
+      "delay_min": 34.0,
+      "status": "retraso_alto"
+    },
     {
       "trip_id": "1504712026-03-29",
       "route_id": "7940078400VRE",

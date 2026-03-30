@@ -1,12 +1,21 @@
 {
-  "generated_at": "2026-03-30T20:00",
+  "generated_at": "2026-03-30T20:25",
   "insights": [
     {
       "id": "A",
-      "text": "A las 20h se están acumulando los retrasos — 12 trenes afectados",
+      "text": "A las 20h se están acumulando los retrasos — 37 trenes afectados",
       "severity": "warn",
       "meta": {
         "hour": 20
+      }
+    },
+    {
+      "id": "B",
+      "text": "El mayor retraso en este momento es de 33 minutos — tren desde Granollers-Centre con parada en Mollet-Sant Fost",
+      "severity": "bad",
+      "meta": {
+        "station_id": "79006",
+        "station_name": "Mollet-Sant Fost"
       }
     },
     {

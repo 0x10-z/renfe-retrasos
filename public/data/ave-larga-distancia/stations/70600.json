@@ -1,8 +1,30 @@
 {
   "station_id": "70600",
   "name": "Calatayud",
-  "generated_at": "2026-03-30T20:00:08",
+  "generated_at": "2026-03-30T20:25:34+02:00",
   "arrivals": [
+    {
+      "trip_id": "3545212026-03-29",
+      "route_id": "7030204040VRR",
+      "train_name": "REGIONAL 35452",
+      "headsign": "",
+      "origin": "Siguenza",
+      "scheduled_time": "19:32",
+      "estimated_time": "19:32",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3525212026-03-29",
+      "route_id": "7060004040VRR",
+      "train_name": "REGIONAL 35252",
+      "headsign": "",
+      "origin": "Calatayud",
+      "scheduled_time": "19:35",
+      "estimated_time": "19:35",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "0318212026-03-29",
       "route_id": "7180160000AV006",
@@ -10,8 +32,8 @@
       "headsign": "",
       "origin": "Barcelona-Sants",
       "scheduled_time": "20:14",
-      "estimated_time": "20:19",
-      "delay_min": 5.0,
+      "estimated_time": "20:18",
+      "delay_min": 4.0,
       "status": "retraso_leve"
     },
     {
@@ -32,8 +54,8 @@
       "headsign": "",
       "origin": "Calatayud",
       "scheduled_time": "20:15",
-      "estimated_time": "20:20",
-      "delay_min": 5.0,
+      "estimated_time": "20:19",
+      "delay_min": 4.0,
       "status": "retraso_leve"
     },
     {
@@ -67,39 +89,6 @@
       "scheduled_time": "20:23",
       "estimated_time": "20:23",
       "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3505212026-03-29",
-      "route_id": "1700004040VRR",
-      "train_name": "REGIONAL 35052",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "20:26",
-      "estimated_time": "20:26",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3555212026-03-29",
-      "route_id": "7060004040VRR",
-      "train_name": "REGIONAL 35552",
-      "headsign": "",
-      "origin": "Calatayud",
-      "scheduled_time": "20:30",
-      "estimated_time": "20:30",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "0330912026-03-29",
-      "route_id": "6000004307AV006",
-      "train_name": "AVE 03309",
-      "headsign": "",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "20:53",
-      "estimated_time": "20:52",
-      "delay_min": -1.0,
       "status": "en_hora"
     }
   ]
