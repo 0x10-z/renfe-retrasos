@@ -1,8 +1,19 @@
 {
   "station_id": "65207",
   "name": "Burriana-Alquerías Niño Perdido",
-  "generated_at": "2026-03-30T19:00:25",
+  "generated_at": "2026-03-30T18:48:19",
   "arrivals": [
+    {
+      "trip_id": "4085L24348C6",
+      "route_id": "40T0013C6",
+      "train_name": "C6",
+      "headsign": "",
+      "origin": "València-Estació Del Nord",
+      "scheduled_time": "18:54",
+      "estimated_time": "18:54",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "4085L36455C6",
       "route_id": "40T0014C6",
@@ -32,20 +43,9 @@
       "headsign": "",
       "origin": "Castelló De La Plana",
       "scheduled_time": "19:47",
-      "estimated_time": "19:47",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4085L24352C6",
-      "route_id": "40T0013C6",
-      "train_name": "C6",
-      "headsign": "",
-      "origin": "València-Estació Del Nord",
-      "scheduled_time": "19:59",
-      "estimated_time": "19:59",
-      "delay_min": 0.0,
-      "status": "en_hora"
+      "estimated_time": "19:49",
+      "delay_min": 2.0,
+      "status": "retraso_leve"
     }
   ]
 }

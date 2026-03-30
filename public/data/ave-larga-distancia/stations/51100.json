@@ -1,7 +1,7 @@
 {
   "station_id": "51100",
   "name": "Sevilla-San Bernardo",
-  "generated_at": "2026-03-30T19:00:07",
+  "generated_at": "2026-03-30T18:48:11",
   "arrivals": [
     {
       "trip_id": "1301712026-03-29",
@@ -10,23 +10,12 @@
       "headsign": "",
       "origin": "Cádiz",
       "scheduled_time": "19:02",
-      "estimated_time": "19:04",
-      "delay_min": 2.0,
+      "estimated_time": "19:06",
+      "delay_min": 4.0,
       "status": "retraso_leve"
     },
     {
       "trip_id": "3501712026-03-29",
-      "route_id": "5140503100VRX",
-      "train_name": "MD 35017",
-      "headsign": "",
-      "origin": "Cádiz",
-      "scheduled_time": "19:02",
-      "estimated_time": "19:02",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3501722026-03-29",
       "route_id": "5140503100VRX",
       "train_name": "MD 35017",
       "headsign": "",
@@ -43,9 +32,9 @@
       "headsign": "",
       "origin": "Sevilla-Santa Justa",
       "scheduled_time": "19:33",
-      "estimated_time": "19:33",
-      "delay_min": 0.0,
-      "status": "en_hora"
+      "estimated_time": "19:36",
+      "delay_min": 3.0,
+      "status": "retraso_leve"
     }
   ]
 }

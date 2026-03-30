@@ -1,32 +1,10 @@
 {
   "station_id": "20213",
   "name": "A Rua-Petin",
-  "generated_at": "2026-03-30T19:00:07",
+  "generated_at": "2026-03-30T18:48:11",
   "arrivals": [
     {
       "trip_id": "0062612026-03-30",
-      "route_id": "7180131412GL023",
-      "train_name": "ALVIA 00626",
-      "headsign": "",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "19:28",
-      "estimated_time": "21:50",
-      "delay_min": 142.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "0062622026-03-30",
-      "route_id": "7180122100GL023",
-      "train_name": "ALVIA 00626",
-      "headsign": "",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "19:28",
-      "estimated_time": "21:50",
-      "delay_min": 142.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "0062632026-03-30",
       "route_id": "7180131412GL023",
       "train_name": "ALVIA 00626",
       "headsign": "",

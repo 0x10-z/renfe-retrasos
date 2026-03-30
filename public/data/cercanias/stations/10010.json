@@ -1,8 +1,52 @@
 {
   "station_id": "10010",
   "name": "El Barrial-Centro Comercial Pozuelo",
-  "generated_at": "2026-03-30T19:00:25",
+  "generated_at": "2026-03-30T18:48:19",
   "arrivals": [
+    {
+      "trip_id": "1085L76854C7",
+      "route_id": "10T0051C7",
+      "train_name": "C7",
+      "headsign": "",
+      "origin": "Madrid-Príncipe Pío",
+      "scheduled_time": "18:50",
+      "estimated_time": "18:50",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L75349C10",
+      "route_id": "10T0075C10",
+      "train_name": "C10",
+      "headsign": "",
+      "origin": "Pinar De Las Rozas",
+      "scheduled_time": "18:54",
+      "estimated_time": "18:54",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L75350C10",
+      "route_id": "10T0076C10",
+      "train_name": "C10",
+      "headsign": "",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "18:55",
+      "estimated_time": "18:55",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L75857C7",
+      "route_id": "10T0052C7",
+      "train_name": "C7",
+      "headsign": "",
+      "origin": "Alcalá De Henares",
+      "scheduled_time": "19:00",
+      "estimated_time": "19:00",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "1085L75154C10",
       "route_id": "10T0003C10",
@@ -88,50 +132,6 @@
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:40",
       "estimated_time": "19:40",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L75858C7",
-      "route_id": "10T0051C7",
-      "train_name": "C7",
-      "headsign": "",
-      "origin": "Madrid-Príncipe Pío",
-      "scheduled_time": "19:50",
-      "estimated_time": "19:50",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L75353C10",
-      "route_id": "10T0075C10",
-      "train_name": "C10",
-      "headsign": "",
-      "origin": "Pinar De Las Rozas",
-      "scheduled_time": "19:54",
-      "estimated_time": "19:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L75354C10",
-      "route_id": "10T0076C10",
-      "train_name": "C10",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "19:54",
-      "estimated_time": "19:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L75861C7",
-      "route_id": "10T0052C7",
-      "train_name": "C7",
-      "headsign": "",
-      "origin": "Alcalá De Henares",
-      "scheduled_time": "19:58",
-      "estimated_time": "19:58",
       "delay_min": 0.0,
       "status": "en_hora"
     }

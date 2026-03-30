@@ -4,7 +4,7 @@ export const state = {
   activeSvc: "ave-larga-distancia" as string,
   allStations: [] as any[],
   historyRecords: [] as any[],
-  activeDays: 30 as number,
+  activeDays: -1 as number,
   chart: null as echarts.ECharts | null,
   modalSelectedTrainName: "" as string,
   stationFromInsight: false as boolean,

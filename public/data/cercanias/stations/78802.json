@@ -1,8 +1,63 @@
 {
   "station_id": "78802",
   "name": "Fabra I Puig",
-  "generated_at": "2026-03-30T19:00:25",
+  "generated_at": "2026-03-30T18:48:19",
   "arrivals": [
+    {
+      "trip_id": "5185L77754R4",
+      "route_id": "51T0020R4",
+      "train_name": "R4",
+      "headsign": "",
+      "origin": "Terrassa Estació Del Nord",
+      "scheduled_time": "18:50",
+      "estimated_time": "18:50",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L87100R3",
+      "route_id": "51T0133R3",
+      "train_name": "R3",
+      "headsign": "",
+      "origin": "Fabra I Puig",
+      "scheduled_time": "18:50",
+      "estimated_time": "18:50",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L88077R3",
+      "route_id": "51T0134R3",
+      "train_name": "R3",
+      "headsign": "",
+      "origin": "Centelles",
+      "scheduled_time": "18:55",
+      "estimated_time": "18:55",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L77650R4",
+      "route_id": "51T0019R4",
+      "train_name": "R4",
+      "headsign": "",
+      "origin": "Martorell-Central",
+      "scheduled_time": "19:00",
+      "estimated_time": "19:00",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L87413R3",
+      "route_id": "51T0135R3",
+      "train_name": "R3",
+      "headsign": "",
+      "origin": "Fabra I Puig",
+      "scheduled_time": "19:00",
+      "estimated_time": "19:00",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "5185L87997R3",
       "route_id": "51T0130R3",
@@ -31,17 +86,6 @@
       "train_name": "R3",
       "headsign": "",
       "origin": "Fabra I Puig",
-      "scheduled_time": "19:05",
-      "estimated_time": "19:05",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L87462R3",
-      "route_id": "51T0132R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Vic",
       "scheduled_time": "19:05",
       "estimated_time": "19:05",
       "delay_min": 0.0,
@@ -103,28 +147,6 @@
       "status": "en_hora"
     },
     {
-      "trip_id": "5185L87104R3",
-      "route_id": "51T0133R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Fabra I Puig",
-      "scheduled_time": "19:20",
-      "estimated_time": "19:20",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L87585R3",
-      "route_id": "51T0131R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Fabra I Puig",
-      "scheduled_time": "19:20",
-      "estimated_time": "19:20",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
       "trip_id": "5185L87998R3",
       "route_id": "51T0130R3",
       "train_name": "R3",
@@ -141,28 +163,6 @@
       "train_name": "R3",
       "headsign": "",
       "origin": "Fabra I Puig",
-      "scheduled_time": "19:25",
-      "estimated_time": "19:25",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L87463R3",
-      "route_id": "51T0132R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Vic",
-      "scheduled_time": "19:25",
-      "estimated_time": "19:25",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L88078R3",
-      "route_id": "51T0134R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Centelles",
       "scheduled_time": "19:25",
       "estimated_time": "19:25",
       "delay_min": 0.0,
@@ -257,17 +257,6 @@
       "status": "en_hora"
     },
     {
-      "trip_id": "5185L87466R3",
-      "route_id": "51T0132R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Vic",
-      "scheduled_time": "19:45",
-      "estimated_time": "19:45",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
       "trip_id": "5185L88045R3",
       "route_id": "51T0134R3",
       "train_name": "R3",
@@ -275,83 +264,6 @@
       "origin": "Centelles",
       "scheduled_time": "19:46",
       "estimated_time": "19:46",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L77758R4",
-      "route_id": "51T0020R4",
-      "train_name": "R4",
-      "headsign": "",
-      "origin": "Terrassa Estació Del Nord",
-      "scheduled_time": "19:50",
-      "estimated_time": "19:50",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L87107R3",
-      "route_id": "51T0133R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Fabra I Puig",
-      "scheduled_time": "19:50",
-      "estimated_time": "19:50",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L87108R3",
-      "route_id": "51T0133R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Fabra I Puig",
-      "scheduled_time": "19:50",
-      "estimated_time": "19:50",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L88079R3",
-      "route_id": "51T0134R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Centelles",
-      "scheduled_time": "19:55",
-      "estimated_time": "19:55",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L77654R4",
-      "route_id": "51T0019R4",
-      "train_name": "R4",
-      "headsign": "",
-      "origin": "Martorell-Central",
-      "scheduled_time": "20:00",
-      "estimated_time": "20:00",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L87414R3",
-      "route_id": "51T0135R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Fabra I Puig",
-      "scheduled_time": "20:00",
-      "estimated_time": "20:00",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L87588R3",
-      "route_id": "51T0131R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Fabra I Puig",
-      "scheduled_time": "20:00",
-      "estimated_time": "20:00",
       "delay_min": 0.0,
       "status": "en_hora"
     }

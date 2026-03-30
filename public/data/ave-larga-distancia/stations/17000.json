@@ -1,8 +1,41 @@
 {
   "station_id": "17000",
   "name": "Madrid-Chamartín-Clara Campoamor",
-  "generated_at": "2026-03-30T19:00:07",
+  "generated_at": "2026-03-30T18:48:11",
   "arrivals": [
+    {
+      "trip_id": "0817812026-03-29",
+      "route_id": "1060017000AV008",
+      "train_name": "AVANT 08178",
+      "headsign": "",
+      "origin": "Valladolid",
+      "scheduled_time": "18:55",
+      "estimated_time": "18:55",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0579212026-03-29",
+      "route_id": "1101461200AV006",
+      "train_name": "AVE 05792",
+      "headsign": "",
+      "origin": "Burgos Rosa Manzano",
+      "scheduled_time": "19:00",
+      "estimated_time": "19:00",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3479212026-03-29",
+      "route_id": "0800417000AV008",
+      "train_name": "AVANT 34792",
+      "headsign": "",
+      "origin": "Segovia Guiomar",
+      "scheduled_time": "19:00",
+      "estimated_time": "19:00",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "1730612026-03-29",
       "route_id": "1700082100VRE",
@@ -37,37 +70,15 @@
       "status": "en_hora"
     },
     {
-      "trip_id": "3540222026-03-30",
-      "route_id": "1700070300VRR",
-      "train_name": "REGIONAL 35402",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "19:07",
-      "estimated_time": "19:07",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
       "trip_id": "0419312026-03-30",
       "route_id": "1700014223GL023",
       "train_name": "ALVIA 04193",
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:08",
-      "estimated_time": "19:08",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "0419322026-03-30",
-      "route_id": "1700010600GL023",
-      "train_name": "ALVIA 04193",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "19:08",
-      "estimated_time": "19:08",
-      "delay_min": 0.0,
-      "status": "en_hora"
+      "estimated_time": "19:11",
+      "delay_min": 3.0,
+      "status": "retraso_leve"
     },
     {
       "trip_id": "0579232026-03-29",
@@ -76,9 +87,9 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:15",
-      "estimated_time": "19:17",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
+      "estimated_time": "19:15",
+      "delay_min": 0.0,
+      "status": "en_hora"
     },
     {
       "trip_id": "0439512026-03-29",
@@ -87,19 +98,8 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:17",
-      "estimated_time": "19:17",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "0439522026-03-29",
-      "route_id": "1700022100AV006",
-      "train_name": "AVE 04395",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "19:17",
-      "estimated_time": "19:17",
-      "delay_min": 0.0,
+      "estimated_time": "19:18",
+      "delay_min": 1.0,
       "status": "en_hora"
     },
     {
@@ -109,8 +109,8 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:19",
-      "estimated_time": "19:19",
-      "delay_min": 0.0,
+      "estimated_time": "19:20",
+      "delay_min": 1.0,
       "status": "en_hora"
     },
     {
@@ -120,9 +120,9 @@
       "headsign": "",
       "origin": "Gijón/Xixón",
       "scheduled_time": "19:24",
-      "estimated_time": "19:34",
-      "delay_min": 10.0,
-      "status": "retraso_alto"
+      "estimated_time": "19:29",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
     },
     {
       "trip_id": "1803512026-03-29",
@@ -131,8 +131,8 @@
       "headsign": "",
       "origin": "Jaen",
       "scheduled_time": "19:24",
-      "estimated_time": "19:47",
-      "delay_min": 23.0,
+      "estimated_time": "19:44",
+      "delay_min": 20.0,
       "status": "retraso_alto"
     },
     {
@@ -158,17 +158,6 @@
       "status": "en_hora"
     },
     {
-      "trip_id": "0517122026-03-29",
-      "route_id": "0321617000AV006",
-      "train_name": "AVE 05171",
-      "headsign": "",
-      "origin": "Valencia Joaquin Sorolla",
-      "scheduled_time": "19:38",
-      "estimated_time": "19:37",
-      "delay_min": -1.0,
-      "status": "en_hora"
-    },
-    {
       "trip_id": "3550112026-03-29",
       "route_id": "0404017000VRE",
       "train_name": "REG.EXP. 35501",
@@ -176,72 +165,6 @@
       "origin": "Zaragoza-Delicias",
       "scheduled_time": "19:41",
       "estimated_time": "19:41",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3550132026-03-29",
-      "route_id": "7030017000VRE",
-      "train_name": "REG.EXP. 35501",
-      "headsign": "",
-      "origin": "Baides",
-      "scheduled_time": "19:41",
-      "estimated_time": "19:41",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "0433412026-03-29",
-      "route_id": "3141217000LC112",
-      "train_name": "AVLO 04334",
-      "headsign": "",
-      "origin": "A Coruña",
-      "scheduled_time": "19:51",
-      "estimated_time": "19:56",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "0433422026-03-29",
-      "route_id": "2210017000LC112",
-      "train_name": "AVLO 04334",
-      "headsign": "",
-      "origin": "Ourense",
-      "scheduled_time": "19:51",
-      "estimated_time": "19:56",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "3417112026-03-29",
-      "route_id": "1700010600AV008",
-      "train_name": "AVANT 34171",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "19:54",
-      "estimated_time": "19:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "0520012026-03-29",
-      "route_id": "1510003216AV006",
-      "train_name": "AVE 05200",
-      "headsign": "",
-      "origin": "Leon",
-      "scheduled_time": "20:00",
-      "estimated_time": "20:03",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "3431012026-03-29",
-      "route_id": "1060017000AV008",
-      "train_name": "AVANT 34310",
-      "headsign": "",
-      "origin": "Valladolid",
-      "scheduled_time": "20:00",
-      "estimated_time": "20:00",
       "delay_min": 0.0,
       "status": "en_hora"
     }

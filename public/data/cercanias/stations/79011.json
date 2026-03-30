@@ -1,8 +1,30 @@
 {
   "station_id": "79011",
   "name": "La Llagosta",
-  "generated_at": "2026-03-30T19:00:25",
+  "generated_at": "2026-03-30T18:48:19",
   "arrivals": [
+    {
+      "trip_id": "5185L25450R2N",
+      "route_id": "51T0003R2N",
+      "train_name": "R2N",
+      "headsign": "",
+      "origin": "El Prat Aeroport",
+      "scheduled_time": "18:54",
+      "estimated_time": "18:54",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L28592R2",
+      "route_id": "51T0014R2",
+      "train_name": "R2",
+      "headsign": "",
+      "origin": "Granollers-Centre",
+      "scheduled_time": "18:56",
+      "estimated_time": "18:56",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "5185L28456R2N",
       "route_id": "51T0004R2N",
@@ -32,31 +54,9 @@
       "headsign": "",
       "origin": "Sant Celoni",
       "scheduled_time": "19:41",
-      "estimated_time": "19:41",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L25454R2N",
-      "route_id": "51T0003R2N",
-      "train_name": "R2N",
-      "headsign": "",
-      "origin": "El Prat Aeroport",
-      "scheduled_time": "19:54",
-      "estimated_time": "19:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L28596R2",
-      "route_id": "51T0014R2",
-      "train_name": "R2",
-      "headsign": "",
-      "origin": "Granollers-Centre",
-      "scheduled_time": "19:56",
-      "estimated_time": "19:56",
-      "delay_min": 0.0,
-      "status": "en_hora"
+      "estimated_time": "19:51",
+      "delay_min": 10.0,
+      "status": "retraso_alto"
     }
   ]
 }

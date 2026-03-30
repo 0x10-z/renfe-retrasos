@@ -1,8 +1,30 @@
 {
   "station_id": "71500",
   "name": "Tarragona",
-  "generated_at": "2026-03-30T19:00:07",
+  "generated_at": "2026-03-30T18:48:11",
   "arrivals": [
+    {
+      "trip_id": "1522112026-03-29",
+      "route_id": "7150065411VRR",
+      "train_name": "REGIONAL 15221",
+      "headsign": "",
+      "origin": "Tarragona",
+      "scheduled_time": "18:53",
+      "estimated_time": "18:53",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1503812026-03-29",
+      "route_id": "7121079400VRE",
+      "train_name": "REG.EXP. 15038",
+      "headsign": "",
+      "origin": "Flix",
+      "scheduled_time": "18:54",
+      "estimated_time": "18:54",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "1813312026-03-29",
       "route_id": "7940065400VRE",
@@ -10,9 +32,9 @@
       "headsign": "",
       "origin": "Barcelona-Estació De França",
       "scheduled_time": "19:14",
-      "estimated_time": "19:14",
-      "delay_min": 0.0,
-      "status": "en_hora"
+      "estimated_time": "19:53",
+      "delay_min": 39.0,
+      "status": "retraso_alto"
     },
     {
       "trip_id": "1813212026-03-29",
@@ -21,8 +43,8 @@
       "headsign": "",
       "origin": "Tortosa",
       "scheduled_time": "19:26",
-      "estimated_time": "19:32",
-      "delay_min": 6.0,
+      "estimated_time": "19:34",
+      "delay_min": 8.0,
       "status": "retraso_alto"
     },
     {
@@ -32,9 +54,9 @@
       "headsign": "",
       "origin": "Barcelona-Estació De França",
       "scheduled_time": "19:42",
-      "estimated_time": "19:42",
-      "delay_min": 0.0,
-      "status": "en_hora"
+      "estimated_time": "19:57",
+      "delay_min": 15.0,
+      "status": "retraso_alto"
     },
     {
       "trip_id": "1522212026-03-29",
@@ -44,28 +66,6 @@
       "origin": "Salou - Port Aventura",
       "scheduled_time": "19:44",
       "estimated_time": "19:44",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1522312026-03-29",
-      "route_id": "7150065411VRR",
-      "train_name": "REGIONAL 15223",
-      "headsign": "",
-      "origin": "Tarragona",
-      "scheduled_time": "19:52",
-      "estimated_time": "19:52",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1502212026-03-29",
-      "route_id": "7140079400VRE",
-      "train_name": "REG.EXP. 15022",
-      "headsign": "",
-      "origin": "Reus",
-      "scheduled_time": "19:54",
-      "estimated_time": "19:54",
       "delay_min": 0.0,
       "status": "en_hora"
     }

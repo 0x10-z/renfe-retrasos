@@ -1,8 +1,19 @@
 {
   "station_id": "77003",
   "name": "Santa Perpètua De Mogoda La Florida",
-  "generated_at": "2026-03-30T19:00:25",
+  "generated_at": "2026-03-30T18:48:19",
   "arrivals": [
+    {
+      "trip_id": "5185L87998R3",
+      "route_id": "51T0130R3",
+      "train_name": "R3",
+      "headsign": "",
+      "origin": "Granollers-Canovelles",
+      "scheduled_time": "18:51",
+      "estimated_time": "18:51",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "5185L87095R3",
       "route_id": "51T0129R3",
@@ -55,17 +66,6 @@
       "origin": "Fabra I Puig",
       "scheduled_time": "19:48",
       "estimated_time": "19:48",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L88002R3",
-      "route_id": "51T0130R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Granollers-Canovelles",
-      "scheduled_time": "19:51",
-      "estimated_time": "19:51",
       "delay_min": 0.0,
       "status": "en_hora"
     }

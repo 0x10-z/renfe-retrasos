@@ -1,8 +1,19 @@
 {
   "station_id": "10103",
   "name": "Torrelodones",
-  "generated_at": "2026-03-30T19:00:25",
+  "generated_at": "2026-03-30T18:48:19",
   "arrivals": [
+    {
+      "trip_id": "1085L75154C10",
+      "route_id": "10T0003C10",
+      "train_name": "C10",
+      "headsign": "",
+      "origin": "Villalba De Guadarrama",
+      "scheduled_time": "18:50",
+      "estimated_time": "18:50",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "1085L75248C10",
       "route_id": "10T0004C10",
@@ -10,9 +21,9 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:01",
-      "estimated_time": "19:05",
-      "delay_min": 4.0,
-      "status": "retraso_leve"
+      "estimated_time": "19:01",
+      "delay_min": 0.0,
+      "status": "en_hora"
     },
     {
       "trip_id": "1085L27632C8b",
@@ -77,17 +88,6 @@
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:45",
       "estimated_time": "19:45",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L75158C10",
-      "route_id": "10T0003C10",
-      "train_name": "C10",
-      "headsign": "",
-      "origin": "Villalba De Guadarrama",
-      "scheduled_time": "19:50",
-      "estimated_time": "19:50",
       "delay_min": 0.0,
       "status": "en_hora"
     }

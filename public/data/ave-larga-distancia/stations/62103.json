@@ -1,7 +1,7 @@
 {
   "station_id": "62103",
   "name": "Elche Parque/Elx Parc",
-  "generated_at": "2026-03-30T19:00:07",
+  "generated_at": "2026-03-30T18:48:11",
   "arrivals": [
     {
       "trip_id": "3562312026-03-30",
@@ -10,19 +10,8 @@
       "headsign": "",
       "origin": "Valencia-Estaciò Del Nord",
       "scheduled_time": "19:29",
-      "estimated_time": "20:01",
-      "delay_min": 32.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "3562332026-03-29",
-      "route_id": "6091161200VRX",
-      "train_name": "MD 35623",
-      "headsign": "",
-      "origin": "Alicante/Alacant",
-      "scheduled_time": "19:29",
-      "estimated_time": "20:01",
-      "delay_min": 32.0,
+      "estimated_time": "20:04",
+      "delay_min": 35.0,
       "status": "retraso_alto"
     }
   ]

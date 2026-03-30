@@ -1,12 +1,30 @@
 {
-  "generated_at": "2026-03-30T19:00",
+  "generated_at": "2026-03-30T18:48",
   "insights": [
     {
       "id": "A",
-      "text": "A las 19h se están acumulando los retrasos — 6 trenes afectados",
+      "text": "A las 19h se están acumulando los retrasos — 41 trenes afectados",
       "severity": "warn",
       "meta": {
         "hour": 19
+      }
+    },
+    {
+      "id": "B",
+      "text": "El mayor retraso en este momento es de 41 minutos — tren desde Martorell-Central con parada en Montcada I Reixac-Manresa",
+      "severity": "bad",
+      "meta": {
+        "station_id": "78708",
+        "station_name": "Montcada I Reixac-Manresa"
+      }
+    },
+    {
+      "id": "C",
+      "text": "San Cristóbal De Los ángeles es la estación más afectada ahora mismo: 2 de 6 trenes con retraso",
+      "severity": "warn",
+      "meta": {
+        "station_id": "60107",
+        "station_name": "San Cristóbal De Los ángeles"
       }
     },
     {

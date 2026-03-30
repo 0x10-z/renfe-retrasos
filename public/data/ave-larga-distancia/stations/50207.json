@@ -1,7 +1,7 @@
 {
   "station_id": "50207",
   "name": "Vilches",
-  "generated_at": "2026-03-30T19:00:07",
+  "generated_at": "2026-03-30T18:48:11",
   "arrivals": [
     {
       "trip_id": "1803212026-03-30",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:01",
-      "estimated_time": "19:26",
-      "delay_min": 25.0,
+      "estimated_time": "19:18",
+      "delay_min": 17.0,
       "status": "retraso_alto"
     },
     {
@@ -21,20 +21,9 @@
       "headsign": "",
       "origin": "Almeria",
       "scheduled_time": "19:25",
-      "estimated_time": "19:28",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "0027922026-03-30",
-      "route_id": "5030017000GL026",
-      "train_name": "Intercity 00279",
-      "headsign": "",
-      "origin": "Linares-Baeza",
-      "scheduled_time": "19:25",
-      "estimated_time": "19:28",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
+      "estimated_time": "19:35",
+      "delay_min": 10.0,
+      "status": "retraso_alto"
     }
   ]
 }

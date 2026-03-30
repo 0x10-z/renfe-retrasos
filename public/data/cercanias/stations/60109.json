@@ -1,7 +1,7 @@
 {
   "station_id": "60109",
   "name": "El Casar",
-  "generated_at": "2026-03-30T19:00:25",
+  "generated_at": "2026-03-30T18:48:19",
   "arrivals": [
     {
       "trip_id": "1085L78085C3",
@@ -66,28 +66,6 @@
       "origin": "Aranjuez",
       "scheduled_time": "19:40",
       "estimated_time": "19:40",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L78088C3",
-      "route_id": "10T0007C3",
-      "train_name": "C3",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "19:53",
-      "estimated_time": "19:53",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L78091C3",
-      "route_id": "10T0008C3",
-      "train_name": "C3",
-      "headsign": "",
-      "origin": "Aranjuez",
-      "scheduled_time": "19:57",
-      "estimated_time": "19:57",
       "delay_min": 0.0,
       "status": "en_hora"
     }

@@ -1,8 +1,19 @@
 {
   "station_id": "71604",
   "name": "Cubelles",
-  "generated_at": "2026-03-30T19:00:25",
+  "generated_at": "2026-03-30T18:48:19",
   "arrivals": [
+    {
+      "trip_id": "5185L25549R2S",
+      "route_id": "51T0008R2S",
+      "train_name": "R2S",
+      "headsign": "",
+      "origin": "Barcelona Estació De França",
+      "scheduled_time": "18:50",
+      "estimated_time": "18:50",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "5185L25552R2S",
       "route_id": "51T0007R2S",
@@ -33,17 +44,6 @@
       "origin": "Sant Vicenç De Calders",
       "scheduled_time": "19:45",
       "estimated_time": "19:45",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L25553R2S",
-      "route_id": "51T0008R2S",
-      "train_name": "R2S",
-      "headsign": "",
-      "origin": "Barcelona Estació De França",
-      "scheduled_time": "19:50",
-      "estimated_time": "19:50",
       "delay_min": 0.0,
       "status": "en_hora"
     }

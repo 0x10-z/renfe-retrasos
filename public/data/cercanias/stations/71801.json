@@ -1,8 +1,74 @@
 {
   "station_id": "71801",
   "name": "Barcelona-Sants",
-  "generated_at": "2026-03-30T19:00:25",
+  "generated_at": "2026-03-30T18:48:19",
   "arrivals": [
+    {
+      "trip_id": "5185L28590R2",
+      "route_id": "51T0014R2",
+      "train_name": "R2",
+      "headsign": "",
+      "origin": "Granollers-Centre",
+      "scheduled_time": "18:51",
+      "estimated_time": "18:51",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L77554R4",
+      "route_id": "51T0020R4",
+      "train_name": "R4",
+      "headsign": "",
+      "origin": "Terrassa Estació Del Nord",
+      "scheduled_time": "18:51",
+      "estimated_time": "18:51",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L25671R1",
+      "route_id": "51T0001R1",
+      "train_name": "R1",
+      "headsign": "",
+      "origin": "L'hospitalet De Llobregat",
+      "scheduled_time": "18:54",
+      "estimated_time": "18:54",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L28376R2S",
+      "route_id": "51T0007R2S",
+      "train_name": "R2S",
+      "headsign": "",
+      "origin": "Garraf",
+      "scheduled_time": "18:55",
+      "estimated_time": "18:55",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L77450R4",
+      "route_id": "51T0019R4",
+      "train_name": "R4",
+      "headsign": "",
+      "origin": "Martorell-Central",
+      "scheduled_time": "18:57",
+      "estimated_time": "18:57",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L25452R2N",
+      "route_id": "51T0003R2N",
+      "train_name": "R2N",
+      "headsign": "",
+      "origin": "El Prat Aeroport",
+      "scheduled_time": "18:58",
+      "estimated_time": "18:58",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "5185L25836R1",
       "route_id": "51T0002R1",
@@ -10,9 +76,9 @@
       "headsign": "",
       "origin": "Mataró",
       "scheduled_time": "19:03",
-      "estimated_time": "19:05",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
+      "estimated_time": "19:03",
+      "delay_min": 0.0,
+      "status": "en_hora"
     },
     {
       "trip_id": "5185L25548R2S",
@@ -20,17 +86,6 @@
       "train_name": "R2S",
       "headsign": "",
       "origin": "Sant Vicenç De Calders",
-      "scheduled_time": "19:04",
-      "estimated_time": "19:04",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L25553R2S",
-      "route_id": "51T0008R2S",
-      "train_name": "R2S",
-      "headsign": "",
-      "origin": "Barcelona Estació De França",
       "scheduled_time": "19:04",
       "estimated_time": "19:04",
       "delay_min": 0.0,
@@ -213,17 +268,6 @@
       "status": "en_hora"
     },
     {
-      "trip_id": "5185L25555R2S",
-      "route_id": "51T0008R2S",
-      "train_name": "R2S",
-      "headsign": "",
-      "origin": "Barcelona Estació De França",
-      "scheduled_time": "19:34",
-      "estimated_time": "19:34",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
       "trip_id": "5185L77756R4",
       "route_id": "51T0020R4",
       "train_name": "R4",
@@ -251,17 +295,6 @@
       "train_name": "R1",
       "headsign": "",
       "origin": "L'hospitalet De Llobregat",
-      "scheduled_time": "19:39",
-      "estimated_time": "19:39",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L25774R1",
-      "route_id": "51T0002R1",
-      "train_name": "R1",
-      "headsign": "",
-      "origin": "Arenys De Mar",
       "scheduled_time": "19:39",
       "estimated_time": "19:39",
       "delay_min": 0.0,
@@ -330,61 +363,6 @@
       "origin": "Castelldefels",
       "scheduled_time": "19:48",
       "estimated_time": "19:48",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L77558R4",
-      "route_id": "51T0020R4",
-      "train_name": "R4",
-      "headsign": "",
-      "origin": "Terrassa Estació Del Nord",
-      "scheduled_time": "19:51",
-      "estimated_time": "19:51",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L25679R1",
-      "route_id": "51T0001R1",
-      "train_name": "R1",
-      "headsign": "",
-      "origin": "L'hospitalet De Llobregat",
-      "scheduled_time": "19:54",
-      "estimated_time": "19:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L28380R2S",
-      "route_id": "51T0007R2S",
-      "train_name": "R2S",
-      "headsign": "",
-      "origin": "Vilanova I La Geltrú",
-      "scheduled_time": "19:55",
-      "estimated_time": "19:55",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L77454R4",
-      "route_id": "51T0019R4",
-      "train_name": "R4",
-      "headsign": "",
-      "origin": "Martorell-Central",
-      "scheduled_time": "19:57",
-      "estimated_time": "19:57",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L25456R2N",
-      "route_id": "51T0003R2N",
-      "train_name": "R2N",
-      "headsign": "",
-      "origin": "El Prat Aeroport",
-      "scheduled_time": "19:58",
-      "estimated_time": "19:58",
       "delay_min": 0.0,
       "status": "en_hora"
     }

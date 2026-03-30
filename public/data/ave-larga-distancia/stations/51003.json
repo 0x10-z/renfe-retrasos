@@ -1,8 +1,19 @@
 {
   "station_id": "51003",
   "name": "Sevilla-Santa Justa",
-  "generated_at": "2026-03-30T19:00:07",
+  "generated_at": "2026-03-30T18:48:11",
   "arrivals": [
+    {
+      "trip_id": "0218712026-03-29",
+      "route_id": "5100360000LC112",
+      "train_name": "AVLO 02187",
+      "headsign": "",
+      "origin": "Sevilla-Santa Justa",
+      "scheduled_time": "18:54",
+      "estimated_time": "18:57",
+      "delay_min": 3.0,
+      "status": "retraso_leve"
+    },
     {
       "trip_id": "0236012026-03-29",
       "route_id": "6000051003AV006",
@@ -10,9 +21,9 @@
       "headsign": "",
       "origin": "Madrid Pta.Atocha - Almudena Grandes",
       "scheduled_time": "19:04",
-      "estimated_time": "19:24",
-      "delay_min": 20.0,
-      "status": "retraso_alto"
+      "estimated_time": "19:04",
+      "delay_min": 0.0,
+      "status": "en_hora"
     },
     {
       "trip_id": "1301712026-03-29",
@@ -21,23 +32,12 @@
       "headsign": "",
       "origin": "Cádiz",
       "scheduled_time": "19:06",
-      "estimated_time": "19:08",
-      "delay_min": 2.0,
+      "estimated_time": "19:10",
+      "delay_min": 4.0,
       "status": "retraso_leve"
     },
     {
       "trip_id": "3501712026-03-29",
-      "route_id": "5140503100VRX",
-      "train_name": "MD 35017",
-      "headsign": "",
-      "origin": "Cádiz",
-      "scheduled_time": "19:06",
-      "estimated_time": "19:06",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3501722026-03-29",
       "route_id": "5140503100VRX",
       "train_name": "MD 35017",
       "headsign": "",
@@ -54,9 +54,9 @@
       "headsign": "",
       "origin": "Huelva",
       "scheduled_time": "19:14",
-      "estimated_time": "19:27",
-      "delay_min": 13.0,
-      "status": "retraso_alto"
+      "estimated_time": "19:14",
+      "delay_min": 0.0,
+      "status": "en_hora"
     },
     {
       "trip_id": "0857512026-03-29",
@@ -65,9 +65,9 @@
       "headsign": "",
       "origin": "Granada",
       "scheduled_time": "19:14",
-      "estimated_time": "19:30",
-      "delay_min": 16.0,
-      "status": "retraso_alto"
+      "estimated_time": "19:14",
+      "delay_min": 0.0,
+      "status": "en_hora"
     },
     {
       "trip_id": "0839512026-03-29",
@@ -76,8 +76,8 @@
       "headsign": "",
       "origin": "Sevilla-Santa Justa",
       "scheduled_time": "19:20",
-      "estimated_time": "19:20",
-      "delay_min": 0.0,
+      "estimated_time": "19:21",
+      "delay_min": 1.0,
       "status": "en_hora"
     },
     {
@@ -87,9 +87,9 @@
       "headsign": "",
       "origin": "Sevilla-Santa Justa",
       "scheduled_time": "19:30",
-      "estimated_time": "19:30",
-      "delay_min": 0.0,
-      "status": "en_hora"
+      "estimated_time": "19:33",
+      "delay_min": 3.0,
+      "status": "retraso_leve"
     },
     {
       "trip_id": "0219112026-03-29",
@@ -98,42 +98,9 @@
       "headsign": "",
       "origin": "Sevilla-Santa Justa",
       "scheduled_time": "19:32",
-      "estimated_time": "19:32",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "0217612026-03-29",
-      "route_id": "6000051003LC112",
-      "train_name": "AVLO 02176",
-      "headsign": "",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "19:57",
-      "estimated_time": "20:07",
-      "delay_min": 10.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "1790242026-03-29",
-      "route_id": "4010751003VRX",
-      "train_name": "MD 17902",
-      "headsign": "",
-      "origin": "Fuente Del Arco",
-      "scheduled_time": "20:00",
-      "estimated_time": "20:00",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3580222026-03-29",
-      "route_id": "1800051003VRX",
-      "train_name": "MD 35802",
-      "headsign": "",
-      "origin": "Madrid - Atocha Cercanías",
-      "scheduled_time": "20:00",
-      "estimated_time": "20:00",
-      "delay_min": 0.0,
-      "status": "en_hora"
+      "estimated_time": "19:34",
+      "delay_min": 2.0,
+      "status": "retraso_leve"
     }
   ]
 }

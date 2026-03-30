@@ -1,8 +1,30 @@
 {
   "station_id": "77004",
   "name": "Mollet-Santa Rosa",
-  "generated_at": "2026-03-30T19:00:25",
+  "generated_at": "2026-03-30T18:48:19",
   "arrivals": [
+    {
+      "trip_id": "5185L88078R3",
+      "route_id": "51T0134R3",
+      "train_name": "R3",
+      "headsign": "",
+      "origin": "Centelles",
+      "scheduled_time": "18:55",
+      "estimated_time": "18:55",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L87999R3",
+      "route_id": "51T0130R3",
+      "train_name": "R3",
+      "headsign": "",
+      "origin": "Granollers-Canovelles",
+      "scheduled_time": "18:58",
+      "estimated_time": "18:58",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "5185L87092R3",
       "route_id": "51T0129R3",
@@ -88,28 +110,6 @@
       "origin": "Fabra I Puig",
       "scheduled_time": "19:44",
       "estimated_time": "19:44",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L88080R3",
-      "route_id": "51T0134R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Centelles",
-      "scheduled_time": "19:55",
-      "estimated_time": "19:55",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L88003R3",
-      "route_id": "51T0130R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Granollers-Canovelles",
-      "scheduled_time": "19:58",
-      "estimated_time": "19:58",
       "delay_min": 0.0,
       "status": "en_hora"
     }

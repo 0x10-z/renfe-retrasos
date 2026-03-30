@@ -1,7 +1,7 @@
 {
   "station_id": "50102",
   "name": "Valdepeñas",
-  "generated_at": "2026-03-30T19:00:07",
+  "generated_at": "2026-03-30T18:48:11",
   "arrivals": [
     {
       "trip_id": "1803712026-03-29",
@@ -21,8 +21,8 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:43",
-      "estimated_time": "19:57",
-      "delay_min": 14.0,
+      "estimated_time": "20:01",
+      "delay_min": 18.0,
       "status": "retraso_alto"
     }
   ]

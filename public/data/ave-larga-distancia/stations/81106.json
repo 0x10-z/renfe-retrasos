@@ -1,7 +1,7 @@
 {
   "station_id": "81106",
   "name": "Féculas-Navarra",
-  "generated_at": "2026-03-30T19:00:07",
+  "generated_at": "2026-03-30T18:48:11",
   "arrivals": [
     {
       "trip_id": "1807512026-03-29",
@@ -10,9 +10,9 @@
       "headsign": "",
       "origin": "Zaragoza Miraflores",
       "scheduled_time": "19:32",
-      "estimated_time": "19:36",
-      "delay_min": 4.0,
-      "status": "retraso_leve"
+      "estimated_time": "19:41",
+      "delay_min": 9.0,
+      "status": "retraso_alto"
     }
   ]
 }

@@ -1,8 +1,19 @@
 {
   "station_id": "13117",
   "name": "Arakaldo",
-  "generated_at": "2026-03-30T19:00:25",
+  "generated_at": "2026-03-30T18:48:19",
   "arrivals": [
+    {
+      "trip_id": "6085L26554C3",
+      "route_id": "60T0005C3",
+      "train_name": "C3",
+      "headsign": "",
+      "origin": "Bilbao-Intermod. Abando Indalecio Prieto",
+      "scheduled_time": "18:54",
+      "estimated_time": "18:54",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "6085L26555C3",
       "route_id": "60T0006C3",
@@ -55,28 +66,6 @@
       "origin": "Bilbao-Intermod. Abando Indalecio Prieto",
       "scheduled_time": "19:32",
       "estimated_time": "19:32",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "6085L26558C3",
-      "route_id": "60T0005C3",
-      "train_name": "C3",
-      "headsign": "",
-      "origin": "Bilbao-Intermod. Abando Indalecio Prieto",
-      "scheduled_time": "19:54",
-      "estimated_time": "19:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "6085L26559C3",
-      "route_id": "60T0006C3",
-      "train_name": "C3",
-      "headsign": "",
-      "origin": "Orduña",
-      "scheduled_time": "19:59",
-      "estimated_time": "19:59",
       "delay_min": 0.0,
       "status": "en_hora"
     }

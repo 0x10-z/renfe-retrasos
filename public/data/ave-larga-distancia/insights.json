@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-30T19:00",
+  "generated_at": "2026-03-30T18:48",
   "insights": [
     {
       "id": "A",
-      "text": "A las 19h se están acumulando los retrasos — 433 trenes afectados",
+      "text": "A las 19h se están acumulando los retrasos — 394 trenes afectados",
       "severity": "warn",
       "meta": {
         "hour": 19
@@ -20,16 +20,16 @@
     },
     {
       "id": "C",
-      "text": "Vilches es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
+      "text": "Cambrils es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "50207",
-        "station_name": "Vilches"
+        "station_id": "65422",
+        "station_name": "Cambrils"
       }
     },
     {
       "id": "G",
-      "text": "Esta semana los retrasos están bajando respecto a la anterior (-33% · 14% vs 22%)",
+      "text": "Esta semana los retrasos están bajando respecto a la anterior (-28% · 16% vs 22%)",
       "severity": "ok"
     }
   ]
