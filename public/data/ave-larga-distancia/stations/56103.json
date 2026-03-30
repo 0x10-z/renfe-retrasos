@@ -1,18 +1,6 @@
 {
   "station_id": "56103",
   "name": "Benalua de Guadix",
-  "generated_at": "2026-03-30T20:25:34+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1395712026-03-29",
-      "route_id": "5631205000VRX",
-      "train_name": "MD 13957",
-      "headsign": "",
-      "origin": "Almeria",
-      "scheduled_time": "20:01",
-      "estimated_time": "20:03",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
-    }
-  ]
+  "generated_at": "2026-03-30T20:27:22+02:00",
+  "arrivals": []
 }

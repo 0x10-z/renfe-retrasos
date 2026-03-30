@@ -1,18 +1,6 @@
 {
   "station_id": "01007",
   "name": "Osuna",
-  "generated_at": "2026-03-30T20:25:34+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1390812026-03-29",
-      "route_id": "5100354413VRX",
-      "train_name": "MD 13908",
-      "headsign": "",
-      "origin": "Sevilla-Santa Justa",
-      "scheduled_time": "19:57",
-      "estimated_time": "20:20",
-      "delay_min": 23.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-30T20:27:22+02:00",
+  "arrivals": []
 }

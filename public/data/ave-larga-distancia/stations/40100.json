@@ -1,18 +1,6 @@
 {
   "station_id": "40100",
   "name": "Zafra",
-  "generated_at": "2026-03-30T20:25:34+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1877912026-03-29",
-      "route_id": "5100330002VRE",
-      "train_name": "REG.EXP. 18779",
-      "headsign": "",
-      "origin": "Sevilla-Santa Justa",
-      "scheduled_time": "19:30",
-      "estimated_time": "19:47",
-      "delay_min": 17.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-30T20:27:22+02:00",
+  "arrivals": []
 }

@@ -1,60 +1,27 @@
 {
   "station_id": "11000",
   "name": "Venta De Baños",
-  "generated_at": "2026-03-30T20:25:34+02:00",
+  "generated_at": "2026-03-30T20:27:22+02:00",
   "arrivals": [
     {
-      "trip_id": "1800312026-03-30",
-      "route_id": "1000015100VRX",
-      "train_name": "MD 18003",
+      "trip_id": "1806512026-03-29",
+      "route_id": "1000011300VRX",
+      "train_name": "MD 18065",
       "headsign": "",
       "origin": "Madrid-Principe Pio",
-      "scheduled_time": "19:37",
-      "estimated_time": "19:45",
-      "delay_min": 8.0,
-      "status": "retraso_alto"
+      "scheduled_time": "20:38",
+      "estimated_time": "20:32",
+      "delay_min": -6.0,
+      "status": "en_hora"
     },
     {
-      "trip_id": "3830312026-03-29",
+      "trip_id": "3806512026-03-29",
       "route_id": "1050014100VRN",
-      "train_name": "PROXIMDAD 38303",
+      "train_name": "PROXIMDAD 38065",
       "headsign": "",
       "origin": "Medina Del Campo",
-      "scheduled_time": "19:37",
-      "estimated_time": "19:37",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1810412026-03-30",
-      "route_id": "1422310600VRE",
-      "train_name": "REG.EXP. 18104",
-      "headsign": "",
-      "origin": "Santander",
-      "scheduled_time": "19:44",
-      "estimated_time": "19:55",
-      "delay_min": 11.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "3810412026-03-29",
-      "route_id": "1410010600VRN",
-      "train_name": "PROXIMDAD 38104",
-      "headsign": "",
-      "origin": "Palencia",
-      "scheduled_time": "19:44",
-      "estimated_time": "19:44",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1821912026-03-30",
-      "route_id": "1060014100VRN",
-      "train_name": "PROXIMDAD 18219",
-      "headsign": "",
-      "origin": "Valladolid",
-      "scheduled_time": "20:17",
-      "estimated_time": "20:17",
+      "scheduled_time": "20:38",
+      "estimated_time": "20:38",
       "delay_min": 0.0,
       "status": "en_hora"
     }

@@ -1,18 +1,6 @@
 {
   "station_id": "65403",
   "name": "Camarles-Deltebre",
-  "generated_at": "2026-03-30T20:25:34+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1813412026-03-29",
-      "route_id": "6540079400VRE",
-      "train_name": "REG.EXP. 18134",
-      "headsign": "",
-      "origin": "Tortosa",
-      "scheduled_time": "19:55",
-      "estimated_time": "19:59",
-      "delay_min": 4.0,
-      "status": "retraso_leve"
-    }
-  ]
+  "generated_at": "2026-03-30T20:27:22+02:00",
+  "arrivals": []
 }

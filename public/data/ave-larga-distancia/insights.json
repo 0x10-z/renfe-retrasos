@@ -1,36 +1,31 @@
 {
-  "generated_at": "2026-03-30T20:25",
+  "generated_at": "2026-03-30T20:27",
   "insights": [
     {
       "id": "A",
-      "text": "A las 19h se están acumulando los retrasos — 262 trenes afectados",
+      "text": "A las 20h se están acumulando los retrasos — 167 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 19
+        "hour": 20
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 141 minutos — tren desde Barcelona-Sants con parada en A Rua-Petin",
+      "text": "El mayor retraso en este momento es de 141 minutos — tren desde Barcelona-Sants con parada en Ourense",
       "severity": "bad",
       "meta": {
-        "station_id": "20213",
-        "station_name": "A Rua-Petin"
+        "station_id": "22100",
+        "station_name": "Ourense"
       }
     },
     {
       "id": "C",
-      "text": "Camp Tarragona es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
+      "text": "Ávila es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "04104",
-        "station_name": "Camp Tarragona"
+        "station_id": "10400",
+        "station_name": "Ávila"
       }
-    },
-    {
-      "id": "G",
-      "text": "Esta semana los retrasos están bajando respecto a la anterior (-11% · 19% vs 22%)",
-      "severity": "ok"
     }
   ]
 }
