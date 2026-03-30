@@ -1,19 +1,8 @@
 {
   "station_id": "51400",
   "name": "Puerto De Santa María",
-  "generated_at": "2026-03-30T15:00:07",
+  "generated_at": "2026-03-30T15:05:10",
   "arrivals": [
-    {
-      "trip_id": "1301312026-03-30",
-      "route_id": "5140551003VRX",
-      "train_name": "MD 13013",
-      "headsign": "",
-      "origin": "Cádiz",
-      "scheduled_time": "15:05",
-      "estimated_time": "15:05",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "1301012026-03-28",
       "route_id": "5100351405VRX",
@@ -22,6 +11,17 @@
       "origin": "Sevilla-Santa Justa",
       "scheduled_time": "15:57",
       "estimated_time": "15:57",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1301512026-03-28",
+      "route_id": "5140550500VRX",
+      "train_name": "MD 13015",
+      "headsign": "",
+      "origin": "Cádiz",
+      "scheduled_time": "16:05",
+      "estimated_time": "16:05",
       "delay_min": 0.0,
       "status": "en_hora"
     }

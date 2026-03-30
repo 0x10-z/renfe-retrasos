@@ -1,19 +1,8 @@
 {
   "station_id": "79202",
   "name": "Sils",
-  "generated_at": "2026-03-30T15:00:07",
+  "generated_at": "2026-03-30T15:05:10",
   "arrivals": [
-    {
-      "trip_id": "1578212026-03-30",
-      "route_id": "7930971801VRX",
-      "train_name": "MD 15782",
-      "headsign": "",
-      "origin": "Figueres",
-      "scheduled_time": "15:05",
-      "estimated_time": "15:11",
-      "delay_min": 6.0,
-      "status": "retraso_alto"
-    },
     {
       "trip_id": "1581222026-03-30",
       "route_id": "7180179309VRX",

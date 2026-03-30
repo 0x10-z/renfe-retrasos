@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-30T15:00",
+  "generated_at": "2026-03-30T15:05",
   "insights": [
     {
       "id": "A",
-      "text": "A las 15h se están acumulando los retrasos — 70 trenes afectados",
+      "text": "A las 15h se están acumulando los retrasos — 59 trenes afectados",
       "severity": "warn",
       "meta": {
         "hour": 15
@@ -11,20 +11,20 @@
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 32 minutos — tren desde Barcelona-Sants con parada en Flaçà",
+      "text": "El mayor retraso en este momento es de 32 minutos — tren desde Barcelona-Sants con parada en Sant Miquel De Fluvià",
       "severity": "bad",
       "meta": {
-        "station_id": "79303",
-        "station_name": "Flaçà"
+        "station_id": "79306",
+        "station_name": "Sant Miquel De Fluvià"
       }
     },
     {
       "id": "C",
-      "text": "Sils es la estación más afectada ahora mismo: 2 de 3 trenes con retraso",
+      "text": "Maçanet-Massanes es la estación más afectada ahora mismo: 2 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "79202",
-        "station_name": "Sils"
+        "station_id": "79200",
+        "station_name": "Maçanet-Massanes"
       }
     },
     {

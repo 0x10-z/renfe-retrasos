@@ -1,7 +1,7 @@
 {
   "station_id": "10400",
   "name": "Ávila",
-  "generated_at": "2026-03-30T15:00:07",
+  "generated_at": "2026-03-30T15:05:10",
   "arrivals": [
     {
       "trip_id": "1890512026-03-30",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Madrid-Principe Pio",
       "scheduled_time": "15:09",
-      "estimated_time": "15:15",
-      "delay_min": 6.0,
+      "estimated_time": "15:16",
+      "delay_min": 7.0,
       "status": "retraso_alto"
     },
     {

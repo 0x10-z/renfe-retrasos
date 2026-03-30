@@ -1,7 +1,7 @@
 {
   "station_id": "08251",
   "name": "A Gudiña-Porta de Galicia",
-  "generated_at": "2026-03-30T15:00:07",
+  "generated_at": "2026-03-30T15:05:10",
   "arrivals": [
     {
       "trip_id": "0432512026-03-30",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "15:32",
-      "estimated_time": "15:44",
-      "delay_min": 12.0,
+      "estimated_time": "15:45",
+      "delay_min": 13.0,
       "status": "retraso_alto"
     },
     {
