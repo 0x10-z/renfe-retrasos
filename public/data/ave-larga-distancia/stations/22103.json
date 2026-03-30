@@ -1,7 +1,7 @@
 {
   "station_id": "22103",
   "name": "Filgueira",
-  "generated_at": "2026-03-30T15:07:24",
+  "generated_at": "2026-03-30T15:12:52",
   "arrivals": [
     {
       "trip_id": "1260812026-03-29",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Vigo Guixar",
       "scheduled_time": "15:39",
-      "estimated_time": "15:59",
-      "delay_min": 20.0,
+      "estimated_time": "16:02",
+      "delay_min": 23.0,
       "status": "retraso_alto"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "station_id": "10600",
   "name": "Valladolid",
-  "generated_at": "2026-03-30T15:07:24",
+  "generated_at": "2026-03-30T15:12:52",
   "arrivals": [
     {
       "trip_id": "1806312026-03-29",
@@ -43,9 +43,9 @@
       "headsign": "",
       "origin": "Murcia",
       "scheduled_time": "15:18",
-      "estimated_time": "15:24",
-      "delay_min": 6.0,
-      "status": "retraso_alto"
+      "estimated_time": "15:23",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
     },
     {
       "trip_id": "0815812026-03-29",
@@ -65,8 +65,8 @@
       "headsign": "",
       "origin": "Salamanca",
       "scheduled_time": "15:37",
-      "estimated_time": "15:43",
-      "delay_min": 6.0,
+      "estimated_time": "15:46",
+      "delay_min": 9.0,
       "status": "retraso_alto"
     },
     {

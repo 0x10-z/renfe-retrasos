@@ -1,7 +1,7 @@
 {
   "station_id": "79202",
   "name": "Sils",
-  "generated_at": "2026-03-30T15:07:24",
+  "generated_at": "2026-03-30T15:12:52",
   "arrivals": [
     {
       "trip_id": "1581222026-03-30",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Barcelona-Sants",
       "scheduled_time": "15:19",
-      "estimated_time": "15:33",
-      "delay_min": 14.0,
+      "estimated_time": "15:31",
+      "delay_min": 12.0,
       "status": "retraso_alto"
     },
     {

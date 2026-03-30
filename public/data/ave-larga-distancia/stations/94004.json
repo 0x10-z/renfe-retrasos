@@ -1,7 +1,7 @@
 {
   "station_id": "94004",
   "name": "Almagro",
-  "generated_at": "2026-03-30T15:07:24",
+  "generated_at": "2026-03-30T15:12:52",
   "arrivals": [
     {
       "trip_id": "1817012026-03-29",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "15:31",
-      "estimated_time": "15:52",
-      "delay_min": 21.0,
+      "estimated_time": "15:54",
+      "delay_min": 23.0,
       "status": "retraso_alto"
     }
   ]

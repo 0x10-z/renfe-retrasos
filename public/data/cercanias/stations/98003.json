@@ -1,19 +1,8 @@
 {
   "station_id": "98003",
   "name": "Fuente De La Mora",
-  "generated_at": "2026-03-30T15:07:41",
+  "generated_at": "2026-03-30T15:13:02",
   "arrivals": [
-    {
-      "trip_id": "1085L19872C1",
-      "route_id": "10T0001C1",
-      "train_name": "C1",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "15:09",
-      "estimated_time": "15:09",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "1085L19877C1",
       "route_id": "10T0002C1",
@@ -77,6 +66,28 @@
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "15:54",
       "estimated_time": "15:54",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L19883C1",
+      "route_id": "10T0002C1",
+      "train_name": "C1",
+      "headsign": "",
+      "origin": "Madrid-Aeropuerto T4",
+      "scheduled_time": "16:08",
+      "estimated_time": "16:08",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L19880C1",
+      "route_id": "10T0001C1",
+      "train_name": "C1",
+      "headsign": "",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "16:09",
+      "estimated_time": "16:09",
       "delay_min": 0.0,
       "status": "en_hora"
     }

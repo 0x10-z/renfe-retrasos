@@ -1,19 +1,8 @@
 {
   "station_id": "71500",
   "name": "Tarragona",
-  "generated_at": "2026-03-30T15:07:24",
+  "generated_at": "2026-03-30T15:12:52",
   "arrivals": [
-    {
-      "trip_id": "1503312026-03-29",
-      "route_id": "7940071210VRE",
-      "train_name": "REG.EXP. 15033",
-      "headsign": "",
-      "origin": "Barcelona-Estació De França",
-      "scheduled_time": "15:12",
-      "estimated_time": "15:14",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
-    },
     {
       "trip_id": "1501112026-03-30",
       "route_id": "7940071400VRE",

@@ -1,6 +1,18 @@
 {
   "station_id": "51200",
   "name": "Utrera",
-  "generated_at": "2026-03-30T15:07:24",
-  "arrivals": []
+  "generated_at": "2026-03-30T15:12:52",
+  "arrivals": [
+    {
+      "trip_id": "1303212026-03-30",
+      "route_id": "5050051405VRX",
+      "train_name": "MD 13032",
+      "headsign": "",
+      "origin": "Cordoba",
+      "scheduled_time": "16:12",
+      "estimated_time": "16:27",
+      "delay_min": 15.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

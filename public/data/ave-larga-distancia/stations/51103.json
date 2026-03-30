@@ -1,7 +1,7 @@
 {
   "station_id": "51103",
   "name": "Dos Hermanas",
-  "generated_at": "2026-03-30T15:07:24",
+  "generated_at": "2026-03-30T15:12:52",
   "arrivals": [
     {
       "trip_id": "1305212026-03-30",
@@ -21,8 +21,8 @@
       "headsign": "",
       "origin": "Cordoba",
       "scheduled_time": "16:02",
-      "estimated_time": "16:16",
-      "delay_min": 14.0,
+      "estimated_time": "16:17",
+      "delay_min": 15.0,
       "status": "retraso_alto"
     },
     {

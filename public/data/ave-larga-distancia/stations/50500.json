@@ -1,19 +1,8 @@
 {
   "station_id": "50500",
   "name": "Cordoba",
-  "generated_at": "2026-03-30T15:07:24",
+  "generated_at": "2026-03-30T15:12:52",
   "arrivals": [
-    {
-      "trip_id": "0214112026-03-29",
-      "route_id": "5100360000AV006",
-      "train_name": "AVE 02141",
-      "headsign": "",
-      "origin": "Sevilla-Santa Justa",
-      "scheduled_time": "15:11",
-      "estimated_time": "15:14",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
-    },
     {
       "trip_id": "0213612026-03-29",
       "route_id": "6000005000AV006",
@@ -21,9 +10,9 @@
       "headsign": "",
       "origin": "Madrid Pta.Atocha - Almudena Grandes",
       "scheduled_time": "15:19",
-      "estimated_time": "15:24",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
+      "estimated_time": "15:26",
+      "delay_min": 7.0,
+      "status": "retraso_alto"
     },
     {
       "trip_id": "0874412026-03-29",
@@ -76,8 +65,8 @@
       "headsign": "",
       "origin": "Cádiz",
       "scheduled_time": "15:57",
-      "estimated_time": "16:24",
-      "delay_min": 27.0,
+      "estimated_time": "16:23",
+      "delay_min": 26.0,
       "status": "retraso_alto"
     },
     {

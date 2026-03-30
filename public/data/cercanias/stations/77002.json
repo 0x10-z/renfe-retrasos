@@ -1,19 +1,8 @@
 {
   "station_id": "77002",
   "name": "Montcada-Ripollet",
-  "generated_at": "2026-03-30T15:07:41",
+  "generated_at": "2026-03-30T15:13:02",
   "arrivals": [
-    {
-      "trip_id": "5185L87986R3",
-      "route_id": "51T0130R3",
-      "train_name": "R3",
-      "headsign": "",
-      "origin": "Granollers-Canovelles",
-      "scheduled_time": "15:08",
-      "estimated_time": "15:08",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "5185L87073R3",
       "route_id": "51T0129R3",
@@ -66,6 +55,17 @@
       "origin": "Fabra I Puig",
       "scheduled_time": "16:07",
       "estimated_time": "16:07",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L87989R3",
+      "route_id": "51T0130R3",
+      "train_name": "R3",
+      "headsign": "",
+      "origin": "Granollers-Canovelles",
+      "scheduled_time": "16:08",
+      "estimated_time": "16:08",
       "delay_min": 0.0,
       "status": "en_hora"
     }

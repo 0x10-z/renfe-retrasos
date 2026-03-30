@@ -1,7 +1,7 @@
 {
   "station_id": "61200",
   "name": "Murcia",
-  "generated_at": "2026-03-30T15:07:24",
+  "generated_at": "2026-03-30T15:12:52",
   "arrivals": [
     {
       "trip_id": "1451712026-03-30",
@@ -65,9 +65,9 @@
       "headsign": "",
       "origin": "Alicante/Alacant",
       "scheduled_time": "15:54",
-      "estimated_time": "15:56",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
+      "estimated_time": "15:55",
+      "delay_min": 1.0,
+      "status": "en_hora"
     }
   ]
 }
