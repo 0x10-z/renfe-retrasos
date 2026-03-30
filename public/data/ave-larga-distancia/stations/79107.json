@@ -1,7 +1,7 @@
 {
   "station_id": "79107",
   "name": "Hostalric",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
       "trip_id": "1587612026-03-30",
@@ -10,9 +10,9 @@
       "headsign": "",
       "origin": "Portbou",
       "scheduled_time": "19:09",
-      "estimated_time": "19:13",
-      "delay_min": 4.0,
-      "status": "retraso_leve"
+      "estimated_time": "19:16",
+      "delay_min": 7.0,
+      "status": "retraso_alto"
     }
   ]
 }

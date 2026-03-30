@@ -1,7 +1,7 @@
 {
   "station_id": "01003",
   "name": "Arahal",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
       "trip_id": "1390812026-03-29",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Sevilla-Santa Justa",
       "scheduled_time": "19:24",
-      "estimated_time": "19:32",
-      "delay_min": 8.0,
+      "estimated_time": "19:37",
+      "delay_min": 13.0,
       "status": "retraso_alto"
     },
     {
@@ -21,9 +21,9 @@
       "headsign": "",
       "origin": "Malaga Maria Zambrano",
       "scheduled_time": "19:47",
-      "estimated_time": "19:49",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
+      "estimated_time": "19:58",
+      "delay_min": 11.0,
+      "status": "retraso_alto"
     }
   ]
 }

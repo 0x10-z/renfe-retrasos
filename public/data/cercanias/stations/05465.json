@@ -1,7 +1,7 @@
 {
   "station_id": "05465",
   "name": "La Quadra",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
     {
       "trip_id": "6085L71538C4",
@@ -33,6 +33,17 @@
       "origin": "Bilbao La Concordia",
       "scheduled_time": "19:38",
       "estimated_time": "19:38",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "6085L71541C4",
+      "route_id": "60T0008C4",
+      "train_name": "C4",
+      "headsign": "",
+      "origin": "La Calzada",
+      "scheduled_time": "19:49",
+      "estimated_time": "19:49",
       "delay_min": 0.0,
       "status": "en_hora"
     }

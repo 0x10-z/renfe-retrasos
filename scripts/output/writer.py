@@ -74,6 +74,7 @@ def write_history(stats: dict, service: ServiceConfig) -> None:
             records = []
 
     # Append new snapshot
+    percs = stats.get("delay_percentiles", {})
     records.append({
         "ts":      datetime.now().strftime("%Y-%m-%dT%H:%M"),
         "date":    datetime.now().strftime("%Y-%m-%d"),
@@ -81,6 +82,9 @@ def write_history(stats: dict, service: ServiceConfig) -> None:
         "delayed": stats.get("delayed", 0),
         "avg_min": stats.get("avg_delay_min", 0.0),
         "max_min": stats.get("max_delay_min", 0),
+        "p50":     percs.get("p50", 0),
+        "p75":     percs.get("p75", 0),
+        "p90":     percs.get("p90", 0),
     })
 
     history_path.write_text(

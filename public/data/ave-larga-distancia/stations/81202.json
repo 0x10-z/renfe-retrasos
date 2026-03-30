@@ -1,7 +1,7 @@
 {
   "station_id": "81202",
   "name": "Tudela De Navarra",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
       "trip_id": "0043712026-03-30",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Bilbao-Abando Indalecio Prieto",
       "scheduled_time": "19:07",
-      "estimated_time": "19:26",
-      "delay_min": 19.0,
+      "estimated_time": "19:28",
+      "delay_min": 21.0,
       "status": "retraso_alto"
     },
     {

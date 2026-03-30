@@ -1,7 +1,7 @@
 {
   "station_id": "65000",
   "name": "Valencia-Estaciò Del Nord",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
       "trip_id": "0116112026-03-29",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Barcelona-Sants",
       "scheduled_time": "19:02",
-      "estimated_time": "19:39",
-      "delay_min": 37.0,
+      "estimated_time": "19:29",
+      "delay_min": 27.0,
       "status": "retraso_alto"
     },
     {

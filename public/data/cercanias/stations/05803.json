@@ -1,7 +1,7 @@
 {
   "station_id": "05803",
   "name": "La Asunción Universidad",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
     {
       "trip_id": "4785L00031BUS",
@@ -44,6 +44,28 @@
       "origin": "La Asunción Universidad",
       "scheduled_time": "19:30",
       "estimated_time": "19:30",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "4785L00032BUS",
+      "route_id": "47T0006BUS",
+      "train_name": "BUS",
+      "headsign": "",
+      "origin": "La Asunción Universidad",
+      "scheduled_time": "19:57",
+      "estimated_time": "19:57",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "4785L71086C1",
+      "route_id": "47T0002C1",
+      "train_name": "C1",
+      "headsign": "",
+      "origin": "Cistierna",
+      "scheduled_time": "19:57",
+      "estimated_time": "19:57",
       "delay_min": 0.0,
       "status": "en_hora"
     }

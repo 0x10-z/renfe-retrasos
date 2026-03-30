@@ -1,7 +1,7 @@
 {
   "station_id": "73008",
   "name": "Montblanc",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
       "trip_id": "1504612026-03-29",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Lleida-Pirineus",
       "scheduled_time": "18:59",
-      "estimated_time": "19:19",
-      "delay_min": 20.0,
+      "estimated_time": "19:27",
+      "delay_min": 28.0,
       "status": "retraso_alto"
     },
     {
@@ -21,8 +21,8 @@
       "headsign": "",
       "origin": "Barcelona-Estació De França",
       "scheduled_time": "19:15",
-      "estimated_time": "19:47",
-      "delay_min": 32.0,
+      "estimated_time": "19:52",
+      "delay_min": 37.0,
       "status": "retraso_alto"
     }
   ]

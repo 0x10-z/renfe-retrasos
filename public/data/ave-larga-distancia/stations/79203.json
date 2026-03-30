@@ -1,30 +1,8 @@
 {
   "station_id": "79203",
   "name": "Caldes De Malavella",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
-    {
-      "trip_id": "1587612026-03-30",
-      "route_id": "7931571801VRR",
-      "train_name": "REGIONAL 15876",
-      "headsign": "",
-      "origin": "Portbou",
-      "scheduled_time": "18:54",
-      "estimated_time": "18:58",
-      "delay_min": 4.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "1581812026-03-30",
-      "route_id": "7180179315VRX",
-      "train_name": "MD 15818",
-      "headsign": "",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "18:55",
-      "estimated_time": "19:12",
-      "delay_min": 17.0,
-      "status": "retraso_alto"
-    },
     {
       "trip_id": "1572812026-03-30",
       "route_id": "7180179309VRX",
@@ -43,8 +21,19 @@
       "headsign": "",
       "origin": "Figueres",
       "scheduled_time": "19:30",
-      "estimated_time": "19:37",
-      "delay_min": 7.0,
+      "estimated_time": "19:36",
+      "delay_min": 6.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1573212026-03-30",
+      "route_id": "7180179309VRX",
+      "train_name": "MD 15732",
+      "headsign": "",
+      "origin": "Barcelona-Sants",
+      "scheduled_time": "19:55",
+      "estimated_time": "20:24",
+      "delay_min": 29.0,
       "status": "retraso_alto"
     }
   ]

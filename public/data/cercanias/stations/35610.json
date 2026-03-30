@@ -1,30 +1,8 @@
 {
   "station_id": "35610",
   "name": "Las Retamas",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
-    {
-      "trip_id": "1085L76508C5",
-      "route_id": "10T0017C5",
-      "train_name": "C5",
-      "headsign": "",
-      "origin": "Móstoles-El Soto",
-      "scheduled_time": "18:57",
-      "estimated_time": "18:57",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L76499C5",
-      "route_id": "10T0018C5",
-      "train_name": "C5",
-      "headsign": "",
-      "origin": "Madrid-Atocha Cercanías",
-      "scheduled_time": "18:58",
-      "estimated_time": "18:58",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "1085L76510C5",
       "route_id": "10T0017C5",
@@ -109,9 +87,9 @@
       "headsign": "",
       "origin": "Madrid-Atocha Cercanías",
       "scheduled_time": "19:38",
-      "estimated_time": "19:49",
-      "delay_min": 11.0,
-      "status": "retraso_alto"
+      "estimated_time": "19:38",
+      "delay_min": 0.0,
+      "status": "en_hora"
     },
     {
       "trip_id": "1085L76518C5",
@@ -132,6 +110,28 @@
       "origin": "Madrid-Atocha Cercanías",
       "scheduled_time": "19:48",
       "estimated_time": "19:48",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L76520C5",
+      "route_id": "10T0017C5",
+      "train_name": "C5",
+      "headsign": "",
+      "origin": "Móstoles-El Soto",
+      "scheduled_time": "19:57",
+      "estimated_time": "19:57",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L76511C5",
+      "route_id": "10T0018C5",
+      "train_name": "C5",
+      "headsign": "",
+      "origin": "Madrid-Atocha Cercanías",
+      "scheduled_time": "19:58",
+      "estimated_time": "19:58",
       "delay_min": 0.0,
       "status": "en_hora"
     }

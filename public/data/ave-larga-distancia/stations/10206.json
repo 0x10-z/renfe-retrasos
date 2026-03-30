@@ -1,19 +1,8 @@
 {
   "station_id": "10206",
   "name": "Santa María De La Alameda-Peguerinos",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
-    {
-      "trip_id": "1891312026-03-29",
-      "route_id": "1000030110VRX",
-      "train_name": "MD 18913",
-      "headsign": "",
-      "origin": "Madrid-Principe Pio",
-      "scheduled_time": "18:54",
-      "estimated_time": "19:00",
-      "delay_min": 6.0,
-      "status": "retraso_alto"
-    },
     {
       "trip_id": "1800512026-03-30",
       "route_id": "1000015100VRX",

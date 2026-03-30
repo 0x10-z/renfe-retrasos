@@ -1,7 +1,7 @@
 {
   "station_id": "66209",
   "name": "Loriguilla-Reva",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
     {
       "trip_id": "4085L76635C3",
@@ -21,8 +21,8 @@
       "headsign": "",
       "origin": "Buñol",
       "scheduled_time": "19:48",
-      "estimated_time": "19:49",
-      "delay_min": 1.0,
+      "estimated_time": "19:48",
+      "delay_min": 0.0,
       "status": "en_hora"
     }
   ]

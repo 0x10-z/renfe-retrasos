@@ -1,30 +1,8 @@
 {
   "station_id": "65420",
   "name": "L'HOSPITALET DE L'INFANT",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
-    {
-      "trip_id": "1813212026-03-29",
-      "route_id": "6540079400VRE",
-      "train_name": "REG.EXP. 18132",
-      "headsign": "",
-      "origin": "Tortosa",
-      "scheduled_time": "18:53",
-      "estimated_time": "19:01",
-      "delay_min": 8.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "3596812026-03-30",
-      "route_id": "7180165400AV008",
-      "train_name": "AVANT EXP 35968",
-      "headsign": "",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "18:58",
-      "estimated_time": "19:31",
-      "delay_min": 33.0,
-      "status": "retraso_alto"
-    },
     {
       "trip_id": "1813312026-03-29",
       "route_id": "7940065400VRE",

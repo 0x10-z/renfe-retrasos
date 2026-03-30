@@ -1,30 +1,8 @@
 {
   "station_id": "35606",
   "name": "Móstoles",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
-    {
-      "trip_id": "1085L76497C5",
-      "route_id": "10T0018C5",
-      "train_name": "C5",
-      "headsign": "",
-      "origin": "Madrid-Atocha Cercanías",
-      "scheduled_time": "18:51",
-      "estimated_time": "18:51",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L76508C5",
-      "route_id": "10T0017C5",
-      "train_name": "C5",
-      "headsign": "",
-      "origin": "Móstoles-El Soto",
-      "scheduled_time": "18:54",
-      "estimated_time": "18:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "1085L76499C5",
       "route_id": "10T0018C5",
@@ -109,8 +87,8 @@
       "headsign": "",
       "origin": "Móstoles-El Soto",
       "scheduled_time": "19:34",
-      "estimated_time": "19:50",
-      "delay_min": 16.0,
+      "estimated_time": "20:00",
+      "delay_min": 26.0,
       "status": "retraso_alto"
     },
     {
@@ -134,6 +112,28 @@
       "estimated_time": "19:44",
       "delay_min": 0.0,
       "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L76509C5",
+      "route_id": "10T0018C5",
+      "train_name": "C5",
+      "headsign": "",
+      "origin": "Madrid-Atocha Cercanías",
+      "scheduled_time": "19:51",
+      "estimated_time": "19:51",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L76520C5",
+      "route_id": "10T0017C5",
+      "train_name": "C5",
+      "headsign": "",
+      "origin": "Móstoles-El Soto",
+      "scheduled_time": "19:54",
+      "estimated_time": "19:56",
+      "delay_min": 2.0,
+      "status": "retraso_leve"
     }
   ]
 }

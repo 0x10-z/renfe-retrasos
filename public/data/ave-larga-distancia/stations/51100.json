@@ -1,7 +1,7 @@
 {
   "station_id": "51100",
   "name": "Sevilla-San Bernardo",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
       "trip_id": "1301712026-03-29",
@@ -10,9 +10,9 @@
       "headsign": "",
       "origin": "Cádiz",
       "scheduled_time": "19:02",
-      "estimated_time": "19:06",
-      "delay_min": 4.0,
-      "status": "retraso_leve"
+      "estimated_time": "19:11",
+      "delay_min": 9.0,
+      "status": "retraso_alto"
     },
     {
       "trip_id": "3501712026-03-29",
@@ -32,8 +32,8 @@
       "headsign": "",
       "origin": "Sevilla-Santa Justa",
       "scheduled_time": "19:33",
-      "estimated_time": "19:36",
-      "delay_min": 3.0,
+      "estimated_time": "19:38",
+      "delay_min": 5.0,
       "status": "retraso_leve"
     }
   ]

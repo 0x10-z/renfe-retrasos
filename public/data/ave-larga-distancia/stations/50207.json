@@ -1,7 +1,7 @@
 {
   "station_id": "50207",
   "name": "Vilches",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
       "trip_id": "1803212026-03-30",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:01",
-      "estimated_time": "19:18",
-      "delay_min": 17.0,
+      "estimated_time": "19:19",
+      "delay_min": 18.0,
       "status": "retraso_alto"
     },
     {
@@ -21,9 +21,9 @@
       "headsign": "",
       "origin": "Almeria",
       "scheduled_time": "19:25",
-      "estimated_time": "19:35",
-      "delay_min": 10.0,
-      "status": "retraso_alto"
+      "estimated_time": "19:29",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
     }
   ]
 }

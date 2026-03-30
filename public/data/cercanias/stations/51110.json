@@ -1,30 +1,8 @@
 {
   "station_id": "51110",
   "name": "Virgen Del Rocío",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
-    {
-      "trip_id": "3085L23565C1",
-      "route_id": "30T0002C1",
-      "train_name": "C1",
-      "headsign": "",
-      "origin": "Utrera",
-      "scheduled_time": "18:53",
-      "estimated_time": "18:53",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3085L23560C1",
-      "route_id": "30T0001C1",
-      "train_name": "C1",
-      "headsign": "",
-      "origin": "Lora Del Río",
-      "scheduled_time": "18:54",
-      "estimated_time": "18:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "3085L23833C5",
       "route_id": "30T0009C5",
@@ -65,9 +43,31 @@
       "headsign": "",
       "origin": "Lora Del Río",
       "scheduled_time": "19:25",
-      "estimated_time": "19:50",
-      "delay_min": 25.0,
-      "status": "retraso_alto"
+      "estimated_time": "19:25",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3085L23569C1",
+      "route_id": "30T0002C1",
+      "train_name": "C1",
+      "headsign": "",
+      "origin": "Utrera",
+      "scheduled_time": "19:52",
+      "estimated_time": "19:52",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3085L23564C1",
+      "route_id": "30T0001C1",
+      "train_name": "C1",
+      "headsign": "",
+      "origin": "Lora Del Río",
+      "scheduled_time": "19:56",
+      "estimated_time": "19:56",
+      "delay_min": 0.0,
+      "status": "en_hora"
     }
   ]
 }

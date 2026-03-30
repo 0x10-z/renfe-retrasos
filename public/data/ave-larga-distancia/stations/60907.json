@@ -1,7 +1,7 @@
 {
   "station_id": "60907",
   "name": "Novelda-Aspe",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
       "trip_id": "1420212026-03-30",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Cartagena",
       "scheduled_time": "19:13",
-      "estimated_time": "19:39",
-      "delay_min": 26.0,
+      "estimated_time": "19:41",
+      "delay_min": 28.0,
       "status": "retraso_alto"
     },
     {

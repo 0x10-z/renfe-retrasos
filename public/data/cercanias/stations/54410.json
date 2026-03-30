@@ -1,19 +1,8 @@
 {
   "station_id": "54410",
   "name": "Campanillas",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
-    {
-      "trip_id": "3285L23171C2",
-      "route_id": "32T0003C2",
-      "train_name": "C2",
-      "headsign": "",
-      "origin": "Málaga-Centro Alameda",
-      "scheduled_time": "18:53",
-      "estimated_time": "18:53",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "3285L23168C2",
       "route_id": "32T0004C2",
@@ -22,6 +11,17 @@
       "origin": "álora",
       "scheduled_time": "19:15",
       "estimated_time": "19:15",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3285L23173C2",
+      "route_id": "32T0003C2",
+      "train_name": "C2",
+      "headsign": "",
+      "origin": "Málaga-Centro Alameda",
+      "scheduled_time": "19:54",
+      "estimated_time": "19:54",
       "delay_min": 0.0,
       "status": "en_hora"
     }

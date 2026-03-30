@@ -1,30 +1,8 @@
 {
   "station_id": "05505",
   "name": "Colloto",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
-    {
-      "trip_id": "2085L71823C6",
-      "route_id": "20T0015C6",
-      "train_name": "C6",
-      "headsign": "",
-      "origin": "Oviedo",
-      "scheduled_time": "18:50",
-      "estimated_time": "18:50",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "2085L70483C5a",
-      "route_id": "20T0105C5a",
-      "train_name": "C5a",
-      "headsign": "",
-      "origin": "Gijón-Sanz Crespo",
-      "scheduled_time": "18:54",
-      "estimated_time": "18:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "2085L70815C6",
       "route_id": "20T0015C6",
@@ -66,6 +44,28 @@
       "origin": "Infiesto Apeadero",
       "scheduled_time": "19:36",
       "estimated_time": "19:36",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "2085L70767C6",
+      "route_id": "20T0015C6",
+      "train_name": "C6",
+      "headsign": "",
+      "origin": "Oviedo",
+      "scheduled_time": "19:52",
+      "estimated_time": "19:52",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "2085L70485C5a",
+      "route_id": "20T0105C5a",
+      "train_name": "C5a",
+      "headsign": "",
+      "origin": "Gijón-Sanz Crespo",
+      "scheduled_time": "19:54",
+      "estimated_time": "19:54",
       "delay_min": 0.0,
       "status": "en_hora"
     }

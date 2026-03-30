@@ -1,41 +1,8 @@
 {
   "station_id": "18003",
   "name": "Méndez álvaro P.v.",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
-    {
-      "trip_id": "1085L75250C10",
-      "route_id": "10T0004C10",
-      "train_name": "C10",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "18:49",
-      "estimated_time": "18:49",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L76765C5",
-      "route_id": "10T0018C5",
-      "train_name": "C5",
-      "headsign": "",
-      "origin": "Humanes",
-      "scheduled_time": "18:53",
-      "estimated_time": "18:53",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L77068C5",
-      "route_id": "10T0047C5",
-      "train_name": "C5",
-      "headsign": "",
-      "origin": "Madrid-Atocha Cercanías",
-      "scheduled_time": "18:54",
-      "estimated_time": "18:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "1085L75152C10",
       "route_id": "10T0003C10",
@@ -197,9 +164,9 @@
       "headsign": "",
       "origin": "Fuenlabrada",
       "scheduled_time": "19:43",
-      "estimated_time": "19:48",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
+      "estimated_time": "19:43",
+      "delay_min": 0.0,
+      "status": "en_hora"
     },
     {
       "trip_id": "1085L76766C5",
@@ -220,6 +187,39 @@
       "origin": "Pinar De Las Rozas",
       "scheduled_time": "19:46",
       "estimated_time": "19:46",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L75254C10",
+      "route_id": "10T0004C10",
+      "train_name": "C10",
+      "headsign": "",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "19:49",
+      "estimated_time": "19:49",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L76771C5",
+      "route_id": "10T0018C5",
+      "train_name": "C5",
+      "headsign": "",
+      "origin": "Humanes",
+      "scheduled_time": "19:53",
+      "estimated_time": "19:53",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L77074C5",
+      "route_id": "10T0047C5",
+      "train_name": "C5",
+      "headsign": "",
+      "origin": "Madrid-Atocha Cercanías",
+      "scheduled_time": "19:54",
+      "estimated_time": "19:54",
       "delay_min": 0.0,
       "status": "en_hora"
     }

@@ -1,19 +1,8 @@
 {
   "station_id": "64107",
   "name": "Benifaió",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
-    {
-      "trip_id": "4085L36075C2",
-      "route_id": "40T0005C2",
-      "train_name": "C2",
-      "headsign": "",
-      "origin": "València-Estació Del Nord",
-      "scheduled_time": "18:54",
-      "estimated_time": "18:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "4085L36070C2",
       "route_id": "40T0006C2",
@@ -46,6 +35,17 @@
       "estimated_time": "19:18",
       "delay_min": 0.0,
       "status": "en_hora"
+    },
+    {
+      "trip_id": "4085L36083C2",
+      "route_id": "40T0005C2",
+      "train_name": "C2",
+      "headsign": "",
+      "origin": "València-Estació Del Nord",
+      "scheduled_time": "19:56",
+      "estimated_time": "19:58",
+      "delay_min": 2.0,
+      "status": "retraso_leve"
     }
   ]
 }

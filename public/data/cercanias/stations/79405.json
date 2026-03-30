@@ -1,30 +1,8 @@
 {
   "station_id": "79405",
   "name": "Montgat",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
-    {
-      "trip_id": "5185L25670R1",
-      "route_id": "51T0002R1",
-      "train_name": "R1",
-      "headsign": "",
-      "origin": "Blanes",
-      "scheduled_time": "18:51",
-      "estimated_time": "18:51",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L25667R1",
-      "route_id": "51T0001R1",
-      "train_name": "R1",
-      "headsign": "",
-      "origin": "L'hospitalet De Llobregat",
-      "scheduled_time": "18:52",
-      "estimated_time": "18:52",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "5185L25838R1",
       "route_id": "51T0002R1",
@@ -65,9 +43,9 @@
       "headsign": "",
       "origin": "Blanes",
       "scheduled_time": "19:21",
-      "estimated_time": "19:48",
-      "delay_min": 27.0,
-      "status": "retraso_alto"
+      "estimated_time": "19:21",
+      "delay_min": 0.0,
+      "status": "en_hora"
     },
     {
       "trip_id": "5185L25671R1",
@@ -99,6 +77,28 @@
       "origin": "L'hospitalet De Llobregat",
       "scheduled_time": "19:37",
       "estimated_time": "19:37",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L25676R1",
+      "route_id": "51T0002R1",
+      "train_name": "R1",
+      "headsign": "",
+      "origin": "Blanes",
+      "scheduled_time": "19:51",
+      "estimated_time": "19:51",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L25675R1",
+      "route_id": "51T0001R1",
+      "train_name": "R1",
+      "headsign": "",
+      "origin": "L'hospitalet De Llobregat",
+      "scheduled_time": "19:52",
+      "estimated_time": "19:52",
       "delay_min": 0.0,
       "status": "en_hora"
     }

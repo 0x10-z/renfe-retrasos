@@ -47,6 +47,12 @@ def compute_stats(station_data: StationData) -> dict:
 
     avg_delay = round(sum(delays) / len(delays), 1) if delays else 0.0
     max_delay = round(max(delays), 1) if delays else 0
+    percentiles = {
+        "p50": _percentile(delays, 50),
+        "p75": _percentile(delays, 75),
+        "p90": _percentile(delays, 90),
+        "p95": _percentile(delays, 95),
+    } if delays else {"p50": 0, "p75": 0, "p90": 0, "p95": 0}
 
     busiest = _top(station_counts, key=lambda v: v["count"])
     worst = _top(
@@ -65,6 +71,7 @@ def compute_stats(station_data: StationData) -> dict:
         "cancelled": cancelled,
         "avg_delay_min": avg_delay,
         "max_delay_min": max_delay,
+        "delay_percentiles": percentiles,
         "max_delay_station": max_delay_entry,
         "stations_count": len(station_data),
         "busiest_station": _with_id(busiest) if busiest else None,
@@ -76,6 +83,13 @@ def compute_stats(station_data: StationData) -> dict:
         f"avg: {avg_delay}m, max: {max_delay}m"
     )
     return stats
+
+
+def _percentile(data: list, p: float) -> float:
+    s = sorted(data)
+    idx = (len(s) - 1) * p / 100
+    lo, hi = int(idx), min(int(idx) + 1, len(s) - 1)
+    return round(s[lo] + (s[hi] - s[lo]) * (idx - lo), 1)
 
 
 def _top(d: dict, key) -> Optional[tuple]:

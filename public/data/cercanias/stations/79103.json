@@ -1,19 +1,8 @@
 {
   "station_id": "79103",
   "name": "Palautordera",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
-    {
-      "trip_id": "5185L25448R2N",
-      "route_id": "51T0003R2N",
-      "train_name": "R2N",
-      "headsign": "",
-      "origin": "El Prat Aeroport",
-      "scheduled_time": "18:54",
-      "estimated_time": "18:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "5185L28458R2N",
       "route_id": "51T0004R2N",
@@ -44,6 +33,17 @@
       "origin": "Sant Celoni",
       "scheduled_time": "19:41",
       "estimated_time": "19:41",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L25452R2N",
+      "route_id": "51T0003R2N",
+      "train_name": "R2N",
+      "headsign": "",
+      "origin": "El Prat Aeroport",
+      "scheduled_time": "19:54",
+      "estimated_time": "19:54",
       "delay_min": 0.0,
       "status": "en_hora"
     }

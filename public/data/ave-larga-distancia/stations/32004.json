@@ -1,6 +1,18 @@
 {
   "station_id": "32004",
   "name": "Cantalapiedra",
-  "generated_at": "2026-03-30T18:48:11",
-  "arrivals": []
+  "generated_at": "2026-03-30T18:58:13",
+  "arrivals": [
+    {
+      "trip_id": "1831812026-03-29",
+      "route_id": "1060030110VRE",
+      "train_name": "REG.EXP. 18318",
+      "headsign": "",
+      "origin": "Valladolid",
+      "scheduled_time": "19:58",
+      "estimated_time": "20:07",
+      "delay_min": 9.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

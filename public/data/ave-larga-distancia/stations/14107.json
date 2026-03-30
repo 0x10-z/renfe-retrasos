@@ -1,17 +1,17 @@
 {
   "station_id": "14107",
   "name": "Osorno",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
-      "trip_id": "1810412026-03-30",
-      "route_id": "1422310600VRE",
-      "train_name": "REG.EXP. 18104",
+      "trip_id": "1810512026-03-30",
+      "route_id": "1060014223VRE",
+      "train_name": "REG.EXP. 18105",
       "headsign": "",
-      "origin": "Santander",
-      "scheduled_time": "18:57",
-      "estimated_time": "19:05",
-      "delay_min": 8.0,
+      "origin": "Valladolid",
+      "scheduled_time": "19:51",
+      "estimated_time": "20:01",
+      "delay_min": 10.0,
       "status": "retraso_alto"
     }
   ]

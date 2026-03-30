@@ -57,6 +57,7 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
         <div class="stat-label">Media de retraso <span class="info-tip" data-tip="Media de minutos de retraso calculada sobre los trenes con retraso en la última captura">ℹ</span></div>
         <div class="stat-value" id="v-avg">—</div>
         <div class="stat-sub" id="sub-avg">minutos</div>
+        <div class="stat-sub stat-percentiles" id="sub-percentiles"></div>
       </div>
     </div>
 
@@ -322,6 +323,19 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .stat-percentiles {
+    margin-top: 0.2rem;
+    letter-spacing: 0.01em;
+    white-space: normal;
+  }
+  .stat-percentiles .perc-label {
+    opacity: 0.65;
+    margin-right: 0.15em;
+  }
+  .stat-percentiles .perc-sep {
+    margin: 0 0.3em;
+    opacity: 0.35;
   }
 
   /* Station list */
@@ -988,6 +1002,17 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
 
     setText("v-avg", s.avg_delay_min != null ? `${s.avg_delay_min}` : "—");
     setText("sub-avg", s.delayed > 0 ? `sobre ${s.delayed} tren${s.delayed !== 1 ? "es" : ""} retrasado${s.delayed !== 1 ? "s" : ""}` : "minutos");
+
+    const percs = s.delay_percentiles;
+    const percEl = document.getElementById("sub-percentiles")!;
+    if (percs && s.delayed > 0) {
+      percEl.innerHTML =
+        `<span class="perc-label">p50</span>${percs.p50}m` +
+        `<span class="perc-sep">·</span><span class="perc-label">p75</span>${percs.p75}m` +
+        `<span class="perc-sep">·</span><span class="perc-label">p90</span>${percs.p90}m`;
+    } else {
+      percEl.innerHTML = "";
+    }
 
     setText("v-max", s.max_delay_min != null ? `${s.max_delay_min}` : "—");
     const maxSt = s.max_delay_station;

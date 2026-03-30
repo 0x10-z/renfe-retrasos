@@ -1,30 +1,8 @@
 {
   "station_id": "18001",
   "name": "Madrid-Recoletos",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
-    {
-      "trip_id": "1085L75347C10",
-      "route_id": "10T0075C10",
-      "train_name": "C10",
-      "headsign": "",
-      "origin": "Pinar De Las Rozas",
-      "scheduled_time": "18:53",
-      "estimated_time": "18:53",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L75352C10",
-      "route_id": "10T0076C10",
-      "train_name": "C10",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "18:55",
-      "estimated_time": "18:55",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "1085L76852C7",
       "route_id": "10T0051C7",
@@ -164,8 +142,41 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:48",
-      "estimated_time": "19:52",
-      "delay_min": 4.0,
+      "estimated_time": "19:48",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L76863C7",
+      "route_id": "10T0052C7",
+      "train_name": "C7",
+      "headsign": "",
+      "origin": "Guadalajara",
+      "scheduled_time": "19:49",
+      "estimated_time": "19:49",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L75351C10",
+      "route_id": "10T0075C10",
+      "train_name": "C10",
+      "headsign": "",
+      "origin": "Pinar De Las Rozas",
+      "scheduled_time": "19:54",
+      "estimated_time": "19:54",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L75356C10",
+      "route_id": "10T0076C10",
+      "train_name": "C10",
+      "headsign": "",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "19:55",
+      "estimated_time": "19:58",
+      "delay_min": 3.0,
       "status": "retraso_leve"
     }
   ]

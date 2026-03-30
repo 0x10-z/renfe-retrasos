@@ -1,7 +1,7 @@
 {
   "station_id": "03208",
   "name": "Cuenca Fernando Zobel",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
       "trip_id": "0518312026-03-29",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Alicante/Alacant",
       "scheduled_time": "19:03",
-      "estimated_time": "19:07",
-      "delay_min": 4.0,
+      "estimated_time": "19:05",
+      "delay_min": 2.0,
       "status": "retraso_leve"
     },
     {
@@ -21,8 +21,8 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:32",
-      "estimated_time": "19:41",
-      "delay_min": 9.0,
+      "estimated_time": "19:44",
+      "delay_min": 12.0,
       "status": "retraso_alto"
     },
     {
@@ -32,9 +32,20 @@
       "headsign": "",
       "origin": "Valencia Joaquin Sorolla",
       "scheduled_time": "19:34",
-      "estimated_time": "19:35",
-      "delay_min": 1.0,
+      "estimated_time": "19:34",
+      "delay_min": 0.0,
       "status": "en_hora"
+    },
+    {
+      "trip_id": "0398112026-03-29",
+      "route_id": "5100303216AV006",
+      "train_name": "AVE 03981",
+      "headsign": "",
+      "origin": "Sevilla-Santa Justa",
+      "scheduled_time": "19:56",
+      "estimated_time": "20:03",
+      "delay_min": 7.0,
+      "status": "retraso_alto"
     }
   ]
 }

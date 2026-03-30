@@ -1,7 +1,7 @@
 {
   "station_id": "73005",
   "name": "Vinaixa",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
       "trip_id": "1504512026-03-29",
@@ -10,8 +10,8 @@
       "headsign": "",
       "origin": "Barcelona-Estació De França",
       "scheduled_time": "19:36",
-      "estimated_time": "20:08",
-      "delay_min": 32.0,
+      "estimated_time": "20:13",
+      "delay_min": 37.0,
       "status": "retraso_alto"
     }
   ]

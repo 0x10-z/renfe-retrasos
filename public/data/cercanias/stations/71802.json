@@ -1,30 +1,8 @@
 {
   "station_id": "71802",
   "name": "Barcelona-Passeig De Gràcia",
-  "generated_at": "2026-03-30T18:48:19",
+  "generated_at": "2026-03-30T18:58:22",
   "arrivals": [
-    {
-      "trip_id": "5185L34684R11",
-      "route_id": "51T0094R11",
-      "train_name": "R11",
-      "headsign": "",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "18:50",
-      "estimated_time": "18:50",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L25553R2S",
-      "route_id": "51T0008R2S",
-      "train_name": "R2S",
-      "headsign": "",
-      "origin": "Barcelona Estació De França",
-      "scheduled_time": "18:58",
-      "estimated_time": "18:58",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "5185L28376R2S",
       "route_id": "51T0007R2S",
@@ -187,6 +165,39 @@
       "origin": "Sant Vicenç De Calders",
       "scheduled_time": "19:40",
       "estimated_time": "19:40",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L15734R11",
+      "route_id": "51T0094R11",
+      "train_name": "R11",
+      "headsign": "",
+      "origin": "Barcelona-Sants",
+      "scheduled_time": "19:50",
+      "estimated_time": "19:50",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L28544R2",
+      "route_id": "51T0026R2",
+      "train_name": "R2",
+      "headsign": "",
+      "origin": "Castelldefels",
+      "scheduled_time": "19:54",
+      "estimated_time": "19:54",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5185L25557R2S",
+      "route_id": "51T0008R2S",
+      "train_name": "R2S",
+      "headsign": "",
+      "origin": "Barcelona Estació De França",
+      "scheduled_time": "19:58",
+      "estimated_time": "19:58",
       "delay_min": 0.0,
       "status": "en_hora"
     }

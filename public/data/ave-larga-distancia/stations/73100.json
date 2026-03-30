@@ -1,19 +1,8 @@
 {
   "station_id": "73100",
   "name": "La Plana-Picamoixons",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
-    {
-      "trip_id": "1504512026-03-29",
-      "route_id": "7940078400VRE",
-      "train_name": "REG.EXP. 15045",
-      "headsign": "",
-      "origin": "Barcelona-Estació De França",
-      "scheduled_time": "18:57",
-      "estimated_time": "19:29",
-      "delay_min": 32.0,
-      "status": "retraso_alto"
-    },
     {
       "trip_id": "1504612026-03-29",
       "route_id": "7840079400VRE",
@@ -21,8 +10,8 @@
       "headsign": "",
       "origin": "Lleida-Pirineus",
       "scheduled_time": "19:12",
-      "estimated_time": "19:32",
-      "delay_min": 20.0,
+      "estimated_time": "19:40",
+      "delay_min": 28.0,
       "status": "retraso_alto"
     }
   ]

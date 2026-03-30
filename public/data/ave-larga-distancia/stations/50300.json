@@ -1,7 +1,7 @@
 {
   "station_id": "50300",
   "name": "Linares-Baeza",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
     {
       "trip_id": "0027912026-03-30",
@@ -10,9 +10,9 @@
       "headsign": "",
       "origin": "Almeria",
       "scheduled_time": "19:08",
-      "estimated_time": "19:18",
-      "delay_min": 10.0,
-      "status": "retraso_alto"
+      "estimated_time": "19:12",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
     },
     {
       "trip_id": "3727912026-03-29",
@@ -32,9 +32,9 @@
       "headsign": "",
       "origin": "Linares-Baeza",
       "scheduled_time": "19:10",
-      "estimated_time": "19:20",
-      "delay_min": 10.0,
-      "status": "retraso_alto"
+      "estimated_time": "19:14",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
     },
     {
       "trip_id": "1803212026-03-30",
@@ -43,8 +43,8 @@
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "19:17",
-      "estimated_time": "19:34",
-      "delay_min": 17.0,
+      "estimated_time": "19:35",
+      "delay_min": 18.0,
       "status": "retraso_alto"
     }
   ]

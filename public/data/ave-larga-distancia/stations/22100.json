@@ -1,19 +1,8 @@
 {
   "station_id": "22100",
   "name": "Ourense",
-  "generated_at": "2026-03-30T18:48:11",
+  "generated_at": "2026-03-30T18:58:13",
   "arrivals": [
-    {
-      "trip_id": "0438412026-03-29",
-      "route_id": "0822317000AV006",
-      "train_name": "AVE 04384",
-      "headsign": "",
-      "origin": "Vigo Urzaiz",
-      "scheduled_time": "18:52",
-      "estimated_time": "19:00",
-      "delay_min": 8.0,
-      "status": "retraso_alto"
-    },
     {
       "trip_id": "0959012026-03-29",
       "route_id": "2210031412AV008",
@@ -21,8 +10,8 @@
       "headsign": "",
       "origin": "Ourense",
       "scheduled_time": "19:00",
-      "estimated_time": "19:00",
-      "delay_min": 0.0,
+      "estimated_time": "19:01",
+      "delay_min": 1.0,
       "status": "en_hora"
     },
     {
@@ -34,6 +23,17 @@
       "scheduled_time": "19:37",
       "estimated_time": "10:14",
       "delay_min": -563.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1264612026-03-29",
+      "route_id": "2210031412VRM",
+      "train_name": "MD 12646",
+      "headsign": "",
+      "origin": "Ourense",
+      "scheduled_time": "19:50",
+      "estimated_time": "19:50",
+      "delay_min": 0.0,
       "status": "en_hora"
     }
   ]
