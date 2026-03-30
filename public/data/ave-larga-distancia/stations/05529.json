@@ -1,17 +1,17 @@
 {
   "station_id": "05529",
   "name": "Carancos",
-  "generated_at": "2026-03-30T15:12:52",
+  "generated_at": "2026-03-30T16:00:07",
   "arrivals": [
     {
-      "trip_id": "7183312026-03-29",
-      "route_id": "1521114223VRFV",
-      "train_name": "REGIONAL 71833",
+      "trip_id": "7182212026-03-30",
+      "route_id": "0557115211VRFV",
+      "train_name": "REGIONAL 71822",
       "headsign": "",
-      "origin": "Oviedo/Uviéu",
-      "scheduled_time": "15:58",
-      "estimated_time": "16:04",
-      "delay_min": 6.0,
+      "origin": "Llanes",
+      "scheduled_time": "16:19",
+      "estimated_time": "17:01",
+      "delay_min": 42.0,
       "status": "retraso_alto"
     }
   ]

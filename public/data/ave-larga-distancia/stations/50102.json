@@ -1,18 +1,6 @@
 {
   "station_id": "50102",
   "name": "Valdepeñas",
-  "generated_at": "2026-03-30T15:12:52",
-  "arrivals": [
-    {
-      "trip_id": "0069712026-03-30",
-      "route_id": "7180150500GL023",
-      "train_name": "ALVIA 00697",
-      "headsign": "",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "15:56",
-      "estimated_time": "16:29",
-      "delay_min": 33.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-30T16:00:07",
+  "arrivals": []
 }

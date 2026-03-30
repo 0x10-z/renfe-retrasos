@@ -1,18 +1,18 @@
 {
   "station_id": "35200",
   "name": "Talavera De La Reina",
-  "generated_at": "2026-03-30T15:12:52",
+  "generated_at": "2026-03-30T16:00:07",
   "arrivals": [
     {
-      "trip_id": "1702612026-03-30",
-      "route_id": "3750018000VRE",
-      "train_name": "REG.EXP. 17026",
+      "trip_id": "1701212026-03-30",
+      "route_id": "1800037500VRM",
+      "train_name": "REG.EXP. 17012",
       "headsign": "",
-      "origin": "Mérida",
-      "scheduled_time": "15:52",
-      "estimated_time": "16:01",
-      "delay_min": 9.0,
-      "status": "retraso_alto"
+      "origin": "Madrid - Atocha Cercanías",
+      "scheduled_time": "16:13",
+      "estimated_time": "16:17",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
     }
   ]
 }

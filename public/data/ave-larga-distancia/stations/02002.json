@@ -1,6 +1,18 @@
 {
   "station_id": "02002",
   "name": "Puente Genil-Herrera",
-  "generated_at": "2026-03-30T15:12:52",
-  "arrivals": []
+  "generated_at": "2026-03-30T16:00:07",
+  "arrivals": [
+    {
+      "trip_id": "0815512026-03-29",
+      "route_id": "5100354413AV008",
+      "train_name": "AVANT 08155",
+      "headsign": "",
+      "origin": "Sevilla-Santa Justa",
+      "scheduled_time": "16:55",
+      "estimated_time": "17:00",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
+    }
+  ]
 }

@@ -1,18 +1,18 @@
 {
   "station_id": "35105",
   "name": "Torrijos",
-  "generated_at": "2026-03-30T15:12:52",
+  "generated_at": "2026-03-30T16:00:07",
   "arrivals": [
     {
-      "trip_id": "1701212026-03-30",
-      "route_id": "1800037500VRM",
-      "train_name": "REG.EXP. 17012",
+      "trip_id": "1702612026-03-30",
+      "route_id": "3750018000VRE",
+      "train_name": "REG.EXP. 17026",
       "headsign": "",
-      "origin": "Madrid - Atocha Cercanías",
-      "scheduled_time": "15:47",
-      "estimated_time": "15:50",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
+      "origin": "Mérida",
+      "scheduled_time": "16:26",
+      "estimated_time": "16:41",
+      "delay_min": 15.0,
+      "status": "retraso_alto"
     }
   ]
 }

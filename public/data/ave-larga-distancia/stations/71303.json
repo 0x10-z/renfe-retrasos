@@ -1,7 +1,7 @@
 {
   "station_id": "71303",
   "name": "Marçà-Falset",
-  "generated_at": "2026-03-30T15:12:52",
+  "generated_at": "2026-03-30T16:00:07",
   "arrivals": [
     {
       "trip_id": "1503312026-03-29",
@@ -10,9 +10,9 @@
       "headsign": "",
       "origin": "Barcelona-Estació De França",
       "scheduled_time": "16:09",
-      "estimated_time": "16:12",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
+      "estimated_time": "16:18",
+      "delay_min": 9.0,
+      "status": "retraso_alto"
     }
   ]
 }

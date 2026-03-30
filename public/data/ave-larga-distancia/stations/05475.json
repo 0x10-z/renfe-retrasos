@@ -1,18 +1,6 @@
 {
   "station_id": "05475",
   "name": "Zalla",
-  "generated_at": "2026-03-30T15:12:52",
-  "arrivals": [
-    {
-      "trip_id": "7187612026-03-29",
-      "route_id": "0545105778VRFV",
-      "train_name": "REGIONAL 71876",
-      "headsign": "",
-      "origin": "Bilbao la Concordia",
-      "scheduled_time": "15:14",
-      "estimated_time": "15:16",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
-    }
-  ]
+  "generated_at": "2026-03-30T16:00:07",
+  "arrivals": []
 }

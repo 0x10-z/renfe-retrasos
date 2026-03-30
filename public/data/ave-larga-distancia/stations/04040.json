@@ -1,118 +1,8 @@
 {
   "station_id": "04040",
   "name": "Zaragoza-Delicias",
-  "generated_at": "2026-03-30T15:12:52",
+  "generated_at": "2026-03-30T16:00:07",
   "arrivals": [
-    {
-      "trip_id": "3585212026-03-29",
-      "route_id": "7060004040VRR",
-      "train_name": "REGIONAL 35852",
-      "headsign": "",
-      "origin": "Calatayud",
-      "scheduled_time": "15:13",
-      "estimated_time": "15:13",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1551012026-03-29",
-      "route_id": "0404078400VRE",
-      "train_name": "REG.EXP. 15510",
-      "headsign": "",
-      "origin": "Zaragoza-Delicias",
-      "scheduled_time": "15:15",
-      "estimated_time": "15:15",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1804812026-03-29",
-      "route_id": "8120071100VRE",
-      "train_name": "REG.EXP. 18048",
-      "headsign": "",
-      "origin": "Castejón De Ebro",
-      "scheduled_time": "15:26",
-      "estimated_time": "15:26",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3575212026-03-29",
-      "route_id": "7070004040VRR",
-      "train_name": "REGIONAL 35752",
-      "headsign": "",
-      "origin": "Ricla-La Almunia",
-      "scheduled_time": "15:30",
-      "estimated_time": "15:30",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "0330812026-03-29",
-      "route_id": "7180160000AV006",
-      "train_name": "AVE 03308",
-      "headsign": "",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "15:45",
-      "estimated_time": "15:50",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "0330832026-03-29",
-      "route_id": "7840004040AV006",
-      "train_name": "AVE 03308",
-      "headsign": "",
-      "origin": "Lleida-Pirineus",
-      "scheduled_time": "15:45",
-      "estimated_time": "15:50",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "3494212026-03-29",
-      "route_id": "0404070600AV008",
-      "train_name": "AVANT 34942",
-      "headsign": "",
-      "origin": "Zaragoza-Delicias",
-      "scheduled_time": "15:47",
-      "estimated_time": "15:47",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1875312026-03-30",
-      "route_id": "0404070600VRR",
-      "train_name": "REGIONAL 18753",
-      "headsign": "",
-      "origin": "Zaragoza-Delicias",
-      "scheduled_time": "16:00",
-      "estimated_time": "16:00",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3575312026-03-30",
-      "route_id": "0404070600VRR",
-      "train_name": "REGIONAL 35753",
-      "headsign": "",
-      "origin": "Zaragoza-Delicias",
-      "scheduled_time": "16:00",
-      "estimated_time": "16:00",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3585312026-03-30",
-      "route_id": "0404070600VRR",
-      "train_name": "REGIONAL 35853",
-      "headsign": "",
-      "origin": "Zaragoza-Delicias",
-      "scheduled_time": "16:00",
-      "estimated_time": "16:00",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "0314312026-03-29",
       "route_id": "6000004307AV006",
@@ -120,9 +10,9 @@
       "headsign": "",
       "origin": "Madrid Pta.Atocha - Almudena Grandes",
       "scheduled_time": "16:09",
-      "estimated_time": "16:07",
-      "delay_min": -2.0,
-      "status": "en_hora"
+      "estimated_time": "16:17",
+      "delay_min": 8.0,
+      "status": "retraso_alto"
     },
     {
       "trip_id": "0314322026-03-29",
@@ -131,9 +21,9 @@
       "headsign": "",
       "origin": "Madrid Pta.Atocha - Almudena Grandes",
       "scheduled_time": "16:09",
-      "estimated_time": "16:07",
-      "delay_min": -2.0,
-      "status": "en_hora"
+      "estimated_time": "16:17",
+      "delay_min": 8.0,
+      "status": "retraso_alto"
     },
     {
       "trip_id": "3494312026-03-29",
@@ -153,8 +43,74 @@
       "headsign": "",
       "origin": "Zaragoza-Delicias",
       "scheduled_time": "16:10",
-      "estimated_time": "16:08",
+      "estimated_time": "16:18",
+      "delay_min": 8.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1564212026-03-29",
+      "route_id": "0404074217VRR",
+      "train_name": "REGIONAL 15642",
+      "headsign": "",
+      "origin": "Zaragoza-Delicias",
+      "scheduled_time": "16:20",
+      "estimated_time": "16:20",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0315212026-03-29",
+      "route_id": "7180160000AV006",
+      "train_name": "AVE 03152",
+      "headsign": "",
+      "origin": "Barcelona-Sants",
+      "scheduled_time": "16:26",
+      "estimated_time": "16:28",
+      "delay_min": 2.0,
+      "status": "retraso_leve"
+    },
+    {
+      "trip_id": "1705612026-03-29",
+      "route_id": "0404079400VRE",
+      "train_name": "REG.EXP. 17056",
+      "headsign": "",
+      "origin": "Zaragoza-Delicias",
+      "scheduled_time": "16:30",
+      "estimated_time": "16:30",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0053012026-03-30",
+      "route_id": "7180111511GL023",
+      "train_name": "ALVIA 00530",
+      "headsign": "",
+      "origin": "Barcelona-Sants",
+      "scheduled_time": "16:33",
+      "estimated_time": "16:31",
       "delay_min": -2.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0053022026-03-30",
+      "route_id": "7180111511GL023",
+      "train_name": "ALVIA 00530",
+      "headsign": "",
+      "origin": "Barcelona-Sants",
+      "scheduled_time": "16:33",
+      "estimated_time": "16:31",
+      "delay_min": -2.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1802312026-03-29",
+      "route_id": "7110080100VRE",
+      "train_name": "REG.EXP. 18023",
+      "headsign": "",
+      "origin": "Zaragoza Miraflores",
+      "scheduled_time": "16:51",
+      "estimated_time": "16:51",
+      "delay_min": 0.0,
       "status": "en_hora"
     }
   ]
