@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-03-30T21:00",
+  "generated_at": "2026-03-30T22:00",
   "insights": [
     {
       "id": "A",
-      "text": "A las 21h se están acumulando los retrasos — 267 trenes afectados",
+      "text": "A las 22h se están acumulando los retrasos — 182 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 21
+        "hour": 22
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 143 minutos — tren desde Barcelona-Sants con parada en Santiago de Compostela",
+      "text": "El mayor retraso en este momento es de 140 minutos — tren desde Barcelona-Sants con parada en A Coruña",
       "severity": "bad",
       "meta": {
-        "station_id": "31400",
-        "station_name": "Santiago de Compostela"
+        "station_id": "31412",
+        "station_name": "A Coruña"
       }
     },
     {
       "id": "C",
-      "text": "Camp Tarragona es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
+      "text": "Sevilla-Santa Justa es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "04104",
-        "station_name": "Camp Tarragona"
+        "station_id": "51003",
+        "station_name": "Sevilla-Santa Justa"
       }
     }
   ]
