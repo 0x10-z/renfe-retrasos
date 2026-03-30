@@ -1,17 +1,17 @@
 {
   "station_id": "03309",
   "name": "Villena Av",
-  "generated_at": "2026-03-30T18:00:08",
+  "generated_at": "2026-03-30T19:00:07",
   "arrivals": [
     {
-      "trip_id": "0516212026-03-29",
-      "route_id": "1700060911AV006",
-      "train_name": "AVE 05162",
+      "trip_id": "0517812026-03-29",
+      "route_id": "1060060911LC112",
+      "train_name": "AVLO 05178",
       "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "18:13",
-      "estimated_time": "18:27",
-      "delay_min": 14.0,
+      "origin": "Valladolid",
+      "scheduled_time": "19:12",
+      "estimated_time": "19:18",
+      "delay_min": 6.0,
       "status": "retraso_alto"
     }
   ]

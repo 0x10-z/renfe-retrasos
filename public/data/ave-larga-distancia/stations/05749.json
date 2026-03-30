@@ -1,18 +1,6 @@
 {
   "station_id": "05749",
   "name": "Vado Cervera",
-  "generated_at": "2026-03-30T18:00:08",
-  "arrivals": [
-    {
-      "trip_id": "7187612026-03-29",
-      "route_id": "0545105778VRFV",
-      "train_name": "REGIONAL 71876",
-      "headsign": "",
-      "origin": "Bilbao la Concordia",
-      "scheduled_time": "18:53",
-      "estimated_time": "19:00",
-      "delay_min": 7.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-30T19:00:07",
+  "arrivals": []
 }

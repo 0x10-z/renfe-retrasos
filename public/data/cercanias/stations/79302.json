@@ -1,38 +1,16 @@
 {
   "station_id": "79302",
   "name": "Bordils-Juià",
-  "generated_at": "2026-03-30T18:00:22",
+  "generated_at": "2026-03-30T19:00:25",
   "arrivals": [
     {
-      "trip_id": "5185L34665RG1",
-      "route_id": "51T0111RG1",
-      "train_name": "RG1",
-      "headsign": "",
-      "origin": "Maçanet-Massanes",
-      "scheduled_time": "18:17",
-      "estimated_time": "18:17",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L15876R11",
+      "trip_id": "5185L15882R11",
       "route_id": "51T0093R11",
       "train_name": "R11",
       "headsign": "",
       "origin": "Portbou",
-      "scheduled_time": "18:26",
-      "estimated_time": "18:26",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L15816R11",
-      "route_id": "51T0094R11",
-      "train_name": "R11",
-      "headsign": "",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "18:59",
-      "estimated_time": "18:59",
+      "scheduled_time": "19:56",
+      "estimated_time": "19:56",
       "delay_min": 0.0,
       "status": "en_hora"
     }

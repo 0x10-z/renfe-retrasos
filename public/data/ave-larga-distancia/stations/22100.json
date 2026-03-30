@@ -1,49 +1,27 @@
 {
   "station_id": "22100",
   "name": "Ourense",
-  "generated_at": "2026-03-30T18:00:08",
+  "generated_at": "2026-03-30T19:00:07",
   "arrivals": [
     {
-      "trip_id": "0456512026-03-29",
-      "route_id": "1700008223AV006",
-      "train_name": "AVE 04565",
+      "trip_id": "0437512026-03-29",
+      "route_id": "1700031412AV006",
+      "train_name": "AVE 04375",
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "18:25",
-      "estimated_time": "18:51",
-      "delay_min": 26.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "0917112026-03-29",
-      "route_id": "3141222100AV008",
-      "train_name": "AVANT 09171",
-      "headsign": "",
-      "origin": "A Coruña",
-      "scheduled_time": "18:28",
-      "estimated_time": "18:28",
-      "delay_min": 0.0,
+      "scheduled_time": "19:37",
+      "estimated_time": "10:14",
+      "delay_min": -563.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "0438412026-03-29",
-      "route_id": "0822317000AV006",
-      "train_name": "AVE 04384",
-      "headsign": "",
-      "origin": "Vigo Urzaiz",
-      "scheduled_time": "18:52",
-      "estimated_time": "18:55",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "0959012026-03-29",
-      "route_id": "2210031412AV008",
-      "train_name": "AVANT 09590",
+      "trip_id": "1264612026-03-29",
+      "route_id": "2210031412VRM",
+      "train_name": "MD 12646",
       "headsign": "",
       "origin": "Ourense",
-      "scheduled_time": "19:00",
-      "estimated_time": "19:00",
+      "scheduled_time": "19:50",
+      "estimated_time": "19:50",
       "delay_min": 0.0,
       "status": "en_hora"
     }

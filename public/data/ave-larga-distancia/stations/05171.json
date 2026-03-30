@@ -1,18 +1,18 @@
 {
   "station_id": "05171",
   "name": "Burela",
-  "generated_at": "2026-03-30T18:00:08",
+  "generated_at": "2026-03-30T19:00:07",
   "arrivals": [
     {
-      "trip_id": "7181312026-03-29",
-      "route_id": "2101015211VRFV",
-      "train_name": "REGIONAL 71813",
+      "trip_id": "7183212026-03-29",
+      "route_id": "1521121010VRFV",
+      "train_name": "REGIONAL 71832",
       "headsign": "",
-      "origin": "Ferrol",
-      "scheduled_time": "18:02",
-      "estimated_time": "18:06",
-      "delay_min": 4.0,
-      "status": "retraso_leve"
+      "origin": "Oviedo/Uviéu",
+      "scheduled_time": "19:15",
+      "estimated_time": "19:24",
+      "delay_min": 9.0,
+      "status": "retraso_alto"
     }
   ]
 }

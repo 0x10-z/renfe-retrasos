@@ -1,40 +1,29 @@
 {
   "station_id": "10206",
   "name": "Santa María De La Alameda-Peguerinos",
-  "generated_at": "2026-03-30T18:00:08",
+  "generated_at": "2026-03-30T19:00:07",
   "arrivals": [
     {
-      "trip_id": "1806512026-03-29",
-      "route_id": "1000011300VRX",
-      "train_name": "MD 18065",
+      "trip_id": "1800512026-03-30",
+      "route_id": "1000015100VRX",
+      "train_name": "MD 18005",
       "headsign": "",
       "origin": "Madrid-Principe Pio",
-      "scheduled_time": "18:06",
-      "estimated_time": "18:11",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "1806522026-03-29",
-      "route_id": "1000014100VRX",
-      "train_name": "MD 18065",
-      "headsign": "",
-      "origin": "Madrid-Principe Pio",
-      "scheduled_time": "18:06",
-      "estimated_time": "18:11",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "1891312026-03-29",
-      "route_id": "1000030110VRX",
-      "train_name": "MD 18913",
-      "headsign": "",
-      "origin": "Madrid-Principe Pio",
-      "scheduled_time": "18:54",
-      "estimated_time": "18:54",
-      "delay_min": 0.0,
+      "scheduled_time": "19:26",
+      "estimated_time": "19:24",
+      "delay_min": -2.0,
       "status": "en_hora"
+    },
+    {
+      "trip_id": "1800612026-03-30",
+      "route_id": "1510010000VRX",
+      "train_name": "MD 18006",
+      "headsign": "",
+      "origin": "Leon",
+      "scheduled_time": "19:35",
+      "estimated_time": "19:39",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
     }
   ]
 }

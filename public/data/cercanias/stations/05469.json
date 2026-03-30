@@ -1,49 +1,49 @@
 {
   "station_id": "05469",
   "name": "Artxube",
-  "generated_at": "2026-03-30T18:00:22",
+  "generated_at": "2026-03-30T19:00:25",
   "arrivals": [
     {
-      "trip_id": "6085L71535C4",
+      "trip_id": "6085L71539C4",
       "route_id": "60T0008C4",
       "train_name": "C4",
       "headsign": "",
       "origin": "La Calzada",
-      "scheduled_time": "18:01",
-      "estimated_time": "18:01",
+      "scheduled_time": "19:07",
+      "estimated_time": "19:07",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "6085L71534C4",
+      "trip_id": "6085L71538C4",
       "route_id": "60T0007C4",
       "train_name": "C4",
       "headsign": "",
       "origin": "Bilbao La Concordia",
-      "scheduled_time": "18:09",
-      "estimated_time": "18:09",
+      "scheduled_time": "19:15",
+      "estimated_time": "19:15",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "6085L71537C4",
+      "trip_id": "6085L71541C4",
       "route_id": "60T0008C4",
       "train_name": "C4",
       "headsign": "",
       "origin": "La Calzada",
-      "scheduled_time": "18:34",
-      "estimated_time": "18:34",
+      "scheduled_time": "19:40",
+      "estimated_time": "19:40",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "6085L71536C4",
+      "trip_id": "6085L71540C4",
       "route_id": "60T0007C4",
       "train_name": "C4",
       "headsign": "",
       "origin": "Bilbao La Concordia",
-      "scheduled_time": "18:42",
-      "estimated_time": "18:42",
+      "scheduled_time": "19:48",
+      "estimated_time": "19:48",
       "delay_min": 0.0,
       "status": "en_hora"
     }
