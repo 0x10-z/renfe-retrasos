@@ -1,41 +1,8 @@
 {
   "station_id": "18000",
   "name": "Madrid-Atocha Cercanías",
-  "generated_at": "2026-03-30T15:05:20",
+  "generated_at": "2026-03-30T15:07:41",
   "arrivals": [
-    {
-      "trip_id": "1085L77047C5",
-      "route_id": "10T0048C5",
-      "train_name": "C5",
-      "headsign": "",
-      "origin": "Fuenlabrada",
-      "scheduled_time": "15:06",
-      "estimated_time": "15:06",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L78057C3",
-      "route_id": "10T0008C3",
-      "train_name": "C3",
-      "headsign": "",
-      "origin": "Aranjuez",
-      "scheduled_time": "15:06",
-      "estimated_time": "15:06",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L76457C5",
-      "route_id": "10T0018C5",
-      "train_name": "C5",
-      "headsign": "",
-      "origin": "Madrid-Atocha Cercanías",
-      "scheduled_time": "15:07",
-      "estimated_time": "15:07",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "1085L20280C4a",
       "route_id": "10T0013C4a",
@@ -43,9 +10,9 @@
       "headsign": "",
       "origin": "Alcobendas-San Sebastián De Los Reyes",
       "scheduled_time": "15:09",
-      "estimated_time": "15:09",
-      "delay_min": 0.0,
-      "status": "en_hora"
+      "estimated_time": "15:11",
+      "delay_min": 2.0,
+      "status": "retraso_leve"
     },
     {
       "trip_id": "1085L20277C4a",
@@ -682,6 +649,39 @@
       "origin": "Aranjuez",
       "scheduled_time": "16:05",
       "estimated_time": "16:05",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L77053C5",
+      "route_id": "10T0048C5",
+      "train_name": "C5",
+      "headsign": "",
+      "origin": "Fuenlabrada",
+      "scheduled_time": "16:06",
+      "estimated_time": "16:06",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L20286C4a",
+      "route_id": "10T0013C4a",
+      "train_name": "C4a",
+      "headsign": "",
+      "origin": "Alcobendas-San Sebastián De Los Reyes",
+      "scheduled_time": "16:07",
+      "estimated_time": "16:07",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L76469C5",
+      "route_id": "10T0018C5",
+      "train_name": "C5",
+      "headsign": "",
+      "origin": "Madrid-Atocha Cercanías",
+      "scheduled_time": "16:07",
+      "estimated_time": "16:07",
       "delay_min": 0.0,
       "status": "en_hora"
     }
