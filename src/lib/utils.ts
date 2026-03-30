@@ -5,11 +5,13 @@ export function esc(s: string): string {
 }
 
 export function timeAgo(iso: string): string {
-  const diff = Math.floor((Date.now() - new Date(iso).getTime()) / 1000);
-  if (diff < 5) return "ahora mismo";
-  if (diff < 60) return `hace ${diff}s`;
-  if (diff < 3600) return `hace ${Math.floor(diff / 60)}m`;
-  return "hace más de 1h";
+  const date = new Date(iso);
+  const diff = Math.floor((Date.now() - date.getTime()) / 1000);
+  const time = date.toLocaleTimeString("es", { hour: "2-digit", minute: "2-digit" });
+  if (diff < 5) return `${time} · ahora mismo`;
+  if (diff < 60) return `${time} · hace ${diff}s`;
+  if (diff < 3600) return `${time} · hace ${Math.floor(diff / 60)}m`;
+  return `${time} · hace más de 1h`;
 }
 
 export function setText(id: string, value: string) {
