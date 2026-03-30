@@ -1,18 +1,6 @@
 {
   "station_id": "73101",
   "name": "Alcover",
-  "generated_at": "2026-03-30T23:00:20+02:00",
-  "arrivals": [
-    {
-      "trip_id": "5185L34598RT1",
-      "route_id": "51T0137RT1",
-      "train_name": "RT1",
-      "headsign": "Tarragona",
-      "origin": "La Plana-Picamoixons",
-      "scheduled_time": "23:06",
-      "estimated_time": "23:06",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    }
-  ]
+  "generated_at": "2026-03-31T00:00:22+02:00",
+  "arrivals": []
 }
