@@ -1,17 +1,28 @@
 {
   "station_id": "79107",
   "name": "Hostalric",
-  "generated_at": "2026-03-30T18:58:13",
+  "generated_at": "2026-03-30T20:00:08",
   "arrivals": [
     {
-      "trip_id": "1587612026-03-30",
+      "trip_id": "1582012026-03-29",
+      "route_id": "7180179315VRR",
+      "train_name": "REGIONAL 15820",
+      "headsign": "",
+      "origin": "Barcelona-Sants",
+      "scheduled_time": "20:16",
+      "estimated_time": "20:37",
+      "delay_min": 21.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1588212026-03-30",
       "route_id": "7931571801VRR",
-      "train_name": "REGIONAL 15876",
+      "train_name": "REGIONAL 15882",
       "headsign": "",
       "origin": "Portbou",
-      "scheduled_time": "19:09",
-      "estimated_time": "19:16",
-      "delay_min": 7.0,
+      "scheduled_time": "20:39",
+      "estimated_time": "20:48",
+      "delay_min": 9.0,
       "status": "retraso_alto"
     }
   ]

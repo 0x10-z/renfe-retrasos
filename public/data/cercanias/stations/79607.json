@@ -1,29 +1,6 @@
 {
   "station_id": "79607",
   "name": "Tordera",
-  "generated_at": "2026-03-30T18:58:22",
-  "arrivals": [
-    {
-      "trip_id": "5185L77166R1",
-      "route_id": "51T0002R1",
-      "train_name": "R1",
-      "headsign": "",
-      "origin": "Maçanet-Massanes",
-      "scheduled_time": "19:11",
-      "estimated_time": "19:11",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5185L77167R1",
-      "route_id": "51T0001R1",
-      "train_name": "R1",
-      "headsign": "",
-      "origin": "Blanes",
-      "scheduled_time": "19:49",
-      "estimated_time": "19:49",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    }
-  ]
+  "generated_at": "2026-03-30T20:00:21",
+  "arrivals": []
 }

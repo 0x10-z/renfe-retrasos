@@ -1,84 +1,95 @@
 {
   "station_id": "60107",
   "name": "San Cristóbal De Los ángeles",
-  "generated_at": "2026-03-30T18:58:22",
+  "generated_at": "2026-03-30T20:00:21",
   "arrivals": [
     {
-      "trip_id": "1085L78085C3",
+      "trip_id": "1085L78091C3",
       "route_id": "10T0008C3",
       "train_name": "C3",
       "headsign": "",
       "origin": "Aranjuez",
-      "scheduled_time": "19:07",
-      "estimated_time": "19:07",
+      "scheduled_time": "20:03",
+      "estimated_time": "20:03",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1085L78084C3",
+      "trip_id": "1085L78092C3",
       "route_id": "10T0007C3",
       "train_name": "C3",
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "19:11",
-      "estimated_time": "19:11",
+      "scheduled_time": "20:08",
+      "estimated_time": "20:08",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1085L78086C3",
-      "route_id": "10T0007C3",
-      "train_name": "C3",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "19:22",
-      "estimated_time": "19:22",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1085L78087C3",
+      "trip_id": "1085L78093C3",
       "route_id": "10T0008C3",
       "train_name": "C3",
       "headsign": "",
       "origin": "Aranjuez",
-      "scheduled_time": "19:29",
-      "estimated_time": "19:29",
+      "scheduled_time": "20:17",
+      "estimated_time": "20:17",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1085L78089C3",
+      "trip_id": "1085L78094C3",
+      "route_id": "10T0007C3",
+      "train_name": "C3",
+      "headsign": "",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "20:20",
+      "estimated_time": "20:20",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L78095C3",
       "route_id": "10T0008C3",
       "train_name": "C3",
       "headsign": "",
       "origin": "Aranjuez",
-      "scheduled_time": "19:46",
-      "estimated_time": "19:46",
+      "scheduled_time": "20:34",
+      "estimated_time": "20:34",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1085L78088C3",
+      "trip_id": "1085L78096C3",
       "route_id": "10T0007C3",
       "train_name": "C3",
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "19:48",
-      "estimated_time": "19:48",
+      "scheduled_time": "20:38",
+      "estimated_time": "20:38",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1085L78090C3",
+      "trip_id": "1085L76087C3",
+      "route_id": "10T0008C3",
+      "train_name": "C3",
+      "headsign": "",
+      "origin": "Aranjuez",
+      "scheduled_time": "20:47",
+      "estimated_time": "20:47",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1085L78098C3",
       "route_id": "10T0007C3",
       "train_name": "C3",
       "headsign": "",
       "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "19:57",
-      "estimated_time": "19:59",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
+      "scheduled_time": "20:51",
+      "estimated_time": "20:51",
+      "delay_min": 0.0,
+      "status": "en_hora"
     }
   ]
 }

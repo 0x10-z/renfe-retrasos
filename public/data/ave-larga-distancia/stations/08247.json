@@ -1,18 +1,6 @@
 {
   "station_id": "08247",
   "name": "Sanabria Alta Velocidad",
-  "generated_at": "2026-03-30T18:58:13",
-  "arrivals": [
-    {
-      "trip_id": "0497512026-03-29",
-      "route_id": "1700008223LC112",
-      "train_name": "AVLO 04975",
-      "headsign": "",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "19:45",
-      "estimated_time": "20:05",
-      "delay_min": 20.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-30T20:00:08",
+  "arrivals": []
 }

@@ -1,51 +1,18 @@
 {
   "station_id": "65402",
   "name": "L'Aldea-Amposta",
-  "generated_at": "2026-03-30T18:58:13",
+  "generated_at": "2026-03-30T20:00:08",
   "arrivals": [
     {
-      "trip_id": "0069412026-03-30",
-      "route_id": "5050071801GL023",
-      "train_name": "ALVIA 00694",
+      "trip_id": "1813312026-03-29",
+      "route_id": "7940065400VRE",
+      "train_name": "REG.EXP. 18133",
       "headsign": "",
-      "origin": "Cordoba",
-      "scheduled_time": "19:00",
-      "estimated_time": "19:38",
-      "delay_min": 38.0,
+      "origin": "Barcelona-Estació De França",
+      "scheduled_time": "20:20",
+      "estimated_time": "20:59",
+      "delay_min": 39.0,
       "status": "retraso_alto"
-    },
-    {
-      "trip_id": "0046012026-03-30",
-      "route_id": "6500071801GL026",
-      "train_name": "Intercity 00460",
-      "headsign": "",
-      "origin": "Valencia-Estaciò Del Nord",
-      "scheduled_time": "19:23",
-      "estimated_time": "19:45",
-      "delay_min": 22.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "3596812026-03-30",
-      "route_id": "7180165400AV008",
-      "train_name": "AVANT EXP 35968",
-      "headsign": "",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "19:24",
-      "estimated_time": "19:57",
-      "delay_min": 33.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "1813412026-03-29",
-      "route_id": "6540079400VRE",
-      "train_name": "REG.EXP. 18134",
-      "headsign": "",
-      "origin": "Tortosa",
-      "scheduled_time": "19:49",
-      "estimated_time": "19:52",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
     }
   ]
 }

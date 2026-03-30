@@ -1,6 +1,18 @@
 {
   "station_id": "05484",
   "name": "Mimetiz",
-  "generated_at": "2026-03-30T18:58:13",
-  "arrivals": []
+  "generated_at": "2026-03-30T20:00:08",
+  "arrivals": [
+    {
+      "trip_id": "7187412026-03-29",
+      "route_id": "0545114223VRFV",
+      "train_name": "REGIONAL 71874",
+      "headsign": "",
+      "origin": "Bilbao la Concordia",
+      "scheduled_time": "20:10",
+      "estimated_time": "20:13",
+      "delay_min": 3.0,
+      "status": "retraso_leve"
+    }
+  ]
 }

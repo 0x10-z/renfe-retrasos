@@ -1,29 +1,6 @@
 {
   "station_id": "01005",
   "name": "Marchena",
-  "generated_at": "2026-03-30T18:58:13",
-  "arrivals": [
-    {
-      "trip_id": "1390912026-03-29",
-      "route_id": "5441351003VRX",
-      "train_name": "MD 13909",
-      "headsign": "",
-      "origin": "Malaga Maria Zambrano",
-      "scheduled_time": "19:31",
-      "estimated_time": "19:42",
-      "delay_min": 11.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "1390812026-03-29",
-      "route_id": "5100354413VRX",
-      "train_name": "MD 13908",
-      "headsign": "",
-      "origin": "Sevilla-Santa Justa",
-      "scheduled_time": "19:35",
-      "estimated_time": "19:48",
-      "delay_min": 13.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-30T20:00:08",
+  "arrivals": []
 }

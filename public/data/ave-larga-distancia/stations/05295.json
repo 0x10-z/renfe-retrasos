@@ -1,18 +1,6 @@
 {
   "station_id": "05295",
   "name": "Tol",
-  "generated_at": "2026-03-30T18:58:13",
-  "arrivals": [
-    {
-      "trip_id": "7181312026-03-29",
-      "route_id": "2101015211VRFV",
-      "train_name": "REGIONAL 71813",
-      "headsign": "",
-      "origin": "Ferrol",
-      "scheduled_time": "19:06",
-      "estimated_time": "19:13",
-      "delay_min": 7.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-30T20:00:08",
+  "arrivals": []
 }

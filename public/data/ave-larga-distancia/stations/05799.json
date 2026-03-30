@@ -1,6 +1,18 @@
 {
   "station_id": "05799",
   "name": "Cerezal de La Guzpeña",
-  "generated_at": "2026-03-30T18:58:13",
-  "arrivals": []
+  "generated_at": "2026-03-30T20:00:08",
+  "arrivals": [
+    {
+      "trip_id": "7187612026-03-29",
+      "route_id": "0545105778VRFV",
+      "train_name": "REGIONAL 71876",
+      "headsign": "",
+      "origin": "Bilbao la Concordia",
+      "scheduled_time": "20:06",
+      "estimated_time": "20:12",
+      "delay_min": 6.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

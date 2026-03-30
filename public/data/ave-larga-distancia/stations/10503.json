@@ -1,27 +1,27 @@
 {
   "station_id": "10503",
   "name": "Valdestillas",
-  "generated_at": "2026-03-30T18:58:13",
+  "generated_at": "2026-03-30T20:00:08",
   "arrivals": [
     {
-      "trip_id": "1831812026-03-29",
-      "route_id": "1060030110VRE",
-      "train_name": "REG.EXP. 18318",
+      "trip_id": "1720012026-03-29",
+      "route_id": "1060010400VRE",
+      "train_name": "REG.EXP. 17200",
       "headsign": "",
       "origin": "Valladolid",
-      "scheduled_time": "19:14",
-      "estimated_time": "19:23",
-      "delay_min": 9.0,
-      "status": "retraso_alto"
+      "scheduled_time": "20:06",
+      "estimated_time": "20:10",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
     },
     {
-      "trip_id": "3831812026-03-29",
+      "trip_id": "3820012026-03-29",
       "route_id": "1060010500VRN",
-      "train_name": "PROXIMDAD 38318",
+      "train_name": "PROXIMDAD 38200",
       "headsign": "",
       "origin": "Valladolid",
-      "scheduled_time": "19:14",
-      "estimated_time": "19:14",
+      "scheduled_time": "20:06",
+      "estimated_time": "20:06",
       "delay_min": 0.0,
       "status": "en_hora"
     }

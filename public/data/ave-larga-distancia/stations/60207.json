@@ -1,18 +1,6 @@
 {
   "station_id": "60207",
   "name": "El Romeral",
-  "generated_at": "2026-03-30T18:58:13",
-  "arrivals": [
-    {
-      "trip_id": "1804312026-03-29",
-      "route_id": "6060017000VRX",
-      "train_name": "MD 18043",
-      "headsign": "",
-      "origin": "Albacete-Los Llanos",
-      "scheduled_time": "19:13",
-      "estimated_time": "19:26",
-      "delay_min": 13.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-30T20:00:08",
+  "arrivals": []
 }

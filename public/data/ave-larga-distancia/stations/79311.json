@@ -1,29 +1,6 @@
 {
   "station_id": "79311",
   "name": "Vilajuïga",
-  "generated_at": "2026-03-30T18:58:13",
-  "arrivals": [
-    {
-      "trip_id": "1588212026-03-30",
-      "route_id": "7931571801VRR",
-      "train_name": "REGIONAL 15882",
-      "headsign": "",
-      "origin": "Portbou",
-      "scheduled_time": "19:20",
-      "estimated_time": "19:29",
-      "delay_min": 9.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "1581612026-03-29",
-      "route_id": "7180179315VRR",
-      "train_name": "REGIONAL 15816",
-      "headsign": "",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "19:35",
-      "estimated_time": "20:02",
-      "delay_min": 27.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-30T20:00:08",
+  "arrivals": []
 }

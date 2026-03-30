@@ -1,51 +1,40 @@
 {
   "station_id": "79200",
   "name": "Maçanet-Massanes",
-  "generated_at": "2026-03-30T18:58:13",
+  "generated_at": "2026-03-30T20:00:08",
   "arrivals": [
     {
-      "trip_id": "1587612026-03-30",
+      "trip_id": "1582012026-03-29",
+      "route_id": "7180179315VRR",
+      "train_name": "REGIONAL 15820",
+      "headsign": "",
+      "origin": "Barcelona-Sants",
+      "scheduled_time": "20:20",
+      "estimated_time": "20:41",
+      "delay_min": 21.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1588212026-03-30",
       "route_id": "7931571801VRR",
-      "train_name": "REGIONAL 15876",
+      "train_name": "REGIONAL 15882",
       "headsign": "",
       "origin": "Portbou",
-      "scheduled_time": "19:04",
-      "estimated_time": "19:11",
-      "delay_min": 7.0,
+      "scheduled_time": "20:34",
+      "estimated_time": "20:43",
+      "delay_min": 9.0,
       "status": "retraso_alto"
     },
     {
-      "trip_id": "1572812026-03-30",
+      "trip_id": "1573412026-03-30",
       "route_id": "7180179309VRX",
-      "train_name": "MD 15728",
+      "train_name": "MD 15734",
       "headsign": "",
       "origin": "Barcelona-Sants",
-      "scheduled_time": "19:13",
-      "estimated_time": "19:23",
-      "delay_min": 10.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "1578612026-03-29",
-      "route_id": "7930971801VRX",
-      "train_name": "MD 15786",
-      "headsign": "",
-      "origin": "Figueres",
-      "scheduled_time": "19:41",
-      "estimated_time": "19:47",
-      "delay_min": 6.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "1573212026-03-30",
-      "route_id": "7180179309VRX",
-      "train_name": "MD 15732",
-      "headsign": "",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "19:43",
-      "estimated_time": "20:12",
-      "delay_min": 29.0,
-      "status": "retraso_alto"
+      "scheduled_time": "20:43",
+      "estimated_time": "20:48",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
     }
   ]
 }
