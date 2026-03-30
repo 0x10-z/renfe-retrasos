@@ -1,6 +1,18 @@
 {
   "station_id": "43015",
   "name": "Niebla",
-  "generated_at": "2026-03-30T17:00:08",
-  "arrivals": []
+  "generated_at": "2026-03-30T18:00:08",
+  "arrivals": [
+    {
+      "trip_id": "1303912026-03-29",
+      "route_id": "5100343019VRX",
+      "train_name": "MD 13039",
+      "headsign": "",
+      "origin": "Sevilla-Santa Justa",
+      "scheduled_time": "18:14",
+      "estimated_time": "18:38",
+      "delay_min": 24.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

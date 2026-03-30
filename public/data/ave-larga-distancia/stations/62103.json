@@ -1,6 +1,62 @@
 {
   "station_id": "62103",
   "name": "Elche Parque/Elx Parc",
-  "generated_at": "2026-03-30T17:00:08",
-  "arrivals": []
+  "generated_at": "2026-03-30T18:00:08",
+  "arrivals": [
+    {
+      "trip_id": "1420212026-03-30",
+      "route_id": "6130765000VRX",
+      "train_name": "MD 14202",
+      "headsign": "",
+      "origin": "Cartagena",
+      "scheduled_time": "18:03",
+      "estimated_time": "18:21",
+      "delay_min": 18.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1420222026-03-29",
+      "route_id": "6120060911VRX",
+      "train_name": "MD 14202",
+      "headsign": "",
+      "origin": "Murcia",
+      "scheduled_time": "18:03",
+      "estimated_time": "18:21",
+      "delay_min": 18.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "0146312026-03-30",
+      "route_id": "6500061307GL026",
+      "train_name": "Intercity 01463",
+      "headsign": "",
+      "origin": "Valencia-Estaciò Del Nord",
+      "scheduled_time": "18:26",
+      "estimated_time": "18:44",
+      "delay_min": 18.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "0146322026-03-30",
+      "route_id": "6500006006GL026",
+      "train_name": "Intercity 01463",
+      "headsign": "",
+      "origin": "Valencia-Estaciò Del Nord",
+      "scheduled_time": "18:26",
+      "estimated_time": "18:44",
+      "delay_min": 18.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "0146332026-03-30",
+      "route_id": "6500061200GL026",
+      "train_name": "Intercity 01463",
+      "headsign": "",
+      "origin": "Valencia-Estaciò Del Nord",
+      "scheduled_time": "18:26",
+      "estimated_time": "18:44",
+      "delay_min": 18.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

@@ -1,18 +1,18 @@
 {
   "station_id": "37311",
   "name": "Cabeza de Buey",
-  "generated_at": "2026-03-30T17:00:08",
+  "generated_at": "2026-03-30T18:00:08",
   "arrivals": [
     {
-      "trip_id": "1877712026-03-29",
-      "route_id": "3760637200VRE",
-      "train_name": "REG.EXP. 18777",
+      "trip_id": "1833012026-03-29",
+      "route_id": "6040037606VRX",
+      "train_name": "MD 18330",
       "headsign": "",
-      "origin": "Badajoz",
-      "scheduled_time": "17:04",
-      "estimated_time": "17:04",
-      "delay_min": 0.0,
-      "status": "en_hora"
+      "origin": "Alcazar de San Juan",
+      "scheduled_time": "18:49",
+      "estimated_time": "19:06",
+      "delay_min": 17.0,
+      "status": "retraso_alto"
     }
   ]
 }

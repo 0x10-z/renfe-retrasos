@@ -1,6 +1,18 @@
 {
   "station_id": "14108",
   "name": "Espinosa de Villagonzalo (apd)",
-  "generated_at": "2026-03-30T17:00:08",
-  "arrivals": []
+  "generated_at": "2026-03-30T18:00:08",
+  "arrivals": [
+    {
+      "trip_id": "1810412026-03-30",
+      "route_id": "1422310600VRE",
+      "train_name": "REG.EXP. 18104",
+      "headsign": "",
+      "origin": "Santander",
+      "scheduled_time": "18:51",
+      "estimated_time": "19:01",
+      "delay_min": 10.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

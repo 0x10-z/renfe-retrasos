@@ -1,6 +1,18 @@
 {
   "station_id": "35109",
   "name": "Montearagón",
-  "generated_at": "2026-03-30T17:00:08",
-  "arrivals": []
+  "generated_at": "2026-03-30T18:00:08",
+  "arrivals": [
+    {
+      "trip_id": "1770212026-03-30",
+      "route_id": "1800035200VRR",
+      "train_name": "REGIONAL 17702",
+      "headsign": "",
+      "origin": "Madrid - Atocha Cercanías",
+      "scheduled_time": "18:49",
+      "estimated_time": "18:51",
+      "delay_min": 2.0,
+      "status": "retraso_leve"
+    }
+  ]
 }

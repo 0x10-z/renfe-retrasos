@@ -1,6 +1,29 @@
 {
   "station_id": "10300",
   "name": "Herradón-La Cañada",
-  "generated_at": "2026-03-30T17:00:08",
-  "arrivals": []
+  "generated_at": "2026-03-30T18:00:08",
+  "arrivals": [
+    {
+      "trip_id": "1806512026-03-29",
+      "route_id": "1000011300VRX",
+      "train_name": "MD 18065",
+      "headsign": "",
+      "origin": "Madrid-Principe Pio",
+      "scheduled_time": "18:29",
+      "estimated_time": "18:34",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
+    },
+    {
+      "trip_id": "1806522026-03-29",
+      "route_id": "1000014100VRX",
+      "train_name": "MD 18065",
+      "headsign": "",
+      "origin": "Madrid-Principe Pio",
+      "scheduled_time": "18:29",
+      "estimated_time": "18:34",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
+    }
+  ]
 }

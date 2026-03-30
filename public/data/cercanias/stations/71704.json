@@ -1,49 +1,49 @@
 {
   "station_id": "71704",
   "name": "Platja De Castelldefels",
-  "generated_at": "2026-03-30T17:00:24",
+  "generated_at": "2026-03-30T18:00:22",
   "arrivals": [
     {
-      "trip_id": "5185L28369R2S",
+      "trip_id": "5185L28373R2S",
       "route_id": "51T0008R2S",
       "train_name": "R2S",
       "headsign": "",
       "origin": "Barcelona Estació De França",
-      "scheduled_time": "17:11",
-      "estimated_time": "17:11",
+      "scheduled_time": "18:11",
+      "estimated_time": "18:11",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5185L28372R2S",
+      "trip_id": "5185L28376R2S",
       "route_id": "51T0007R2S",
       "train_name": "R2S",
       "headsign": "",
       "origin": "Garraf",
-      "scheduled_time": "17:28",
-      "estimated_time": "17:28",
+      "scheduled_time": "18:28",
+      "estimated_time": "18:28",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5185L28371R2S",
+      "trip_id": "5185L28375R2S",
       "route_id": "51T0008R2S",
       "train_name": "R2S",
       "headsign": "",
       "origin": "Barcelona Estació De França",
-      "scheduled_time": "17:41",
-      "estimated_time": "17:41",
+      "scheduled_time": "18:41",
+      "estimated_time": "18:41",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5185L28374R2S",
+      "trip_id": "5185L28378R2S",
       "route_id": "51T0007R2S",
       "train_name": "R2S",
       "headsign": "",
       "origin": "Garraf",
-      "scheduled_time": "17:58",
-      "estimated_time": "17:58",
+      "scheduled_time": "18:58",
+      "estimated_time": "18:58",
       "delay_min": 0.0,
       "status": "en_hora"
     }

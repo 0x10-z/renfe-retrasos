@@ -1,6 +1,18 @@
 {
   "station_id": "76002",
   "name": "Vilabella",
-  "generated_at": "2026-03-30T17:00:24",
-  "arrivals": []
+  "generated_at": "2026-03-30T18:00:22",
+  "arrivals": [
+    {
+      "trip_id": "5185L15045R13",
+      "route_id": "51T0140R13",
+      "train_name": "R13",
+      "headsign": "",
+      "origin": "Sant Vicenç De Calders",
+      "scheduled_time": "18:39",
+      "estimated_time": "18:39",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    }
+  ]
 }

@@ -1,49 +1,49 @@
 {
   "station_id": "71602",
   "name": "Segur De Calafell",
-  "generated_at": "2026-03-30T17:00:24",
+  "generated_at": "2026-03-30T18:00:22",
   "arrivals": [
     {
-      "trip_id": "5185L25544R2S",
+      "trip_id": "5185L25548R2S",
       "route_id": "51T0007R2S",
       "train_name": "R2S",
       "headsign": "",
       "origin": "Sant Vicenç De Calders",
-      "scheduled_time": "17:08",
-      "estimated_time": "17:08",
+      "scheduled_time": "18:08",
+      "estimated_time": "18:08",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5185L25543R2S",
+      "trip_id": "5185L25547R2S",
       "route_id": "51T0008R2S",
       "train_name": "R2S",
       "headsign": "",
       "origin": "Barcelona Estació De França",
-      "scheduled_time": "17:27",
-      "estimated_time": "17:27",
+      "scheduled_time": "18:27",
+      "estimated_time": "18:27",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5185L25546R2S",
+      "trip_id": "5185L25550R2S",
       "route_id": "51T0007R2S",
       "train_name": "R2S",
       "headsign": "",
       "origin": "Sant Vicenç De Calders",
-      "scheduled_time": "17:38",
-      "estimated_time": "17:38",
+      "scheduled_time": "18:38",
+      "estimated_time": "18:38",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5185L25545R2S",
+      "trip_id": "5185L25549R2S",
       "route_id": "51T0008R2S",
       "train_name": "R2S",
       "headsign": "",
       "origin": "Barcelona Estació De França",
-      "scheduled_time": "17:57",
-      "estimated_time": "17:57",
+      "scheduled_time": "18:57",
+      "estimated_time": "18:57",
       "delay_min": 0.0,
       "status": "en_hora"
     }
