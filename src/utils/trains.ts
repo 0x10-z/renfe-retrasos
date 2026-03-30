@@ -1,7 +1,8 @@
 // Train type to image mapping
 export const TRAIN_IMAGE_MAP: Record<string, string> = {
   AVE: "/trenes/s112.webp",
-  AVANT: "/trenes/s121.webp",
+  AVANT: "/trenes/s114.webp",
+  ALVIA: "/trenes/s120.webp",
   MD: "/trenes/s449.webp",
   REGIONAL: "/trenes/s449.webp",
   CERCANIAS: "/trenes/civia.webp",
@@ -33,6 +34,7 @@ export function getTrainTypeLabel(trainName: string | undefined): string {
   const labels: Record<string, string> = {
     AVE: "Tren de Alta Velocidad",
     AVANT: "AVANT (Media Distancia)",
+    ALVIA: "ALVIA (Larga Distancia)",
     MD: "Media Distancia",
     REGIONAL: "Tren Regional",
     CERCANIAS: "Cercanías",
