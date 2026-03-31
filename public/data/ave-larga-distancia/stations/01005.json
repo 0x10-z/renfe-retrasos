@@ -1,18 +1,6 @@
 {
   "station_id": "01005",
   "name": "Marchena",
-  "generated_at": "2026-03-31T16:00:08+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1305212026-03-30",
-      "route_id": "5100301007VRX",
-      "train_name": "MD 13052",
-      "headsign": "Osuna",
-      "origin": "Sevilla-Santa Justa",
-      "scheduled_time": "16:34",
-      "estimated_time": "16:37",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
-    }
-  ]
+  "generated_at": "2026-03-31T17:00:09+02:00",
+  "arrivals": []
 }

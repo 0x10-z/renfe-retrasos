@@ -1,6 +1,18 @@
 {
   "station_id": "05565",
   "name": "Balmori",
-  "generated_at": "2026-03-31T16:00:08+02:00",
-  "arrivals": []
+  "generated_at": "2026-03-31T17:00:09+02:00",
+  "arrivals": [
+    {
+      "trip_id": "7183312026-03-30",
+      "route_id": "1521114223VRFV",
+      "train_name": "REGIONAL 71833",
+      "headsign": "Santander",
+      "origin": "Oviedo/Uviéu",
+      "scheduled_time": "17:42",
+      "estimated_time": "17:44",
+      "delay_min": 2.0,
+      "status": "retraso_leve"
+    }
+  ]
 }

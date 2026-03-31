@@ -1,6 +1,18 @@
 {
   "station_id": "40113",
   "name": "Cazalla-Constantina",
-  "generated_at": "2026-03-31T16:00:08+02:00",
-  "arrivals": []
+  "generated_at": "2026-03-31T17:00:09+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1877912026-03-30",
+      "route_id": "5100330002VRE",
+      "train_name": "REG.EXP. 18779",
+      "headsign": "Plasencia",
+      "origin": "Sevilla-Santa Justa",
+      "scheduled_time": "17:57",
+      "estimated_time": "18:01",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
+    }
+  ]
 }

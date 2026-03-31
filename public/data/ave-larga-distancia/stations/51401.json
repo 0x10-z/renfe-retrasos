@@ -1,18 +1,6 @@
 {
   "station_id": "51401",
   "name": "Puerto Real",
-  "generated_at": "2026-03-31T16:00:08+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1301012026-03-30",
-      "route_id": "5100351405VRX",
-      "train_name": "MD 13010",
-      "headsign": "Cádiz",
-      "origin": "Sevilla-Santa Justa",
-      "scheduled_time": "16:05",
-      "estimated_time": "16:12",
-      "delay_min": 7.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-31T17:00:09+02:00",
+  "arrivals": []
 }

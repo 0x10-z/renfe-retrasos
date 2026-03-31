@@ -1,17 +1,28 @@
 {
   "station_id": "30200",
   "name": "Zamora",
-  "generated_at": "2026-03-31T16:00:08+02:00",
+  "generated_at": "2026-03-31T17:00:09+02:00",
   "arrivals": [
     {
-      "trip_id": "0425412026-03-30",
-      "route_id": "0822317000AV006",
-      "train_name": "AVE 04254",
-      "headsign": "Madrid-Chamartín-Clara Campoamor",
-      "origin": "Vigo Urzaiz",
-      "scheduled_time": "16:28",
-      "estimated_time": "16:39",
-      "delay_min": 11.0,
+      "trip_id": "0456512026-03-30",
+      "route_id": "1700008223AV006",
+      "train_name": "AVE 04565",
+      "headsign": "Vigo Urzaiz",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "17:09",
+      "estimated_time": "17:13",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
+    },
+    {
+      "trip_id": "0538212026-03-30",
+      "route_id": "2210060911AV006",
+      "train_name": "AVE 05382",
+      "headsign": "Alicante/Alacant",
+      "origin": "Ourense",
+      "scheduled_time": "17:34",
+      "estimated_time": "17:47",
+      "delay_min": 13.0,
       "status": "retraso_alto"
     }
   ]

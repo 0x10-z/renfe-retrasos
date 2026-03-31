@@ -1,17 +1,17 @@
 {
   "station_id": "79204",
   "name": "Riudellots",
-  "generated_at": "2026-03-31T16:00:08+02:00",
+  "generated_at": "2026-03-31T17:00:09+02:00",
   "arrivals": [
     {
-      "trip_id": "1591812026-03-30",
-      "route_id": "7180179316VRR",
-      "train_name": "REGIONAL 15918",
-      "headsign": "Cerbère",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "16:38",
-      "estimated_time": "16:45",
-      "delay_min": 7.0,
+      "trip_id": "1587012026-03-30",
+      "route_id": "7931571801VRR",
+      "train_name": "REGIONAL 15870",
+      "headsign": "Barcelona-Sants",
+      "origin": "Portbou",
+      "scheduled_time": "17:19",
+      "estimated_time": "17:43",
+      "delay_min": 24.0,
       "status": "retraso_alto"
     }
   ]
