@@ -18,7 +18,8 @@
       "Bash(python3 -c \"import json; g=json.load\\(open\\(''public/data/stations_geo.json''\\)\\); print\\(g.get\\(''11208''\\)\\)\")",
       "Bash(node -e \"const g=require\\(''./public/data/stations_geo.json''\\); console.log\\(g[''11208'']\\)\")",
       "Bash(node -e \"const s=require\\(''./public/data/cercanias/stats.json''\\); const v=s.stations?.find\\(x=>x.id===''11208''\\); console.log\\(''cercanias:'', v\\)\")",
-      "Bash(node -e \"const s=require\\(''./public/data/ave-larga-distancia/stats.json''\\); const v=s.stations?.find\\(x=>x.id===''11208''\\); console.log\\(''ave:'', v\\)\")"
+      "Bash(node -e \"const s=require\\(''./public/data/ave-larga-distancia/stats.json''\\); const v=s.stations?.find\\(x=>x.id===''11208''\\); console.log\\(''ave:'', v\\)\")",
+      "Bash(node -e \"const h=require\\(''./public/data/ave-larga-distancia/history.json''\\); const last=h.records?.slice\\(-3\\); console.log\\(JSON.stringify\\(last, null, 2\\)\\)\")"
     ]
   }
 }

@@ -30,8 +30,8 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
   <div class="stats-grid">
     <StatCard
       valueId="v-total"
-      label="Trenes analizados"
-      tip="Trenes con llegada programada en la ventana de 2 h siguiente al último análisis"
+      label="Paradas analizadas"
+      tip="Paradas con llegada programada en la ventana de 60 min siguiente al último análisis. Una misma línea suma una parada por estación."
     >
       <svg slot="icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
       <div slot="sub" class="stat-sub" id="sub-stations">— estaciones</div>
@@ -40,7 +40,7 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
     <StatCard
       valueId="v-delayed"
       label="Con retraso"
-      tip="Trenes con más de 5 min de retraso según el RT de Renfe en el momento del análisis"
+      tip="Paradas con más de 5 min de retraso según el RT de Renfe en el momento del análisis"
       variant="warn"
     >
       <svg slot="icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
@@ -50,7 +50,7 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
     <StatCard
       valueId="v-avg"
       label="Media de retraso"
-      tip="Media de minutos de retraso calculada sobre los trenes con retraso en la última captura"
+      tip="Media de minutos de retraso calculada sobre las paradas con retraso en la última captura"
     >
       <svg slot="icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
       <div slot="sub" class="stat-sub" id="sub-avg"></div>
@@ -1052,9 +1052,9 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
   }
 
   function renderStats(s: any, generatedAt: string) {
-    setValueWithUnit("v-total", s.total_trains?.toLocaleString("es") ?? null, " trenes");
+    setValueWithUnit("v-total", s.total_trains?.toLocaleString("es") ?? null, " paradas");
     setText("sub-stations", `${s.stations_count ?? "—"} estaciones`);
-    setValueWithUnit("v-delayed", s.delayed?.toLocaleString("es") ?? null, " trenes");
+    setValueWithUnit("v-delayed", s.delayed?.toLocaleString("es") ?? null, " paradas");
 
     const pct = s.total_trains
       ? Math.round((s.delayed / s.total_trains) * 100)

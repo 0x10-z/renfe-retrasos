@@ -88,7 +88,7 @@ export function renderDaily() {
         const pct = delayedData[i].value;
         const p50 = p50Data[i]; const p75 = p75Data[i]; const p90 = p90Data[i];
         const percLine = p50 != null ? `p50 ${p50}m · p75 ${p75}m · p90 ${p90}m<br/>` : "";
-        return `<b>${dates[i]}</b><br/>${pct}% con retraso · max ${d.maxMin}min<br/>${percLine}${d.delayedSum.toLocaleString("es")} / ${d.totalSum.toLocaleString("es")} trenes`;
+        return `<b>${dates[i]}</b><br/>${pct}% con retraso · max ${d.maxMin}min<br/>${percLine}${d.delayedSum.toLocaleString("es")} / ${d.totalSum.toLocaleString("es")} paradas`;
       },
     },
     legend: {
@@ -244,7 +244,7 @@ export function renderHourly() {
         if (h.samples === 0) return `<b>${labels[i]}</b><br/>Sin datos`;
         const p50 = p50Data[i]; const p75 = p75Data[i]; const p90 = p90Data[i];
         const percLine = p50 != null ? `p50 ${p50}m · p75 ${p75}m · p90 ${p90}m<br/>` : "";
-        return `<b>${labels[i]}</b><br/>${pct}% con retraso<br/>${percLine}${h.delayedSum.toLocaleString("es")} / ${h.totalSum.toLocaleString("es")} trenes<br/>${h.samples} muestras`;
+        return `<b>${labels[i]}</b><br/>${pct}% con retraso<br/>${percLine}${h.delayedSum.toLocaleString("es")} / ${h.totalSum.toLocaleString("es")} paradas<br/>${h.samples} muestras`;
       },
     },
     grid: { left: 52, right: 48, top: 12, bottom: 32 },
