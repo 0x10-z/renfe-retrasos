@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-03-31T10:19",
+  "generated_at": "2026-03-31T10:43",
   "insights": [
     {
       "id": "A",
-      "text": "A las 09h se están acumulando los retrasos — 65 trenes afectados",
+      "text": "A las 10h se están acumulando los retrasos — 78 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 9
+        "hour": 10
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 28 minutos — tren desde Barcelona-Sants con parada en Figueres",
+      "text": "El mayor retraso en este momento es de 28 minutos — tren desde Barcelona-Sants con parada en Llançà",
       "severity": "warn",
       "meta": {
-        "station_id": "79309",
-        "station_name": "Figueres"
+        "station_id": "79312",
+        "station_name": "Llançà"
       }
     },
     {
       "id": "C",
-      "text": "Barcelona-El Clot es la estación más afectada ahora mismo: 2 de 3 trenes con retraso",
+      "text": "Salamanca es la estación más afectada ahora mismo: 2 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "79009",
-        "station_name": "Barcelona-El Clot"
+        "station_id": "30100",
+        "station_name": "Salamanca"
       }
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "id": "G",
-      "text": "Esta semana los retrasos están bajando respecto a la anterior (-10% · 19% vs 22%)",
+      "text": "Esta semana los retrasos están bajando respecto a la anterior (-11% · 19% vs 22%)",
       "severity": "ok"
     }
   ]

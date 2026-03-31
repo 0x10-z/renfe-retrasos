@@ -1,28 +1,17 @@
 {
   "station_id": "78408",
   "name": "Tàrrega",
-  "generated_at": "2026-03-31T10:19:20+02:00",
+  "generated_at": "2026-03-31T10:43:02+02:00",
   "arrivals": [
     {
-      "trip_id": "1563312026-03-30",
-      "route_id": "7850078400VRR",
-      "train_name": "REGIONAL 15633",
+      "trip_id": "1562312026-03-30",
+      "route_id": "7870078400VRR",
+      "train_name": "REGIONAL 15623",
       "headsign": "Lleida-Pirineus",
-      "origin": "Cervera",
-      "scheduled_time": "09:22",
-      "estimated_time": "09:45",
-      "delay_min": 23.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "1562212026-03-30",
-      "route_id": "7840078700VRR",
-      "train_name": "REGIONAL 15622",
-      "headsign": "Terrassa Estacio Nord",
-      "origin": "Lleida-Pirineus",
-      "scheduled_time": "09:23",
-      "estimated_time": "09:43",
-      "delay_min": 20.0,
+      "origin": "Terrassa Estacio Nord",
+      "scheduled_time": "10:32",
+      "estimated_time": "10:58",
+      "delay_min": 26.0,
       "status": "retraso_alto"
     }
   ]

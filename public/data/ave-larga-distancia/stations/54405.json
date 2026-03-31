@@ -1,7 +1,7 @@
 {
   "station_id": "54405",
   "name": "álora",
-  "generated_at": "2026-03-31T10:19:20+02:00",
+  "generated_at": "2026-03-31T10:43:02+02:00",
   "arrivals": [
     {
       "trip_id": "1390312026-03-29",
@@ -44,6 +44,17 @@
       "origin": "El Chorro",
       "scheduled_time": "09:49",
       "estimated_time": "09:49",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1315712026-03-29",
+      "route_id": "5451754403VRN",
+      "train_name": "PROXIMDAD 13157",
+      "headsign": "El Chorro",
+      "origin": "Málaga Centro Alameda",
+      "scheduled_time": "10:25",
+      "estimated_time": "10:25",
       "delay_min": 0.0,
       "status": "en_hora"
     }

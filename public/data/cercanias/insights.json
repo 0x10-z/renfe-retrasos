@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T10:19",
+  "generated_at": "2026-03-31T10:43",
   "insights": [
     {
       "id": "A",
@@ -11,11 +11,11 @@
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 59 minutos — tren desde Lorca-Sutullena con parada en Lorca-San Diego",
+      "text": "El mayor retraso en este momento es de 34 minutos — tren desde Barcelona Estació De França con parada en Vilanova I La Geltrú",
       "severity": "bad",
       "meta": {
-        "station_id": "06005",
-        "station_name": "Lorca-San Diego"
+        "station_id": "71700",
+        "station_name": "Vilanova I La Geltrú"
       }
     },
     {
