@@ -18,3 +18,13 @@ export function setText(id: string, value: string) {
   const el = document.getElementById(id);
   if (el) el.textContent = value;
 }
+
+export function setValueWithUnit(id: string, value: string | number | null, unit: string) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  if (value == null || value === "—") {
+    el.innerHTML = "—";
+  } else {
+    el.innerHTML = `${value}<span class="stat-unit">${unit}</span>`;
+  }
+}

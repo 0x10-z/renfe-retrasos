@@ -83,6 +83,10 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
       Estaciones
     </button>
+    <button class="section-btn" id="btn-map" data-section="map" role="tab" aria-selected="false">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+      Mapa
+    </button>
   </div>
 
   <!-- Analytics section -->
@@ -139,6 +143,31 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
     </div>
     <div id="no-data" class="no-data" style="display:none">
       <p>Sin datos disponibles. El pipeline se ejecutará en breve.</p>
+    </div>
+  </div>
+
+  <!-- Map section -->
+  <div id="section-map" style="display:none">
+    <div class="map-toolbar">
+      <div class="map-mode-group" role="group" aria-label="Modo de visualización">
+        <button class="map-mode-btn" data-mode="scatter">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="8" cy="8" r="3"/><circle cx="18" cy="5" r="2"/><circle cx="13" cy="17" r="4"/></svg>
+          Burbujas
+        </button>
+        <button class="map-mode-btn active" data-mode="heat">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
+          Calor
+        </button>
+      </div>
+      <div class="map-legend">
+        <span class="map-legend-dot map-legend-green"></span><span>A tiempo</span>
+        <span class="map-legend-dot map-legend-yellow"></span><span>Retraso leve</span>
+        <span class="map-legend-dot map-legend-red"></span><span>Retraso alto</span>
+      </div>
+    </div>
+    <div class="map-card">
+      <div id="map-container"></div>
+      <div id="map-message" class="map-message" style="display:none"></div>
     </div>
   </div>
 
@@ -317,6 +346,13 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
     line-height: 1;
     font-family: var(--font-mono);
     margin-bottom: 0.3rem;
+  }
+  :global(.stat-unit) {
+    font-size: 0.85rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--text-muted);
+    margin-left: 0.2em;
   }
   .stat-sub {
     font-size: 0.72rem;
@@ -755,6 +791,89 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
   .search-input--hero:focus {
     box-shadow: 0 0 0 4px var(--accent-bg), var(--shadow);
   }
+
+  /* ── Map section ─────────────────────────────────────────────────────────── */
+  .map-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .map-mode-group {
+    display: flex;
+    gap: 0.25rem;
+  }
+
+  .map-mode-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding: 0.35rem 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--bg-card);
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+  }
+  .map-mode-btn:hover { border-color: var(--border-bright); color: var(--text); }
+  .map-mode-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  .map-legend {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.72rem;
+    color: var(--text-muted);
+  }
+
+  .map-legend-dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .map-legend-green  { background: var(--green); }
+  .map-legend-yellow { background: var(--yellow); }
+  .map-legend-red    { background: var(--red); }
+
+  .map-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    position: relative;
+  }
+
+  #map-container {
+    height: clamp(420px, calc(100vh - 340px), 700px);
+    width: 100%;
+  }
+
+  .map-message {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.88);
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    padding: 2rem;
+    text-align: center;
+    z-index: 500;
+  }
 </style>
 
 <style is:global>
@@ -934,11 +1053,12 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
 
 <script>
   import { state } from "../lib/store";
-  import { setText, timeAgo } from "../lib/utils";
+  import { setText, setValueWithUnit, timeAgo } from "../lib/utils";
   import { renderHistory } from "../lib/chart";
   import { openModal, closeModal, closeTrainViewer, openTrainViewer } from "../lib/stationModal";
   import { renderInsights, openInsightDrilldown, closeInsightModal } from "../lib/insightModal";
   import { filterAndRender, showNoData } from "../lib/stations";
+  import { initMap, loadGeoIfNeeded, renderMapMarkers } from "../lib/map";
 
   const SERVICES = [
     { name: "ave-larga-distancia", label: "AVE · Larga y Media Distancia", slug: "ave-larga-distancia" },
@@ -1003,6 +1123,9 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
       renderStats(data.stats, data.generated_at);
       state.allStations = data.stations || [];
       filterAndRender();
+      if (document.getElementById("section-map")!.style.display !== "none") {
+        loadGeoIfNeeded().then(() => renderMapMarkers());
+      }
     } catch (err) {
       console.warn(`Error cargando ${state.activeSvc}:`, err);
       showNoData();
@@ -1035,17 +1158,17 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
   }
 
   function renderStats(s: any, generatedAt: string) {
-    setText("v-total", s.total_trains?.toLocaleString("es") ?? "—");
+    setValueWithUnit("v-total", s.total_trains?.toLocaleString("es") ?? null, " trenes");
     setText("sub-stations", `${s.stations_count ?? "—"} estaciones`);
-    setText("v-delayed", s.delayed?.toLocaleString("es") ?? "—");
+    setValueWithUnit("v-delayed", s.delayed?.toLocaleString("es") ?? null, " trenes");
 
     const pct = s.total_trains
       ? Math.round((s.delayed / s.total_trains) * 100)
       : null;
     setText("sub-pct", pct !== null ? `${pct}% del total` : "—");
 
-    setText("v-avg", s.avg_delay_min != null ? `${s.avg_delay_min}` : "—");
-    setText("sub-avg", s.delayed > 0 ? `sobre ${s.delayed} tren${s.delayed !== 1 ? "es" : ""} retrasado${s.delayed !== 1 ? "s" : ""}` : "minutos");
+    setValueWithUnit("v-avg", s.avg_delay_min != null ? s.avg_delay_min : null, " min");
+    setText("sub-avg", s.delayed > 0 ? `sobre ${s.delayed} tren${s.delayed !== 1 ? "es" : ""} retrasado${s.delayed !== 1 ? "s" : ""}` : "");
 
     const percs = s.delay_percentiles;
     const percEl = document.getElementById("sub-percentiles")!;
@@ -1058,7 +1181,7 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
       percEl.innerHTML = "";
     }
 
-    setText("v-max", s.max_delay_min != null ? `${s.max_delay_min}` : "—");
+    setValueWithUnit("v-max", s.max_delay_min != null ? s.max_delay_min : null, " min");
     const maxSt = s.max_delay_station;
     if (maxSt?.station_name) {
       const label = maxSt.train_name ? `${maxSt.train_name} · ${maxSt.station_name}` : maxSt.station_name;
@@ -1088,7 +1211,7 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
 
   // ── Section switcher ───────────────────────────────────────────────────────
 
-  function switchSection(section: "analytics" | "stations") {
+  function switchSection(section: "analytics" | "stations" | "map") {
     document.querySelectorAll<HTMLButtonElement>(".section-btn").forEach(btn => {
       const isActive = btn.dataset.section === section;
       btn.classList.toggle("active", isActive);
@@ -1096,8 +1219,14 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
     });
     document.getElementById("section-analytics")!.style.display = section === "analytics" ? "" : "none";
     document.getElementById("section-stations")!.style.display  = section === "stations"  ? "" : "none";
+    document.getElementById("section-map")!.style.display       = section === "map"       ? "" : "none";
     if (section === "stations") {
       (document.getElementById("station-search") as HTMLInputElement)?.focus();
+    }
+    if (section === "map") {
+      initMap().then(() => {
+        loadGeoIfNeeded().then(() => renderMapMarkers());
+      });
     }
   }
 
@@ -1174,7 +1303,17 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
 
   // Section switcher buttons
   document.querySelectorAll<HTMLButtonElement>(".section-btn").forEach(btn => {
-    btn.addEventListener("click", () => switchSection(btn.dataset.section as "analytics" | "stations"));
+    btn.addEventListener("click", () => switchSection(btn.dataset.section as "analytics" | "stations" | "map"));
+  });
+
+  // Map mode buttons
+  document.querySelectorAll<HTMLButtonElement>(".map-mode-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      state.mapMode = btn.dataset.mode as "scatter" | "heat";
+      document.querySelectorAll(".map-mode-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      renderMapMarkers();
+    });
   });
 
   // Max-delay stat card click

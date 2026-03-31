@@ -16,6 +16,9 @@ DELAY_LEVE_MAX_SEC = 5 * 60      # <= 5 min  → retraso_leve
 REQUEST_TIMEOUT = 30
 GTFS_CACHE_HOURS = 24
 
+# Station history retention
+STATION_HISTORY_RETENTION_DAYS = 30
+
 
 @dataclass(frozen=True)
 class ServiceConfig:
@@ -33,6 +36,10 @@ class ServiceConfig:
     @property
     def stations_dir(self) -> Path:
         return self.data_dir / "stations"
+
+    @property
+    def station_history_dir(self) -> Path:
+        return self.data_dir / "station-history"
 
 
 CERCANIAS = ServiceConfig(

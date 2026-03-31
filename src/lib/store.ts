@@ -17,4 +17,8 @@ export const state = {
   refreshTimer: null as ReturnType<typeof setInterval> | null,
   countdownTimer: null as ReturnType<typeof setInterval> | null,
   nextRefreshAt: 0 as number,
+  mapGeo: null as Record<string, { lat: number; lng: number; name: string; cercanias: boolean }> | null,
+  mapMode: "heat" as "scatter" | "heat",
+  mapInstance: null as any,
+  mapLayer: null as any,
 };

@@ -1,7 +1,7 @@
 """Write JSON output files to public/data/{service}/."""
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 _TZ_MADRID = ZoneInfo("Europe/Madrid")
@@ -96,6 +96,63 @@ def write_history(stats: dict, service: ServiceConfig) -> None:
         encoding="utf-8",
     )
     log.info(f"[{service.label}] History updated — {len(records)} snapshots")
+
+
+def write_station_history(station_data: StationData, service: ServiceConfig) -> None:
+    """
+    Append a per-station snapshot to public/data/{service}/station-history/YYYY-MM-DD.json.
+    Only active stations (arrivals > 0) are stored, with compact keys to keep files small.
+    Files older than STATION_HISTORY_RETENTION_DAYS are pruned automatically.
+    """
+    from scripts.config import STATION_HISTORY_RETENTION_DAYS
+
+    history_dir = service.station_history_dir
+    history_dir.mkdir(parents=True, exist_ok=True)
+
+    now_madrid = datetime.now(_TZ_MADRID)
+    date_str = now_madrid.strftime("%Y-%m-%d")
+    time_str = now_madrid.strftime("%H:%M")
+    day_path = history_dir / f"{date_str}.json"
+
+    snapshots: list = []
+    if day_path.exists():
+        try:
+            snapshots = json.loads(day_path.read_text(encoding="utf-8")).get("snapshots", [])
+        except Exception:
+            snapshots = []
+
+    active_stations = []
+    for stop_id, data in station_data.items():
+        arrivals = data.get("arrivals", [])
+        if not arrivals:
+            continue
+        delayed = sum(1 for a in arrivals if a.get("status") in ("retraso_leve", "retraso_alto"))
+        max_delay = max((a.get("delay_min") or 0 for a in arrivals), default=0)
+        active_stations.append({
+            "id": stop_id,
+            "t": len(arrivals),
+            "d": delayed,
+            "mx": round(float(max_delay), 1),
+        })
+
+    snapshots.append({"ts": time_str, "st": active_stations})
+
+    day_path.write_text(
+        json.dumps({"date": date_str, "snapshots": snapshots}, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+
+    # Prune files older than retention window
+    cutoff = (now_madrid - timedelta(days=STATION_HISTORY_RETENTION_DAYS)).date()
+    for old_file in history_dir.glob("*.json"):
+        try:
+            if datetime.strptime(old_file.stem, "%Y-%m-%d").date() < cutoff:
+                old_file.unlink()
+                log.info(f"[{service.label}] Pruned old station-history: {old_file.name}")
+        except ValueError:
+            pass
+
+    log.info(f"[{service.label}] Station history updated — {len(active_stations)} active stations at {time_str}")
 
 
 def write_insights(insights: list, service: ServiceConfig) -> None:
