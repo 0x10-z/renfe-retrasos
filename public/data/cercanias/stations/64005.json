@@ -1,38 +1,27 @@
 {
   "station_id": "64005",
   "name": "Montesa",
-  "generated_at": "2026-03-31T18:00:28+02:00",
+  "generated_at": "2026-03-31T19:00:20+02:00",
   "arrivals": [
     {
-      "trip_id": "4086M84059C2",
-      "route_id": "40T0036C2",
+      "trip_id": "4086M84061C2",
+      "route_id": "40T0038C2",
       "train_name": "C2",
       "headsign": "Moixent",
-      "origin": "L'alcúdia De Crespins",
-      "scheduled_time": "18:11",
-      "estimated_time": "18:11",
+      "origin": "Xàtiva",
+      "scheduled_time": "19:13",
+      "estimated_time": "19:13",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "4086M84058C2",
+      "trip_id": "4086M84062C2",
       "route_id": "40T0035C2",
       "train_name": "C2",
       "headsign": "L'alcúdia De Crespins",
       "origin": "Moixent",
-      "scheduled_time": "18:13",
-      "estimated_time": "18:13",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4086M84060C2",
-      "route_id": "40T0035C2",
-      "train_name": "C2",
-      "headsign": "L'alcúdia De Crespins",
-      "origin": "Moixent",
-      "scheduled_time": "18:58",
-      "estimated_time": "18:58",
+      "scheduled_time": "19:48",
+      "estimated_time": "19:48",
       "delay_min": 0.0,
       "status": "en_hora"
     }

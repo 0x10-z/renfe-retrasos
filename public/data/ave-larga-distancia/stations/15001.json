@@ -1,18 +1,6 @@
 {
   "station_id": "15001",
   "name": "Grijota",
-  "generated_at": "2026-03-31T18:00:08+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1210012026-03-30",
-      "route_id": "1541010600VRR",
-      "train_name": "REGIONAL 12100",
-      "headsign": "Valladolid",
-      "origin": "Gijón/Xixón",
-      "scheduled_time": "19:00",
-      "estimated_time": "19:04",
-      "delay_min": 4.0,
-      "status": "retraso_leve"
-    }
-  ]
+  "generated_at": "2026-03-31T19:00:08+02:00",
+  "arrivals": []
 }

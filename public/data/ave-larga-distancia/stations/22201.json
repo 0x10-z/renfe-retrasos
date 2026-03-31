@@ -1,18 +1,6 @@
 {
   "station_id": "22201",
   "name": "O Porriño",
-  "generated_at": "2026-03-31T18:00:08+02:00",
-  "arrivals": [
-    {
-      "trip_id": "3742212026-03-30",
-      "route_id": "2230822201VRX",
-      "train_name": "MD 37422",
-      "headsign": "O Porriño",
-      "origin": "Vigo Guixar",
-      "scheduled_time": "18:26",
-      "estimated_time": "18:26",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    }
-  ]
+  "generated_at": "2026-03-31T19:00:08+02:00",
+  "arrivals": []
 }

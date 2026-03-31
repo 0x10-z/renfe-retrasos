@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-31T18:00",
+  "generated_at": "2026-03-31T19:00",
   "insights": [
     {
       "id": "A",
-      "text": "A las 18h se están acumulando los retrasos — 3 trenes afectados",
+      "text": "A las 19h se están acumulando los retrasos — 6 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 18
+        "hour": 19
       }
     },
     {
       "id": "D",
-      "text": "Históricamente los lunes son el día con más retrasos (media 1%); los domingo son los más puntuales",
+      "text": "Históricamente los lunes son el día con más retrasos (media 1%); los martes son los más puntuales",
       "severity": "info"
     },
     {

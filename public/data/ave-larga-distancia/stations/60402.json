@@ -1,17 +1,17 @@
 {
   "station_id": "60402",
   "name": "Campo de Criptana",
-  "generated_at": "2026-03-31T18:00:08+02:00",
+  "generated_at": "2026-03-31T19:00:08+02:00",
   "arrivals": [
     {
-      "trip_id": "1804312026-03-30",
-      "route_id": "6060017000VRX",
-      "train_name": "MD 18043",
-      "headsign": "Madrid-Chamartín-Clara Campoamor",
-      "origin": "Albacete-Los Llanos",
-      "scheduled_time": "18:40",
-      "estimated_time": "18:46",
-      "delay_min": 6.0,
+      "trip_id": "1808312026-03-30",
+      "route_id": "6091137200VRX",
+      "train_name": "MD 18083",
+      "headsign": "Ciudad Real",
+      "origin": "Alicante/Alacant",
+      "scheduled_time": "19:45",
+      "estimated_time": "19:56",
+      "delay_min": 11.0,
       "status": "retraso_alto"
     }
   ]
