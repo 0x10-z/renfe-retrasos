@@ -1,16 +1,16 @@
 {
   "station_id": "40122",
   "name": "Tocina",
-  "generated_at": "2026-03-31T11:08:23+02:00",
+  "generated_at": "2026-03-31T12:00:27+02:00",
   "arrivals": [
     {
-      "trip_id": "3086M83529C3",
+      "trip_id": "3086M83537C3",
       "route_id": "30T0005C3",
       "train_name": "C3",
       "headsign": "Cazalla-Constantina",
       "origin": "Los Rosales",
-      "scheduled_time": "10:55",
-      "estimated_time": "10:55",
+      "scheduled_time": "12:55",
+      "estimated_time": "12:55",
       "delay_min": 0.0,
       "status": "en_hora"
     }

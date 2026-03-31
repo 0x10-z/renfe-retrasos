@@ -1,6 +1,18 @@
 {
   "station_id": "05521",
   "name": "El Remedio",
-  "generated_at": "2026-03-31T11:08:14+02:00",
-  "arrivals": []
+  "generated_at": "2026-03-31T12:00:09+02:00",
+  "arrivals": [
+    {
+      "trip_id": "7182112026-03-30",
+      "route_id": "1521105571VRFV",
+      "train_name": "REGIONAL 71821",
+      "headsign": "Llanes",
+      "origin": "Oviedo/Uviéu",
+      "scheduled_time": "12:02",
+      "estimated_time": "12:06",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
+    }
+  ]
 }

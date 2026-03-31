@@ -1,49 +1,49 @@
 {
   "station_id": "70105",
   "name": "Azuqueca",
-  "generated_at": "2026-03-31T11:08:23+02:00",
+  "generated_at": "2026-03-31T12:00:27+02:00",
   "arrivals": [
     {
-      "trip_id": "1086M75608C2",
-      "route_id": "10T0006C2",
-      "train_name": "C2",
-      "headsign": "Guadalajara",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "10:14",
-      "estimated_time": "10:14",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1086M75509C2",
+      "trip_id": "1086M75617C2",
       "route_id": "10T0005C2",
       "train_name": "C2",
       "headsign": "Madrid-Chamartín-Clara Campoamor",
       "origin": "Guadalajara",
-      "scheduled_time": "10:35",
-      "estimated_time": "10:35",
-      "delay_min": 0.0,
+      "scheduled_time": "12:03",
+      "estimated_time": "12:04",
+      "delay_min": 1.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1086M75610C2",
+      "trip_id": "1086M75510C2",
       "route_id": "10T0006C2",
       "train_name": "C2",
       "headsign": "Guadalajara",
       "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "10:44",
-      "estimated_time": "10:44",
+      "scheduled_time": "12:15",
+      "estimated_time": "12:15",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1086M75615C2",
+      "trip_id": "1086M75513C2",
       "route_id": "10T0005C2",
       "train_name": "C2",
       "headsign": "Madrid-Chamartín-Clara Campoamor",
       "origin": "Guadalajara",
-      "scheduled_time": "11:04",
-      "estimated_time": "11:04",
+      "scheduled_time": "12:33",
+      "estimated_time": "12:31",
+      "delay_min": -2.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1086M75614C2",
+      "route_id": "10T0006C2",
+      "train_name": "C2",
+      "headsign": "Guadalajara",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "12:44",
+      "estimated_time": "12:44",
       "delay_min": 0.0,
       "status": "en_hora"
     }

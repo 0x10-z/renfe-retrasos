@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-03-31T11:08",
+  "generated_at": "2026-03-31T12:00",
   "insights": [
     {
       "id": "A",
-      "text": "A las 10h se están acumulando los retrasos — 89 trenes afectados",
+      "text": "A las 12h se están acumulando los retrasos — 211 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 10
+        "hour": 12
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 32 minutos — tren desde Terrassa Estacio Nord con parada en Sant Guim De Freixenet",
+      "text": "El mayor retraso en este momento es de 79 minutos — tren desde Portbou con parada en Barcelona-Sants",
       "severity": "bad",
       "meta": {
-        "station_id": "78501",
-        "station_name": "Sant Guim De Freixenet"
+        "station_id": "71801",
+        "station_name": "Barcelona-Sants"
       }
     },
     {
       "id": "C",
-      "text": "Requena Utiel es la estación más afectada ahora mismo: 3 de 4 trenes con retraso",
+      "text": "Castelló es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "03213",
-        "station_name": "Requena Utiel"
+        "station_id": "65300",
+        "station_name": "Castelló"
       }
     },
     {

@@ -1,18 +1,6 @@
 {
   "station_id": "74208",
   "name": "Anzánigo",
-  "generated_at": "2026-03-31T11:08:14+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1564012026-03-30",
-      "route_id": "0404074217VRR",
-      "train_name": "REGIONAL 15640",
-      "headsign": "Canfranc",
-      "origin": "Zaragoza-Delicias",
-      "scheduled_time": "10:44",
-      "estimated_time": "10:54",
-      "delay_min": 10.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-31T12:00:09+02:00",
+  "arrivals": []
 }

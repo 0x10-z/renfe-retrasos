@@ -1,38 +1,49 @@
 {
   "station_id": "13503",
   "name": "Valle De Trápaga/Trapagaran",
-  "generated_at": "2026-03-31T11:08:23+02:00",
+  "generated_at": "2026-03-31T12:00:27+02:00",
   "arrivals": [
     {
-      "trip_id": "6086M26026C2",
+      "trip_id": "6086M26032C2",
       "route_id": "60T0004C2",
       "train_name": "C2",
       "headsign": "Bilbao-Intermod. Abando Indalecio Prieto",
       "origin": "Muskiz",
-      "scheduled_time": "10:21",
-      "estimated_time": "10:21",
+      "scheduled_time": "12:04",
+      "estimated_time": "12:04",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "6086M26027C2",
+      "trip_id": "6086M26033C2",
       "route_id": "60T0003C2",
       "train_name": "C2",
       "headsign": "Muskiz",
       "origin": "Bilbao-Intermod. Abando Indalecio Prieto",
-      "scheduled_time": "10:42",
-      "estimated_time": "10:42",
+      "scheduled_time": "12:30",
+      "estimated_time": "12:30",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "6086M26028C2",
+      "trip_id": "6086M26034C2",
       "route_id": "60T0004C2",
       "train_name": "C2",
       "headsign": "Bilbao-Intermod. Abando Indalecio Prieto",
       "origin": "Muskiz",
-      "scheduled_time": "10:55",
-      "estimated_time": "10:55",
+      "scheduled_time": "12:43",
+      "estimated_time": "12:43",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "6086M26035C2",
+      "route_id": "60T0003C2",
+      "train_name": "C2",
+      "headsign": "Muskiz",
+      "origin": "Bilbao-Intermod. Abando Indalecio Prieto",
+      "scheduled_time": "12:52",
+      "estimated_time": "12:52",
       "delay_min": 0.0,
       "status": "en_hora"
     }

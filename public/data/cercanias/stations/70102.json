@@ -1,95 +1,95 @@
 {
   "station_id": "70102",
   "name": "Torrejón De Ardoz",
-  "generated_at": "2026-03-31T11:08:23+02:00",
+  "generated_at": "2026-03-31T12:00:27+02:00",
   "arrivals": [
     {
-      "trip_id": "1086M75827C7",
-      "route_id": "10T0052C7",
-      "train_name": "C7",
-      "headsign": "Madrid-Príncipe Pío",
-      "origin": "Alcalá De Henares",
-      "scheduled_time": "10:15",
-      "estimated_time": "10:15",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1086M75610C2",
-      "route_id": "10T0006C2",
-      "train_name": "C2",
-      "headsign": "Guadalajara",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "10:19",
-      "estimated_time": "10:19",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1086M75613C2",
-      "route_id": "10T0005C2",
-      "train_name": "C2",
-      "headsign": "Madrid-Chamartín-Clara Campoamor",
-      "origin": "Guadalajara",
-      "scheduled_time": "10:29",
-      "estimated_time": "10:29",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1086M75816C7",
+      "trip_id": "1086M75822C7",
       "route_id": "10T0051C7",
       "train_name": "C7",
       "headsign": "Alcalá De Henares",
       "origin": "Madrid-Príncipe Pío",
-      "scheduled_time": "10:32",
-      "estimated_time": "10:32",
+      "scheduled_time": "12:02",
+      "estimated_time": "12:02",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1086M75829C7",
+      "trip_id": "1086M75835C7",
       "route_id": "10T0052C7",
       "train_name": "C7",
       "headsign": "Madrid-Príncipe Pío",
       "origin": "Alcalá De Henares",
-      "scheduled_time": "10:45",
-      "estimated_time": "10:45",
+      "scheduled_time": "12:15",
+      "estimated_time": "12:15",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1086M75508C2",
+      "trip_id": "1086M75614C2",
       "route_id": "10T0006C2",
       "train_name": "C2",
       "headsign": "Guadalajara",
       "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "10:50",
-      "estimated_time": "10:50",
+      "scheduled_time": "12:19",
+      "estimated_time": "12:19",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1086M75509C2",
+      "trip_id": "1086M75617C2",
       "route_id": "10T0005C2",
       "train_name": "C2",
       "headsign": "Madrid-Chamartín-Clara Campoamor",
       "origin": "Guadalajara",
-      "scheduled_time": "10:59",
-      "estimated_time": "10:59",
+      "scheduled_time": "12:27",
+      "estimated_time": "12:27",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1086M75818C7",
+      "trip_id": "1086M75824C7",
       "route_id": "10T0051C7",
       "train_name": "C7",
       "headsign": "Alcalá De Henares",
       "origin": "Madrid-Príncipe Pío",
-      "scheduled_time": "11:02",
-      "estimated_time": "11:13",
-      "delay_min": 11.0,
-      "status": "retraso_alto"
+      "scheduled_time": "12:32",
+      "estimated_time": "12:32",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1086M75837C7",
+      "route_id": "10T0052C7",
+      "train_name": "C7",
+      "headsign": "Madrid-Príncipe Pío",
+      "origin": "Alcalá De Henares",
+      "scheduled_time": "12:45",
+      "estimated_time": "12:45",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1086M75512C2",
+      "route_id": "10T0006C2",
+      "train_name": "C2",
+      "headsign": "Guadalajara",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "12:49",
+      "estimated_time": "12:49",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1086M75513C2",
+      "route_id": "10T0005C2",
+      "train_name": "C2",
+      "headsign": "Madrid-Chamartín-Clara Campoamor",
+      "origin": "Guadalajara",
+      "scheduled_time": "12:57",
+      "estimated_time": "12:57",
+      "delay_min": 0.0,
+      "status": "en_hora"
     }
   ]
 }
