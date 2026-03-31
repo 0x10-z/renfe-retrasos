@@ -1,6 +1,23 @@
 {
-  "generated_at": "2026-03-31T10:00",
+  "generated_at": "2026-03-31T10:19",
   "insights": [
+    {
+      "id": "A",
+      "text": "A las 10h se están acumulando los retrasos — 47 trenes afectados",
+      "severity": "warn",
+      "meta": {
+        "hour": 10
+      }
+    },
+    {
+      "id": "B",
+      "text": "El mayor retraso en este momento es de 59 minutos — tren desde Lorca-Sutullena con parada en Lorca-San Diego",
+      "severity": "bad",
+      "meta": {
+        "station_id": "06005",
+        "station_name": "Lorca-San Diego"
+      }
+    },
     {
       "id": "D",
       "text": "Históricamente los lunes son el día con más retrasos (media 1%); los martes son los más puntuales",

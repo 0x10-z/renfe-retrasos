@@ -1,6 +1,18 @@
 {
   "station_id": "78200",
   "name": "Tardienta",
-  "generated_at": "2026-03-31T10:00:07+02:00",
-  "arrivals": []
+  "generated_at": "2026-03-31T10:19:20+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1564012026-03-30",
+      "route_id": "0404074217VRR",
+      "train_name": "REGIONAL 15640",
+      "headsign": "Canfranc",
+      "origin": "Zaragoza-Delicias",
+      "scheduled_time": "09:31",
+      "estimated_time": "09:39",
+      "delay_min": 8.0,
+      "status": "retraso_alto"
+    }
+  ]
 }
