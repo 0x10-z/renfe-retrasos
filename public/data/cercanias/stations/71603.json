@@ -1,49 +1,49 @@
 {
   "station_id": "71603",
   "name": "Cunit",
-  "generated_at": "2026-03-31T14:00:28+02:00",
+  "generated_at": "2026-03-31T15:00:21+02:00",
   "arrivals": [
     {
-      "trip_id": "5186M25532R2S",
+      "trip_id": "5186M25536R2S",
       "route_id": "51T0007R2S",
       "train_name": "R2S",
       "headsign": "Barcelona Estació De França",
       "origin": "Sant Vicenç De Calders",
-      "scheduled_time": "14:13",
-      "estimated_time": "14:13",
+      "scheduled_time": "15:13",
+      "estimated_time": "15:13",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5186M25531R2S",
+      "trip_id": "5186M25535R2S",
       "route_id": "51T0008R2S",
       "train_name": "R2S",
       "headsign": "Sant Vicenç De Calders",
       "origin": "Barcelona Estació De França",
-      "scheduled_time": "14:24",
-      "estimated_time": "14:24",
+      "scheduled_time": "15:24",
+      "estimated_time": "15:24",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5186M25534R2S",
+      "trip_id": "5186M25538R2S",
       "route_id": "51T0007R2S",
       "train_name": "R2S",
       "headsign": "Barcelona Estació De França",
       "origin": "Sant Vicenç De Calders",
-      "scheduled_time": "14:43",
-      "estimated_time": "14:43",
+      "scheduled_time": "15:41",
+      "estimated_time": "15:41",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5186M25533R2S",
+      "trip_id": "5186M25537R2S",
       "route_id": "51T0008R2S",
       "train_name": "R2S",
       "headsign": "Sant Vicenç De Calders",
       "origin": "Barcelona Estació De França",
-      "scheduled_time": "14:54",
-      "estimated_time": "14:54",
+      "scheduled_time": "15:54",
+      "estimated_time": "15:54",
       "delay_min": 0.0,
       "status": "en_hora"
     }

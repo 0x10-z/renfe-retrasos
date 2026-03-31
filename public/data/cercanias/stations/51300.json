@@ -1,38 +1,60 @@
 {
   "station_id": "51300",
   "name": "Jerez De La Frontera",
-  "generated_at": "2026-03-31T14:00:28+02:00",
+  "generated_at": "2026-03-31T15:00:21+02:00",
   "arrivals": [
     {
-      "trip_id": "3186M23222C1",
-      "route_id": "31T0002C1",
-      "train_name": "C1",
-      "headsign": "Cádiz",
-      "origin": "Jerez De La Frontera",
-      "scheduled_time": "14:04",
-      "estimated_time": "14:04",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3186M23223C1",
+      "trip_id": "3186M23225C1",
       "route_id": "31T0001C1",
       "train_name": "C1",
       "headsign": "Jerez De La Frontera",
       "origin": "Cádiz",
-      "scheduled_time": "14:32",
-      "estimated_time": "14:32",
+      "scheduled_time": "15:07",
+      "estimated_time": "15:07",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "3186M23224C1",
+      "trip_id": "3186M23226C1",
       "route_id": "31T0002C1",
       "train_name": "C1",
       "headsign": "Cádiz",
       "origin": "Jerez De La Frontera",
-      "scheduled_time": "14:40",
-      "estimated_time": "14:40",
+      "scheduled_time": "15:12",
+      "estimated_time": "15:12",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3186M23228C1",
+      "route_id": "31T0002C1",
+      "train_name": "C1",
+      "headsign": "Cádiz",
+      "origin": "Jerez De La Frontera",
+      "scheduled_time": "15:36",
+      "estimated_time": "15:36",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3186M23227C1",
+      "route_id": "31T0001C1",
+      "train_name": "C1",
+      "headsign": "Jerez De La Frontera",
+      "origin": "Cádiz",
+      "scheduled_time": "15:42",
+      "estimated_time": "15:42",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3186M23229C1",
+      "route_id": "31T0001C1",
+      "train_name": "C1",
+      "headsign": "Jerez De La Frontera",
+      "origin": "Cádiz",
+      "scheduled_time": "16:00",
+      "estimated_time": "16:00",
       "delay_min": 0.0,
       "status": "en_hora"
     }

@@ -1,16 +1,16 @@
 {
   "station_id": "05691",
   "name": "Gibaja",
-  "generated_at": "2026-03-31T14:00:28+02:00",
+  "generated_at": "2026-03-31T15:00:21+02:00",
   "arrivals": [
     {
-      "trip_id": "6286M71872C3",
-      "route_id": "62T0011C3",
+      "trip_id": "6286M71853C3",
+      "route_id": "62T0012C3",
       "train_name": "C3",
-      "headsign": "Orejo",
-      "origin": "Gibaja",
-      "scheduled_time": "14:57",
-      "estimated_time": "14:57",
+      "headsign": "Gibaja",
+      "origin": "Orejo",
+      "scheduled_time": "15:30",
+      "estimated_time": "15:30",
       "delay_min": 0.0,
       "status": "en_hora"
     }

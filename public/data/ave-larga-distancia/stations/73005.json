@@ -1,18 +1,6 @@
 {
   "station_id": "73005",
   "name": "Vinaixa",
-  "generated_at": "2026-03-31T14:00:08+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1505312026-03-30",
-      "route_id": "7940078400VRE",
-      "train_name": "REG.EXP. 15053",
-      "headsign": "Lleida-Pirineus",
-      "origin": "Barcelona-Estació De França",
-      "scheduled_time": "14:35",
-      "estimated_time": "14:38",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
-    }
-  ]
+  "generated_at": "2026-03-31T15:00:08+02:00",
+  "arrivals": []
 }

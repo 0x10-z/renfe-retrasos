@@ -1,18 +1,6 @@
 {
   "station_id": "78600",
   "name": "Manresa",
-  "generated_at": "2026-03-31T14:00:08+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1562412026-03-30",
-      "route_id": "7840078700VRR",
-      "train_name": "REGIONAL 15624",
-      "headsign": "Terrassa Estacio Nord",
-      "origin": "Lleida-Pirineus",
-      "scheduled_time": "14:04",
-      "estimated_time": "14:25",
-      "delay_min": 21.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-31T15:00:08+02:00",
+  "arrivals": []
 }
