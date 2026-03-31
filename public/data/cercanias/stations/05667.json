@@ -1,27 +1,27 @@
 {
   "station_id": "05667",
   "name": "Ceceñas",
-  "generated_at": "2026-03-31T17:00:24+02:00",
+  "generated_at": "2026-03-31T18:00:28+02:00",
   "arrivals": [
     {
-      "trip_id": "6286M82371C3",
+      "trip_id": "6286M82373C3",
       "route_id": "62T0005C3",
       "train_name": "C3",
       "headsign": "Liérganes",
       "origin": "Astillero",
-      "scheduled_time": "17:08",
-      "estimated_time": "17:08",
+      "scheduled_time": "18:08",
+      "estimated_time": "18:08",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "6286M82370C3",
+      "trip_id": "6286M82372C3",
       "route_id": "62T0006C3",
       "train_name": "C3",
       "headsign": "La Cantábrica",
       "origin": "Liérganes",
-      "scheduled_time": "17:15",
-      "estimated_time": "17:15",
+      "scheduled_time": "18:15",
+      "estimated_time": "18:15",
       "delay_min": 0.0,
       "status": "en_hora"
     }

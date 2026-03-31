@@ -1,18 +1,6 @@
 {
   "station_id": "14213",
   "name": "Torrelavega/Tanos",
-  "generated_at": "2026-03-31T17:00:09+02:00",
-  "arrivals": [
-    {
-      "trip_id": "0414312026-03-31",
-      "route_id": "6091114223GL023",
-      "train_name": "ALVIA 04143",
-      "headsign": "Santander",
-      "origin": "Alicante/Alacant",
-      "scheduled_time": "17:37",
-      "estimated_time": "17:49",
-      "delay_min": 12.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-31T18:00:08+02:00",
+  "arrivals": []
 }

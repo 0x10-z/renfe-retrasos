@@ -1,27 +1,16 @@
 {
   "station_id": "79312",
   "name": "Llançà",
-  "generated_at": "2026-03-31T17:00:24+02:00",
+  "generated_at": "2026-03-31T18:00:28+02:00",
   "arrivals": [
     {
-      "trip_id": "5186M15918R11",
-      "route_id": "51T0094R11",
-      "train_name": "R11",
+      "trip_id": "5186M34665RG1",
+      "route_id": "51T0111RG1",
+      "train_name": "RG1",
       "headsign": "Portbou",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "17:41",
-      "estimated_time": "17:41",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5186M15876R11",
-      "route_id": "51T0093R11",
-      "train_name": "R11",
-      "headsign": "Barcelona-Sants",
-      "origin": "Portbou",
-      "scheduled_time": "17:44",
-      "estimated_time": "17:44",
+      "origin": "Maçanet-Massanes",
+      "scheduled_time": "19:00",
+      "estimated_time": "19:00",
       "delay_min": 0.0,
       "status": "en_hora"
     }
