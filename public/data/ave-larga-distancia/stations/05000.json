@@ -1,18 +1,6 @@
 {
   "station_id": "05000",
   "name": "Granada",
-  "generated_at": "2026-03-31T23:00:09+02:00",
-  "arrivals": [
-    {
-      "trip_id": "0219612026-03-30",
-      "route_id": "6000005000AV006",
-      "train_name": "AVE 02196",
-      "headsign": "Granada",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "23:15",
-      "estimated_time": "23:41",
-      "delay_min": 26.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-01T00:00:07+02:00",
+  "arrivals": []
 }

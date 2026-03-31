@@ -1,18 +1,6 @@
 {
   "station_id": "79102",
   "name": "Llinars Del Vallès",
-  "generated_at": "2026-03-31T23:00:27+02:00",
-  "arrivals": [
-    {
-      "trip_id": "5186M25466R2N",
-      "route_id": "51T0003R2N",
-      "train_name": "R2N",
-      "headsign": "Sant Celoni",
-      "origin": "El Prat Aeroport",
-      "scheduled_time": "23:18",
-      "estimated_time": "23:18",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    }
-  ]
+  "generated_at": "2026-04-01T00:00:29+02:00",
+  "arrivals": []
 }

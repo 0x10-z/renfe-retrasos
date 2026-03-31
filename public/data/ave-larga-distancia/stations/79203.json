@@ -1,18 +1,6 @@
 {
   "station_id": "79203",
   "name": "Caldes De Malavella",
-  "generated_at": "2026-03-31T23:00:09+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1570212026-03-30",
-      "route_id": "7180179300VRX",
-      "train_name": "MD 15702",
-      "headsign": "Girona",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "23:01",
-      "estimated_time": "23:21",
-      "delay_min": 20.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-01T00:00:07+02:00",
+  "arrivals": []
 }
