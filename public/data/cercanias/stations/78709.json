@@ -1,16 +1,27 @@
 {
   "station_id": "78709",
   "name": "Sabadell Nord",
-  "generated_at": "2026-03-31T04:00:25+02:00",
+  "generated_at": "2026-03-31T05:00:21+02:00",
   "arrivals": [
     {
-      "trip_id": "5186M77502R4",
+      "trip_id": "5186M77504R4",
       "route_id": "51T0020R4",
       "train_name": "R4",
       "headsign": "Martorell-Central",
       "origin": "Terrassa Estació Del Nord",
-      "scheduled_time": "04:37",
-      "estimated_time": "04:37",
+      "scheduled_time": "05:07",
+      "estimated_time": "05:07",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5186M77506R4",
+      "route_id": "51T0020R4",
+      "train_name": "R4",
+      "headsign": "Martorell-Central",
+      "origin": "Terrassa Estació Del Nord",
+      "scheduled_time": "05:37",
+      "estimated_time": "05:37",
       "delay_min": 0.0,
       "status": "en_hora"
     }
