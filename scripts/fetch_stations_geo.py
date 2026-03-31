@@ -69,12 +69,20 @@ def fetch_and_parse() -> dict:
 
         name = (row.get("DESCRIPCION") or "").strip().title()
         is_cercanias = (row.get("CERCANIAS") or "").strip().upper() == "SI"
+        provincia = (row.get("PROVINCIA") or "").strip().title()
+        poblacion = (row.get("POBLACION") or "").strip().title()
+        direcion = (row.get("DIRECION") or "").strip().title()
+        cp = (row.get("CP") or "").strip()
 
         geo[code] = {
             "name": name,
             "lat": round(lat, 5),
             "lng": round(lng, 5),
             "cercanias": is_cercanias,
+            "provincia": provincia,
+            "poblacion": poblacion,
+            "direcion": direcion,
+            "cp": cp,
         }
 
     log.info(f"Parsed {len(geo)} stations ({skipped} skipped — no coords or outside Spain)")

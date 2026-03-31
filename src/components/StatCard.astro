@@ -1,0 +1,125 @@
+---
+interface Props {
+  id?: string;
+  valueId: string;
+  label: string;
+  tip?: string;
+  variant?: "warn" | "danger";
+}
+
+const { id, valueId, label, tip, variant } = Astro.props;
+const cardClass = ["stat-card", variant ? `stat-card--${variant}` : ""].filter(Boolean).join(" ");
+---
+
+<div class={cardClass} id={id}>
+  <div class="stat-icon">
+    <slot name="icon" />
+  </div>
+  <div class="stat-body">
+    <div class="stat-label">{label}</div>
+    <div class="stat-value" id={valueId}>—</div>
+    <slot name="sub" />
+  </div>
+  {tip && <span class="info-tip" data-tip={tip}>ℹ</span>}
+</div>
+
+<style>
+  .stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.875rem 1rem;
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    transition: border-color 0.2s;
+    box-shadow: var(--shadow-sm);
+    position: relative;
+  }
+  .stat-card:hover { border-color: var(--border-bright); }
+  .stat-card--warn    { border-left: 2px solid var(--yellow); }
+  .stat-card--danger  { border-left: 2px solid var(--red); }
+
+  :global(.stat-card--clickable) { cursor: pointer; }
+  :global(.stat-card--clickable:hover) {
+    border-color: var(--red);
+    box-shadow: var(--shadow);
+    transform: translateY(-1px);
+  }
+  :global(.stat-card--clickable .stat-sub) { color: var(--text); font-weight: 500; }
+
+  .stat-icon {
+    color: var(--text-muted);
+    flex-shrink: 0;
+    padding-top: 0.1rem;
+  }
+
+  .stat-body { flex: 1; min-width: 0; }
+
+  .stat-label {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--text-muted);
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .info-tip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    font-size: 0.6rem;
+    font-family: var(--font);
+    font-weight: 700;
+    color: var(--text-muted);
+    border: 1px solid var(--border-bright);
+    border-radius: 50%;
+    cursor: default;
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    flex-shrink: 0;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1;
+  }
+  .info-tip::after {
+    content: attr(data-tip);
+    position: absolute;
+    bottom: calc(100% + 6px);
+    right: 0;
+    transform: none;
+    background: #1e2433;
+    color: #e2e8f0;
+    font-size: 0.72rem;
+    font-weight: 400;
+    line-height: 1.45;
+    padding: 0.45rem 0.65rem;
+    border-radius: 6px;
+    width: 200px;
+    white-space: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 20;
+    box-shadow: 0 4px 12px rgba(0,0,0,.25);
+  }
+  .info-tip:hover::after { opacity: 1; }
+
+  .stat-value {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    font-family: var(--font-mono);
+    margin-bottom: 0.25rem;
+  }
+</style>

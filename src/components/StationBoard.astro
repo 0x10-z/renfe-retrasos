@@ -1,13 +1,28 @@
 ---
+interface StationMeta {
+  lat: number;
+  lng: number;
+  provincia: string;
+  poblacion: string;
+  direcion?: string;
+  cp?: string;
+  cercanias: boolean;
+}
+
 interface Props {
   id: string;
   name: string;
   dataName: string;    // "ave-larga-distancia" | "cercanias"  — data folder
   serviceSlug: string; // "ave-larga-distancia" | "cercanias"  — URL segment
   serviceLabel: string;
+  meta?: StationMeta | null;
 }
 
-const { id, name, dataName, serviceSlug, serviceLabel } = Astro.props;
+const { id, name, dataName, serviceSlug, serviceLabel, meta } = Astro.props;
+const osmUrl = meta ? `https://www.openstreetmap.org/?mlat=${meta.lat}&mlon=${meta.lng}&zoom=15` : null;
+const locationLabel = meta
+  ? [meta.poblacion, meta.provincia].filter(Boolean).join(", ")
+  : null;
 ---
 
 <style>
@@ -39,6 +54,15 @@ const { id, name, dataName, serviceSlug, serviceLabel } = Astro.props;
       <div class="station-dot-lg" id="header-dot"></div>
       <div>
         <h1 id="station-name">{name}</h1>
+        {locationLabel && (
+          <p class="station-location">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            {osmUrl
+              ? <a href={osmUrl} target="_blank" rel="noopener" class="location-link">{locationLabel}</a>
+              : locationLabel}
+            {meta?.direcion && <span class="station-address">· {meta.direcion}{meta.cp ? `, ${meta.cp}` : ""}</span>}
+          </p>
+        )}
         <p class="station-meta" id="arrivals-meta">Cargando llegadas…</p>
       </div>
     </div>
@@ -98,6 +122,23 @@ const { id, name, dataName, serviceSlug, serviceLabel } = Astro.props;
           <p class="train-preview-license">Foto tomada de Wikipedia bajo licencia <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.es" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>.</p>
       </div>
     </div>
+
+    {meta && (
+      <div class="location-section">
+        <div class="location-section-header">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Ubicación
+        </div>
+        <div
+          id="station-mini-map"
+          class="mini-map"
+          data-lat={meta.lat}
+          data-lng={meta.lng}
+          data-osm={osmUrl}
+          aria-label={`Mapa de ubicación de ${name}`}
+        ></div>
+      </div>
+    )}
 
     <div id="train-viewer-modal" class="train-viewer-modal" style="display:none" role="dialog" aria-modal="true" aria-labelledby="train-viewer-title">
       <div class="train-viewer-panel">
@@ -165,17 +206,61 @@ const { id, name, dataName, serviceSlug, serviceLabel } = Astro.props;
   .station-dot-lg.has-delays { background: var(--yellow); }
   .station-dot-lg.has-high-delays { background: var(--red); }
 
+  .station-location {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 0.2rem;
+    flex-wrap: wrap;
+  }
+  .station-location svg { flex-shrink: 0; color: var(--accent); }
+  .location-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .location-link:hover { color: var(--accent); text-decoration: underline; }
+  .station-address {
+    color: var(--text-sub);
+    font-size: 0.73rem;
+  }
+
   .station-meta {
     font-size: 0.8rem;
     color: var(--text-sub);
-    margin-top: 0.2rem;
   }
 
-  .header-right {
+  .location-section {
+    margin-top: 0.9rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.85rem 0.9rem;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .location-section-header {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--text-muted);
+    margin-bottom: 0.65rem;
+  }
+  .location-section-header svg { color: var(--accent); }
+
+  .mini-map {
+    width: 100%;
+    height: 240px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    cursor: pointer;
   }
 
   .summary-chips {
@@ -183,6 +268,13 @@ const { id, name, dataName, serviceSlug, serviceLabel } = Astro.props;
     gap: 0.4rem;
     flex-wrap: wrap;
     justify-content: flex-end;
+  }
+
+  @media (max-width: 640px) {
+    .summary-chips { justify-content: flex-start; }
+    .refresh-info { text-align: left; }
+    .refresh-bar-wrap { margin-left: 0; margin-right: 0; }
+    .mini-map { height: 180px; }
   }
 
   :global(.chip) {
@@ -198,7 +290,7 @@ const { id, name, dataName, serviceSlug, serviceLabel } = Astro.props;
   :global(.chip-red)    { background: var(--red-bg);    color: var(--red);    }
   :global(.chip-gray)   { background: var(--bg);        color: var(--text-muted); border: 1px solid var(--border); }
 
-  .refresh-info { font-size: 0.75rem; color: var(--text-sub); text-align: right; }
+  .refresh-info { font-size: 0.75rem; color: var(--text-sub); text-align: right; margin-top: 0.25rem; }
   .refresh-bar-wrap {
     width: 90px; height: 2px;
     background: var(--border); border-radius: 1px;
@@ -234,20 +326,20 @@ const { id, name, dataName, serviceSlug, serviceLabel } = Astro.props;
     color: var(--text-muted);
     white-space: nowrap;
   }
-  .board td {
-    padding: 1rem 1.25rem;
+  :global(.board td) {
+    padding: 1.0rem 1.25rem;
     border-bottom: 2px solid var(--border);
     vertical-align: middle;
   }
-  .board tbody tr:last-child td { border-bottom: none; }
-  .board tbody tr:hover td { background: var(--bg-card-hover); }
+  :global(.board tbody tr:last-child td) { border-bottom: none; }
+  :global(.board tbody tr:hover td) { background: var(--bg-card-hover); }
 
   /* Col widths */
-  .board th:nth-child(1), .board td:nth-child(1) { min-width: 200px; }
-  .board th:nth-child(2), .board td:nth-child(2),
-  .board th:nth-child(3), .board td:nth-child(3) { width: 110px; font-family: var(--font-mono); }
-  .board th:nth-child(4), .board td:nth-child(4) { width: 80px; }
-  .board th:nth-child(5), .board td:nth-child(5) { width: 140px; }
+  :global(.board th:nth-child(1)), :global(.board td:nth-child(1)) { min-width: 200px; }
+  :global(.board th:nth-child(2)), :global(.board td:nth-child(2)),
+  :global(.board th:nth-child(3)), :global(.board td:nth-child(3)) { width: 110px; font-family: var(--font-mono); }
+  :global(.board th:nth-child(4)), :global(.board td:nth-child(4)) { width: 80px; }
+  :global(.board th:nth-child(5)), :global(.board td:nth-child(5)) { width: 140px; }
 
   :global(.time-cell) { font-family: var(--font-mono); font-size: 0.92rem; letter-spacing: 0.02em; }
   :global(.time-on-time) { color: var(--text); }
@@ -266,11 +358,11 @@ const { id, name, dataName, serviceSlug, serviceLabel } = Astro.props;
     letter-spacing: 0.04em; text-transform: uppercase;
     font-family: var(--font-mono); white-space: nowrap;
   }
-    .board tbody tr {
+    :global(.board tbody tr) {
       cursor: pointer;
       transition: background-color 0.15s;
     }
-    .board tbody tr:hover {
+    :global(.board tbody tr:hover) {
       background-color: var(--bg-card-hover);
     }
   :global(.badge-en_hora)      { background: var(--green-bg);  color: var(--green);  border: 1px solid var(--green-border); }
@@ -444,8 +536,8 @@ const { id, name, dataName, serviceSlug, serviceLabel } = Astro.props;
   }
 
   @media (max-width: 640px) {
-    .board th:nth-child(4), .board td:nth-child(4) { display: none; }
-    .board th, .board td { padding: 0.75rem 0.65rem; }
+    :global(.board th:nth-child(4)), :global(.board td:nth-child(4)) { display: none; }
+    :global(.board th), :global(.board td) { padding: 0.75rem 0.65rem; }
     .station-header { flex-direction: column; }
     .header-right { align-items: flex-start; }
     .summary-chips { justify-content: flex-start; }
@@ -673,4 +765,44 @@ const { id, name, dataName, serviceSlug, serviceLabel } = Astro.props;
   load();
   startCountdown();
   setInterval(() => { load(); startCountdown(); }, REFRESH_INTERVAL);
+
+  // ── Mini map ────────────────────────────────────────────────────────────────
+  const miniMapEl = document.getElementById("station-mini-map") as HTMLElement | null;
+  if (miniMapEl) {
+    const lat = parseFloat(miniMapEl.dataset.lat!);
+    const lng = parseFloat(miniMapEl.dataset.lng!);
+    const osmHref = miniMapEl.dataset.osm!;
+
+    Promise.all([
+      import("leaflet/dist/leaflet.css"),
+      import("leaflet"),
+    ]).then(([, leafletModule]) => {
+      const L = (leafletModule as any).default ?? leafletModule;
+      const map = L.map(miniMapEl, {
+        center: [lat, lng],
+        zoom: 14,
+        zoomControl: false,
+        attributionControl: false,
+        dragging: false,
+        scrollWheelZoom: false,
+        doubleClickZoom: false,
+        touchZoom: false,
+      });
+
+      L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+        subdomains: "abcd",
+        maxZoom: 19,
+      }).addTo(map);
+
+      L.circleMarker([lat, lng], {
+        radius: 7,
+        fillColor: "#0d9488",
+        color: "#fff",
+        weight: 2,
+        fillOpacity: 1,
+      }).addTo(map);
+
+      miniMapEl.addEventListener("click", () => window.open(osmHref, "_blank", "noopener"));
+    });
+  }
 </script>

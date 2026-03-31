@@ -13,7 +13,12 @@
       "Bash(pip install:*)",
       "Bash(grep -l \"00626\" public/data/ave-larga-distancia/stations/*.json)",
       "Bash(python -m scripts.main larga)",
-      "Bash(python -m scripts.main ave-larga-distancia)"
+      "Bash(python -m scripts.main ave-larga-distancia)",
+      "Bash(python -m scripts.fetch_stations_geo)",
+      "Bash(python3 -c \"import json; g=json.load\\(open\\(''public/data/stations_geo.json''\\)\\); print\\(g.get\\(''11208''\\)\\)\")",
+      "Bash(node -e \"const g=require\\(''./public/data/stations_geo.json''\\); console.log\\(g[''11208'']\\)\")",
+      "Bash(node -e \"const s=require\\(''./public/data/cercanias/stats.json''\\); const v=s.stations?.find\\(x=>x.id===''11208''\\); console.log\\(''cercanias:'', v\\)\")",
+      "Bash(node -e \"const s=require\\(''./public/data/ave-larga-distancia/stats.json''\\); const v=s.stations?.find\\(x=>x.id===''11208''\\); console.log\\(''ave:'', v\\)\")"
     ]
   }
 }

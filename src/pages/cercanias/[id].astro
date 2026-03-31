@@ -8,9 +8,13 @@ export function getStaticPaths() {
   try {
     const raw = readFileSync(resolve("public/data/cercanias/stats.json"), "utf-8");
     const { stations } = JSON.parse(raw);
+    let geo: Record<string, any> = {};
+    try {
+      geo = JSON.parse(readFileSync(resolve("public/data/stations_geo.json"), "utf-8"));
+    } catch {}
     return stations.map((s: any) => ({
       params: { id: s.id },
-      props: { name: s.name },
+      props: { name: s.name, meta: geo[s.id] ?? null },
     }));
   } catch {
     return [];
@@ -18,7 +22,7 @@ export function getStaticPaths() {
 }
 
 const { id } = Astro.params;
-const { name } = Astro.props;
+const { name, meta } = Astro.props;
 ---
 
 <Layout title={name}>
@@ -28,5 +32,6 @@ const { name } = Astro.props;
     dataName="cercanias"
     serviceSlug="cercanias"
     serviceLabel="Cercanías"
+    meta={meta}
   />
 </Layout>

@@ -70,15 +70,10 @@ export async function renderMapMarkers(): Promise<void> {
 
   const stations: any[] = state.allStations;
   const mode: "scatter" | "heat" = state.mapMode;
-  const isAVE = state.activeSvc === "ave-larga-distancia";
-
   let rendered = 0;
   for (const st of stations) {
     const g = geo[st.id];
-    // Filter by service if cercanias flag available
     if (!g) continue;
-    if (isAVE && g.cercanias === true) continue;
-    if (!isAVE && g.cercanias === false) continue;
 
     const ratio = st.arrivals_count > 0 ? st.delayed_count / st.arrivals_count : 0;
     const color = ratio > 0.5 ? "#dc2626" : ratio > 0.2 ? "#b45309" : "#059669";
