@@ -1,6 +1,11 @@
 {
-  "generated_at": "2026-03-31T01:00",
+  "generated_at": "2026-03-31T02:00",
   "insights": [
+    {
+      "id": "D",
+      "text": "Históricamente los lunes son el día con más retrasos (media 1%); los martes son los más puntuales",
+      "severity": "info"
+    },
     {
       "id": "F",
       "text": "Entre las 22h y las 23h los retrasos son habitualmente bajos o inexistentes",
