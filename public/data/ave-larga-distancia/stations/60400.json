@@ -1,8 +1,30 @@
 {
   "station_id": "60400",
   "name": "Alcazar de San Juan",
-  "generated_at": "2026-03-31T11:00:07+02:00",
+  "generated_at": "2026-03-31T11:08:14+02:00",
   "arrivals": [
+    {
+      "trip_id": "1803012026-03-29",
+      "route_id": "1700003100VRX",
+      "train_name": "MD 18030",
+      "headsign": "Jaen",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "10:54",
+      "estimated_time": "10:54",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1803312026-03-29",
+      "route_id": "0310017000VRX",
+      "train_name": "MD 18033",
+      "headsign": "Madrid-Chamartín-Clara Campoamor",
+      "origin": "Jaen",
+      "scheduled_time": "10:54",
+      "estimated_time": "10:54",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "1808112026-03-30",
       "route_id": "3720060911VRX",
@@ -15,14 +37,14 @@
       "status": "en_hora"
     },
     {
-      "trip_id": "1808122026-03-30",
+      "trip_id": "1808122026-03-29",
       "route_id": "3720060902VRX",
       "train_name": "MD 18081",
       "headsign": "Villena",
       "origin": "Ciudad Real",
       "scheduled_time": "11:07",
-      "estimated_time": "11:06",
-      "delay_min": -1.0,
+      "estimated_time": "11:07",
+      "delay_min": 0.0,
       "status": "en_hora"
     }
   ]

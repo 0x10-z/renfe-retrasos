@@ -14,6 +14,7 @@ def compute_stats(station_data: StationData) -> dict:
     """
     total = on_time = delayed = cancelled = 0
     delays: list = []
+    unique_trip_ids: set = set()
 
     station_counts: Dict[str, dict] = {}
     station_delays: Dict[str, list] = {}
@@ -26,6 +27,8 @@ def compute_stats(station_data: StationData) -> dict:
 
         for arr in arrivals:
             total += 1
+            if arr.get("trip_id"):
+                unique_trip_ids.add(arr["trip_id"])
             status = arr["status"]
 
             if status == "cancelado":
@@ -66,6 +69,7 @@ def compute_stats(station_data: StationData) -> dict:
 
     stats = {
         "total_trains": total,
+        "unique_trips": len(unique_trip_ids),
         "on_time": on_time,
         "delayed": delayed,
         "cancelled": cancelled,

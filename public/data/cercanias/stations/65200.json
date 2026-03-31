@@ -1,8 +1,30 @@
 {
   "station_id": "65200",
   "name": "Sagunt",
-  "generated_at": "2026-03-31T11:00:21+02:00",
+  "generated_at": "2026-03-31T11:08:23+02:00",
   "arrivals": [
+    {
+      "trip_id": "4086M24316C6",
+      "route_id": "40T0013C6",
+      "train_name": "C6",
+      "headsign": "Castelló De La Plana",
+      "origin": "València-Estació Del Nord",
+      "scheduled_time": "10:26",
+      "estimated_time": "10:26",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "4086M24319C6",
+      "route_id": "40T0014C6",
+      "train_name": "C6",
+      "headsign": "València-Estació Del Nord",
+      "origin": "Castelló De La Plana",
+      "scheduled_time": "10:42",
+      "estimated_time": "10:42",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "4086M24318C6",
       "route_id": "40T0013C6",
@@ -10,51 +32,7 @@
       "headsign": "Castelló De La Plana",
       "origin": "València-Estació Del Nord",
       "scheduled_time": "11:01",
-      "estimated_time": "11:03",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "4086M24321C6",
-      "route_id": "40T0014C6",
-      "train_name": "C6",
-      "headsign": "València-Estació Del Nord",
-      "origin": "Castelló De La Plana",
-      "scheduled_time": "11:13",
-      "estimated_time": "11:13",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4086M24320C6",
-      "route_id": "40T0013C6",
-      "train_name": "C6",
-      "headsign": "Castelló De La Plana",
-      "origin": "València-Estació Del Nord",
-      "scheduled_time": "11:26",
-      "estimated_time": "11:26",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4086M24323C6",
-      "route_id": "40T0014C6",
-      "train_name": "C6",
-      "headsign": "València-Estació Del Nord",
-      "origin": "Castelló De La Plana",
-      "scheduled_time": "11:47",
-      "estimated_time": "11:47",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4086M24322C6",
-      "route_id": "40T0013C6",
-      "train_name": "C6",
-      "headsign": "Castelló De La Plana",
-      "origin": "València-Estació Del Nord",
-      "scheduled_time": "11:51",
-      "estimated_time": "11:51",
+      "estimated_time": "11:01",
       "delay_min": 0.0,
       "status": "en_hora"
     }

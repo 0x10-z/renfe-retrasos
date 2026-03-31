@@ -49,13 +49,14 @@ export function linearRegression(data: number[]): number[] {
 }
 
 export function renderDaily() {
-  const byDate = new Map<string, { totalSum: number; delayedSum: number; maxMin: number; p50s: number[]; p75s: number[]; p90s: number[] }>();
+  const byDate = new Map<string, { totalSum: number; delayedSum: number; maxMin: number; trips: number[]; p50s: number[]; p75s: number[]; p90s: number[] }>();
   for (const r of state.historyRecords) {
-    if (!byDate.has(r.date)) byDate.set(r.date, { totalSum: 0, delayedSum: 0, maxMin: 0, p50s: [], p75s: [], p90s: [] });
+    if (!byDate.has(r.date)) byDate.set(r.date, { totalSum: 0, delayedSum: 0, maxMin: 0, trips: [], p50s: [], p75s: [], p90s: [] });
     const d = byDate.get(r.date)!;
     d.totalSum   += r.total   ?? 0;
     d.delayedSum += r.delayed ?? 0;
     d.maxMin = Math.max(d.maxMin, r.max_min ?? 0);
+    if (r.trips > 0) d.trips.push(r.trips);
     if (r.p50 > 0) d.p50s.push(r.p50);
     if (r.p75 > 0) d.p75s.push(r.p75);
     if (r.p90 > 0) d.p90s.push(r.p90);
@@ -71,6 +72,9 @@ export function renderDaily() {
     return { value: pct, meta: d };
   });
   const onTimeData = dates.map((_, i) => +(100 - delayedData[i].value).toFixed(1));
+  const tripsRaw = dates.map(date => avg(byDate.get(date)!.trips));
+  const maxTrips = Math.max(...tripsRaw.filter(v => v != null) as number[], 1);
+  const tripsData = tripsRaw.map(v => v != null ? +(v / maxTrips * 100).toFixed(1) : null);
   const p50Data = dates.map(date => avg(byDate.get(date)!.p50s));
   const p75Data = dates.map(date => avg(byDate.get(date)!.p75s));
   const p90Data = dates.map(date => avg(byDate.get(date)!.p90s));
@@ -88,11 +92,12 @@ export function renderDaily() {
         const pct = delayedData[i].value;
         const p50 = p50Data[i]; const p75 = p75Data[i]; const p90 = p90Data[i];
         const percLine = p50 != null ? `p50 ${p50}m · p75 ${p75}m · p90 ${p90}m<br/>` : "";
-        return `<b>${dates[i]}</b><br/>${pct}% con retraso · max ${d.maxMin}min<br/>${percLine}${d.delayedSum.toLocaleString("es")} / ${d.totalSum.toLocaleString("es")} paradas`;
+        const tripsLine = tripsRaw[i] != null ? `~${tripsRaw[i]} trenes en ruta<br/>` : "";
+        return `<b>${dates[i]}</b><br/>${pct}% con retraso · max ${d.maxMin}min<br/>${percLine}${tripsLine}${d.delayedSum.toLocaleString("es")} / ${d.totalSum.toLocaleString("es")} paradas`;
       },
     },
     legend: {
-      data: ["Con retraso", "A tiempo", "Tendencia", "p50", "p75", "p90"],
+      data: ["Con retraso", "A tiempo", "Tendencia", "Trenes en ruta", "p50", "p75", "p90"],
       bottom: 0,
       textStyle: { color: CHART_COLORS.text, fontSize: 11 },
       icon: "roundRect",
@@ -162,6 +167,17 @@ export function renderDaily() {
         z: 10,
       },
       {
+        name: "Trenes en ruta",
+        type: "line",
+        yAxisIndex: 0,
+        data: tripsData,
+        smooth: true,
+        symbol: "none",
+        lineStyle: { color: "#94a3b8", width: 1.5, type: "dotted" },
+        itemStyle: { color: "#94a3b8" },
+        connectNulls: false,
+      },
+      {
         name: "p50",
         type: "line",
         yAxisIndex: 1,
@@ -202,9 +218,9 @@ export function renderDaily() {
 }
 
 export function renderHourly() {
-  type HourBucket = { totalSum: number; delayedSum: number; samples: number; p50s: number[]; p75s: number[]; p90s: number[] };
+  type HourBucket = { totalSum: number; delayedSum: number; samples: number; trips: number[]; p50s: number[]; p75s: number[]; p90s: number[] };
   const byHour: HourBucket[] = Array.from({ length: 24 }, () =>
-    ({ totalSum: 0, delayedSum: 0, samples: 0, p50s: [], p75s: [], p90s: [] })
+    ({ totalSum: 0, delayedSum: 0, samples: 0, trips: [], p50s: [], p75s: [], p90s: [] })
   );
   for (const r of state.historyRecords) {
     const hour = parseInt(r.ts?.slice(11, 13) ?? "0", 10);
@@ -212,6 +228,7 @@ export function renderHourly() {
     byHour[hour].totalSum   += r.total   ?? 0;
     byHour[hour].delayedSum += r.delayed ?? 0;
     byHour[hour].samples++;
+    if (r.trips > 0) byHour[hour].trips.push(r.trips);
     if (r.p50 > 0) byHour[hour].p50s.push(r.p50);
     if (r.p75 > 0) byHour[hour].p75s.push(r.p75);
     if (r.p90 > 0) byHour[hour].p90s.push(r.p90);
@@ -226,6 +243,9 @@ export function renderHourly() {
   const opacityData = byHour.map(h =>
     h.samples === 0 ? 0.12 : 0.35 + 0.65 * (h.samples / maxSamples)
   );
+  const tripsRaw = byHour.map(h => avgArr(h.trips));
+  const maxTripsH = Math.max(...tripsRaw.filter(v => v != null) as number[], 1);
+  const tripsData = tripsRaw.map(v => v != null ? +(v / maxTripsH * 100).toFixed(1) : null);
   const p50Data = byHour.map(h => avgArr(h.p50s));
   const p75Data = byHour.map(h => avgArr(h.p75s));
   const p90Data = byHour.map(h => avgArr(h.p90s));
@@ -244,10 +264,19 @@ export function renderHourly() {
         if (h.samples === 0) return `<b>${labels[i]}</b><br/>Sin datos`;
         const p50 = p50Data[i]; const p75 = p75Data[i]; const p90 = p90Data[i];
         const percLine = p50 != null ? `p50 ${p50}m · p75 ${p75}m · p90 ${p90}m<br/>` : "";
-        return `<b>${labels[i]}</b><br/>${pct}% con retraso<br/>${percLine}${h.delayedSum.toLocaleString("es")} / ${h.totalSum.toLocaleString("es")} paradas<br/>${h.samples} muestras`;
+        const tripsLine = tripsRaw[i] != null ? `~${tripsRaw[i]} trenes en ruta<br/>` : "";
+        return `<b>${labels[i]}</b><br/>${pct}% con retraso<br/>${percLine}${tripsLine}${h.delayedSum.toLocaleString("es")} / ${h.totalSum.toLocaleString("es")} paradas<br/>${h.samples} muestras`;
       },
     },
-    grid: { left: 52, right: 48, top: 12, bottom: 32 },
+    legend: {
+      data: ["% con retraso", "Trenes en ruta", "p50", "p75", "p90"],
+      bottom: 0,
+      textStyle: { color: CHART_COLORS.text, fontSize: 11 },
+      icon: "roundRect",
+      itemWidth: 10,
+      itemHeight: 10,
+    },
+    grid: { left: 52, right: 48, top: 12, bottom: 48 },
     xAxis: {
       type: "category",
       data: labels,
@@ -285,6 +314,17 @@ export function renderHourly() {
           itemStyle: { color: CHART_COLORS.delayed, opacity: opacityData[i], borderRadius: [3, 3, 0, 0] },
         })),
         emphasis: { itemStyle: { opacity: 1 } },
+      },
+      {
+        name: "Trenes en ruta",
+        type: "line",
+        yAxisIndex: 0,
+        data: tripsData,
+        smooth: true,
+        symbol: "none",
+        lineStyle: { color: "#94a3b8", width: 1.5, type: "dotted" },
+        itemStyle: { color: "#94a3b8" },
+        connectNulls: false,
       },
       {
         name: "p50",

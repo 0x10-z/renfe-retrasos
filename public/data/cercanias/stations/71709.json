@@ -1,8 +1,74 @@
 {
   "station_id": "71709",
   "name": "Viladecans",
-  "generated_at": "2026-03-31T11:00:21+02:00",
+  "generated_at": "2026-03-31T11:08:23+02:00",
   "arrivals": [
+    {
+      "trip_id": "5186M25514R2S",
+      "route_id": "51T0007R2S",
+      "train_name": "R2S",
+      "headsign": "Barcelona Estació De França",
+      "origin": "Sant Vicenç De Calders",
+      "scheduled_time": "10:19",
+      "estimated_time": "10:19",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5186M25517R2S",
+      "route_id": "51T0008R2S",
+      "train_name": "R2S",
+      "headsign": "Sant Vicenç De Calders",
+      "origin": "Barcelona Estació De França",
+      "scheduled_time": "10:19",
+      "estimated_time": "10:19",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5186M28281R2S",
+      "route_id": "51T0008R2S",
+      "train_name": "R2S",
+      "headsign": "Garraf",
+      "origin": "Barcelona Estació De França",
+      "scheduled_time": "10:31",
+      "estimated_time": "10:31",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5186M28282R2S",
+      "route_id": "51T0007R2S",
+      "train_name": "R2S",
+      "headsign": "Barcelona Estació De França",
+      "origin": "Garraf",
+      "scheduled_time": "10:38",
+      "estimated_time": "10:38",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5186M25516R2S",
+      "route_id": "51T0007R2S",
+      "train_name": "R2S",
+      "headsign": "Barcelona Estació De França",
+      "origin": "Sant Vicenç De Calders",
+      "scheduled_time": "10:49",
+      "estimated_time": "10:49",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5186M25519R2S",
+      "route_id": "51T0008R2S",
+      "train_name": "R2S",
+      "headsign": "Sant Vicenç De Calders",
+      "origin": "Barcelona Estació De França",
+      "scheduled_time": "10:49",
+      "estimated_time": "10:49",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
     {
       "trip_id": "5186M28283R2S",
       "route_id": "51T0008R2S",
@@ -21,75 +87,9 @@
       "headsign": "Barcelona Estació De França",
       "origin": "Garraf",
       "scheduled_time": "11:08",
-      "estimated_time": "11:08",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5186M25518R2S",
-      "route_id": "51T0007R2S",
-      "train_name": "R2S",
-      "headsign": "Barcelona Estació De França",
-      "origin": "Sant Vicenç De Calders",
-      "scheduled_time": "11:19",
-      "estimated_time": "11:19",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5186M25521R2S",
-      "route_id": "51T0008R2S",
-      "train_name": "R2S",
-      "headsign": "Sant Vicenç De Calders",
-      "origin": "Barcelona Estació De França",
-      "scheduled_time": "11:19",
-      "estimated_time": "11:19",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5186M28285R2S",
-      "route_id": "51T0008R2S",
-      "train_name": "R2S",
-      "headsign": "Garraf",
-      "origin": "Barcelona Estació De França",
-      "scheduled_time": "11:31",
-      "estimated_time": "11:31",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5186M28286R2S",
-      "route_id": "51T0007R2S",
-      "train_name": "R2S",
-      "headsign": "Barcelona Estació De França",
-      "origin": "Garraf",
-      "scheduled_time": "11:38",
-      "estimated_time": "11:38",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5186M25520R2S",
-      "route_id": "51T0007R2S",
-      "train_name": "R2S",
-      "headsign": "Barcelona Estació De França",
-      "origin": "Sant Vicenç De Calders",
-      "scheduled_time": "11:49",
-      "estimated_time": "11:49",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5186M25523R2S",
-      "route_id": "51T0008R2S",
-      "train_name": "R2S",
-      "headsign": "Sant Vicenç De Calders",
-      "origin": "Barcelona Estació De França",
-      "scheduled_time": "11:49",
-      "estimated_time": "11:49",
-      "delay_min": 0.0,
-      "status": "en_hora"
+      "estimated_time": "11:11",
+      "delay_min": 3.0,
+      "status": "retraso_leve"
     }
   ]
 }

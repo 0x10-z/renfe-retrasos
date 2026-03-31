@@ -1,10 +1,10 @@
 {
   "station_id": "87374",
   "name": "Perpignan",
-  "generated_at": "2026-03-31T11:00:07+02:00",
+  "generated_at": "2026-03-31T11:08:14+02:00",
   "arrivals": [
     {
-      "trip_id": "0973012026-03-30",
+      "trip_id": "0973012026-03-29",
       "route_id": "8708960000AV016",
       "train_name": "AVE INT 09730",
       "headsign": "Madrid Pta.Atocha - Almudena Grandes",
@@ -15,7 +15,7 @@
       "status": "en_hora"
     },
     {
-      "trip_id": "0973022026-03-30",
+      "trip_id": "0973022026-03-29",
       "route_id": "8708904307AV016",
       "train_name": "AVE INT 09730",
       "headsign": "Figueres Vilafant",

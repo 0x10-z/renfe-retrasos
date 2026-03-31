@@ -1,17 +1,35 @@
 {
-  "generated_at": "2026-03-31T11:00",
+  "generated_at": "2026-03-31T11:08",
   "insights": [
     {
       "id": "A",
-      "text": "A las 11h se están acumulando los retrasos — 6 trenes afectados",
+      "text": "A las 11h se están acumulando los retrasos — 30 trenes afectados",
       "severity": "warn",
       "meta": {
         "hour": 11
       }
     },
     {
+      "id": "B",
+      "text": "El mayor retraso en este momento es de 48 minutos — tren desde Lorca-Sutullena con parada en Lorca-San Diego",
+      "severity": "bad",
+      "meta": {
+        "station_id": "06005",
+        "station_name": "Lorca-San Diego"
+      }
+    },
+    {
+      "id": "C",
+      "text": "Calella es la estación más afectada ahora mismo: 2 de 4 trenes con retraso",
+      "severity": "warn",
+      "meta": {
+        "station_id": "79603",
+        "station_name": "Calella"
+      }
+    },
+    {
       "id": "D",
-      "text": "Históricamente los lunes son el día con más retrasos (media 1%); los martes son los más puntuales",
+      "text": "Históricamente los lunes son el día con más retrasos (media 1%); los domingo son los más puntuales",
       "severity": "info"
     },
     {

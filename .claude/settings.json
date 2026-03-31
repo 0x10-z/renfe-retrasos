@@ -19,7 +19,14 @@
       "Bash(node -e \"const g=require\\(''./public/data/stations_geo.json''\\); console.log\\(g[''11208'']\\)\")",
       "Bash(node -e \"const s=require\\(''./public/data/cercanias/stats.json''\\); const v=s.stations?.find\\(x=>x.id===''11208''\\); console.log\\(''cercanias:'', v\\)\")",
       "Bash(node -e \"const s=require\\(''./public/data/ave-larga-distancia/stats.json''\\); const v=s.stations?.find\\(x=>x.id===''11208''\\); console.log\\(''ave:'', v\\)\")",
-      "Bash(node -e \"const h=require\\(''./public/data/ave-larga-distancia/history.json''\\); const last=h.records?.slice\\(-3\\); console.log\\(JSON.stringify\\(last, null, 2\\)\\)\")"
+      "Bash(node -e \"const h=require\\(''./public/data/ave-larga-distancia/history.json''\\); const last=h.records?.slice\\(-3\\); console.log\\(JSON.stringify\\(last, null, 2\\)\\)\")",
+      "Bash(node -e \"const h=require\\(''./public/data/ave-larga-distancia/history.json''\\); console.log\\(h.records.slice\\(-5\\).map\\(r=>JSON.stringify\\(r\\)\\).join\\(''\\\\n''\\)\\)\")",
+      "Bash(node -e \":*)",
+      "Bash(node -e \"const h=require\\(''./public/data/ave-larga-distancia/history.json''\\); console.log\\(h.records.slice\\(-5\\).map\\(r=>r.trips\\)\\)\")",
+      "Bash(node -e \"process.stdout.write\\(''test\\\\n''\\);\")",
+      "Bash(node -e \"const fs=require\\(''fs''\\); try { const raw=fs.readFileSync\\(''d:/Workroot/renfe-enhora/renfe-enhora/public/data/ave-larga-distancia/history.json'',''utf8''\\); process.stdout.write\\(''len=''+raw.length+''\\\\n''\\); } catch\\(e\\) { process.stdout.write\\(''ERR: ''+e.message+''\\\\n''\\); }\")",
+      "Bash(node -e \"try{const fs=require\\(''fs''\\);const raw=fs.readFileSync\\(''d:/Workroot/renfe-enhora/renfe-enhora/public/data/ave-larga-distancia/history.json'',''utf8''\\);const data=JSON.parse\\(raw\\);process.stdout.write\\(''parsed ok, records=''+data.records.length+''\\\\n''\\);const ratio=272/717;data.records.forEach\\(r=>{if\\(r.trips===undefined&&r.total>0\\)r.trips=Math.round\\(r.total*ratio\\);}\\);fs.writeFileSync\\(''d:/Workroot/renfe-enhora/renfe-enhora/public/data/ave-larga-distancia/history.json'',JSON.stringify\\({records:data.records}\\)\\);process.stdout.write\\(''written\\\\n''\\);}catch\\(e\\){process.stdout.write\\(''ERROR: ''+String\\(e\\)+''\\\\n''\\);}\")",
+      "Bash(node -e \"const fs=require\\(''fs''\\);const d=JSON.parse\\(fs.readFileSync\\(''d:/Workroot/renfe-enhora/renfe-enhora/public/data/ave-larga-distancia/history.json'',''utf8''\\)\\);process.stdout.write\\(d.records.slice\\(-5\\).map\\(r=>r.ts+'' trips=''+r.trips\\).join\\(''\\\\n''\\)+''\\\\n''\\);\")"
     ]
   }
 }

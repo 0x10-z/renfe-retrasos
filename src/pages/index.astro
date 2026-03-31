@@ -66,6 +66,15 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
       <svg slot="icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
       <div slot="sub" class="stat-sub" id="sub-max"></div>
     </StatCard>
+
+    <StatCard
+      valueId="v-trips"
+      label="Trenes en ruta"
+      tip="Viajes únicos (trip_ids distintos) en la ventana de análisis. Representa el número real de trenes en circulación en ese momento."
+    >
+      <svg slot="icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="16" rx="2"/><path d="M4 11h16"/><path d="M12 3v8"/><circle cx="8.5" cy="17.5" r="1.5"/><circle cx="15.5" cy="17.5" r="1.5"/></svg>
+      <div slot="sub" class="stat-sub" id="sub-trips">— estaciones activas</div>
+    </StatCard>
   </div>
 
   <!-- Section switcher -->
@@ -242,15 +251,18 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
   /* Stats */
   .stats-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 0.75rem;
     margin-bottom: 1.75rem;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
+    .stats-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 600px) {
     .stats-grid { grid-template-columns: repeat(2, 1fr); }
   }
-  @media (max-width: 480px) {
+  @media (max-width: 380px) {
     .stats-grid { grid-template-columns: 1fr; }
   }
 
@@ -984,11 +996,12 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
   }
 
   function resetStats() {
-    ["v-total","v-delayed","v-avg","v-max"].forEach(id => setText(id, "—"));
+    ["v-total","v-delayed","v-avg","v-max","v-trips"].forEach(id => setText(id, "—"));
     setText("sub-stations", "— estaciones");
     setText("sub-pct", "—% del total");
     setText("sub-avg", "minutos");
     setText("sub-max", "minutos");
+    setText("sub-trips", "— estaciones activas");
     document.getElementById("sc-max")?.classList.remove("stat-card--clickable");
     setText("last-updated", "Cargando datos…");
     state.scrollObserver?.disconnect();
@@ -1078,6 +1091,9 @@ import TrainViewerModal from "../components/modals/TrainViewerModal.astro";
     } else {
       setText("sub-max", "minutos");
     }
+
+    setValueWithUnit("v-trips", s.unique_trips?.toLocaleString("es") ?? null, " trenes");
+    setText("sub-trips", s.stations_count ? `de ${s.stations_count} estaciones` : "—");
 
     setText("last-updated", `Actualizado ${timeAgo(generatedAt)}`);
   }

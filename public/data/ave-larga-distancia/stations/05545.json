@@ -1,18 +1,6 @@
 {
   "station_id": "05545",
   "name": "Fuentes",
-  "generated_at": "2026-03-31T11:00:07+02:00",
-  "arrivals": [
-    {
-      "trip_id": "7185012026-03-30",
-      "route_id": "1422315211VRFV",
-      "train_name": "REGIONAL 71850",
-      "headsign": "Oviedo/Uviéu",
-      "origin": "Santander",
-      "scheduled_time": "11:59",
-      "estimated_time": "12:05",
-      "delay_min": 6.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-03-31T11:08:14+02:00",
+  "arrivals": []
 }
