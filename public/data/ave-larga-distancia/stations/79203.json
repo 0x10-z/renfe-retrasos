@@ -1,7 +1,7 @@
 {
   "station_id": "79203",
   "name": "Caldes De Malavella",
-  "generated_at": "2026-04-01T11:00:07+02:00",
+  "generated_at": "2026-04-01T11:20:07+02:00",
   "arrivals": [
     {
       "trip_id": "1585612026-03-31",
@@ -10,8 +10,8 @@
       "headsign": "Barcelona-Sants",
       "origin": "Portbou",
       "scheduled_time": "11:24",
-      "estimated_time": "11:29",
-      "delay_min": 5.0,
+      "estimated_time": "11:27",
+      "delay_min": 3.0,
       "status": "retraso_leve"
     },
     {
@@ -21,9 +21,9 @@
       "headsign": "Portbou",
       "origin": "Barcelona-Sants",
       "scheduled_time": "11:25",
-      "estimated_time": "11:30",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
+      "estimated_time": "11:36",
+      "delay_min": 11.0,
+      "status": "retraso_alto"
     }
   ]
 }

@@ -1,6 +1,18 @@
 {
   "station_id": "05143",
   "name": "Loiba",
-  "generated_at": "2026-04-01T11:00:07+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-01T11:20:07+02:00",
+  "arrivals": [
+    {
+      "trip_id": "7180112026-03-31",
+      "route_id": "2101005193VRFV",
+      "train_name": "REGIONAL 71801",
+      "headsign": "Ribadeo",
+      "origin": "Ferrol",
+      "scheduled_time": "12:17",
+      "estimated_time": "12:30",
+      "delay_min": 13.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "station_id": "23000",
   "name": "Redondela-Picota",
-  "generated_at": "2026-04-01T11:00:07+02:00",
+  "generated_at": "2026-04-01T11:20:07+02:00",
   "arrivals": [
     {
       "trip_id": "1242112026-03-31",
@@ -10,8 +10,8 @@
       "headsign": "Vigo Guixar",
       "origin": "A Coruña",
       "scheduled_time": "11:35",
-      "estimated_time": "11:44",
-      "delay_min": 9.0,
+      "estimated_time": "11:47",
+      "delay_min": 12.0,
       "status": "retraso_alto"
     }
   ]

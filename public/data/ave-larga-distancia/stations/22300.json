@@ -1,7 +1,7 @@
 {
   "station_id": "22300",
   "name": "Redondela",
-  "generated_at": "2026-04-01T11:00:07+02:00",
+  "generated_at": "2026-04-01T11:20:07+02:00",
   "arrivals": [
     {
       "trip_id": "3742112026-03-31",
@@ -21,8 +21,8 @@
       "headsign": "Vigo Guixar",
       "origin": "A Coruña",
       "scheduled_time": "11:38",
-      "estimated_time": "11:47",
-      "delay_min": 9.0,
+      "estimated_time": "11:50",
+      "delay_min": 12.0,
       "status": "retraso_alto"
     },
     {
@@ -32,8 +32,8 @@
       "headsign": "Vigo Guixar",
       "origin": "Ourense",
       "scheduled_time": "11:50",
-      "estimated_time": "11:57",
-      "delay_min": 7.0,
+      "estimated_time": "12:00",
+      "delay_min": 10.0,
       "status": "retraso_alto"
     }
   ]

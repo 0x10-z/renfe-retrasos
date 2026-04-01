@@ -1,63 +1,8 @@
 {
   "station_id": "60000",
   "name": "Madrid Pta.Atocha - Almudena Grandes",
-  "generated_at": "2026-04-01T11:00:07+02:00",
+  "generated_at": "2026-04-01T11:20:07+02:00",
   "arrivals": [
-    {
-      "trip_id": "0591212026-03-31",
-      "route_id": "6000061200AV006",
-      "train_name": "AVE 05912",
-      "headsign": "Murcia",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "11:05",
-      "estimated_time": "11:05",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "0591222026-03-31",
-      "route_id": "6000060911AV006",
-      "train_name": "AVE 05912",
-      "headsign": "Alicante/Alacant",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "11:05",
-      "estimated_time": "11:05",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "0207512026-04-01",
-      "route_id": "5140560000GL023",
-      "train_name": "ALVIA 02075",
-      "headsign": "Madrid Pta.Atocha - Almudena Grandes",
-      "origin": "Cádiz",
-      "scheduled_time": "11:07",
-      "estimated_time": "11:41",
-      "delay_min": 34.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "0208112026-03-31",
-      "route_id": "5100360000AV006",
-      "train_name": "AVE 02081",
-      "headsign": "Madrid Pta.Atocha - Almudena Grandes",
-      "origin": "Sevilla-Santa Justa",
-      "scheduled_time": "11:12",
-      "estimated_time": "11:14",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "0831222026-03-31",
-      "route_id": "6000092102AV008",
-      "train_name": "AVANT 08312",
-      "headsign": "Toledo",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "11:15",
-      "estimated_time": "11:15",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "0810112026-03-31",
       "route_id": "3730060000AV008",
@@ -65,8 +10,8 @@
       "headsign": "Madrid Pta.Atocha - Almudena Grandes",
       "origin": "Puertollano",
       "scheduled_time": "11:24",
-      "estimated_time": "11:37",
-      "delay_min": 13.0,
+      "estimated_time": "11:33",
+      "delay_min": 9.0,
       "status": "retraso_alto"
     },
     {
@@ -76,8 +21,8 @@
       "headsign": "Madrid Pta.Atocha - Almudena Grandes",
       "origin": "Barcelona-Sants",
       "scheduled_time": "11:27",
-      "estimated_time": "11:42",
-      "delay_min": 15.0,
+      "estimated_time": "11:47",
+      "delay_min": 20.0,
       "status": "retraso_alto"
     },
     {
@@ -120,8 +65,8 @@
       "headsign": "Madrid Pta.Atocha - Almudena Grandes",
       "origin": "Barcelona-Sants",
       "scheduled_time": "11:44",
-      "estimated_time": "11:58",
-      "delay_min": 14.0,
+      "estimated_time": "12:03",
+      "delay_min": 19.0,
       "status": "retraso_alto"
     },
     {
@@ -131,8 +76,8 @@
       "headsign": "Madrid Pta.Atocha - Almudena Grandes",
       "origin": "Malaga Maria Zambrano",
       "scheduled_time": "11:50",
-      "estimated_time": "12:03",
-      "delay_min": 13.0,
+      "estimated_time": "12:06",
+      "delay_min": 16.0,
       "status": "retraso_alto"
     },
     {
@@ -142,8 +87,8 @@
       "headsign": "Madrid Pta.Atocha - Almudena Grandes",
       "origin": "Huelva",
       "scheduled_time": "11:57",
-      "estimated_time": "12:21",
-      "delay_min": 24.0,
+      "estimated_time": "12:24",
+      "delay_min": 27.0,
       "status": "retraso_alto"
     },
     {
@@ -156,6 +101,50 @@
       "estimated_time": "12:00",
       "delay_min": 0.0,
       "status": "en_hora"
+    },
+    {
+      "trip_id": "0212412026-04-01",
+      "route_id": "6000051405GL023",
+      "train_name": "ALVIA 02124",
+      "headsign": "Cádiz",
+      "origin": "Madrid Pta.Atocha - Almudena Grandes",
+      "scheduled_time": "12:05",
+      "estimated_time": "12:05",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0209112026-03-31",
+      "route_id": "5100360000AV006",
+      "train_name": "AVE 02091",
+      "headsign": "Madrid Pta.Atocha - Almudena Grandes",
+      "origin": "Sevilla-Santa Justa",
+      "scheduled_time": "12:12",
+      "estimated_time": "12:22",
+      "delay_min": 10.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "0832212026-03-31",
+      "route_id": "6000092102AV008",
+      "train_name": "AVANT 08322",
+      "headsign": "Toledo",
+      "origin": "Madrid Pta.Atocha - Almudena Grandes",
+      "scheduled_time": "12:15",
+      "estimated_time": "12:15",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0309212026-03-31",
+      "route_id": "0430760000AV006",
+      "train_name": "AVE 03092",
+      "headsign": "Madrid Pta.Atocha - Almudena Grandes",
+      "origin": "Figueres Vilafant",
+      "scheduled_time": "12:17",
+      "estimated_time": "12:36",
+      "delay_min": 19.0,
+      "status": "retraso_alto"
     }
   ]
 }

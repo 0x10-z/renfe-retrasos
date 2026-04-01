@@ -1,7 +1,7 @@
 {
   "station_id": "81202",
   "name": "Tudela De Navarra",
-  "generated_at": "2026-04-01T11:00:07+02:00",
+  "generated_at": "2026-04-01T11:20:07+02:00",
   "arrivals": [
     {
       "trip_id": "0043812026-04-01",
@@ -10,8 +10,8 @@
       "headsign": "Bilbao-Abando Indalecio Prieto",
       "origin": "Barcelona-Sants",
       "scheduled_time": "11:33",
-      "estimated_time": "11:40",
-      "delay_min": 7.0,
+      "estimated_time": "11:44",
+      "delay_min": 11.0,
       "status": "retraso_alto"
     },
     {
@@ -32,8 +32,8 @@
       "headsign": "Vigo Guixar",
       "origin": "Barcelona-Sants",
       "scheduled_time": "11:57",
-      "estimated_time": "12:07",
-      "delay_min": 10.0,
+      "estimated_time": "12:03",
+      "delay_min": 6.0,
       "status": "retraso_alto"
     },
     {
@@ -43,8 +43,8 @@
       "headsign": "Ourense",
       "origin": "Barcelona-Sants",
       "scheduled_time": "11:57",
-      "estimated_time": "12:07",
-      "delay_min": 10.0,
+      "estimated_time": "12:03",
+      "delay_min": 6.0,
       "status": "retraso_alto"
     },
     {
@@ -54,8 +54,8 @@
       "headsign": "Leon",
       "origin": "Barcelona-Sants",
       "scheduled_time": "11:57",
-      "estimated_time": "12:07",
-      "delay_min": 10.0,
+      "estimated_time": "12:03",
+      "delay_min": 6.0,
       "status": "retraso_alto"
     },
     {
