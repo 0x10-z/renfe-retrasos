@@ -1,19 +1,8 @@
 {
   "station_id": "79106",
   "name": "Riells I Viabrea-Breda",
-  "generated_at": "2026-04-01T11:30:12+02:00",
+  "generated_at": "2026-04-01T12:02:06+02:00",
   "arrivals": [
-    {
-      "trip_id": "1585612026-03-31",
-      "route_id": "7931571801VRR",
-      "train_name": "REGIONAL 15856",
-      "headsign": "Barcelona-Sants",
-      "origin": "Portbou",
-      "scheduled_time": "11:44",
-      "estimated_time": "11:49",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
-    },
     {
       "trip_id": "1591212026-03-31",
       "route_id": "7180179316VRR",
@@ -21,8 +10,8 @@
       "headsign": "Cerbère",
       "origin": "Barcelona-Sants",
       "scheduled_time": "12:11",
-      "estimated_time": "12:13",
-      "delay_min": 2.0,
+      "estimated_time": "12:15",
+      "delay_min": 4.0,
       "status": "retraso_leve"
     }
   ]

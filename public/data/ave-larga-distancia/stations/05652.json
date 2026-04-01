@@ -1,18 +1,6 @@
 {
   "station_id": "05652",
   "name": "Valle Real",
-  "generated_at": "2026-04-01T11:30:12+02:00",
-  "arrivals": [
-    {
-      "trip_id": "7187012026-03-31",
-      "route_id": "0545114223VRFV",
-      "train_name": "REGIONAL 71870",
-      "headsign": "Santander",
-      "origin": "Bilbao la Concordia",
-      "scheduled_time": "11:49",
-      "estimated_time": "12:00",
-      "delay_min": 11.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-01T12:02:06+02:00",
+  "arrivals": []
 }

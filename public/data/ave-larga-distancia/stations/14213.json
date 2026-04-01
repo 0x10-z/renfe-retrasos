@@ -1,18 +1,6 @@
 {
   "station_id": "14213",
   "name": "Torrelavega/Tanos",
-  "generated_at": "2026-04-01T11:30:12+02:00",
-  "arrivals": [
-    {
-      "trip_id": "0407312026-04-01",
-      "route_id": "1700014223GL023",
-      "train_name": "ALVIA 04073",
-      "headsign": "Santander",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "11:39",
-      "estimated_time": "11:50",
-      "delay_min": 11.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-01T12:02:06+02:00",
+  "arrivals": []
 }

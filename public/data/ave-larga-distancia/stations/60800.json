@@ -1,6 +1,29 @@
 {
   "station_id": "60800",
   "name": "Almansa",
-  "generated_at": "2026-04-01T11:30:12+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-01T12:02:06+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1808112026-03-31",
+      "route_id": "3720060911VRX",
+      "train_name": "MD 18081",
+      "headsign": "Alicante/Alacant",
+      "origin": "Ciudad Real",
+      "scheduled_time": "12:54",
+      "estimated_time": "12:57",
+      "delay_min": 3.0,
+      "status": "retraso_leve"
+    },
+    {
+      "trip_id": "1808122026-03-31",
+      "route_id": "3720060902VRX",
+      "train_name": "MD 18081",
+      "headsign": "Villena",
+      "origin": "Ciudad Real",
+      "scheduled_time": "12:54",
+      "estimated_time": "12:57",
+      "delay_min": 3.0,
+      "status": "retraso_leve"
+    }
+  ]
 }

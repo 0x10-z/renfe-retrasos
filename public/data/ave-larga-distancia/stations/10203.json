@@ -1,28 +1,17 @@
 {
   "station_id": "10203",
   "name": "El Escorial",
-  "generated_at": "2026-04-01T11:30:12+02:00",
+  "generated_at": "2026-04-01T12:02:06+02:00",
   "arrivals": [
     {
-      "trip_id": "1890312026-03-31",
-      "route_id": "1000030110VRX",
-      "train_name": "MD 18903",
-      "headsign": "Salamanca-La Alamedilla",
-      "origin": "Madrid-Principe Pio",
-      "scheduled_time": "11:51",
-      "estimated_time": "11:57",
-      "delay_min": 6.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "1891212026-03-31",
-      "route_id": "3010010000VRX",
-      "train_name": "MD 18912",
+      "trip_id": "1801012026-04-01",
+      "route_id": "1130010000VRX",
+      "train_name": "MD 18010",
       "headsign": "Madrid-Principe Pio",
-      "origin": "Salamanca",
-      "scheduled_time": "11:58",
-      "estimated_time": "12:05",
-      "delay_min": 7.0,
+      "origin": "Altsasu/Alsasua-Estación",
+      "scheduled_time": "12:43",
+      "estimated_time": "13:21",
+      "delay_min": 38.0,
       "status": "retraso_alto"
     }
   ]

@@ -1,19 +1,8 @@
 {
   "station_id": "79100",
   "name": "Granollers Centre",
-  "generated_at": "2026-04-01T11:30:12+02:00",
+  "generated_at": "2026-04-01T12:02:06+02:00",
   "arrivals": [
-    {
-      "trip_id": "1591212026-03-31",
-      "route_id": "7180179316VRR",
-      "train_name": "REGIONAL 15912",
-      "headsign": "Cerbère",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "11:47",
-      "estimated_time": "11:49",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
-    },
     {
       "trip_id": "1585612026-03-31",
       "route_id": "7931571801VRR",
@@ -21,9 +10,9 @@
       "headsign": "Barcelona-Sants",
       "origin": "Portbou",
       "scheduled_time": "12:07",
-      "estimated_time": "12:12",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
+      "estimated_time": "12:14",
+      "delay_min": 7.0,
+      "status": "retraso_alto"
     }
   ]
 }

@@ -1,18 +1,6 @@
 {
   "station_id": "50202",
   "name": "Almuradiel-Viso del Marques",
-  "generated_at": "2026-04-01T11:30:12+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1803012026-03-31",
-      "route_id": "1700003100VRX",
-      "train_name": "MD 18030",
-      "headsign": "Jaen",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "11:54",
-      "estimated_time": "12:15",
-      "delay_min": 21.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-01T12:02:06+02:00",
+  "arrivals": []
 }

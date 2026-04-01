@@ -1,18 +1,6 @@
 {
   "station_id": "43009",
   "name": "Escacena",
-  "generated_at": "2026-04-01T11:30:12+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1304512026-03-31",
-      "route_id": "4301951003VRX",
-      "train_name": "MD 13045",
-      "headsign": "Sevilla-Santa Justa",
-      "origin": "Huelva",
-      "scheduled_time": "11:33",
-      "estimated_time": "11:50",
-      "delay_min": 17.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-01T12:02:06+02:00",
+  "arrivals": []
 }

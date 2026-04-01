@@ -1,52 +1,8 @@
 {
   "station_id": "51003",
   "name": "Sevilla-Santa Justa",
-  "generated_at": "2026-04-01T11:30:12+02:00",
+  "generated_at": "2026-04-01T12:02:06+02:00",
   "arrivals": [
-    {
-      "trip_id": "0211112026-03-31",
-      "route_id": "5100360000AV006",
-      "train_name": "AVE 02111",
-      "headsign": "Madrid Pta.Atocha - Almudena Grandes",
-      "origin": "Sevilla-Santa Justa",
-      "scheduled_time": "11:32",
-      "estimated_time": "11:32",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1877312026-03-31",
-      "route_id": "3000251003VRE",
-      "train_name": "REG.EXP. 18773",
-      "headsign": "Sevilla-Santa Justa",
-      "origin": "Plasencia",
-      "scheduled_time": "11:39",
-      "estimated_time": "12:03",
-      "delay_min": 24.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "0209612026-03-31",
-      "route_id": "6000051003LC112",
-      "train_name": "AVLO 02096",
-      "headsign": "Sevilla-Santa Justa",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "11:52",
-      "estimated_time": "12:08",
-      "delay_min": 16.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "1790712026-03-31",
-      "route_id": "5100318000VRX",
-      "train_name": "MD 17907",
-      "headsign": "Madrid - Atocha Cercanías",
-      "origin": "Sevilla-Santa Justa",
-      "scheduled_time": "11:55",
-      "estimated_time": "11:55",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "0833512026-03-31",
       "route_id": "5100305000AV008",
@@ -65,9 +21,86 @@
       "headsign": "Huelva",
       "origin": "Madrid Pta.Atocha - Almudena Grandes",
       "scheduled_time": "12:28",
-      "estimated_time": "12:30",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
+      "estimated_time": "12:25",
+      "delay_min": -3.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1390312026-03-31",
+      "route_id": "5441351003VRX",
+      "train_name": "MD 13903",
+      "headsign": "Sevilla-Santa Justa",
+      "origin": "Malaga Maria Zambrano",
+      "scheduled_time": "12:34",
+      "estimated_time": "13:05",
+      "delay_min": 31.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1304512026-03-31",
+      "route_id": "4301951003VRX",
+      "train_name": "MD 13045",
+      "headsign": "Sevilla-Santa Justa",
+      "origin": "Huelva",
+      "scheduled_time": "12:37",
+      "estimated_time": "12:50",
+      "delay_min": 13.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1300912026-03-31",
+      "route_id": "5140503100VRX",
+      "train_name": "MD 13009",
+      "headsign": "Jaen",
+      "origin": "Cádiz",
+      "scheduled_time": "12:38",
+      "estimated_time": "12:45",
+      "delay_min": 7.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "3500912026-03-31",
+      "route_id": "5140503100VRX",
+      "train_name": "MD 35009",
+      "headsign": "Jaen",
+      "origin": "Cádiz",
+      "scheduled_time": "12:38",
+      "estimated_time": "12:38",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0210012026-03-31",
+      "route_id": "6000051003AV006",
+      "train_name": "AVE 02100",
+      "headsign": "Sevilla-Santa Justa",
+      "origin": "Madrid Pta.Atocha - Almudena Grandes",
+      "scheduled_time": "12:40",
+      "estimated_time": "12:49",
+      "delay_min": 9.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1300812026-03-31",
+      "route_id": "5100351405VRX",
+      "train_name": "MD 13008",
+      "headsign": "Cádiz",
+      "origin": "Sevilla-Santa Justa",
+      "scheduled_time": "12:45",
+      "estimated_time": "12:45",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1309712026-03-31",
+      "route_id": "5100343019VRX",
+      "train_name": "MD 13097",
+      "headsign": "Huelva",
+      "origin": "Sevilla-Santa Justa",
+      "scheduled_time": "12:48",
+      "estimated_time": "12:48",
+      "delay_min": 0.0,
+      "status": "en_hora"
     }
   ]
 }

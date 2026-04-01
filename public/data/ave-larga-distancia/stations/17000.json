@@ -1,30 +1,8 @@
 {
   "station_id": "17000",
   "name": "Madrid-Chamartín-Clara Campoamor",
-  "generated_at": "2026-04-01T11:30:12+02:00",
+  "generated_at": "2026-04-01T12:02:06+02:00",
   "arrivals": [
-    {
-      "trip_id": "0509512026-03-31",
-      "route_id": "0321617000LC112",
-      "train_name": "AVLO 05095",
-      "headsign": "Madrid-Chamartín-Clara Campoamor",
-      "origin": "Valencia Joaquin Sorolla",
-      "scheduled_time": "11:38",
-      "estimated_time": "11:47",
-      "delay_min": 9.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "3543112026-03-31",
-      "route_id": "8410117000VRE",
-      "train_name": "REG.EXP. 35431",
-      "headsign": "Madrid-Chamartín-Clara Campoamor",
-      "origin": "Almazan",
-      "scheduled_time": "11:42",
-      "estimated_time": "11:42",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "0812912026-03-31",
       "route_id": "1700010600AV008",
@@ -43,8 +21,8 @@
       "headsign": "Madrid-Chamartín-Clara Campoamor",
       "origin": "Badajoz",
       "scheduled_time": "12:07",
-      "estimated_time": "12:18",
-      "delay_min": 11.0,
+      "estimated_time": "12:17",
+      "delay_min": 10.0,
       "status": "retraso_alto"
     },
     {
@@ -65,8 +43,8 @@
       "headsign": "Madrid-Chamartín-Clara Campoamor",
       "origin": "Alicante/Alacant",
       "scheduled_time": "12:08",
-      "estimated_time": "12:15",
-      "delay_min": 7.0,
+      "estimated_time": "12:20",
+      "delay_min": 12.0,
       "status": "retraso_alto"
     },
     {
@@ -87,8 +65,8 @@
       "headsign": "Madrid-Chamartín-Clara Campoamor",
       "origin": "Salamanca",
       "scheduled_time": "12:25",
-      "estimated_time": "12:26",
-      "delay_min": 1.0,
+      "estimated_time": "12:25",
+      "delay_min": 0.0,
       "status": "en_hora"
     },
     {
@@ -98,8 +76,8 @@
       "headsign": "Madrid-Chamartín-Clara Campoamor",
       "origin": "Jaen",
       "scheduled_time": "12:27",
-      "estimated_time": "12:36",
-      "delay_min": 9.0,
+      "estimated_time": "12:46",
+      "delay_min": 19.0,
       "status": "retraso_alto"
     },
     {
@@ -121,6 +99,83 @@
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "12:30",
       "estimated_time": "12:30",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0811812026-03-31",
+      "route_id": "1060017000AV008",
+      "train_name": "AVANT 08118",
+      "headsign": "Madrid-Chamartín-Clara Campoamor",
+      "origin": "Valladolid",
+      "scheduled_time": "12:35",
+      "estimated_time": "12:35",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0510112026-03-31",
+      "route_id": "0321615100AV006",
+      "train_name": "AVE 05101",
+      "headsign": "Leon",
+      "origin": "Valencia Joaquin Sorolla",
+      "scheduled_time": "12:38",
+      "estimated_time": "12:42",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
+    },
+    {
+      "trip_id": "0510132026-03-31",
+      "route_id": "0321317000AV006",
+      "train_name": "AVE 05101",
+      "headsign": "Madrid-Chamartín-Clara Campoamor",
+      "origin": "Requena Utiel",
+      "scheduled_time": "12:38",
+      "estimated_time": "12:42",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
+    },
+    {
+      "trip_id": "0492912026-04-01",
+      "route_id": "1700030100GL023",
+      "train_name": "ALVIA 04929",
+      "headsign": "Salamanca",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "12:46",
+      "estimated_time": "12:46",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3492912026-03-31",
+      "route_id": "1700008004AV008",
+      "train_name": "AVANT 34929",
+      "headsign": "Segovia Guiomar",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "12:46",
+      "estimated_time": "12:46",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0408012026-04-01",
+      "route_id": "1541017000GL023",
+      "train_name": "ALVIA 04080",
+      "headsign": "Madrid-Chamartín-Clara Campoamor",
+      "origin": "Gijón/Xixón",
+      "scheduled_time": "12:52",
+      "estimated_time": "12:58",
+      "delay_min": 6.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1817012026-03-31",
+      "route_id": "1700037200VRX",
+      "train_name": "MD 18170",
+      "headsign": "Ciudad Real",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "12:57",
+      "estimated_time": "12:57",
       "delay_min": 0.0,
       "status": "en_hora"
     }

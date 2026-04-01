@@ -1,7 +1,7 @@
 {
   "station_id": "79202",
   "name": "Sils",
-  "generated_at": "2026-04-01T11:30:12+02:00",
+  "generated_at": "2026-04-01T12:02:06+02:00",
   "arrivals": [
     {
       "trip_id": "1591212026-03-31",
@@ -10,8 +10,19 @@
       "headsign": "Cerbère",
       "origin": "Barcelona-Sants",
       "scheduled_time": "12:26",
-      "estimated_time": "12:28",
-      "delay_min": 2.0,
+      "estimated_time": "12:30",
+      "delay_min": 4.0,
+      "status": "retraso_leve"
+    },
+    {
+      "trip_id": "1580822026-03-31",
+      "route_id": "7180179309VRX",
+      "train_name": "MD 15808",
+      "headsign": "Figueres",
+      "origin": "Barcelona-Sants",
+      "scheduled_time": "12:49",
+      "estimated_time": "12:54",
+      "delay_min": 5.0,
       "status": "retraso_leve"
     }
   ]
