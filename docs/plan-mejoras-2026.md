@@ -25,8 +25,8 @@
 
 ### Decisión de arquitectura: desacoplar pipeline de Vercel
 
-**Problema:** con cron cada 5 min → 288 commits/día → 288 builds de Vercel/día → 8.640 builds/mes.
-El plan Pro de Vercel permite ~3.000 builds/mes (100/día). Se excedería en 3×.
+**Problema:** con cron cada 5 min → 288 commits/día → 288 builds de Vercel/día.
+El plan gratuito de Vercel (Hobby) permite 100 builds/día. Se excedería en 2.88×.
 
 **Solución adoptada: dos crons separados.**
 
@@ -36,7 +36,7 @@ El plan Pro de Vercel permite ~3.000 builds/mes (100/día). Se excedería en 3×
 ```
 
 - El pipeline corre cada 5 min y mantiene los JSON frescos en el VPS
-- Vercel solo se despliega 24 veces/día (dentro del plan Pro)
+- Vercel solo se despliega 24 veces/día (dentro del límite gratuito de 100/día)
 - Los usuarios ven datos con hasta 60 min de antigüedad (igual que ahora con el cron horario)
 - Para datos más frescos en el futuro: migrar JSON a Vercel Blob / Cloudflare R2 (no requiere git)
 
