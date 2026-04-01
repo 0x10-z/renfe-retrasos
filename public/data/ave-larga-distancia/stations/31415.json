@@ -1,18 +1,6 @@
 {
   "station_id": "31415",
   "name": "Ordes",
-  "generated_at": "2026-04-01T13:55:03+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1252812026-03-31",
-      "route_id": "2230831412VRR",
-      "train_name": "REGIONAL 12528",
-      "headsign": "A Coruña",
-      "origin": "Vigo Guixar",
-      "scheduled_time": "14:22",
-      "estimated_time": "14:28",
-      "delay_min": 6.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-01T14:55:02+02:00",
+  "arrivals": []
 }

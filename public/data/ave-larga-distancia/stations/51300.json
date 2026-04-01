@@ -1,28 +1,28 @@
 {
   "station_id": "51300",
   "name": "Jerez De La Frontera",
-  "generated_at": "2026-04-01T13:55:03+02:00",
+  "generated_at": "2026-04-01T14:55:02+02:00",
   "arrivals": [
     {
-      "trip_id": "0213512026-04-01",
-      "route_id": "5140560000GL023",
-      "train_name": "ALVIA 02135",
-      "headsign": "Madrid Pta.Atocha - Almudena Grandes",
+      "trip_id": "1301312026-03-31",
+      "route_id": "5140551003VRX",
+      "train_name": "MD 13013",
+      "headsign": "Sevilla-Santa Justa",
       "origin": "Cádiz",
-      "scheduled_time": "14:04",
-      "estimated_time": "14:08",
+      "scheduled_time": "15:14",
+      "estimated_time": "15:18",
       "delay_min": 4.0,
       "status": "retraso_leve"
     },
     {
-      "trip_id": "1339312026-03-31",
-      "route_id": "5140551003VRX",
-      "train_name": "MD 13393",
-      "headsign": "Sevilla-Santa Justa",
-      "origin": "Cádiz",
-      "scheduled_time": "14:12",
-      "estimated_time": "14:16",
-      "delay_min": 4.0,
+      "trip_id": "1301012026-03-31",
+      "route_id": "5100351405VRX",
+      "train_name": "MD 13010",
+      "headsign": "Cádiz",
+      "origin": "Sevilla-Santa Justa",
+      "scheduled_time": "15:47",
+      "estimated_time": "15:49",
+      "delay_min": 2.0,
       "status": "retraso_leve"
     }
   ]

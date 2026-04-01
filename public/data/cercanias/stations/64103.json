@@ -1,71 +1,82 @@
 {
   "station_id": "64103",
   "name": "Carcaixent",
-  "generated_at": "2026-04-01T13:55:12+02:00",
+  "generated_at": "2026-04-01T14:55:13+02:00",
   "arrivals": [
     {
-      "trip_id": "4087X24044C2",
-      "route_id": "40T0006C2",
-      "train_name": "C2",
-      "headsign": "València-Estació Del Nord",
-      "origin": "L'alcúdia De Crespins",
-      "scheduled_time": "14:11",
-      "estimated_time": "14:11",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4087X24043C2",
-      "route_id": "40T0005C2",
-      "train_name": "C2",
-      "headsign": "L'alcúdia De Crespins",
-      "origin": "València-Estació Del Nord",
-      "scheduled_time": "14:14",
-      "estimated_time": "14:14",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4087X24046C2",
+      "trip_id": "4087X24050C2",
       "route_id": "40T0006C2",
       "train_name": "C2",
       "headsign": "València-Estació Del Nord",
       "origin": "Xàtiva",
-      "scheduled_time": "14:29",
-      "estimated_time": "14:29",
+      "scheduled_time": "15:04",
+      "estimated_time": "15:04",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "4087X24047C2",
-      "route_id": "40T0005C2",
-      "train_name": "C2",
-      "headsign": "Xàtiva",
-      "origin": "València-Estació Del Nord",
-      "scheduled_time": "14:40",
-      "estimated_time": "14:40",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4087X24048C2",
-      "route_id": "40T0006C2",
-      "train_name": "C2",
-      "headsign": "València-Estació Del Nord",
-      "origin": "L'alcúdia De Crespins",
-      "scheduled_time": "14:46",
-      "estimated_time": "14:46",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4087X24049C2",
+      "trip_id": "4087X24051C2",
       "route_id": "40T0005C2",
       "train_name": "C2",
       "headsign": "L'alcúdia De Crespins",
       "origin": "València-Estació Del Nord",
-      "scheduled_time": "14:55",
-      "estimated_time": "14:55",
+      "scheduled_time": "15:15",
+      "estimated_time": "15:15",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "4087X24054C2",
+      "route_id": "40T0006C2",
+      "train_name": "C2",
+      "headsign": "València-Estació Del Nord",
+      "origin": "L'alcúdia De Crespins",
+      "scheduled_time": "15:20",
+      "estimated_time": "15:20",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "4087X36453C2",
+      "route_id": "40T0005C2",
+      "train_name": "C2",
+      "headsign": "Xàtiva",
+      "origin": "València-Estació Del Nord",
+      "scheduled_time": "15:30",
+      "estimated_time": "15:30",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "4087X24055C2",
+      "route_id": "40T0005C2",
+      "train_name": "C2",
+      "headsign": "Xàtiva",
+      "origin": "València-Estació Del Nord",
+      "scheduled_time": "15:40",
+      "estimated_time": "15:40",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "4087X24056C2",
+      "route_id": "40T0006C2",
+      "train_name": "C2",
+      "headsign": "València-Estació Del Nord",
+      "origin": "L'alcúdia De Crespins",
+      "scheduled_time": "15:51",
+      "estimated_time": "15:51",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "4087X24057C2",
+      "route_id": "40T0005C2",
+      "train_name": "C2",
+      "headsign": "Xàtiva",
+      "origin": "València-Estació Del Nord",
+      "scheduled_time": "15:55",
+      "estimated_time": "15:55",
       "delay_min": 0.0,
       "status": "en_hora"
     }
