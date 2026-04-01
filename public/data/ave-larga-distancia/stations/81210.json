@@ -1,17 +1,17 @@
 {
   "station_id": "81210",
   "name": "Alagón",
-  "generated_at": "2026-04-01T18:55:03+02:00",
+  "generated_at": "2026-04-01T19:55:03+02:00",
   "arrivals": [
     {
-      "trip_id": "1607012026-04-01",
-      "route_id": "8110071100VRE",
-      "train_name": "REG.EXP. 16070",
-      "headsign": "Zaragoza Miraflores",
-      "origin": "Logroño",
-      "scheduled_time": "18:56",
-      "estimated_time": "18:59",
-      "delay_min": 3.0,
+      "trip_id": "1807712026-03-31",
+      "route_id": "7110080100VRE",
+      "train_name": "REG.EXP. 18077",
+      "headsign": "Pamplona/Iruña",
+      "origin": "Zaragoza Miraflores",
+      "scheduled_time": "20:02",
+      "estimated_time": "20:06",
+      "delay_min": 4.0,
       "status": "retraso_leve"
     }
   ]

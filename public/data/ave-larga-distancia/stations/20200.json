@@ -1,18 +1,18 @@
 {
   "station_id": "20200",
   "name": "Ponferrada",
-  "generated_at": "2026-04-01T18:55:03+02:00",
+  "generated_at": "2026-04-01T19:55:03+02:00",
   "arrivals": [
     {
-      "trip_id": "1260812026-03-31",
-      "route_id": "2230820200VRE",
-      "train_name": "REG.EXP. 12608",
+      "trip_id": "1260312026-03-31",
+      "route_id": "1510020200VRE",
+      "train_name": "REG.EXP. 12603",
       "headsign": "Ponferrada",
-      "origin": "Vigo Guixar",
-      "scheduled_time": "19:25",
-      "estimated_time": "19:36",
-      "delay_min": 11.0,
-      "status": "retraso_alto"
+      "origin": "Leon",
+      "scheduled_time": "20:00",
+      "estimated_time": "20:05",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
     }
   ]
 }
