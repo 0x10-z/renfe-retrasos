@@ -1,19 +1,8 @@
 {
   "station_id": "78700",
   "name": "Terrassa Estació Del Nord",
-  "generated_at": "2026-04-01T11:25:24+02:00",
+  "generated_at": "2026-04-01T11:30:29+02:00",
   "arrivals": [
-    {
-      "trip_id": "5187X77528R4",
-      "route_id": "51T0020R4",
-      "train_name": "R4",
-      "headsign": "Vilafranca Del Penedès",
-      "origin": "Manresa",
-      "scheduled_time": "11:29",
-      "estimated_time": "11:29",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "5187X77618R4",
       "route_id": "51T0019R4",
@@ -99,6 +88,17 @@
       "origin": "Sant Vicenç De Calders",
       "scheduled_time": "12:20",
       "estimated_time": "12:20",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X77532R4",
+      "route_id": "51T0020R4",
+      "train_name": "R4",
+      "headsign": "Vilafranca Del Penedès",
+      "origin": "Manresa",
+      "scheduled_time": "12:29",
+      "estimated_time": "12:29",
       "delay_min": 0.0,
       "status": "en_hora"
     }

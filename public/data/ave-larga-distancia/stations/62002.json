@@ -1,6 +1,18 @@
 {
   "station_id": "62002",
   "name": "Orihuela-Miguel Hernández",
-  "generated_at": "2026-04-01T11:25:07+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-01T11:30:12+02:00",
+  "arrivals": [
+    {
+      "trip_id": "0596212026-03-31",
+      "route_id": "1700061200AV006",
+      "train_name": "AVE 05962",
+      "headsign": "Murcia",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "12:29",
+      "estimated_time": "12:56",
+      "delay_min": 27.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

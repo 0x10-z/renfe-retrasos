@@ -1,7 +1,7 @@
 {
   "station_id": "60505",
   "name": "La Roda de Albacete",
-  "generated_at": "2026-04-01T11:25:07+02:00",
+  "generated_at": "2026-04-01T11:30:12+02:00",
   "arrivals": [
     {
       "trip_id": "1808112026-03-31",
@@ -32,8 +32,8 @@
       "headsign": "Ciudad Real",
       "origin": "Alicante/Alacant",
       "scheduled_time": "12:09",
-      "estimated_time": "12:26",
-      "delay_min": 17.0,
+      "estimated_time": "12:27",
+      "delay_min": 18.0,
       "status": "retraso_alto"
     }
   ]

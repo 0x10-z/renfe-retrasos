@@ -1,19 +1,8 @@
 {
   "station_id": "64105",
   "name": "Algemesí",
-  "generated_at": "2026-04-01T11:25:24+02:00",
+  "generated_at": "2026-04-01T11:30:29+02:00",
   "arrivals": [
-    {
-      "trip_id": "4087X24032C2",
-      "route_id": "40T0006C2",
-      "train_name": "C2",
-      "headsign": "València-Estació Del Nord",
-      "origin": "L'alcúdia De Crespins",
-      "scheduled_time": "11:26",
-      "estimated_time": "11:28",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
-    },
     {
       "trip_id": "4087X24033C2",
       "route_id": "40T0005C2",

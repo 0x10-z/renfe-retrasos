@@ -1,19 +1,8 @@
 {
   "station_id": "37300",
   "name": "Puertollano",
-  "generated_at": "2026-04-01T11:25:07+02:00",
+  "generated_at": "2026-04-01T11:30:12+02:00",
   "arrivals": [
-    {
-      "trip_id": "0810012026-03-31",
-      "route_id": "6000037300AV008",
-      "train_name": "AVANT 08100",
-      "headsign": "Puertollano",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "11:30",
-      "estimated_time": "11:36",
-      "delay_min": 6.0,
-      "status": "retraso_alto"
-    },
     {
       "trip_id": "0398212026-03-31",
       "route_id": "0321651003AV006",
@@ -21,8 +10,8 @@
       "headsign": "Sevilla-Santa Justa",
       "origin": "Valencia Joaquin Sorolla",
       "scheduled_time": "11:49",
-      "estimated_time": "12:12",
-      "delay_min": 23.0,
+      "estimated_time": "12:13",
+      "delay_min": 24.0,
       "status": "retraso_alto"
     },
     {

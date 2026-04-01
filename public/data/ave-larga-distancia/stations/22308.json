@@ -1,7 +1,7 @@
 {
   "station_id": "22308",
   "name": "Vigo Guixar",
-  "generated_at": "2026-04-01T11:25:07+02:00",
+  "generated_at": "2026-04-01T11:30:12+02:00",
   "arrivals": [
     {
       "trip_id": "0042112026-03-31",
@@ -10,9 +10,9 @@
       "headsign": "Vigo Guixar",
       "origin": "Porto Campanha",
       "scheduled_time": "11:44",
-      "estimated_time": "11:50",
-      "delay_min": 6.0,
-      "status": "retraso_alto"
+      "estimated_time": "11:49",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
     },
     {
       "trip_id": "3742112026-03-31",
@@ -43,8 +43,8 @@
       "headsign": "Vigo Guixar",
       "origin": "Ourense",
       "scheduled_time": "12:05",
-      "estimated_time": "12:15",
-      "delay_min": 10.0,
+      "estimated_time": "12:18",
+      "delay_min": 13.0,
       "status": "retraso_alto"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "station_id": "35400",
   "name": "Cáceres",
-  "generated_at": "2026-04-01T11:25:07+02:00",
+  "generated_at": "2026-04-01T11:30:12+02:00",
   "arrivals": [
     {
       "trip_id": "0019012026-04-01",
@@ -10,9 +10,9 @@
       "headsign": "Badajoz",
       "origin": "Madrid-Chamartín-Clara Campoamor",
       "scheduled_time": "12:08",
-      "estimated_time": "12:14",
-      "delay_min": 6.0,
-      "status": "retraso_alto"
+      "estimated_time": "12:13",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
     },
     {
       "trip_id": "3709012026-03-31",
