@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-04-01T15:55",
+  "generated_at": "2026-04-01T16:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 16h se están acumulando los retrasos — 271 trenes afectados",
+      "text": "A las 17h se están acumulando los retrasos — 316 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 16
+        "hour": 17
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 69 minutos — tren desde Cádiz con parada en Cordoba",
+      "text": "El mayor retraso en este momento es de 55 minutos — tren desde Madrid-Chamartín-Clara Campoamor con parada en Ourense",
       "severity": "bad",
       "meta": {
-        "station_id": "50500",
-        "station_name": "Cordoba"
+        "station_id": "22100",
+        "station_name": "Ourense"
       }
     },
     {
       "id": "C",
-      "text": "Leon es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
+      "text": "Osuna es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "15100",
-        "station_name": "Leon"
+        "station_id": "01007",
+        "station_name": "Osuna"
       }
     },
     {
       "id": "D",
-      "text": "Históricamente los miércoles son el día con más retrasos (media 29%); los domingo son los más puntuales",
+      "text": "Históricamente los miércoles son el día con más retrasos (media 31%); los domingo son los más puntuales",
       "severity": "info"
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       "id": "G",
-      "text": "Esta semana los retrasos están subiendo respecto a la anterior (+20% · 26% vs 22%)",
+      "text": "Esta semana los retrasos están subiendo respecto a la anterior (+25% · 27% vs 22%)",
       "severity": "warn"
     }
   ]

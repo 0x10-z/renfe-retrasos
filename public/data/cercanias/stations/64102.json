@@ -1,71 +1,38 @@
 {
   "station_id": "64102",
   "name": "La Pobla Llarga",
-  "generated_at": "2026-04-01T15:55:12+02:00",
+  "generated_at": "2026-04-01T16:55:10+02:00",
   "arrivals": [
     {
-      "trip_id": "4087X24057C2",
-      "route_id": "40T0005C2",
-      "train_name": "C2",
-      "headsign": "Xàtiva",
-      "origin": "València-Estació Del Nord",
-      "scheduled_time": "15:59",
-      "estimated_time": "15:59",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4087X24060C2",
+      "trip_id": "4087X24064C2",
       "route_id": "40T0006C2",
       "train_name": "C2",
       "headsign": "València-Estació Del Nord",
       "origin": "L'alcúdia De Crespins",
-      "scheduled_time": "16:13",
-      "estimated_time": "16:13",
+      "scheduled_time": "17:11",
+      "estimated_time": "17:11",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "4087X24059C2",
+      "trip_id": "4087X24067C2",
       "route_id": "40T0005C2",
       "train_name": "C2",
       "headsign": "L'alcúdia De Crespins",
       "origin": "València-Estació Del Nord",
-      "scheduled_time": "16:21",
-      "estimated_time": "16:21",
+      "scheduled_time": "17:19",
+      "estimated_time": "17:19",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "4087X24062C2",
+      "trip_id": "4087X24068C2",
       "route_id": "40T0006C2",
       "train_name": "C2",
       "headsign": "València-Estació Del Nord",
-      "origin": "Xàtiva",
-      "scheduled_time": "16:40",
-      "estimated_time": "16:40",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4087X24061C2",
-      "route_id": "40T0005C2",
-      "train_name": "C2",
-      "headsign": "L'alcúdia De Crespins",
-      "origin": "València-Estació Del Nord",
-      "scheduled_time": "16:46",
-      "estimated_time": "16:46",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "4087X24096C2",
-      "route_id": "40T0006C2",
-      "train_name": "C2",
-      "headsign": "València-Estació Del Nord",
-      "origin": "Xàtiva",
-      "scheduled_time": "16:55",
-      "estimated_time": "16:55",
+      "origin": "L'alcúdia De Crespins",
+      "scheduled_time": "17:41",
+      "estimated_time": "17:41",
       "delay_min": 0.0,
       "status": "en_hora"
     }

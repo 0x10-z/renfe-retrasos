@@ -1,6 +1,18 @@
 {
   "station_id": "05509",
   "name": "El Berron",
-  "generated_at": "2026-04-01T15:55:03+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-01T16:55:02+02:00",
+  "arrivals": [
+    {
+      "trip_id": "7182212026-03-31",
+      "route_id": "0557115211VRFV",
+      "train_name": "REGIONAL 71822",
+      "headsign": "Oviedo/Uviéu",
+      "origin": "Llanes",
+      "scheduled_time": "17:08",
+      "estimated_time": "17:34",
+      "delay_min": 26.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

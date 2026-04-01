@@ -1,27 +1,49 @@
 {
   "station_id": "05803",
   "name": "La Asunción Universidad",
-  "generated_at": "2026-04-01T15:55:12+02:00",
+  "generated_at": "2026-04-01T16:55:10+02:00",
   "arrivals": [
     {
-      "trip_id": "4787X00029BUS",
+      "trip_id": "4787X00030BUS",
       "route_id": "47T0006BUS",
       "train_name": "BUS",
       "headsign": "Feve-León",
       "origin": "La Asunción Universidad",
-      "scheduled_time": "16:09",
-      "estimated_time": "16:09",
+      "scheduled_time": "17:38",
+      "estimated_time": "17:38",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "4787X71056C1",
+      "trip_id": "4787X71084C1",
       "route_id": "47T0002C1",
       "train_name": "C1",
       "headsign": "La Asunción Universidad",
-      "origin": "Matallana",
-      "scheduled_time": "16:09",
-      "estimated_time": "16:09",
+      "origin": "Cistierna",
+      "scheduled_time": "17:38",
+      "estimated_time": "17:38",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "4787X00011BUS",
+      "route_id": "47T0005BUS",
+      "train_name": "BUS",
+      "headsign": "La Asunción Universidad",
+      "origin": "Feve-León",
+      "scheduled_time": "17:45",
+      "estimated_time": "17:45",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "4787X71059C1",
+      "route_id": "47T0001C1",
+      "train_name": "C1",
+      "headsign": "Matallana",
+      "origin": "La Asunción Universidad",
+      "scheduled_time": "17:45",
+      "estimated_time": "17:45",
       "delay_min": 0.0,
       "status": "en_hora"
     }

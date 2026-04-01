@@ -1,49 +1,49 @@
 {
   "station_id": "51111",
   "name": "Bellavista",
-  "generated_at": "2026-04-01T15:55:12+02:00",
+  "generated_at": "2026-04-01T16:55:10+02:00",
   "arrivals": [
     {
-      "trip_id": "3087X23548C1",
-      "route_id": "30T0001C1",
-      "train_name": "C1",
-      "headsign": "Utrera",
-      "origin": "Lora Del Río",
-      "scheduled_time": "16:07",
-      "estimated_time": "16:07",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3087X23553C1",
-      "route_id": "30T0002C1",
-      "train_name": "C1",
-      "headsign": "Lora Del Río",
-      "origin": "Lebrija",
-      "scheduled_time": "16:25",
-      "estimated_time": null,
-      "delay_min": null,
-      "status": "cancelado"
-    },
-    {
-      "trip_id": "3087X23550C1",
-      "route_id": "30T0001C1",
-      "train_name": "C1",
-      "headsign": "Utrera",
-      "origin": "Lora Del Río",
-      "scheduled_time": "16:31",
-      "estimated_time": "16:31",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3087X23555C1",
+      "trip_id": "3087X23557C1",
       "route_id": "30T0002C1",
       "train_name": "C1",
       "headsign": "Sevilla-Santa Justa",
+      "origin": "Lebrija",
+      "scheduled_time": "17:01",
+      "estimated_time": "17:01",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3087X23559C1",
+      "route_id": "30T0002C1",
+      "train_name": "C1",
+      "headsign": "Lora Del Río",
       "origin": "Utrera",
-      "scheduled_time": "16:43",
-      "estimated_time": "16:43",
+      "scheduled_time": "17:23",
+      "estimated_time": "17:23",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3087X23554C1",
+      "route_id": "30T0001C1",
+      "train_name": "C1",
+      "headsign": "Utrera",
+      "origin": "Lora Del Río",
+      "scheduled_time": "17:25",
+      "estimated_time": "17:25",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "3087X23561C1",
+      "route_id": "30T0002C1",
+      "train_name": "C1",
+      "headsign": "Lora Del Río",
+      "origin": "Utrera",
+      "scheduled_time": "17:52",
+      "estimated_time": "17:52",
       "delay_min": 0.0,
       "status": "en_hora"
     }
