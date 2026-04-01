@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-04-01T20:55",
+  "generated_at": "2026-04-01T21:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 21h se están acumulando los retrasos — 276 trenes afectados",
+      "text": "A las 22h se están acumulando los retrasos — 205 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 21
+        "hour": 22
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 50 minutos — tren desde A Coruña con parada en Barcelona-Sants",
+      "text": "El mayor retraso en este momento es de 61 minutos — tren desde Barcelona-Estació De França con parada en Lleida-Pirineus",
       "severity": "bad",
       "meta": {
-        "station_id": "71801",
-        "station_name": "Barcelona-Sants"
+        "station_id": "78400",
+        "station_name": "Lleida-Pirineus"
       }
     },
     {
       "id": "C",
-      "text": "Valencia-Estaciò Del Nord es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
+      "text": "Salamanca es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "65000",
-        "station_name": "Valencia-Estaciò Del Nord"
+        "station_id": "30100",
+        "station_name": "Salamanca"
       }
     },
     {
       "id": "D",
-      "text": "Históricamente los miércoles son el día con más retrasos (media 33%); los domingo son los más puntuales",
+      "text": "Históricamente los miércoles son el día con más retrasos (media 34%); los domingo son los más puntuales",
       "severity": "info"
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       "id": "G",
-      "text": "Esta semana los retrasos están subiendo respecto a la anterior (+37% · 30% vs 22%)",
+      "text": "Esta semana los retrasos están subiendo respecto a la anterior (+40% · 30% vs 22%)",
       "severity": "warn"
     }
   ]

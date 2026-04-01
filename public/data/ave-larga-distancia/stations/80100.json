@@ -1,17 +1,28 @@
 {
   "station_id": "80100",
   "name": "Pamplona/Iruña",
-  "generated_at": "2026-04-01T20:55:03+02:00",
+  "generated_at": "2026-04-01T21:55:03+02:00",
   "arrivals": [
     {
-      "trip_id": "0061312026-04-01",
-      "route_id": "6000080100GL023",
-      "train_name": "ALVIA 00613",
+      "trip_id": "1807712026-03-31",
+      "route_id": "7110080100VRE",
+      "train_name": "REG.EXP. 18077",
       "headsign": "Pamplona/Iruña",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "21:10",
-      "estimated_time": "21:25",
-      "delay_min": 15.0,
+      "origin": "Zaragoza Miraflores",
+      "scheduled_time": "22:01",
+      "estimated_time": "22:11",
+      "delay_min": 10.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1803912026-04-01",
+      "route_id": "7110080100VRE",
+      "train_name": "REG.EXP. 18039",
+      "headsign": "Pamplona/Iruña",
+      "origin": "Zaragoza Miraflores",
+      "scheduled_time": "22:13",
+      "estimated_time": "22:24",
+      "delay_min": 11.0,
       "status": "retraso_alto"
     }
   ]
