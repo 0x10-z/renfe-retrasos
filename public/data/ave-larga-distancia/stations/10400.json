@@ -1,17 +1,28 @@
 {
   "station_id": "10400",
   "name": "Ávila",
-  "generated_at": "2026-04-01T07:00:07+02:00",
+  "generated_at": "2026-04-01T08:00:08+02:00",
   "arrivals": [
     {
-      "trip_id": "1806612026-03-31",
-      "route_id": "1410010000VRX",
-      "train_name": "MD 18066",
+      "trip_id": "1800112026-03-31",
+      "route_id": "1000010600VRX",
+      "train_name": "MD 18001",
+      "headsign": "Valladolid",
+      "origin": "Madrid-Principe Pio",
+      "scheduled_time": "08:18",
+      "estimated_time": "08:26",
+      "delay_min": 8.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1890012026-03-31",
+      "route_id": "3010010000VRX",
+      "train_name": "MD 18900",
       "headsign": "Madrid-Principe Pio",
-      "origin": "Palencia",
-      "scheduled_time": "07:39",
-      "estimated_time": "07:44",
-      "delay_min": 5.0,
+      "origin": "Salamanca",
+      "scheduled_time": "08:41",
+      "estimated_time": "08:43",
+      "delay_min": 2.0,
       "status": "retraso_leve"
     }
   ]

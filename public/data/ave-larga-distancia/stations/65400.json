@@ -1,18 +1,18 @@
 {
   "station_id": "65400",
   "name": "Tortosa",
-  "generated_at": "2026-04-01T07:00:07+02:00",
+  "generated_at": "2026-04-01T08:00:08+02:00",
   "arrivals": [
     {
-      "trip_id": "1805412026-03-31",
-      "route_id": "6540079400VRE",
-      "train_name": "REG.EXP. 18054",
-      "headsign": "Barcelona-Estació De França",
-      "origin": "Tortosa",
-      "scheduled_time": "07:05",
-      "estimated_time": "07:10",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
+      "trip_id": "1812112026-03-31",
+      "route_id": "7940065400VRE",
+      "train_name": "REG.EXP. 18121",
+      "headsign": "Tortosa",
+      "origin": "Barcelona-Estació De França",
+      "scheduled_time": "08:37",
+      "estimated_time": "08:37",
+      "delay_min": 0.0,
+      "status": "en_hora"
     }
   ]
 }

@@ -1,6 +1,18 @@
 {
   "station_id": "05137",
   "name": "Senra",
-  "generated_at": "2026-04-01T07:00:07+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-01T08:00:08+02:00",
+  "arrivals": [
+    {
+      "trip_id": "7180012026-03-31",
+      "route_id": "0519321010VRFV",
+      "train_name": "REGIONAL 71800",
+      "headsign": "Ferrol",
+      "origin": "Ribadeo",
+      "scheduled_time": "08:46",
+      "estimated_time": "08:48",
+      "delay_min": 2.0,
+      "status": "retraso_leve"
+    }
+  ]
 }

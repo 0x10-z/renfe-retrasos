@@ -1,6 +1,18 @@
 {
   "station_id": "31416",
   "name": "Cerceda-Meirama",
-  "generated_at": "2026-04-01T07:00:07+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-01T08:00:08+02:00",
+  "arrivals": [
+    {
+      "trip_id": "0907212026-04-01",
+      "route_id": "0822331412VRX",
+      "train_name": "MD 09072",
+      "headsign": "A Coruña",
+      "origin": "Vigo Urzaiz",
+      "scheduled_time": "08:03",
+      "estimated_time": "08:01",
+      "delay_min": -2.0,
+      "status": "en_hora"
+    }
+  ]
 }
