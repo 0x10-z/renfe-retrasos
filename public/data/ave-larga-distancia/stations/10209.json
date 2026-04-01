@@ -1,19 +1,8 @@
 {
   "station_id": "10209",
   "name": "El Pimpollar",
-  "generated_at": "2026-04-01T15:18:06+02:00",
+  "generated_at": "2026-04-01T15:55:03+02:00",
   "arrivals": [
-    {
-      "trip_id": "1710412026-03-31",
-      "route_id": "1040018000VRR",
-      "train_name": "REGIONAL 17104",
-      "headsign": "Madrid - Atocha Cercanías",
-      "origin": "Ávila",
-      "scheduled_time": "15:34",
-      "estimated_time": "15:36",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
-    },
     {
       "trip_id": "1716112026-03-31",
       "route_id": "1700010400VRR",

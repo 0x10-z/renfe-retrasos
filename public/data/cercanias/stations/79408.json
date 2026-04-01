@@ -1,96 +1,8 @@
 {
   "station_id": "79408",
   "name": "Ocata",
-  "generated_at": "2026-04-01T15:18:16+02:00",
+  "generated_at": "2026-04-01T15:55:12+02:00",
   "arrivals": [
-    {
-      "trip_id": "5187X25645R1",
-      "route_id": "51T0001R1",
-      "train_name": "R1",
-      "headsign": "Calella",
-      "origin": "L'hospitalet De Llobregat",
-      "scheduled_time": "15:19",
-      "estimated_time": "15:19",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5187X25750R1",
-      "route_id": "51T0002R1",
-      "train_name": "R1",
-      "headsign": "L'hospitalet De Llobregat",
-      "origin": "Mataró",
-      "scheduled_time": "15:24",
-      "estimated_time": "15:24",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5187X25647R1",
-      "route_id": "51T0001R1",
-      "train_name": "R1",
-      "headsign": "Maçanet-Massanes",
-      "origin": "L'hospitalet De Llobregat",
-      "scheduled_time": "15:29",
-      "estimated_time": "15:29",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5187X25752R1",
-      "route_id": "51T0002R1",
-      "train_name": "R1",
-      "headsign": "L'hospitalet De Llobregat",
-      "origin": "Mataró",
-      "scheduled_time": "15:34",
-      "estimated_time": "15:34",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5187X25751R1",
-      "route_id": "51T0001R1",
-      "train_name": "R1",
-      "headsign": "Mataró",
-      "origin": "L'hospitalet De Llobregat",
-      "scheduled_time": "15:39",
-      "estimated_time": "15:39",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5187X25652R1",
-      "route_id": "51T0002R1",
-      "train_name": "R1",
-      "headsign": "L'hospitalet De Llobregat",
-      "origin": "Blanes",
-      "scheduled_time": "15:44",
-      "estimated_time": "15:44",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5187X25753R1",
-      "route_id": "51T0001R1",
-      "train_name": "R1",
-      "headsign": "Mataró",
-      "origin": "L'hospitalet De Llobregat",
-      "scheduled_time": "15:49",
-      "estimated_time": "15:49",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5187X25754R1",
-      "route_id": "51T0002R1",
-      "train_name": "R1",
-      "headsign": "L'hospitalet De Llobregat",
-      "origin": "Mataró",
-      "scheduled_time": "15:54",
-      "estimated_time": "15:54",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "5187X25649R1",
       "route_id": "51T0001R1",
@@ -132,6 +44,94 @@
       "origin": "Tordera",
       "scheduled_time": "16:14",
       "estimated_time": "16:14",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25757R1",
+      "route_id": "51T0001R1",
+      "train_name": "R1",
+      "headsign": "Mataró",
+      "origin": "L'hospitalet De Llobregat",
+      "scheduled_time": "16:19",
+      "estimated_time": "16:19",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25756R1",
+      "route_id": "51T0002R1",
+      "train_name": "R1",
+      "headsign": "L'hospitalet De Llobregat",
+      "origin": "Mataró",
+      "scheduled_time": "16:24",
+      "estimated_time": "16:24",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25651R1",
+      "route_id": "51T0001R1",
+      "train_name": "R1",
+      "headsign": "Sils",
+      "origin": "L'hospitalet De Llobregat",
+      "scheduled_time": "16:29",
+      "estimated_time": "16:29",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25658R1",
+      "route_id": "51T0002R1",
+      "train_name": "R1",
+      "headsign": "L'hospitalet De Llobregat",
+      "origin": "Calella",
+      "scheduled_time": "16:34",
+      "estimated_time": "16:34",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25759R1",
+      "route_id": "51T0001R1",
+      "train_name": "R1",
+      "headsign": "Mataró",
+      "origin": "L'hospitalet De Llobregat",
+      "scheduled_time": "16:39",
+      "estimated_time": "16:39",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25660R1",
+      "route_id": "51T0002R1",
+      "train_name": "R1",
+      "headsign": "L'hospitalet De Llobregat",
+      "origin": "Blanes",
+      "scheduled_time": "16:44",
+      "estimated_time": "16:44",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25761R1",
+      "route_id": "51T0001R1",
+      "train_name": "R1",
+      "headsign": "Mataró",
+      "origin": "L'hospitalet De Llobregat",
+      "scheduled_time": "16:49",
+      "estimated_time": "16:49",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25758R1",
+      "route_id": "51T0002R1",
+      "train_name": "R1",
+      "headsign": "L'hospitalet De Llobregat",
+      "origin": "Mataró",
+      "scheduled_time": "16:54",
+      "estimated_time": "16:54",
       "delay_min": 0.0,
       "status": "en_hora"
     }

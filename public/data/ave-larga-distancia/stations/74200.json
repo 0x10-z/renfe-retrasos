@@ -1,19 +1,8 @@
 {
   "station_id": "74200",
   "name": "Huesca",
-  "generated_at": "2026-04-01T15:18:06+02:00",
+  "generated_at": "2026-04-01T15:55:03+02:00",
   "arrivals": [
-    {
-      "trip_id": "1575012026-03-31",
-      "route_id": "0404074200VRR",
-      "train_name": "REGIONAL 15750",
-      "headsign": "Huesca",
-      "origin": "Zaragoza-Delicias",
-      "scheduled_time": "15:28",
-      "estimated_time": "16:03",
-      "delay_min": 35.0,
-      "status": "retraso_alto"
-    },
     {
       "trip_id": "1575912026-03-31",
       "route_id": "7420004040VRR",

@@ -1,7 +1,7 @@
 {
   "station_id": "51200",
   "name": "Utrera",
-  "generated_at": "2026-04-01T15:18:06+02:00",
+  "generated_at": "2026-04-01T15:55:03+02:00",
   "arrivals": [
     {
       "trip_id": "1303212026-03-31",
@@ -10,8 +10,8 @@
       "headsign": "Cádiz",
       "origin": "Cordoba",
       "scheduled_time": "16:12",
-      "estimated_time": "16:23",
-      "delay_min": 11.0,
+      "estimated_time": "16:28",
+      "delay_min": 16.0,
       "status": "retraso_alto"
     }
   ]

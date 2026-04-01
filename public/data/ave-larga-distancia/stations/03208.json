@@ -1,52 +1,8 @@
 {
   "station_id": "03208",
   "name": "Cuenca Fernando Zobel",
-  "generated_at": "2026-04-01T15:18:06+02:00",
+  "generated_at": "2026-04-01T15:55:03+02:00",
   "arrivals": [
-    {
-      "trip_id": "0574212026-03-31",
-      "route_id": "6000061200AV006",
-      "train_name": "AVE 05742",
-      "headsign": "Murcia",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "15:24",
-      "estimated_time": "15:31",
-      "delay_min": 7.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "0574222026-03-31",
-      "route_id": "6000060911AV006",
-      "train_name": "AVE 05742",
-      "headsign": "Alicante/Alacant",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "15:24",
-      "estimated_time": "15:31",
-      "delay_min": 7.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "0514012026-03-31",
-      "route_id": "1700003216AV006",
-      "train_name": "AVE 05140",
-      "headsign": "Valencia Joaquin Sorolla",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "15:33",
-      "estimated_time": "15:35",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
-    },
-    {
-      "trip_id": "0514022026-03-31",
-      "route_id": "1700003213AV006",
-      "train_name": "AVE 05140",
-      "headsign": "Requena Utiel",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "15:33",
-      "estimated_time": "15:35",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
-    },
     {
       "trip_id": "0514312026-03-31",
       "route_id": "6091117000AV006",
@@ -54,8 +10,8 @@
       "headsign": "Madrid-Chamartín-Clara Campoamor",
       "origin": "Alicante/Alacant",
       "scheduled_time": "16:03",
-      "estimated_time": "16:10",
-      "delay_min": 7.0,
+      "estimated_time": "16:09",
+      "delay_min": 6.0,
       "status": "retraso_alto"
     },
     {
@@ -65,8 +21,30 @@
       "headsign": "Madrid Pta.Atocha - Almudena Grandes",
       "origin": "Castelló",
       "scheduled_time": "16:10",
-      "estimated_time": "16:19",
-      "delay_min": 9.0,
+      "estimated_time": "16:20",
+      "delay_min": 10.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "0515512026-03-31",
+      "route_id": "0321617000LC112",
+      "train_name": "AVLO 05155",
+      "headsign": "Madrid-Chamartín-Clara Campoamor",
+      "origin": "Valencia Joaquin Sorolla",
+      "scheduled_time": "16:33",
+      "estimated_time": "16:38",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
+    },
+    {
+      "trip_id": "0575012026-03-31",
+      "route_id": "1541065300AV006",
+      "train_name": "AVE 05750",
+      "headsign": "Castelló",
+      "origin": "Gijón/Xixón",
+      "scheduled_time": "16:33",
+      "estimated_time": "16:41",
+      "delay_min": 8.0,
       "status": "retraso_alto"
     }
   ]

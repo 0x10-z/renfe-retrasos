@@ -1,18 +1,6 @@
 {
   "station_id": "15001",
   "name": "Grijota",
-  "generated_at": "2026-04-01T15:18:06+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1821412026-03-31",
-      "route_id": "1510014100VRE",
-      "train_name": "REG.EXP. 18214",
-      "headsign": "Palencia",
-      "origin": "Leon",
-      "scheduled_time": "15:54",
-      "estimated_time": "15:56",
-      "delay_min": 2.0,
-      "status": "retraso_leve"
-    }
-  ]
+  "generated_at": "2026-04-01T15:55:03+02:00",
+  "arrivals": []
 }

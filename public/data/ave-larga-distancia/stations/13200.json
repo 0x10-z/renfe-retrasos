@@ -1,18 +1,6 @@
 {
   "station_id": "13200",
   "name": "Bilbao-Abando Indalecio Prieto",
-  "generated_at": "2026-04-01T15:18:06+02:00",
-  "arrivals": [
-    {
-      "trip_id": "0043812026-04-01",
-      "route_id": "7180113200GL023",
-      "train_name": "ALVIA 00438",
-      "headsign": "Bilbao-Abando Indalecio Prieto",
-      "origin": "Barcelona-Sants",
-      "scheduled_time": "15:53",
-      "estimated_time": "16:32",
-      "delay_min": 39.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-01T15:55:03+02:00",
+  "arrivals": []
 }

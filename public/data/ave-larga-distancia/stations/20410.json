@@ -1,18 +1,6 @@
 {
   "station_id": "20410",
   "name": "Elviña-Universidade",
-  "generated_at": "2026-04-01T15:18:06+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1268312026-03-31",
-      "route_id": "2101031412VRM",
-      "train_name": "MD 12683",
-      "headsign": "A Coruña",
-      "origin": "Ferrol",
-      "scheduled_time": "15:24",
-      "estimated_time": "15:38",
-      "delay_min": 14.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-01T15:55:03+02:00",
+  "arrivals": []
 }
