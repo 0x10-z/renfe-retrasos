@@ -1,7 +1,7 @@
 # Plan de Mejoras — Andén / renfe-enhora
 
 **Fecha:** 2026-04-01
-**Estado:** Pendiente validación
+**Estado:** En progreso
 
 ---
 
@@ -44,15 +44,17 @@ El plan gratuito de Vercel (Hobby) permite 100 builds/día. Se excedería en 2.8
 
 ## Resumen de cambios
 
-| # | Feature | Dificultad | Área |
-| --- | --- | --- | --- |
-| 1 | Recategorizar umbrales de retraso (5 min = en hora) | Fácil | Pipeline |
-| 2 | Tipo de tren: ranking de retrasos acumulados (cada tipo separado) | Media | Pipeline + Frontend |
-| 3 | Zonas geográficas (dos niveles: Núcleos Cercanías + CCAA) | Media | Pipeline + Frontend |
-| 4 | Peores conexiones: rutas completas con todas las paradas | Difícil | Pipeline + Frontend |
-| 5 | Comparativa zonas: abandonadas vs bien servidas (narrativa automática) | Difícil | Pipeline + Frontend |
-| 6 | Almacenamiento de datos en crudo para análisis futuros | Media | Pipeline |
-| 7 | Cron cada 5 minutos | Fácil — COMPLETADO | Infra |
+| # | Feature | Dificultad | Estado | Área |
+| --- | --- | --- | --- | --- |
+| 1 | Recategorizar umbrales de retraso (5 min = en hora) | Fácil | UI ✓ — Pipeline pendiente | Pipeline + Frontend |
+| 2 | Tipo de tren: ranking de retrasos acumulados (cada tipo separado) | Media | Pendiente | Pipeline + Frontend |
+| 3 | Zonas geográficas (dos niveles: Núcleos Cercanías + CCAA) | Media | Pendiente | Pipeline + Frontend |
+| 4 | Peores conexiones: rutas completas con todas las paradas | Difícil | Pendiente | Pipeline + Frontend |
+| 5 | Comparativa zonas: abandonadas vs bien servidas (narrativa automática) | Difícil | Pendiente | Pipeline + Frontend |
+| 6 | Almacenamiento de datos en crudo para análisis futuros | Media | Pendiente | Pipeline |
+| 7 | Cron cada 5 minutos | Fácil | ✓ Completado | Infra |
+| 8 | Desacoplar pipeline de Vercel (run_pipeline.sh / push_to_git.sh) | Fácil | ✓ Completado | Infra |
+| 9 | Sección equipo en sobre.astro | Fácil | ✓ Completado | Frontend |
 
 **Alcance:** Cercanías + AVE/Larga Distancia en todos los features.
 
@@ -62,7 +64,7 @@ El plan gratuito de Vercel (Hobby) permite 100 builds/día. Se excedería en 2.8
 
 ## Feature 1 — Recategorizar umbrales de retraso
 
-> Dificultad: Fácil
+> Dificultad: Fácil — UI completada ✓ — Pipeline pendiente
 
 ### Cambio de umbrales
 
@@ -75,12 +77,12 @@ El plan gratuito de Vercel (Hobby) permite 100 builds/día. Se excedería en 2.8
 
 ### Archivos a modificar
 
-- `scripts/config.py` — constantes `DELAY_THRESHOLDS` (único punto de verdad)
-- `scripts/processing/merger.py` — verificar que lee de config y no tiene valores hardcodeados
-- `scripts/processing/insights.py` — revisar umbrales de insights B (≥15 min) y C (30% delay ratio)
-- `src/components/StationBoard.astro` — colores/etiquetas de badges de estado
-- `src/pages/index.astro` — leyenda de estados si existe
-- `src/pages/sobre.astro` - metodologia explicada para la nueva categoria de retrasos
+- `scripts/config.py` — constantes `DELAY_THRESHOLDS` (único punto de verdad) ⬜
+- `scripts/processing/merger.py` — verificar que lee de config y no tiene valores hardcodeados ⬜
+- `scripts/processing/insights.py` — revisar umbrales de insights B (≥15 min) y C (30% delay ratio) ⬜
+- `src/components/StationBoard.astro` — badges actualizados a "5-10 min" y "+10 min" ✅
+- `src/pages/index.astro` — leyenda de estados si existe ⬜
+- `src/pages/sobre.astro` — umbrales y descripción de limitaciones actualizados ✅
 
 ### Decisión sobre histórico
 
@@ -403,9 +405,21 @@ Con cron cada 5 min y filtrando solo trenes retrasados:
 
 ## Feature 7 — Cron cada 5 minutos
 
-> Dificultad: Fácil — COMPLETADO
+> Dificultad: Fácil — ✓ COMPLETADO
 
 `cron.example` actualizado a `*/5 * * * *`.
+
+## Feature 8 — Desacoplar pipeline de Vercel
+
+> Dificultad: Fácil — ✓ COMPLETADO
+
+Creados `run_pipeline.sh` (cron `*/5`) y `push_to_git.sh` (cron `0 *`). Ambos con bit ejecutable guardado en git. `cron.example` actualizado con los dos crons y documentación de setup.
+
+## Feature 9 — Sección de equipo en sobre.astro
+
+> Dificultad: Fácil — ✓ COMPLETADO
+
+Añadida sección `07 · Equipo` en `sobre.astro` con tarjetas para Iker Ocio (El Desarrollador) y Jorge Buñuel (El Estratega de Datos), basada en los roles del contrato de coautoría.
 
 ### Impacto en otros features
 
@@ -418,13 +432,15 @@ Con cron cada 5 min y filtrando solo trenes retrasados:
 ## Dependencias entre features
 
 ```text
-[1] Umbrales          → base para todos los demás
-[2] Tipo de tren      → necesario para [4] y [5]
-[3] Zonas             → necesario para [4] y [5]
-[4] Rutas             → necesario para [5]
-[5] Comparativa       → depende de [2] + [3] + [4]
-[6] Datos en crudo    → independiente, puede hacerse en cualquier sprint
-[7] Cron 5min  ✓      → completado
+[1] Umbrales          → base para todos los demás        (UI ✓, pipeline ⬜)
+[2] Tipo de tren      → necesario para [4] y [5]         (pendiente)
+[3] Zonas             → necesario para [4] y [5]         (pendiente)
+[4] Rutas             → necesario para [5]               (pendiente)
+[5] Comparativa       → depende de [2] + [3] + [4]       (pendiente)
+[6] Datos en crudo    → independiente                    (pendiente)
+[7] Cron 5min         → completado ✓
+[8] Desacoplar Vercel → completado ✓
+[9] Equipo sobre.astro → completado ✓
 ```
 
 ## Orden de implementación recomendado
