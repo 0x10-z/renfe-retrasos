@@ -2,31 +2,46 @@
 #
 # Edit with:  crontab -e
 #
-# The pipeline runs every hour.
-# Logs rotate automatically (logrotate or just the rolling file in logs/).
+# El pipeline y el deployment están desacoplados:
+#   - run_pipeline.sh  → corre cada 5 min, procesa datos y escribe JSON en disco
+#   - push_to_git.sh   → corre cada hora, hace commit + push → dispara Vercel
 #
-# 1. Make the deploy script executable:
-#    chmod +x /home/0x10/renfe-enhora/deploy.sh
+# Esto evita los ~288 builds/día de Vercel que generaría un cron cada 5 min.
+# Los usuarios ven datos con hasta 60 min de antigüedad (igual que antes).
 #
-# 2. Configure Git for the deploy user:
+# 1. Hacer los scripts ejecutables:
+#    chmod +x /home/0x10/renfe-enhora/run_pipeline.sh
+#    chmod +x /home/0x10/renfe-enhora/push_to_git.sh
+#
+# 2. Configurar Git para el usuario de deploy:
 #    git config --global user.name  "Renfe Bot"
 #    git config --global user.email "bot@example.com"
 #
-# 3. Set up SSH key for passwordless push:
+# 3. Configurar SSH key para push sin contraseña:
 #    ssh-keygen -t ed25519 -C "renfe-bot"
-#    # Add the public key to your GitHub repo → Settings → Deploy Keys (with write access)
+#    # Añadir la clave pública al repo GitHub → Settings → Deploy Keys (con write access)
 #
-# 4. Ensure Python deps are installed:
+# 4. Instalar dependencias Python:
 #    cd /home/0x10/renfe-enhora
 #    python3 -m venv venv
 #    source venv/bin/activate
 #    pip install -r requirements.txt
 #
-# 5. Add to crontab:
+# 5. Añadir al crontab:
 
-0 * * * * /home/0x10/renfe-enhora/deploy.sh >> /home/0x10/renfe-enhora/logs/cron.log 2>&1
+# Pipeline: cada 5 minutos — procesa datos, escribe JSON en disco (sin git)
+*/5 * * * * /home/0x10/renfe-enhora/run_pipeline.sh >> /home/0x10/renfe-enhora/logs/pipeline.log 2>&1
 
-# ── Optional: log rotation (add to /etc/logrotate.d/renfe) ───────────────────
+# Git push: cada hora — commit de public/data/ y push a GitHub (dispara Vercel)
+0 * * * * /home/0x10/renfe-enhora/push_to_git.sh >> /home/0x10/renfe-enhora/logs/push.log 2>&1
+
+# ── Actualización de código ───────────────────────────────────────────────────
+# Los cambios en scripts/ o src/ NO se recogen automáticamente.
+# Para desplegar nueva versión del pipeline en el VPS:
+#   git fetch --depth=1 origin master && git reset --hard origin/master
+#   pip install -r requirements.txt   # si hay nuevas dependencias
+
+# ── Log rotation opcional (añadir a /etc/logrotate.d/renfe) ──────────────────
 # /home/0x10/renfe-enhora/logs/*.log {
 #     daily
 #     rotate 7
