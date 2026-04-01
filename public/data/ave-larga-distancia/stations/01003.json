@@ -1,6 +1,18 @@
 {
   "station_id": "01003",
   "name": "Arahal",
-  "generated_at": "2026-04-01T14:55:02+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-01T15:15:47+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1390512026-03-31",
+      "route_id": "5441351003VRX",
+      "train_name": "MD 13905",
+      "headsign": "Sevilla-Santa Justa",
+      "origin": "Malaga Maria Zambrano",
+      "scheduled_time": "16:01",
+      "estimated_time": "16:13",
+      "delay_min": 12.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

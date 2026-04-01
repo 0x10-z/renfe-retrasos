@@ -1,30 +1,8 @@
 {
   "station_id": "19001",
   "name": "Universidad Pontificia De Comillas",
-  "generated_at": "2026-04-01T14:55:13+02:00",
+  "generated_at": "2026-04-01T15:15:55+02:00",
   "arrivals": [
-    {
-      "trip_id": "1087X20273C4a",
-      "route_id": "10T0014C4a",
-      "train_name": "C4a",
-      "headsign": "Alcobendas-San Sebastián De Los Reyes",
-      "origin": "Parla",
-      "scheduled_time": "15:00",
-      "estimated_time": "15:00",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1087X20282C4a",
-      "route_id": "10T0013C4a",
-      "train_name": "C4a",
-      "headsign": "Parla",
-      "origin": "Alcobendas-San Sebastián De Los Reyes",
-      "scheduled_time": "15:01",
-      "estimated_time": "15:01",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "1087X20275C4a",
       "route_id": "10T0014C4a",
@@ -66,6 +44,28 @@
       "origin": "Alcobendas-San Sebastián De Los Reyes",
       "scheduled_time": "15:39",
       "estimated_time": "15:39",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1087X20279C4a",
+      "route_id": "10T0014C4a",
+      "train_name": "C4a",
+      "headsign": "Alcobendas-San Sebastián De Los Reyes",
+      "origin": "Parla",
+      "scheduled_time": "15:59",
+      "estimated_time": "15:59",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1087X20288C4a",
+      "route_id": "10T0013C4a",
+      "train_name": "C4a",
+      "headsign": "Parla",
+      "origin": "Alcobendas-San Sebastián De Los Reyes",
+      "scheduled_time": "15:59",
+      "estimated_time": "15:59",
       "delay_min": 0.0,
       "status": "en_hora"
     }

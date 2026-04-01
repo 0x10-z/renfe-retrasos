@@ -1,7 +1,7 @@
 {
   "station_id": "11014",
   "name": "Burgos Rosa Manzano",
-  "generated_at": "2026-04-01T14:55:02+02:00",
+  "generated_at": "2026-04-01T15:15:47+02:00",
   "arrivals": [
     {
       "trip_id": "0062212026-04-01",
@@ -10,8 +10,8 @@
       "headsign": "Vigo Guixar",
       "origin": "Barcelona-Sants",
       "scheduled_time": "15:30",
-      "estimated_time": "16:09",
-      "delay_min": 39.0,
+      "estimated_time": "16:13",
+      "delay_min": 43.0,
       "status": "retraso_alto"
     },
     {
@@ -21,8 +21,8 @@
       "headsign": "Ourense",
       "origin": "Barcelona-Sants",
       "scheduled_time": "15:30",
-      "estimated_time": "16:09",
-      "delay_min": 39.0,
+      "estimated_time": "16:13",
+      "delay_min": 43.0,
       "status": "retraso_alto"
     },
     {
@@ -32,8 +32,8 @@
       "headsign": "Leon",
       "origin": "Barcelona-Sants",
       "scheduled_time": "15:30",
-      "estimated_time": "16:09",
-      "delay_min": 39.0,
+      "estimated_time": "16:13",
+      "delay_min": 43.0,
       "status": "retraso_alto"
     },
     {

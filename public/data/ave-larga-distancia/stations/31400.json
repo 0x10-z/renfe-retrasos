@@ -1,30 +1,8 @@
 {
   "station_id": "31400",
   "name": "Santiago de Compostela",
-  "generated_at": "2026-04-01T14:55:02+02:00",
+  "generated_at": "2026-04-01T15:15:47+02:00",
   "arrivals": [
-    {
-      "trip_id": "0914012026-03-31",
-      "route_id": "2210031412AV008",
-      "train_name": "AVANT 09140",
-      "headsign": "A Coruña",
-      "origin": "Ourense",
-      "scheduled_time": "15:03",
-      "estimated_time": "15:03",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1245512026-03-31",
-      "route_id": "3140022308VRR",
-      "train_name": "REGIONAL 12455",
-      "headsign": "Vigo Guixar",
-      "origin": "Santiago de Compostela",
-      "scheduled_time": "15:11",
-      "estimated_time": "15:11",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "0914212026-03-31",
       "route_id": "0822331412VRX",
@@ -32,8 +10,8 @@
       "headsign": "A Coruña",
       "origin": "Vigo Urzaiz",
       "scheduled_time": "15:24",
-      "estimated_time": "15:24",
-      "delay_min": 0.0,
+      "estimated_time": "15:25",
+      "delay_min": 1.0,
       "status": "en_hora"
     },
     {
@@ -43,8 +21,8 @@
       "headsign": "Vigo Urzaiz",
       "origin": "A Coruña",
       "scheduled_time": "15:29",
-      "estimated_time": "15:29",
-      "delay_min": 0.0,
+      "estimated_time": "15:30",
+      "delay_min": 1.0,
       "status": "en_hora"
     },
     {
@@ -55,6 +33,17 @@
       "origin": "A Coruña",
       "scheduled_time": "15:39",
       "estimated_time": "15:39",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0955012026-03-31",
+      "route_id": "2210031412AV008",
+      "train_name": "AVANT 09550",
+      "headsign": "A Coruña",
+      "origin": "Ourense",
+      "scheduled_time": "16:08",
+      "estimated_time": "16:08",
       "delay_min": 0.0,
       "status": "en_hora"
     }

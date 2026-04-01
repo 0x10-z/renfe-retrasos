@@ -1,41 +1,8 @@
 {
   "station_id": "79603",
   "name": "Calella",
-  "generated_at": "2026-04-01T14:55:13+02:00",
+  "generated_at": "2026-04-01T15:15:55+02:00",
   "arrivals": [
-    {
-      "trip_id": "5187X25637R1",
-      "route_id": "51T0001R1",
-      "train_name": "R1",
-      "headsign": "Calella",
-      "origin": "L'hospitalet De Llobregat",
-      "scheduled_time": "14:56",
-      "estimated_time": "14:56",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5187X25652R1",
-      "route_id": "51T0002R1",
-      "train_name": "R1",
-      "headsign": "L'hospitalet De Llobregat",
-      "origin": "Blanes",
-      "scheduled_time": "15:06",
-      "estimated_time": "15:06",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5187X25639R1",
-      "route_id": "51T0001R1",
-      "train_name": "R1",
-      "headsign": "Sils",
-      "origin": "L'hospitalet De Llobregat",
-      "scheduled_time": "15:07",
-      "estimated_time": "15:07",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "5187X25641R1",
       "route_id": "51T0001R1",
@@ -77,6 +44,50 @@
       "origin": "L'hospitalet De Llobregat",
       "scheduled_time": "15:37",
       "estimated_time": "15:37",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25645R1",
+      "route_id": "51T0001R1",
+      "train_name": "R1",
+      "headsign": "Calella",
+      "origin": "L'hospitalet De Llobregat",
+      "scheduled_time": "15:56",
+      "estimated_time": "15:56",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25658R1",
+      "route_id": "51T0002R1",
+      "train_name": "R1",
+      "headsign": "L'hospitalet De Llobregat",
+      "origin": "Calella",
+      "scheduled_time": "15:58",
+      "estimated_time": "15:58",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25660R1",
+      "route_id": "51T0002R1",
+      "train_name": "R1",
+      "headsign": "L'hospitalet De Llobregat",
+      "origin": "Blanes",
+      "scheduled_time": "16:06",
+      "estimated_time": "16:06",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "5187X25647R1",
+      "route_id": "51T0001R1",
+      "train_name": "R1",
+      "headsign": "Maçanet-Massanes",
+      "origin": "L'hospitalet De Llobregat",
+      "scheduled_time": "16:07",
+      "estimated_time": "16:07",
       "delay_min": 0.0,
       "status": "en_hora"
     }

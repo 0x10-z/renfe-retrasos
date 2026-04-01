@@ -1,30 +1,8 @@
 {
   "station_id": "19003",
   "name": "Alcobendas-San Sebastián De Los Reyes",
-  "generated_at": "2026-04-01T14:55:13+02:00",
+  "generated_at": "2026-04-01T15:15:55+02:00",
   "arrivals": [
-    {
-      "trip_id": "1087X20282C4a",
-      "route_id": "10T0013C4a",
-      "train_name": "C4a",
-      "headsign": "Parla",
-      "origin": "Alcobendas-San Sebastián De Los Reyes",
-      "scheduled_time": "14:57",
-      "estimated_time": "14:57",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1087X20273C4a",
-      "route_id": "10T0014C4a",
-      "train_name": "C4a",
-      "headsign": "Alcobendas-San Sebastián De Los Reyes",
-      "origin": "Parla",
-      "scheduled_time": "15:06",
-      "estimated_time": "15:06",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "1087X20284C4a",
       "route_id": "10T0013C4a",
@@ -77,6 +55,28 @@
       "origin": "Alcobendas-San Sebastián De Los Reyes",
       "scheduled_time": "15:55",
       "estimated_time": "15:55",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1087X20279C4a",
+      "route_id": "10T0014C4a",
+      "train_name": "C4a",
+      "headsign": "Alcobendas-San Sebastián De Los Reyes",
+      "origin": "Parla",
+      "scheduled_time": "16:05",
+      "estimated_time": "16:05",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1087X20290C4a",
+      "route_id": "10T0013C4a",
+      "train_name": "C4a",
+      "headsign": "Parla",
+      "origin": "Alcobendas-San Sebastián De Los Reyes",
+      "scheduled_time": "16:15",
+      "estimated_time": "16:15",
       "delay_min": 0.0,
       "status": "en_hora"
     }

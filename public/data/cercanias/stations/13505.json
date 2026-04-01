@@ -1,30 +1,8 @@
 {
   "station_id": "13505",
   "name": "Putxeta",
-  "generated_at": "2026-04-01T14:55:13+02:00",
+  "generated_at": "2026-04-01T15:15:55+02:00",
   "arrivals": [
-    {
-      "trip_id": "6087X26045C2",
-      "route_id": "60T0003C2",
-      "train_name": "C2",
-      "headsign": "Muskiz",
-      "origin": "Bilbao-Intermod. Abando Indalecio Prieto",
-      "scheduled_time": "14:56",
-      "estimated_time": "14:56",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "6087X26048C2",
-      "route_id": "60T0004C2",
-      "train_name": "C2",
-      "headsign": "Bilbao-Intermod. Abando Indalecio Prieto",
-      "origin": "Muskiz",
-      "scheduled_time": "15:07",
-      "estimated_time": "15:07",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "6087X26047C2",
       "route_id": "60T0003C2",
@@ -66,6 +44,28 @@
       "origin": "Muskiz",
       "scheduled_time": "15:51",
       "estimated_time": "15:51",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "6087X26051C2",
+      "route_id": "60T0003C2",
+      "train_name": "C2",
+      "headsign": "Muskiz",
+      "origin": "Bilbao-Intermod. Abando Indalecio Prieto",
+      "scheduled_time": "16:02",
+      "estimated_time": "16:02",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "6087X26054C2",
+      "route_id": "60T0004C2",
+      "train_name": "C2",
+      "headsign": "Bilbao-Intermod. Abando Indalecio Prieto",
+      "origin": "Muskiz",
+      "scheduled_time": "16:13",
+      "estimated_time": "16:13",
       "delay_min": 0.0,
       "status": "en_hora"
     }

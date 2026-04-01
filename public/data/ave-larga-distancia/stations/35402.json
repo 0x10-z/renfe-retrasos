@@ -1,18 +1,6 @@
 {
   "station_id": "35402",
   "name": "Arroyo-Malpartida",
-  "generated_at": "2026-04-01T14:55:02+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1702812026-03-31",
-      "route_id": "3540035406VRR",
-      "train_name": "REGIONAL 17028",
-      "headsign": "Valencia de Alcantara",
-      "origin": "Cáceres",
-      "scheduled_time": "15:01",
-      "estimated_time": "15:04",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
-    }
-  ]
+  "generated_at": "2026-04-01T15:15:47+02:00",
+  "arrivals": []
 }

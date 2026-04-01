@@ -1,7 +1,7 @@
 {
   "station_id": "22102",
   "name": "Ribadavia",
-  "generated_at": "2026-04-01T14:55:02+02:00",
+  "generated_at": "2026-04-01T15:15:47+02:00",
   "arrivals": [
     {
       "trip_id": "1260812026-03-31",
@@ -10,9 +10,9 @@
       "headsign": "Ponferrada",
       "origin": "Vigo Guixar",
       "scheduled_time": "15:51",
-      "estimated_time": "15:54",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
+      "estimated_time": "15:59",
+      "delay_min": 8.0,
+      "status": "retraso_alto"
     }
   ]
 }

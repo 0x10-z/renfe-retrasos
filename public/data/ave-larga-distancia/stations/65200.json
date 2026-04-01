@@ -1,19 +1,8 @@
 {
   "station_id": "65200",
   "name": "Sagunt/Sagunto",
-  "generated_at": "2026-04-01T14:55:02+02:00",
+  "generated_at": "2026-04-01T15:15:47+02:00",
   "arrivals": [
-    {
-      "trip_id": "1444612026-03-31",
-      "route_id": "6500065312VRR",
-      "train_name": "REGIONAL 14446",
-      "headsign": "Vinaròs",
-      "origin": "Valencia-Estaciò Del Nord",
-      "scheduled_time": "15:01",
-      "estimated_time": "15:01",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
     {
       "trip_id": "1852312026-03-31",
       "route_id": "0404065000VRX",
@@ -32,8 +21,8 @@
       "headsign": "Valencia-Estaciò Del Nord",
       "origin": "Tortosa",
       "scheduled_time": "15:45",
-      "estimated_time": "15:52",
-      "delay_min": 7.0,
+      "estimated_time": "15:55",
+      "delay_min": 10.0,
       "status": "retraso_alto"
     },
     {
@@ -66,6 +55,17 @@
       "origin": "Valencia-Estaciò Del Nord",
       "scheduled_time": "15:48",
       "estimated_time": "15:48",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "1445012026-03-31",
+      "route_id": "6500065312VRR",
+      "train_name": "REGIONAL 14450",
+      "headsign": "Vinaròs",
+      "origin": "Valencia-Estaciò Del Nord",
+      "scheduled_time": "16:01",
+      "estimated_time": "16:01",
       "delay_min": 0.0,
       "status": "en_hora"
     }
