@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-01T12:02",
+  "generated_at": "2026-04-01T12:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 12h se están acumulando los retrasos — 6 trenes afectados",
+      "text": "A las 12h se están acumulando los retrasos — 7 trenes afectados",
       "severity": "warn",
       "meta": {
         "hour": 12
@@ -16,7 +16,7 @@
     },
     {
       "id": "F",
-      "text": "Entre las 00h y las 11h los retrasos son habitualmente bajos o inexistentes",
+      "text": "Entre las 00h y las 12h los retrasos son habitualmente bajos o inexistentes",
       "severity": "ok"
     }
   ]
