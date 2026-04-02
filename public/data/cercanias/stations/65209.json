@@ -1,49 +1,49 @@
 {
   "station_id": "65209",
   "name": "Almassora",
-  "generated_at": "2026-04-02T13:55:14+02:00",
+  "generated_at": "2026-04-02T14:55:13+02:00",
   "arrivals": [
     {
-      "trip_id": "4088J24328C6",
+      "trip_id": "4088J24332C6",
       "route_id": "40T0013C6",
       "train_name": "C6",
       "headsign": "Castelló De La Plana",
       "origin": "València-Estació Del Nord",
-      "scheduled_time": "14:03",
-      "estimated_time": "14:03",
+      "scheduled_time": "15:03",
+      "estimated_time": "15:03",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "4088J36435C6",
+      "trip_id": "4088J24339C6",
       "route_id": "40T0014C6",
       "train_name": "C6",
       "headsign": "València-Estació Del Nord",
       "origin": "Castelló De La Plana",
-      "scheduled_time": "14:09",
-      "estimated_time": "14:09",
+      "scheduled_time": "15:09",
+      "estimated_time": "15:09",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "4088J24337C6",
+      "trip_id": "4088J24341C6",
       "route_id": "40T0014C6",
       "train_name": "C6",
       "headsign": "València-Estació Del Nord",
       "origin": "Castelló De La Plana",
-      "scheduled_time": "14:39",
-      "estimated_time": "14:39",
+      "scheduled_time": "15:39",
+      "estimated_time": "15:39",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "4088J24330C6",
+      "trip_id": "4088J24334C6",
       "route_id": "40T0013C6",
       "train_name": "C6",
-      "headsign": "Castelló De La Plana",
+      "headsign": "Almassora",
       "origin": "València-Estació Del Nord",
-      "scheduled_time": "14:41",
-      "estimated_time": "14:41",
+      "scheduled_time": "15:41",
+      "estimated_time": "15:41",
       "delay_min": 0.0,
       "status": "en_hora"
     }

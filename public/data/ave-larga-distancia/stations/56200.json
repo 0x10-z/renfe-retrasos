@@ -1,18 +1,6 @@
 {
   "station_id": "56200",
   "name": "Guadix",
-  "generated_at": "2026-04-02T13:55:03+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1395512026-04-01",
-      "route_id": "5631205000VRX",
-      "train_name": "MD 13955",
-      "headsign": "Granada",
-      "origin": "Almeria",
-      "scheduled_time": "14:54",
-      "estimated_time": "15:01",
-      "delay_min": 7.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-02T14:55:03+02:00",
+  "arrivals": []
 }
