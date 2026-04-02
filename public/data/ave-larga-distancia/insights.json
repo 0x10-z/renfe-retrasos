@@ -1,21 +1,30 @@
 {
-  "generated_at": "2026-04-02T09:55",
+  "generated_at": "2026-04-02T10:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 10h se están acumulando los retrasos — 12 trenes afectados",
+      "text": "A las 11h se están acumulando los retrasos — 20 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 10
+        "hour": 11
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 24 minutos — tren desde Valencia-Estaciò Del Nord con parada en Orihuela-Miguel Hernández",
+      "text": "El mayor retraso en este momento es de 19 minutos — tren desde Valencia-Estaciò Del Nord con parada en Murcia",
       "severity": "warn",
       "meta": {
-        "station_id": "62002",
-        "station_name": "Orihuela-Miguel Hernández"
+        "station_id": "61200",
+        "station_name": "Murcia"
+      }
+    },
+    {
+      "id": "C",
+      "text": "Arévalo es la estación más afectada ahora mismo: 3 de 4 trenes con retraso",
+      "severity": "bad",
+      "meta": {
+        "station_id": "10409",
+        "station_name": "Arévalo"
       }
     },
     {
