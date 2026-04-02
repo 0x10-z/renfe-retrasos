@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-02T10:55",
+  "generated_at": "2026-04-02T11:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 11h se están acumulando los retrasos — 20 trenes afectados",
+      "text": "A las 12h se están acumulando los retrasos — 11 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 11
+        "hour": 12
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 19 minutos — tren desde Valencia-Estaciò Del Nord con parada en Murcia",
+      "text": "El mayor retraso en este momento es de 22 minutos — tren desde Madrid-Principe Pio con parada en Palencia",
       "severity": "warn",
       "meta": {
-        "station_id": "61200",
-        "station_name": "Murcia"
+        "station_id": "14100",
+        "station_name": "Palencia"
       }
     },
     {
       "id": "C",
-      "text": "Arévalo es la estación más afectada ahora mismo: 3 de 4 trenes con retraso",
+      "text": "Venta De Baños es la estación más afectada ahora mismo: 2 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "10409",
-        "station_name": "Arévalo"
+        "station_id": "11000",
+        "station_name": "Venta De Baños"
       }
     },
     {
@@ -35,6 +35,11 @@
     {
       "id": "F",
       "text": "Entre las 00h y las 09h los retrasos son habitualmente bajos o inexistentes",
+      "severity": "ok"
+    },
+    {
+      "id": "G",
+      "text": "Esta semana los retrasos están bajando respecto a la anterior (-10% · 19% vs 22%)",
       "severity": "ok"
     }
   ]
