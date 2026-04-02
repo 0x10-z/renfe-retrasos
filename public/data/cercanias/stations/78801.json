@@ -1,6 +1,18 @@
 {
   "station_id": "78801",
   "name": "Torre Del Baró-Vallbona",
-  "generated_at": "2026-04-02T02:55:13+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-02T03:55:12+02:00",
+  "arrivals": [
+    {
+      "trip_id": "5188J77971R4",
+      "route_id": "51T0019R4",
+      "train_name": "R4",
+      "headsign": "Terrassa Estació Del Nord",
+      "origin": "L'hospitalet De Llobregat",
+      "scheduled_time": "04:48",
+      "estimated_time": "04:48",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    }
+  ]
 }
