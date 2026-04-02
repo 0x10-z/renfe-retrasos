@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-02T22:55",
+  "generated_at": "2026-04-02T23:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 22h se están acumulando los retrasos — 4 trenes afectados",
+      "text": "A las 23h se están acumulando los retrasos — 4 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 22
+        "hour": 23
       }
     },
     {

@@ -1,71 +1,27 @@
 {
   "station_id": "54514",
   "name": "Torreblanca Del Sol",
-  "generated_at": "2026-04-02T22:55:12+02:00",
+  "generated_at": "2026-04-02T23:55:14+02:00",
   "arrivals": [
     {
-      "trip_id": "3288J36302C1",
-      "route_id": "32T0002C1",
-      "train_name": "C1",
-      "headsign": "Málaga-Centro Alameda",
-      "origin": "Fuengirola",
-      "scheduled_time": "23:04",
-      "estimated_time": "23:04",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3288J23401C1",
+      "trip_id": "3288J23405C1",
       "route_id": "32T0001C1",
       "train_name": "C1",
       "headsign": "Fuengirola",
       "origin": "Málaga-Centro Alameda",
-      "scheduled_time": "23:10",
-      "estimated_time": "23:10",
+      "scheduled_time": "00:10",
+      "estimated_time": "00:10",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "3288J23400C1",
-      "route_id": "32T0002C1",
-      "train_name": "C1",
-      "headsign": "Málaga-Centro Alameda",
-      "origin": "Fuengirola",
-      "scheduled_time": "23:24",
-      "estimated_time": "23:24",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3288J36305C1",
+      "trip_id": "3288J36309C1",
       "route_id": "32T0001C1",
       "train_name": "C1",
       "headsign": "Fuengirola",
       "origin": "Málaga-Centro Alameda",
-      "scheduled_time": "23:29",
-      "estimated_time": "23:29",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3288J36304C1",
-      "route_id": "32T0002C1",
-      "train_name": "C1",
-      "headsign": "Málaga-Centro Alameda",
-      "origin": "Fuengirola",
-      "scheduled_time": "23:44",
-      "estimated_time": "23:44",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3288J36307C1",
-      "route_id": "32T0001C1",
-      "train_name": "C1",
-      "headsign": "Fuengirola",
-      "origin": "Málaga-Centro Alameda",
-      "scheduled_time": "23:49",
-      "estimated_time": "23:49",
+      "scheduled_time": "00:29",
+      "estimated_time": "00:29",
       "delay_min": 0.0,
       "status": "en_hora"
     }

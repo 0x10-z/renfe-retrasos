@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-02T22:55",
+  "generated_at": "2026-04-02T23:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 23h se están acumulando los retrasos — 65 trenes afectados",
+      "text": "A las 23h se están acumulando los retrasos — 3 trenes afectados",
       "severity": "warn",
       "meta": {
         "hour": 23
@@ -11,20 +11,11 @@
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 23 minutos — tren desde Pamplona/Iruña con parada en Madrid Pta.Atocha - Almudena Grandes",
+      "text": "El mayor retraso en este momento es de 24 minutos — tren desde Madrid Pta.Atocha - Almudena Grandes con parada en Sevilla-Santa Justa",
       "severity": "warn",
       "meta": {
-        "station_id": "60000",
-        "station_name": "Madrid Pta.Atocha - Almudena Grandes"
-      }
-    },
-    {
-      "id": "C",
-      "text": "Madrid Pta.Atocha - Almudena Grandes es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
-      "severity": "bad",
-      "meta": {
-        "station_id": "60000",
-        "station_name": "Madrid Pta.Atocha - Almudena Grandes"
+        "station_id": "51003",
+        "station_name": "Sevilla-Santa Justa"
       }
     },
     {
@@ -36,6 +27,11 @@
       "id": "F",
       "text": "Entre las 00h y las 09h los retrasos son habitualmente bajos o inexistentes",
       "severity": "ok"
+    },
+    {
+      "id": "G",
+      "text": "Esta semana los retrasos están subiendo respecto a la anterior (+10% · 24% vs 22%)",
+      "severity": "warn"
     }
   ]
 }
