@@ -1,12 +1,21 @@
 {
-  "generated_at": "2026-04-02T07:55",
+  "generated_at": "2026-04-02T08:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 08h se están acumulando los retrasos — 4 trenes afectados",
+      "text": "A las 09h se están acumulando los retrasos — 13 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 8
+        "hour": 9
+      }
+    },
+    {
+      "id": "C",
+      "text": "Burgos Rosa Manzano es la estación más afectada ahora mismo: 2 de 6 trenes con retraso",
+      "severity": "warn",
+      "meta": {
+        "station_id": "11014",
+        "station_name": "Burgos Rosa Manzano"
       }
     },
     {
@@ -16,7 +25,7 @@
     },
     {
       "id": "F",
-      "text": "Entre las 00h y las 07h los retrasos son habitualmente bajos o inexistentes",
+      "text": "Entre las 00h y las 08h los retrasos son habitualmente bajos o inexistentes",
       "severity": "ok"
     }
   ]
