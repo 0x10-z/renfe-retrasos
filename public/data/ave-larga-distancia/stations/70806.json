@@ -1,27 +1,27 @@
 {
   "station_id": "70806",
   "name": "Zaragoza Portillo",
-  "generated_at": "2026-04-03T07:55:03+02:00",
+  "generated_at": "2026-04-03T08:55:03+02:00",
   "arrivals": [
     {
-      "trip_id": "1807212026-04-01",
-      "route_id": "8110071100VRE",
-      "train_name": "REG.EXP. 18072",
-      "headsign": "Zaragoza Miraflores",
-      "origin": "Logroño",
-      "scheduled_time": "08:47",
-      "estimated_time": "08:47",
+      "trip_id": "1801912026-04-01",
+      "route_id": "7110081200VRE",
+      "train_name": "REG.EXP. 18019",
+      "headsign": "Castejón De Ebro",
+      "origin": "Zaragoza Miraflores",
+      "scheduled_time": "09:22",
+      "estimated_time": "09:22",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "1750312026-04-01",
-      "route_id": "7840004040VRR",
-      "train_name": "REGIONAL 17503",
+      "trip_id": "1575712026-04-01",
+      "route_id": "7420004040VRR",
+      "train_name": "REGIONAL 15757",
       "headsign": "Zaragoza-Delicias",
-      "origin": "Lleida-Pirineus",
-      "scheduled_time": "08:48",
-      "estimated_time": "08:48",
+      "origin": "Huesca",
+      "scheduled_time": "09:35",
+      "estimated_time": "09:35",
       "delay_min": 0.0,
       "status": "en_hora"
     }

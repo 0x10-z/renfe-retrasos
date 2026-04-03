@@ -1,38 +1,27 @@
 {
   "station_id": "77104",
   "name": "Sant Martí De Centelles",
-  "generated_at": "2026-04-03T07:55:12+02:00",
+  "generated_at": "2026-04-03T08:55:13+02:00",
   "arrivals": [
     {
-      "trip_id": "5189V77311R3",
-      "route_id": "51T0045R3",
+      "trip_id": "5189V77303R3",
+      "route_id": "51T0033R3",
       "train_name": "R3",
-      "headsign": "Ribes De Freser",
+      "headsign": "La Tour De Carol",
       "origin": "La Garriga",
-      "scheduled_time": "08:06",
-      "estimated_time": "08:06",
+      "scheduled_time": "09:36",
+      "estimated_time": "09:36",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5189V77357R3",
-      "route_id": "51T0040R3",
-      "train_name": "R3",
-      "headsign": "Vic",
-      "origin": "La Garriga",
-      "scheduled_time": "08:36",
-      "estimated_time": "08:36",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "5189V77320R3",
-      "route_id": "51T0016R3",
+      "trip_id": "5189V77324R3",
+      "route_id": "51T0127R3",
       "train_name": "R3",
       "headsign": "La Garriga",
-      "origin": "Puigcerdà",
-      "scheduled_time": "08:46",
-      "estimated_time": "08:46",
+      "origin": "Ripoll",
+      "scheduled_time": "09:46",
+      "estimated_time": "09:46",
       "delay_min": 0.0,
       "status": "en_hora"
     }
