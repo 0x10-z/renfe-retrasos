@@ -1,6 +1,18 @@
 {
   "station_id": "80115",
   "name": "Villafranca De Navarra",
-  "generated_at": "2026-04-03T15:55:03+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-03T16:55:02+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1802912026-04-02",
+      "route_id": "1120071100VRE",
+      "train_name": "REG.EXP. 18029",
+      "headsign": "Zaragoza Miraflores",
+      "origin": "Miranda De Ebro",
+      "scheduled_time": "17:29",
+      "estimated_time": "17:37",
+      "delay_min": 8.0,
+      "status": "retraso_alto"
+    }
+  ]
 }

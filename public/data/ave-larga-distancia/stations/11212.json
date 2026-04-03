@@ -1,18 +1,6 @@
 {
   "station_id": "11212",
   "name": "Salvatierra/Agurain",
-  "generated_at": "2026-04-03T15:55:03+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1802112026-04-02",
-      "route_id": "7110011200VRE",
-      "train_name": "REG.EXP. 18021",
-      "headsign": "Miranda De Ebro",
-      "origin": "Zaragoza Miraflores",
-      "scheduled_time": "16:28",
-      "estimated_time": "16:47",
-      "delay_min": 19.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-03T16:55:02+02:00",
+  "arrivals": []
 }
