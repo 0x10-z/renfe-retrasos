@@ -1,6 +1,18 @@
 {
   "station_id": "60800",
   "name": "Almansa",
-  "generated_at": "2026-04-03T20:55:03+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-03T21:55:02+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1440712026-04-02",
+      "route_id": "6500060600VRX",
+      "train_name": "MD 14407",
+      "headsign": "Albacete-Los Llanos",
+      "origin": "Valencia-Estaciò Del Nord",
+      "scheduled_time": "21:58",
+      "estimated_time": "22:00",
+      "delay_min": 2.0,
+      "status": "retraso_leve"
+    }
+  ]
 }

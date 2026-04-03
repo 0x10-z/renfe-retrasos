@@ -1,18 +1,18 @@
 {
   "station_id": "79203",
   "name": "Caldes De Malavella",
-  "generated_at": "2026-04-03T20:55:03+02:00",
+  "generated_at": "2026-04-03T21:55:02+02:00",
   "arrivals": [
     {
-      "trip_id": "1573612026-04-02",
+      "trip_id": "1573822026-04-02",
       "route_id": "7180179309VRX",
-      "train_name": "MD 15736",
+      "train_name": "MD 15738",
       "headsign": "Figueres",
       "origin": "Barcelona-Sants",
-      "scheduled_time": "21:25",
-      "estimated_time": "21:28",
-      "delay_min": 3.0,
-      "status": "retraso_leve"
+      "scheduled_time": "22:01",
+      "estimated_time": "22:15",
+      "delay_min": 14.0,
+      "status": "retraso_alto"
     }
   ]
 }

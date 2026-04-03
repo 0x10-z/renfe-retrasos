@@ -1,27 +1,16 @@
 {
   "station_id": "51456",
   "name": "Pinar De Los Franceses",
-  "generated_at": "2026-04-03T20:55:12+02:00",
+  "generated_at": "2026-04-03T21:55:12+02:00",
   "arrivals": [
     {
-      "trip_id": "3189V23993T1",
+      "trip_id": "3189V23995T1",
       "route_id": "31T0005T1",
       "train_name": "T1",
       "headsign": "Pelagatos",
       "origin": "Venta De Vargas",
-      "scheduled_time": "21:44",
-      "estimated_time": "21:44",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "3189V23976T1",
-      "route_id": "31T0006T1",
-      "train_name": "T1",
-      "headsign": "Venta De Vargas",
-      "origin": "Pelagatos",
-      "scheduled_time": "21:54",
-      "estimated_time": "21:54",
+      "scheduled_time": "22:44",
+      "estimated_time": "22:44",
       "delay_min": 0.0,
       "status": "en_hora"
     }
