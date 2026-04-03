@@ -1,18 +1,6 @@
 {
   "station_id": "71300",
   "name": "Móra La Nova",
-  "generated_at": "2026-04-03T22:55:03+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1530812026-04-02",
-      "route_id": "0404071300VRR",
-      "train_name": "REGIONAL 15308",
-      "headsign": "Móra La Nova",
-      "origin": "Zaragoza-Delicias",
-      "scheduled_time": "23:15",
-      "estimated_time": "23:30",
-      "delay_min": 15.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-03T23:55:03+02:00",
+  "arrivals": []
 }
