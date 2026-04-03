@@ -1,6 +1,29 @@
 {
   "station_id": "60000",
   "name": "Madrid Pta.Atocha - Almudena Grandes",
-  "generated_at": "2026-04-03T04:55:03+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-03T05:55:02+02:00",
+  "arrivals": [
+    {
+      "trip_id": "0330122026-04-01",
+      "route_id": "6000071801AV006",
+      "train_name": "AVE 03301",
+      "headsign": "Barcelona-Sants",
+      "origin": "Madrid Pta.Atocha - Almudena Grandes",
+      "scheduled_time": "06:27",
+      "estimated_time": "06:27",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0330132026-04-01",
+      "route_id": "6000070600AV006",
+      "train_name": "AVE 03301",
+      "headsign": "Calatayud",
+      "origin": "Madrid Pta.Atocha - Almudena Grandes",
+      "scheduled_time": "06:27",
+      "estimated_time": "06:27",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    }
+  ]
 }
