@@ -1,16 +1,16 @@
 {
   "station_id": "05115",
   "name": "San Sadurniño",
-  "generated_at": "2026-04-03T19:55:12+02:00",
+  "generated_at": "2026-04-03T20:55:12+02:00",
   "arrivals": [
     {
-      "trip_id": "4689V70060C1",
+      "trip_id": "4689V71832C1",
       "route_id": "46T0002C1",
       "train_name": "C1",
       "headsign": "Ferrol",
-      "origin": "San Sadurniño",
-      "scheduled_time": "20:20",
-      "estimated_time": "20:20",
+      "origin": "Ortigueira",
+      "scheduled_time": "21:18",
+      "estimated_time": "21:18",
       "delay_min": 0.0,
       "status": "en_hora"
     }

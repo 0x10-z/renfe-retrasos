@@ -1,17 +1,28 @@
 {
   "station_id": "79303",
   "name": "Flaçà",
-  "generated_at": "2026-04-03T19:55:02+02:00",
+  "generated_at": "2026-04-03T20:55:03+02:00",
   "arrivals": [
     {
-      "trip_id": "1573012026-04-02",
+      "trip_id": "1582012026-04-02",
+      "route_id": "7180179315VRR",
+      "train_name": "REGIONAL 15820",
+      "headsign": "Portbou",
+      "origin": "Barcelona-Sants",
+      "scheduled_time": "21:02",
+      "estimated_time": "21:11",
+      "delay_min": 9.0,
+      "status": "retraso_alto"
+    },
+    {
+      "trip_id": "1573612026-04-02",
       "route_id": "7180179309VRX",
-      "train_name": "MD 15730",
+      "train_name": "MD 15736",
       "headsign": "Figueres",
       "origin": "Barcelona-Sants",
-      "scheduled_time": "19:56",
-      "estimated_time": "19:58",
-      "delay_min": 2.0,
+      "scheduled_time": "21:49",
+      "estimated_time": "21:52",
+      "delay_min": 3.0,
       "status": "retraso_leve"
     }
   ]

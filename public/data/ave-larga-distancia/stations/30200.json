@@ -1,39 +1,28 @@
 {
   "station_id": "30200",
   "name": "Zamora",
-  "generated_at": "2026-04-03T19:55:02+02:00",
+  "generated_at": "2026-04-03T20:55:03+02:00",
   "arrivals": [
     {
-      "trip_id": "0438412026-04-02",
-      "route_id": "0822317000AV006",
-      "train_name": "AVE 04384",
-      "headsign": "Madrid-Chamartín-Clara Campoamor",
-      "origin": "Vigo Urzaiz",
-      "scheduled_time": "20:09",
-      "estimated_time": "20:23",
-      "delay_min": 14.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "0439512026-04-02",
-      "route_id": "1700031412AV006",
-      "train_name": "AVE 04395",
+      "trip_id": "0440512026-04-03",
+      "route_id": "1700031412LC112",
+      "train_name": "AVLO 04405",
       "headsign": "A Coruña",
       "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "20:20",
-      "estimated_time": "20:28",
-      "delay_min": 8.0,
+      "scheduled_time": "21:26",
+      "estimated_time": "21:35",
+      "delay_min": 9.0,
       "status": "retraso_alto"
     },
     {
-      "trip_id": "0439522026-04-02",
-      "route_id": "1700022100AV006",
-      "train_name": "AVE 04395",
+      "trip_id": "0440522026-04-03",
+      "route_id": "1700022100LC112",
+      "train_name": "AVLO 04405",
       "headsign": "Ourense",
       "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "20:20",
-      "estimated_time": "20:28",
-      "delay_min": 8.0,
+      "scheduled_time": "21:26",
+      "estimated_time": "21:35",
+      "delay_min": 9.0,
       "status": "retraso_alto"
     }
   ]
