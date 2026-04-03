@@ -1,29 +1,6 @@
 {
   "station_id": "71300",
   "name": "Móra La Nova",
-  "generated_at": "2026-04-03T18:55:03+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1705612026-04-02",
-      "route_id": "0404079400VRE",
-      "train_name": "REG.EXP. 17056",
-      "headsign": "Barcelona-Estació De França",
-      "origin": "Zaragoza-Delicias",
-      "scheduled_time": "19:16",
-      "estimated_time": "19:28",
-      "delay_min": 12.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "1503512026-04-02",
-      "route_id": "7940071204VRE",
-      "train_name": "REG.EXP. 15035",
-      "headsign": "Caspe",
-      "origin": "Barcelona-Estació De França",
-      "scheduled_time": "19:55",
-      "estimated_time": "20:00",
-      "delay_min": 5.0,
-      "status": "retraso_leve"
-    }
-  ]
+  "generated_at": "2026-04-03T19:55:02+02:00",
+  "arrivals": []
 }
