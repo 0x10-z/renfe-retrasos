@@ -1,38 +1,38 @@
 {
   "station_id": "64100",
   "name": "Xàtiva",
-  "generated_at": "2026-04-03T13:55:03+02:00",
+  "generated_at": "2026-04-03T14:55:02+02:00",
   "arrivals": [
     {
-      "trip_id": "1441412026-04-03",
-      "route_id": "6901165000VRR",
-      "train_name": "REGIONAL 14414",
-      "headsign": "Valencia-Estaciò Del Nord",
-      "origin": "Alcoy/Alcoi",
-      "scheduled_time": "14:17",
-      "estimated_time": "14:17",
-      "delay_min": 0.0,
-      "status": "en_hora"
-    },
-    {
-      "trip_id": "1440512026-04-02",
-      "route_id": "6500060600VRX",
-      "train_name": "MD 14405",
-      "headsign": "Albacete-Los Llanos",
+      "trip_id": "0146312026-04-03",
+      "route_id": "6500061307GL026",
+      "train_name": "Intercity 01463",
+      "headsign": "Cartagena",
       "origin": "Valencia-Estaciò Del Nord",
-      "scheduled_time": "14:43",
-      "estimated_time": "14:43",
+      "scheduled_time": "15:45",
+      "estimated_time": "15:45",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "3541412026-04-03",
-      "route_id": "6901165000VRR",
-      "train_name": "REGIONAL 35414",
-      "headsign": "Valencia-Estaciò Del Nord",
-      "origin": "Alcoy/Alcoi",
-      "scheduled_time": "14:51",
-      "estimated_time": "14:51",
+      "trip_id": "0146322026-04-03",
+      "route_id": "6500006006GL026",
+      "train_name": "Intercity 01463",
+      "headsign": "Lorca Sutullena",
+      "origin": "Valencia-Estaciò Del Nord",
+      "scheduled_time": "15:45",
+      "estimated_time": "15:45",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    },
+    {
+      "trip_id": "0146332026-04-03",
+      "route_id": "6500061200GL026",
+      "train_name": "Intercity 01463",
+      "headsign": "Murcia",
+      "origin": "Valencia-Estaciò Del Nord",
+      "scheduled_time": "15:45",
+      "estimated_time": "15:45",
       "delay_min": 0.0,
       "status": "en_hora"
     }

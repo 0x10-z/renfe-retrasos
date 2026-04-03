@@ -1,17 +1,17 @@
 {
   "station_id": "05319",
   "name": "Sandiche",
-  "generated_at": "2026-04-03T13:55:03+02:00",
+  "generated_at": "2026-04-03T14:55:02+02:00",
   "arrivals": [
     {
-      "trip_id": "7181112026-04-02",
-      "route_id": "2101015211VRFV",
-      "train_name": "REGIONAL 71811",
-      "headsign": "Oviedo/Uviéu",
-      "origin": "Ferrol",
-      "scheduled_time": "14:46",
-      "estimated_time": "14:58",
-      "delay_min": 12.0,
+      "trip_id": "7183212026-04-02",
+      "route_id": "1521121010VRFV",
+      "train_name": "REGIONAL 71832",
+      "headsign": "Ferrol",
+      "origin": "Oviedo/Uviéu",
+      "scheduled_time": "15:16",
+      "estimated_time": "15:26",
+      "delay_min": 10.0,
       "status": "retraso_alto"
     }
   ]
