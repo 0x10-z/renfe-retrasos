@@ -1,18 +1,6 @@
 {
   "station_id": "08224",
   "name": "Redondela Av",
-  "generated_at": "2026-04-03T14:55:02+02:00",
-  "arrivals": [
-    {
-      "trip_id": "0914312026-04-02",
-      "route_id": "3141208223VRX",
-      "train_name": "MD 09143",
-      "headsign": "Vigo Urzaiz",
-      "origin": "A Coruña",
-      "scheduled_time": "15:33",
-      "estimated_time": "15:43",
-      "delay_min": 10.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-03T15:55:03+02:00",
+  "arrivals": []
 }

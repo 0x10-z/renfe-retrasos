@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-03T14:55",
+  "generated_at": "2026-04-03T15:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 15h se están acumulando los retrasos — 177 trenes afectados",
+      "text": "A las 16h se están acumulando los retrasos — 253 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 15
+        "hour": 16
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 39 minutos — tren desde Barcelona-Sants con parada en Burgos Rosa Manzano",
+      "text": "El mayor retraso en este momento es de 47 minutos — tren desde Tortosa con parada en Valencia-Estaciò Del Nord",
       "severity": "bad",
       "meta": {
-        "station_id": "11014",
-        "station_name": "Burgos Rosa Manzano"
+        "station_id": "65000",
+        "station_name": "Valencia-Estaciò Del Nord"
       }
     },
     {
       "id": "C",
-      "text": "Cuenca Fernando Zobel es la estación más afectada ahora mismo: 4 de 4 trenes con retraso",
+      "text": "Leon es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "03208",
-        "station_name": "Cuenca Fernando Zobel"
+        "station_id": "15100",
+        "station_name": "Leon"
       }
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       "id": "G",
-      "text": "Esta semana los retrasos están bajando respecto a la anterior (-11% · 19% vs 22%)",
+      "text": "Esta semana los retrasos están bajando respecto a la anterior (-10% · 19% vs 22%)",
       "severity": "ok"
     }
   ]
