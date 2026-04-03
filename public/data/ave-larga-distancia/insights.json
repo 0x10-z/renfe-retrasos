@@ -1,21 +1,13 @@
 {
-  "generated_at": "2026-04-03T09:55",
+  "generated_at": "2026-04-03T10:55",
   "insights": [
     {
-      "id": "A",
-      "text": "A las 10h se están acumulando los retrasos — 5 trenes afectados",
-      "severity": "warn",
-      "meta": {
-        "hour": 10
-      }
-    },
-    {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 17 minutos — tren desde Figueres Vilafant con parada en Madrid Pta.Atocha - Almudena Grandes",
+      "text": "El mayor retraso en este momento es de 24 minutos — tren desde Madrid-Chamartín-Clara Campoamor con parada en Zamora",
       "severity": "warn",
       "meta": {
-        "station_id": "60000",
-        "station_name": "Madrid Pta.Atocha - Almudena Grandes"
+        "station_id": "30200",
+        "station_name": "Zamora"
       }
     },
     {
@@ -25,12 +17,12 @@
     },
     {
       "id": "F",
-      "text": "Entre las 00h y las 09h los retrasos son habitualmente bajos o inexistentes",
+      "text": "Entre las 00h y las 10h los retrasos son habitualmente bajos o inexistentes",
       "severity": "ok"
     },
     {
       "id": "G",
-      "text": "Esta semana los retrasos están bajando respecto a la anterior (-11% · 19% vs 22%)",
+      "text": "Esta semana los retrasos están bajando respecto a la anterior (-12% · 19% vs 22%)",
       "severity": "ok"
     }
   ]
