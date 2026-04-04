@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-04T01:55:12+02:00",
+  "generated_at": "2026-04-04T02:55:12+02:00",
   "stats": {
-    "total_trains": 15,
-    "unique_trips": 2,
-    "on_time": 15,
+    "total_trains": 0,
+    "unique_trips": 0,
+    "on_time": 0,
     "delayed": 0,
     "cancelled": 0,
     "avg_delay_min": 0.0,
@@ -17,9 +17,9 @@
     "max_delay_station": null,
     "stations_count": 900,
     "busiest_station": {
-      "id": "54503",
-      "name": "Guadalhorce",
-      "count": 2
+      "id": "54518",
+      "name": "Los álamos",
+      "count": 0
     },
     "worst_delay_station": null
   },
@@ -1672,7 +1672,7 @@
     {
       "id": "54510",
       "name": "El Pinillo",
-      "arrivals_count": 1,
+      "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
@@ -2106,7 +2106,7 @@
     {
       "id": "54503",
       "name": "Guadalhorce",
-      "arrivals_count": 2,
+      "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
@@ -2421,7 +2421,7 @@
     {
       "id": "54508",
       "name": "La Colina",
-      "arrivals_count": 1,
+      "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
@@ -3114,7 +3114,7 @@
     {
       "id": "54518",
       "name": "Los álamos",
-      "arrivals_count": 1,
+      "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
@@ -3527,7 +3527,7 @@
     {
       "id": "54519",
       "name": "Montemar Alto",
-      "arrivals_count": 1,
+      "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
@@ -3611,21 +3611,21 @@
     {
       "id": "54500",
       "name": "Málaga M.z. Cercanías",
-      "arrivals_count": 2,
+      "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
     {
       "id": "54505",
       "name": "Málaga-Aeropuerto",
-      "arrivals_count": 1,
+      "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
     {
       "id": "54517",
       "name": "Málaga-Centro Alameda",
-      "arrivals_count": 2,
+      "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
@@ -3714,14 +3714,14 @@
       "max_delay_min": 0
     },
     {
-      "id": "14231",
+      "id": "05651",
       "name": "Nueva Montaña",
       "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
     {
-      "id": "05651",
+      "id": "14231",
       "name": "Nueva Montaña",
       "arrivals_count": 0,
       "delayed_count": 0,
@@ -4157,7 +4157,7 @@
     {
       "id": "54520",
       "name": "Plaza Mayor",
-      "arrivals_count": 1,
+      "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
@@ -5466,7 +5466,7 @@
     {
       "id": "54509",
       "name": "Torremolinos",
-      "arrivals_count": 1,
+      "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
@@ -5914,7 +5914,7 @@
     {
       "id": "54501",
       "name": "Victoria Kent",
-      "arrivals_count": 2,
+      "arrivals_count": 0,
       "delayed_count": 0,
       "max_delay_min": 0
     },
