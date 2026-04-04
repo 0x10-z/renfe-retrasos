@@ -1,6 +1,18 @@
 {
   "station_id": "50100",
   "name": "Manzanares",
-  "generated_at": "2026-04-04T17:55:03+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-04T18:55:03+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1803712026-04-03",
+      "route_id": "0310017000VRX",
+      "train_name": "MD 18037",
+      "headsign": "Madrid-Chamartín-Clara Campoamor",
+      "origin": "Jaen",
+      "scheduled_time": "19:19",
+      "estimated_time": "19:26",
+      "delay_min": 7.0,
+      "status": "retraso_alto"
+    }
+  ]
 }
