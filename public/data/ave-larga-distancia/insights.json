@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-04T12:55",
+  "generated_at": "2026-04-04T13:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 13h se están acumulando los retrasos — 155 trenes afectados",
+      "text": "A las 14h se están acumulando los retrasos — 183 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 13
+        "hour": 14
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 49 minutos — tren desde Barcelona-Sants con parada en Pamplona/Iruña",
+      "text": "El mayor retraso en este momento es de 59 minutos — tren desde Sevilla-Santa Justa con parada en Malaga Maria Zambrano",
       "severity": "bad",
       "meta": {
-        "station_id": "80100",
-        "station_name": "Pamplona/Iruña"
+        "station_id": "54413",
+        "station_name": "Malaga Maria Zambrano"
       }
     },
     {
       "id": "C",
-      "text": "Leon es la estación más afectada ahora mismo: 3 de 4 trenes con retraso",
+      "text": "Arévalo es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "15100",
-        "station_name": "Leon"
+        "station_id": "10409",
+        "station_name": "Arévalo"
       }
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       "id": "G",
-      "text": "Esta semana los retrasos están bajando respecto a la anterior (-15% · 18% vs 22%)",
+      "text": "Esta semana los retrasos están bajando respecto a la anterior (-14% · 19% vs 22%)",
       "severity": "ok"
     }
   ]
