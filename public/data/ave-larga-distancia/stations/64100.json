@@ -1,18 +1,6 @@
 {
   "station_id": "64100",
   "name": "Xàtiva",
-  "generated_at": "2026-04-04T19:55:03+02:00",
-  "arrivals": [
-    {
-      "trip_id": "1420232026-04-03",
-      "route_id": "6090265000VRX",
-      "train_name": "MD 14202",
-      "headsign": "Valencia-Estaciò Del Nord",
-      "origin": "Villena",
-      "scheduled_time": "20:29",
-      "estimated_time": "20:49",
-      "delay_min": 20.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-04T20:55:02+02:00",
+  "arrivals": []
 }
