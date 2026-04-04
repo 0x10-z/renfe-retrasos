@@ -1,16 +1,16 @@
 {
   "station_id": "03309",
   "name": "Villena Av",
-  "generated_at": "2026-04-04T16:55:03+02:00",
+  "generated_at": "2026-04-04T17:55:03+02:00",
   "arrivals": [
     {
-      "trip_id": "0586312026-04-03",
-      "route_id": "6120060000AV006",
-      "train_name": "AVE 05863",
-      "headsign": "Madrid Pta.Atocha - Almudena Grandes",
-      "origin": "Murcia",
-      "scheduled_time": "17:04",
-      "estimated_time": "17:07",
+      "trip_id": "0516212026-04-03",
+      "route_id": "1700060911AV006",
+      "train_name": "AVE 05162",
+      "headsign": "Alicante/Alacant",
+      "origin": "Madrid-Chamartín-Clara Campoamor",
+      "scheduled_time": "18:13",
+      "estimated_time": "18:16",
       "delay_min": 3.0,
       "status": "retraso_leve"
     }
