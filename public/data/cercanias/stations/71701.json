@@ -1,49 +1,49 @@
 {
   "station_id": "71701",
   "name": "Sitges",
-  "generated_at": "2026-04-04T18:55:13+02:00",
+  "generated_at": "2026-04-04T19:55:13+02:00",
   "arrivals": [
     {
-      "trip_id": "5190S25550R2S",
+      "trip_id": "5190S25554R2S",
       "route_id": "51T0007R2S",
       "train_name": "R2S",
       "headsign": "Barcelona Estació De França",
       "origin": "Sant Vicenç De Calders",
-      "scheduled_time": "18:56",
-      "estimated_time": "18:56",
+      "scheduled_time": "19:56",
+      "estimated_time": "19:56",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5190S25551R2S",
+      "trip_id": "5190S25555R2S",
       "route_id": "51T0008R2S",
       "train_name": "R2S",
       "headsign": "Sant Vicenç De Calders",
       "origin": "Barcelona Estació De França",
-      "scheduled_time": "19:07",
-      "estimated_time": "19:07",
+      "scheduled_time": "20:07",
+      "estimated_time": "20:07",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5190S25552R2S",
+      "trip_id": "5190S25556R2S",
       "route_id": "51T0007R2S",
       "train_name": "R2S",
       "headsign": "Barcelona Estació De França",
       "origin": "Sant Vicenç De Calders",
-      "scheduled_time": "19:26",
-      "estimated_time": "19:26",
+      "scheduled_time": "20:26",
+      "estimated_time": "20:26",
       "delay_min": 0.0,
       "status": "en_hora"
     },
     {
-      "trip_id": "5190S25553R2S",
+      "trip_id": "5190S25557R2S",
       "route_id": "51T0008R2S",
       "train_name": "R2S",
       "headsign": "Sant Vicenç De Calders",
       "origin": "Barcelona Estació De França",
-      "scheduled_time": "19:37",
-      "estimated_time": "19:37",
+      "scheduled_time": "20:37",
+      "estimated_time": "20:37",
       "delay_min": 0.0,
       "status": "en_hora"
     }
