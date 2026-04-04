@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-04T15:55",
+  "generated_at": "2026-04-04T16:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 16h se están acumulando los retrasos — 256 trenes afectados",
+      "text": "A las 17h se están acumulando los retrasos — 243 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 16
+        "hour": 17
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 66 minutos — tren desde Barcelona-Sants con parada en Palencia",
+      "text": "El mayor retraso en este momento es de 73 minutos — tren desde Barcelona-Sants con parada en Valladolid",
       "severity": "bad",
       "meta": {
-        "station_id": "14100",
-        "station_name": "Palencia"
+        "station_id": "10600",
+        "station_name": "Valladolid"
       }
     },
     {
       "id": "C",
-      "text": "Leon es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
+      "text": "Lleida-Pirineus es la estación más afectada ahora mismo: 4 de 4 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "15100",
-        "station_name": "Leon"
+        "station_id": "78400",
+        "station_name": "Lleida-Pirineus"
       }
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       "id": "G",
-      "text": "Esta semana los retrasos están bajando respecto a la anterior (-13% · 19% vs 22%)",
+      "text": "Esta semana los retrasos están bajando respecto a la anterior (-12% · 19% vs 22%)",
       "severity": "ok"
     }
   ]

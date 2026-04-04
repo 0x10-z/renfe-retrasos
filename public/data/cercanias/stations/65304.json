@@ -1,6 +1,18 @@
 {
   "station_id": "65304",
   "name": "Orpesa",
-  "generated_at": "2026-04-04T15:55:13+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-04T16:55:11+02:00",
+  "arrivals": [
+    {
+      "trip_id": "4090S33448C6",
+      "route_id": "40T0016C6",
+      "train_name": "C6",
+      "headsign": "Vinaròs",
+      "origin": "Castelló De La Plana",
+      "scheduled_time": "17:14",
+      "estimated_time": "17:14",
+      "delay_min": 0.0,
+      "status": "en_hora"
+    }
+  ]
 }
