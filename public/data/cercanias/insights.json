@@ -1,12 +1,21 @@
 {
-  "generated_at": "2026-04-04T21:55",
+  "generated_at": "2026-04-04T22:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 21h se están acumulando los retrasos — 10 trenes afectados",
+      "text": "A las 22h se están acumulando los retrasos — 8 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 21
+        "hour": 22
+      }
+    },
+    {
+      "id": "C",
+      "text": "L'hospitalet De Llobregat es la estación más afectada ahora mismo: 2 de 6 trenes con retraso",
+      "severity": "warn",
+      "meta": {
+        "station_id": "72305",
+        "station_name": "L'hospitalet De Llobregat"
       }
     },
     {

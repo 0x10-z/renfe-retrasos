@@ -1,29 +1,6 @@
 {
   "station_id": "04104",
   "name": "Camp Tarragona",
-  "generated_at": "2026-04-04T21:55:02+02:00",
-  "arrivals": [
-    {
-      "trip_id": "0394112026-04-03",
-      "route_id": "5100371801AV006",
-      "train_name": "AVE 03941",
-      "headsign": "Barcelona-Sants",
-      "origin": "Sevilla-Santa Justa",
-      "scheduled_time": "22:15",
-      "estimated_time": "22:21",
-      "delay_min": 6.0,
-      "status": "retraso_alto"
-    },
-    {
-      "trip_id": "0330912026-04-03",
-      "route_id": "6000004307AV006",
-      "train_name": "AVE 03309",
-      "headsign": "Figueres Vilafant",
-      "origin": "Madrid Pta.Atocha - Almudena Grandes",
-      "scheduled_time": "22:37",
-      "estimated_time": "22:44",
-      "delay_min": 7.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-04T22:55:03+02:00",
+  "arrivals": []
 }

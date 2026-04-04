@@ -1,18 +1,6 @@
 {
   "station_id": "03309",
   "name": "Villena Av",
-  "generated_at": "2026-04-04T21:55:02+02:00",
-  "arrivals": [
-    {
-      "trip_id": "0414012026-04-04",
-      "route_id": "1541060911GL023",
-      "train_name": "ALVIA 04140",
-      "headsign": "Alicante/Alacant",
-      "origin": "Gijón/Xixón",
-      "scheduled_time": "22:26",
-      "estimated_time": "22:34",
-      "delay_min": 8.0,
-      "status": "retraso_alto"
-    }
-  ]
+  "generated_at": "2026-04-04T22:55:03+02:00",
+  "arrivals": []
 }
