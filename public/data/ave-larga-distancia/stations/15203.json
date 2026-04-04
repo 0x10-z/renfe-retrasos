@@ -1,18 +1,18 @@
 {
   "station_id": "15203",
   "name": "Mieres Puente",
-  "generated_at": "2026-04-04T13:55:03+02:00",
+  "generated_at": "2026-04-04T14:55:03+02:00",
   "arrivals": [
     {
-      "trip_id": "0412112026-04-04",
-      "route_id": "1700015410LC112",
-      "train_name": "AVLO 04121",
-      "headsign": "Gijón/Xixón",
-      "origin": "Madrid-Chamartín-Clara Campoamor",
-      "scheduled_time": "14:33",
-      "estimated_time": "14:42",
-      "delay_min": 9.0,
-      "status": "retraso_alto"
+      "trip_id": "1210012026-04-03",
+      "route_id": "1541010600VRR",
+      "train_name": "REGIONAL 12100",
+      "headsign": "Valladolid",
+      "origin": "Gijón/Xixón",
+      "scheduled_time": "15:09",
+      "estimated_time": "15:14",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
     }
   ]
 }

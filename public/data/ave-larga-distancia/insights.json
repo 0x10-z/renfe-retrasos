@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-04T13:55",
+  "generated_at": "2026-04-04T14:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 14h se están acumulando los retrasos — 183 trenes afectados",
+      "text": "A las 15h se están acumulando los retrasos — 193 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 14
+        "hour": 15
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 59 minutos — tren desde Sevilla-Santa Justa con parada en Malaga Maria Zambrano",
+      "text": "El mayor retraso en este momento es de 61 minutos — tren desde Barcelona-Sants con parada en Burgos Rosa Manzano",
       "severity": "bad",
       "meta": {
-        "station_id": "54413",
-        "station_name": "Malaga Maria Zambrano"
+        "station_id": "11014",
+        "station_name": "Burgos Rosa Manzano"
       }
     },
     {
       "id": "C",
-      "text": "Arévalo es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
+      "text": "Cuenca Fernando Zobel es la estación más afectada ahora mismo: 4 de 4 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "10409",
-        "station_name": "Arévalo"
+        "station_id": "03208",
+        "station_name": "Cuenca Fernando Zobel"
       }
     },
     {
