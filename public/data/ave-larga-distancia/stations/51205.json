@@ -1,6 +1,18 @@
 {
   "station_id": "51205",
   "name": "Jerez Aeropuerto",
-  "generated_at": "2026-04-05T13:55:03+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-05T14:55:03+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1301012026-04-04",
+      "route_id": "5100351405VRX",
+      "train_name": "MD 13010",
+      "headsign": "Cádiz",
+      "origin": "Sevilla-Santa Justa",
+      "scheduled_time": "15:39",
+      "estimated_time": "15:42",
+      "delay_min": 3.0,
+      "status": "retraso_leve"
+    }
+  ]
 }

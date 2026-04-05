@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-05T13:55",
+  "generated_at": "2026-04-05T14:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 14h se están acumulando los retrasos — 185 trenes afectados",
+      "text": "A las 15h se están acumulando los retrasos — 174 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 14
+        "hour": 15
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 52 minutos — tren desde Barcelona-Sants con parada en Portbou",
+      "text": "El mayor retraso en este momento es de 41 minutos — tren desde Lugo con parada en Medina del Campo Alta Velocidad",
       "severity": "bad",
       "meta": {
-        "station_id": "79315",
-        "station_name": "Portbou"
+        "station_id": "08240",
+        "station_name": "Medina del Campo Alta Velocidad"
       }
     },
     {
       "id": "C",
-      "text": "Zamora es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
+      "text": "Cuenca Fernando Zobel es la estación más afectada ahora mismo: 4 de 4 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "30200",
-        "station_name": "Zamora"
+        "station_id": "03208",
+        "station_name": "Cuenca Fernando Zobel"
       }
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "id": "E",
-      "text": "Hoy hay un 46% más retrasos de lo habitual para un domingo (hoy 32% vs media histórica 22%)",
+      "text": "Hoy hay un 20% más retrasos de lo habitual para un domingo (hoy 26% vs media histórica 22%)",
       "severity": "warn"
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "id": "G",
-      "text": "Esta semana los retrasos están bajando respecto a la anterior (-16% · 18% vs 22%)",
+      "text": "Esta semana los retrasos están bajando respecto a la anterior (-15% · 18% vs 22%)",
       "severity": "ok"
     }
   ]
