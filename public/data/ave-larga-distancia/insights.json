@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-05T17:55",
+  "generated_at": "2026-04-05T18:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 18h se están acumulando los retrasos — 254 trenes afectados",
+      "text": "A las 19h se están acumulando los retrasos — 302 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 18
+        "hour": 19
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 56 minutos — tren desde Lleida-Pirineus con parada en Barcelona-Sants",
+      "text": "El mayor retraso en este momento es de 45 minutos — tren desde Madrid Pta.Atocha - Almudena Grandes con parada en Jerez De La Frontera",
       "severity": "bad",
       "meta": {
-        "station_id": "71801",
-        "station_name": "Barcelona-Sants"
+        "station_id": "51300",
+        "station_name": "Jerez De La Frontera"
       }
     },
     {
       "id": "C",
-      "text": "Elche Parque/Elx Parc es la estación más afectada ahora mismo: 5 de 5 trenes con retraso",
+      "text": "Arévalo es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "62103",
-        "station_name": "Elche Parque/Elx Parc"
+        "station_id": "10409",
+        "station_name": "Arévalo"
       }
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "id": "E",
-      "text": "Hoy hay un 47% más retrasos de lo habitual para un domingo (hoy 32% vs media histórica 22%)",
+      "text": "Hoy hay un 48% más retrasos de lo habitual para un domingo (hoy 32% vs media histórica 22%)",
       "severity": "warn"
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "id": "G",
-      "text": "Esta semana los retrasos están bajando respecto a la anterior (-14% · 19% vs 22%)",
+      "text": "Esta semana los retrasos están bajando respecto a la anterior (-13% · 19% vs 22%)",
       "severity": "ok"
     }
   ]
