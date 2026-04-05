@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-04-05T20:55",
+  "generated_at": "2026-04-05T21:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 21h se están acumulando los retrasos — 239 trenes afectados",
+      "text": "A las 22h se están acumulando los retrasos — 208 trenes afectados",
       "severity": "warn",
       "meta": {
-        "hour": 21
+        "hour": 22
       }
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 61 minutos — tren desde A Coruña con parada en Barcelona-Sants",
+      "text": "El mayor retraso en este momento es de 61 minutos — tren desde Burgos Rosa Manzano con parada en Murcia",
       "severity": "bad",
       "meta": {
-        "station_id": "71801",
-        "station_name": "Barcelona-Sants"
+        "station_id": "61200",
+        "station_name": "Murcia"
       }
     },
     {
       "id": "C",
-      "text": "Camp Tarragona es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
+      "text": "Castelló es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
       "severity": "bad",
       "meta": {
-        "station_id": "04104",
-        "station_name": "Camp Tarragona"
+        "station_id": "65300",
+        "station_name": "Castelló"
       }
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "id": "E",
-      "text": "Hoy hay un 48% más retrasos de lo habitual para un domingo (hoy 32% vs media histórica 22%)",
-      "severity": "warn"
+      "text": "Hoy hay un 109% más retrasos de lo habitual para un domingo (hoy 45% vs media histórica 22%)",
+      "severity": "bad"
     },
     {
       "id": "F",
@@ -44,8 +44,13 @@
     },
     {
       "id": "G",
-      "text": "Esta semana los retrasos están bajando respecto a la anterior (-12% · 19% vs 22%)",
+      "text": "Esta semana los retrasos están bajando respecto a la anterior (-11% · 19% vs 22%)",
       "severity": "ok"
+    },
+    {
+      "id": "I",
+      "text": "Hoy es un domingo inusualmente malo — los retrasos duplican la media histórica (45% hoy vs 22% habitual)",
+      "severity": "bad"
     }
   ]
 }

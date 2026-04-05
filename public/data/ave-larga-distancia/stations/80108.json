@@ -1,17 +1,17 @@
 {
   "station_id": "80108",
   "name": "Tafalla",
-  "generated_at": "2026-04-05T20:55:03+02:00",
+  "generated_at": "2026-04-05T21:55:03+02:00",
   "arrivals": [
     {
-      "trip_id": "1807712026-04-04",
-      "route_id": "7110080100VRE",
-      "train_name": "REG.EXP. 18077",
+      "trip_id": "0080112026-04-05",
+      "route_id": "6000080100GL023",
+      "train_name": "ALVIA 00801",
       "headsign": "Pamplona/Iruña",
-      "origin": "Zaragoza Miraflores",
-      "scheduled_time": "21:28",
-      "estimated_time": "21:40",
-      "delay_min": 12.0,
+      "origin": "Madrid Pta.Atocha - Almudena Grandes",
+      "scheduled_time": "22:42",
+      "estimated_time": "22:53",
+      "delay_min": 11.0,
       "status": "retraso_alto"
     }
   ]

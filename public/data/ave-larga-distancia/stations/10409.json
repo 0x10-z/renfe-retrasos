@@ -1,18 +1,18 @@
 {
   "station_id": "10409",
   "name": "Arévalo",
-  "generated_at": "2026-04-05T20:55:03+02:00",
+  "generated_at": "2026-04-05T21:55:03+02:00",
   "arrivals": [
     {
-      "trip_id": "1800812026-04-04",
-      "route_id": "1120810000VRE",
-      "train_name": "REG.EXP. 18008",
-      "headsign": "Madrid-Principe Pio",
-      "origin": "Vitoria/Gasteiz",
-      "scheduled_time": "21:01",
-      "estimated_time": "21:18",
-      "delay_min": 17.0,
-      "status": "retraso_alto"
+      "trip_id": "1800712026-04-04",
+      "route_id": "1000014100VRX",
+      "train_name": "MD 18007",
+      "headsign": "Palencia",
+      "origin": "Madrid-Principe Pio",
+      "scheduled_time": "22:33",
+      "estimated_time": "22:38",
+      "delay_min": 5.0,
+      "status": "retraso_leve"
     }
   ]
 }
