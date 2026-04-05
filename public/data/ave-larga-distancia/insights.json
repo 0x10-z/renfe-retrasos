@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-05T22:55",
+  "generated_at": "2026-04-05T23:55",
   "insights": [
     {
       "id": "A",
-      "text": "A las 23h se están acumulando los retrasos — 96 trenes afectados",
+      "text": "A las 23h se están acumulando los retrasos — 6 trenes afectados",
       "severity": "warn",
       "meta": {
         "hour": 23
@@ -11,16 +11,7 @@
     },
     {
       "id": "B",
-      "text": "El mayor retraso en este momento es de 48 minutos — tren desde Malaga Maria Zambrano con parada en Dos Hermanas",
-      "severity": "bad",
-      "meta": {
-        "station_id": "51103",
-        "station_name": "Dos Hermanas"
-      }
-    },
-    {
-      "id": "C",
-      "text": "Madrid Pta.Atocha - Almudena Grandes es la estación más afectada ahora mismo: 3 de 3 trenes con retraso",
+      "text": "El mayor retraso en este momento es de 36 minutos — tren desde Malaga Maria Zambrano con parada en Madrid Pta.Atocha - Almudena Grandes",
       "severity": "bad",
       "meta": {
         "station_id": "60000",
@@ -29,12 +20,12 @@
     },
     {
       "id": "D",
-      "text": "Históricamente los miércoles son el día con más retrasos (media 35%); los domingo son los más puntuales",
+      "text": "Históricamente los miércoles son el día con más retrasos (media 35%); los viernes son los más puntuales",
       "severity": "info"
     },
     {
       "id": "E",
-      "text": "Hoy hay un 140% más retrasos de lo habitual para un domingo (hoy 52% vs media histórica 22%)",
+      "text": "Hoy hay un 132% más retrasos de lo habitual para un domingo (hoy 50% vs media histórica 22%)",
       "severity": "bad"
     },
     {
@@ -43,13 +34,8 @@
       "severity": "ok"
     },
     {
-      "id": "G",
-      "text": "Esta semana los retrasos están bajando respecto a la anterior (-10% · 19% vs 22%)",
-      "severity": "ok"
-    },
-    {
       "id": "I",
-      "text": "Hoy es un domingo inusualmente malo — los retrasos duplican la media histórica (52% hoy vs 22% habitual)",
+      "text": "Hoy es un domingo inusualmente malo — los retrasos duplican la media histórica (50% hoy vs 22% habitual)",
       "severity": "bad"
     }
   ]
