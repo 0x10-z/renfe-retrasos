@@ -1,6 +1,18 @@
 {
   "station_id": "10002",
   "name": "Pozuelo",
-  "generated_at": "2026-04-06T05:55:02+02:00",
-  "arrivals": []
+  "generated_at": "2026-04-06T06:55:02+02:00",
+  "arrivals": [
+    {
+      "trip_id": "1710612026-04-06",
+      "route_id": "1040017000VRR",
+      "train_name": "REGIONAL 17106",
+      "headsign": "Madrid-Chamartín-Clara Campoamor",
+      "origin": "Ávila",
+      "scheduled_time": "07:34",
+      "estimated_time": "07:36",
+      "delay_min": 2.0,
+      "status": "retraso_leve"
+    }
+  ]
 }
